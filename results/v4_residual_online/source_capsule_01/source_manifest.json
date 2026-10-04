@@ -1,0 +1,175 @@
+{
+  "capsule": "f69e9cdb7236a9342ef9bd6fec09a728e1104ee74d555ea1eadea4ec610f2f73",
+  "files": [
+    {
+      "path": "docs/research_v4/CALIBRATION_FROZEN.json",
+      "sha256": "495dab54ad7ca75e8a543338eb71da1049e20afdd35ad18825669d37d54c5bec",
+      "bytes": 1602
+    },
+    {
+      "path": "experiments/v3_domains.py",
+      "sha256": "3349e782f0a5662aaee9e937e6dfeb1d486f81e911d6c9f6d08616643b4e72c8",
+      "bytes": 10553
+    },
+    {
+      "path": "experiments/v3_pilot.py",
+      "sha256": "4331b7b4a2fbf8a905f9465d0df46d7999437baf1d58c8276de09099d44c5b62",
+      "bytes": 14276
+    },
+    {
+      "path": "experiments/v3_published_baselines.py",
+      "sha256": "44bb33a19d777c960fe712ac24e608d8840f46f8df4eb84c15c3cc92428e1739",
+      "bytes": 21823
+    },
+    {
+      "path": "experiments/v3_solvers.py",
+      "sha256": "2ad6166b8fa710c705bae21624757dc1f90fbd3fdcb0c3366aca5c59a67c9931",
+      "bytes": 8648
+    },
+    {
+      "path": "experiments/v4_backends.py",
+      "sha256": "936a079292097ad1999265b27630930b1baf28a866ca2b6f1b358ad2a87edeb7",
+      "bytes": 6187
+    },
+    {
+      "path": "experiments/v4_neighborhoods.py",
+      "sha256": "15eb606f27c9022802ce05a259c0693b6992df1ab0cd26c456831b53d275b8f7",
+      "bytes": 10131
+    },
+    {
+      "path": "experiments/v4_residual_collect_training.py",
+      "sha256": "e742389ec3b856e1268205863b4c5750981a1f0df9fd2b9cbaf2a36f082208f8",
+      "bytes": 10602
+    },
+    {
+      "path": "experiments/v4_residual_common.py",
+      "sha256": "f444666eb640d98fe4a1ba26ce22762ca8d2355fd3073dd237d52fafbdfddb51",
+      "bytes": 3372
+    },
+    {
+      "path": "experiments/v4_residual_fit.py",
+      "sha256": "803f86f680da51261c1726aef302e5b42011f405b4d7f9858165d3d77af7b9b6",
+      "bytes": 64529
+    },
+    {
+      "path": "experiments/v4_residual_fit_gate.py",
+      "sha256": "7342ac284847d7e99144c900acba364a329ab4e50ac1fc14a6c131d6bb43e035",
+      "bytes": 27348
+    },
+    {
+      "path": "experiments/v4_residual_online_validation.py",
+      "sha256": "80750a6959e4d36e0c463fde6d1a2aba1e2baa929aa5cf59905ac6f36f309d68",
+      "bytes": 42943
+    },
+    {
+      "path": "experiments/v4_residual_online_validation_execute.py",
+      "sha256": "241fbf0b3678722ca761bbbea9e80d97eeb998b804d96166b60a1a9fb934d966",
+      "bytes": 8678
+    },
+    {
+      "path": "experiments/v4_residual_training_data.py",
+      "sha256": "6ed9cb7c3a6c505588e3ba8d4703438ecfad6172244a95ec94242c28cb384898",
+      "bytes": 23668
+    },
+    {
+      "path": "src/joint_recovery/__init__.py",
+      "sha256": "b524992298f03a29cd671ea20c60f31458f5e31a9ff870f49dfd9694a360f73c",
+      "bytes": 482
+    },
+    {
+      "path": "src/joint_recovery/core.py",
+      "sha256": "902653228483c5ab51c82f64e5115df4fec1b4b245f701140a9e56f154eca656",
+      "bytes": 18010
+    },
+    {
+      "path": "src/joint_recovery/efficient_core.py",
+      "sha256": "769570ba6c629e670aa581fe2b1dcd700c9937d2a12ca0d94e8e5953eadf5a8b",
+      "bytes": 4728
+    },
+    {
+      "path": "src/joint_recovery/generators.py",
+      "sha256": "027bc73716714f4d4b6bab8d069ce5dfcf2f9098cb8e140ed7036755bf883351",
+      "bytes": 7707
+    },
+    {
+      "path": "src/joint_recovery/v4_budgeted_recovery.py",
+      "sha256": "b4b5bbd3d8abdeba2fcb9a117c54f161786c2deccc032764e792d5899bd3d1ad",
+      "bytes": 27509
+    },
+    {
+      "path": "src/joint_recovery/v4_controller_coordination.py",
+      "sha256": "7bb0ec286ef10fccbc5898e3048af4486e9f592f97cfac615a609de5270820d0",
+      "bytes": 10406
+    },
+    {
+      "path": "src/joint_recovery/v4_factorized_model.py",
+      "sha256": "983d05e8dae02d7d7fa2e7eee683fa266d9093d10248ac99f3534ed5ea91d526",
+      "bytes": 20525
+    },
+    {
+      "path": "src/joint_recovery/v4_factors.py",
+      "sha256": "d57cbe67cbf4f0aaf3b2605392c9fecf001e612e6d653c3db138619628781980",
+      "bytes": 2810
+    },
+    {
+      "path": "src/joint_recovery/v4_factors_fast.py",
+      "sha256": "d792cb3bf41464a6419f3522a50aae0af608a489565ec0f976994e022cbede96",
+      "bytes": 4166
+    },
+    {
+      "path": "src/joint_recovery/v4_model.py",
+      "sha256": "42dafec2062235c4cfd014066087c4a138861327dd8d4c12d771b513afadb62f",
+      "bytes": 26006
+    },
+    {
+      "path": "src/joint_recovery/v4_model_fast.py",
+      "sha256": "c208715d51526101bcec6e664b9dcfd90e43a591636a39c86bbd3f1fb23dddb2",
+      "bytes": 5915
+    },
+    {
+      "path": "src/joint_recovery/v4_residual_controller_coordination.py",
+      "sha256": "827c9a15d4259f8a8852f97fbdf574c000ed16f4efed5a2782dbd7adfc31b48f",
+      "bytes": 11253
+    },
+    {
+      "path": "src/joint_recovery/v4_residual_model.py",
+      "sha256": "d6c974b3e57b1880bbb0d24c6dceca8f343d303c47e74736f3864c8da054a750",
+      "bytes": 13819
+    },
+    {
+      "path": "tests/test_v4_residual_collect_training.py",
+      "sha256": "4ef9775d50688c580d8a1dea526f2cfb7c916b29803e721c68ed6932b460a0ef",
+      "bytes": 7392
+    },
+    {
+      "path": "tests/test_v4_residual_common.py",
+      "sha256": "aaad07f26cdc61199ae1ee52b5b7b2fc2a609da4ef50cd06464daec501039826",
+      "bytes": 10678
+    },
+    {
+      "path": "tests/test_v4_residual_fit.py",
+      "sha256": "397ca02fd7ec0903602b2959d1b4de6f97dea53e2dc1116470482649948b9ee2",
+      "bytes": 22972
+    },
+    {
+      "path": "tests/test_v4_residual_model.py",
+      "sha256": "824cadf019f729707b37b59e769f067d59d13515816efbfa5178abf55e41e7b7",
+      "bytes": 16032
+    },
+    {
+      "path": "tests/test_v4_residual_online_validation.py",
+      "sha256": "d6d7511137e3dcb40690ffeab7996700d86ff0ae27487ab34a69e958d27b0841",
+      "bytes": 17495
+    },
+    {
+      "path": "tests/test_v4_residual_online_validation_execute.py",
+      "sha256": "ee76a3c1545c02c5a43032a32763f82306a3b5f9dbb30fc4f240d33a80336c4a",
+      "bytes": 5030
+    },
+    {
+      "path": "tests/test_v4_residual_training_data.py",
+      "sha256": "b7f6aa43372d777b77aa28d7da854a0e2255373a6fe3435501d28a55ee109ed4",
+      "bytes": 13834
+    }
+  ]
+}

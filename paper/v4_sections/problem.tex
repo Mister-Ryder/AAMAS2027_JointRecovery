@@ -1,0 +1,74 @@
+\section{Problem and Executable Joint Recovery}
+\label{sec:problem}
+
+An owner-partitioned conflict graph is $G=(V,\mathcal E,w,\alpha)$,
+where $w_v\geq0$ and $\alpha:V\to\{1,\ldots,m\}$ assigns vertices to
+agents. Writing $w(U)=\sum_{v\in U}w_v$, a feasible schedule is an
+independent set; maximum-weight independent set (MWIS) maximizes $w(S)$
+over such sets.
+In satellite--ground scheduling, vertices represent contacts, satellite
+agents own their contacts, and shared satellite or ground resources induce
+conflicts. Ownership adds no one-contact-per-agent constraint or communication
+protocol. The public-graph partition $\alpha(v)=1+(v\bmod8)$ is artificial;
+it does not encode satellite or ground-station ownership.
+
+Given an independent incumbent $S$, an action $a=(C_a,E_a)$ commits an
+independent $C_a\subseteq V\setminus S$ and optionally releases
+$E_a\subseteq S$. With $N(U)=\bigcup_{v\in U}N(v)$, define
+\begin{align}
+ D_a&=(N(C_a)\cap S)\cup E_a,\qquad
+ B_a=(S\setminus D_a)\cup C_a,\nonumber\\
+ q_a&=w(C_a)-w(D_a).\label{eq:v4-action-base}
+\end{align}
+The action pool uses eleven target cells:
+$|C_a|\in\{0,2,4,8\}$ and release targets $\{0,16,64\}$, excluding
+the empty action. Actual releases can be fewer; unavailable and duplicate
+actions do not create additional queries. Admissible adjustments span at
+least two owner partitions. Pure release actions have $C_a=\emptyset$.
+
+Recovery candidates must be compatible with the entire fixed base:
+\begin{equation}
+ U_a=(D_a\cup N(D_a))\setminus(B_a\cup N(B_a)),\quad
+ R_{a,r}=\operatorname{prefix}_r(U_a).
+ \label{eq:v4-recovery-scope}
+\end{equation}
+The ordering places restorable incumbent vertices first, then other vertices
+by decreasing reward and identifier. We fix $r=256$ for both the learned
+method and its matched controls. Changing $E_a$ changes the action and base,
+rather than the amount of information supplied to one policy. Equal actual
+prefixes share one request identity.
+
+\begin{proposition}[Feasible recovery and exact gain]
+\label{prop:v4-recovery-decomposition}
+For any independent $T\subseteq R_{a,r}$, $B_a\cup T$ is feasible and
+\begin{equation}
+ w(B_a\cup T)-w(S)=q_a+w(T).
+ \label{eq:v4-realized-decomposition}
+\end{equation}
+In particular, $S\cap R_{a,r}$ is a feasible known recovery.
+\end{proposition}
+\begin{proof}
+Removing $N(C_a)\cap S$ makes $B_a$ independent. Every vertex in $R_{a,r}$
+is outside and nonadjacent to $B_a$, so independent $T$ completes it
+feasibly. Disjointness gives the weight identity. The incumbent intersection
+inherits independence from $S$.
+\end{proof}
+
+A request specifies $(a,256,\kappa)$, with finite executor workpoint $\kappa$
+in its declared native unit. Every policy first executes the same greedy
+portfolio on the recovery graph and compares its actual memberships with
+$S\cap R_{a,256}$. Its best feasible membership initializes the warm start
+$W$. Earlier, timely same-action recoveries can improve $W$. The executor returns an actual recovery $T$
+or a failure; full membership validation and rescoring determine its signed
+gain in Eq.~\eqref{eq:v4-realized-decomposition}. Neither finite execution
+nor a fractional occupancy estimate is an exact recovery oracle.
+
+For total decision allowance $D$, a policy pays for proposals, scope and
+priority preparation, inference, execution, and final validation within the
+same decision. Let $S_\pi^{\rm ret}(D)$ be its feasible, nondecreasing
+schedule actually received by the caller strictly before $t_0+D$, and set
+$S_\pi^{\rm ret}(D)=S$ otherwise. The primary objective is
+$g_\pi(D)=w(S_\pi^{\rm ret}(D))-w(S)$.
+Internal availability before $D$ is a separate quantity. The target is
+executable improvement under a complete return deadline, rather than a sum
+of individual replacements or the best recovery found after the deadline.

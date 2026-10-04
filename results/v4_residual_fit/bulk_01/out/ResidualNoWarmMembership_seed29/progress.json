@@ -1,0 +1,18 @@
+{
+  "status": "fit_epoch_update_nonfinal",
+  "is_final": false,
+  "semantics": "replace_latest_epoch_update; completion.json alone records finished fit",
+  "variant": "ResidualNoWarmMembership",
+  "fit_seed": 29,
+  "epoch": 40,
+  "expected_epochs": 40,
+  "offline_conditional_regret": 0.20493809804096097,
+  "training_weighted_loss": {
+    "total": 8.181919027119875,
+    "regression": 4.200116261839867,
+    "ranking": 3.964898319914937,
+    "auxiliary": 0.33809034153819084
+  },
+  "elapsed_seconds": 172.01735055074096,
+  "scope": "offline_conditional_labels_not_full_policy"
+}

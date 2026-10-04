@@ -1,0 +1,159 @@
+\section{Learning Additional Finite Joint Recovery}
+\label{sec:method-residual}
+
+The learned quantity is additional joint recovery beyond a shared, executed
+greedy response. Learned subproblem delegation and heuristic scheduling
+already use solver outcomes and computation allowances~\cite{li2021delegate,chmiela2021schedule}.
+Our formulation combines coordinated recovery structure, an actual feasible
+warm anchor, and finite-execution supervision to prioritize further calls.
+It does not introduce graph message passing, clique inequalities, or
+budget allocation themselves.
+
+\subsection{Shared Executed Recovery}
+For each available commitment/release action from Section~\ref{sec:problem},
+we fix $R=R_{a,256}$. Proposals depend on observable weights, conflicts,
+ownership and a fixed exploratory seed, rather than recovery outcomes.
+Commitments use a shared pool of high immediate-gain and exploratory
+vertices; releases follow a seeded incumbent-boundary traversal.
+Ownership restricts coordinated proposals to multiple partitions; it is
+not an additional feasibility constraint. Changing commitments or releases
+changes the base $B_a$ and recovery eligibility, rather than simply enlarging
+a neighborhood.
+
+Every policy executes three greedy sweeps on $G[R]$, ordering vertices by
+$w_i/(1+d_i)^e$ for $e\in\{0,\frac12,1\}$, with deterministic weight and
+identifier ties. Each sweep inserts a vertex only when compatible with its
+current selection. Comparing their actual feasible memberships with
+$S\cap R$ gives the best known warm recovery $W$. Full validation of
+$B_a\cup W$ precedes incumbent admission. Construction, sweeps, and
+validation consume the common decision allowance. A greedy-only policy
+returns after this prefix; its improvement is shared preparation, not a
+learning gain. Subsequent calls use $W$, updated only by better, timely,
+validated same-action responses.
+
+\subsection{Action-Conditioned Structural Representation}
+The encoder sees the induced recovery conflict graph and genuine clique
+factors $\mathcal F_R$. Factors comprise supplied resource cliques restricted
+to $R$, greedily grown conflict cliques, and uncovered edges as two-vertex
+cliques. No maximal-clique enumeration is required. Fixed commitments and
+displacements determine eligibility before encoding; they are not separate
+message-passing nodes. Agent identifiers are not neural inputs, and the
+encoder does not learn an inter-agent communication protocol.
+
+With scale $s_G=\max(1,|V|^{-1}\sum_v w_v)$, vertex features contain
+normalized weight, logarithmic and normalized conflict degree, actual warm
+membership, and incident-factor count and size statistics. A width-32,
+two-layer encoder applies
+\begin{equation}
+ \begin{aligned}
+ h_i^{\ell+1}=\operatorname{ReLU}\!\Bigl(&A_\ell h_i^\ell+
+ B_\ell\operatorname{mean}_{j\in N_R(i)}h_j^\ell\\
+ &+D_\ell\operatorname{mean}_{F\ni i}\operatorname{mean}_{j\in F}h_j^\ell
+ \Bigr).
+ \end{aligned}
+ \label{eq:residual-encoder}
+\end{equation}
+Empty means are zero. Mean and weight-normalized mean pooling summarize
+the recovery set. The request head also receives native workpoint type and
+amount, remaining time, actual warm reward and fraction, and scalar
+weight, density, factor and classical-bound summaries. The current best
+gain is used by the allocation rule below, rather than the encoder.
+
+Encoding is independent of the known immediate gain $q_a$ and request
+allowance. Inference reuses representations only for identical ordered
+recovery vertices, factors, warm membership and scale within the same graph
+and model version. Warm changes require a new encoding. Cache preparation,
+lookups, packing and device transfers remain paid online operations;
+training uses no detached embedding cache.
+
+\subsection{A Warm-Anchored Residual Value}
+Let $L=w(W)$. A deterministic traversal of genuine cliques partitions $R$
+into disjoint residual clique blocks and leftover singletons,
+$\mathcal P_R$. Consequently,
+\begin{equation}
+ U=\sum_{Q\in\mathcal P_R}\max_{i\in Q}w_i
+ \quad\text{satisfies}\quad L\leq\operatorname{MWIS}(G[R])\leq U.
+ \label{eq:residual-upper}
+\end{equation}
+This classical upper bound need not be tight~\cite{chvatal1975polytopes}.
+
+Request-conditioned logits $\ell_i$ produce sparse occupancies
+\begin{equation}
+ p_i=\sigma(\ell_i),\qquad
+ z_i=\frac{p_i}{\max\{1,\max_{F\ni i}\sum_{j\in F}p_j\}}.
+ \label{eq:residual-occupancy}
+\end{equation}
+All incident loads are computed simultaneously. Hence
+$\sum_{i\in F}z_i\leq1$ for each factor, including covered conflict edges.
+These are fractional compatibility features, not executable memberships.
+Their weighted sum, normalized by $U$ with a numerical zero safeguard,
+joins the pooled encodings and request context in a width-32 residual head:
+\begin{equation}
+ \widehat r=L+(U-L)\sigma(f_\theta),\qquad
+ \widehat t=q_a+\widehat r.
+ \label{eq:residual-value}
+\end{equation}
+The head's final bias is initialized to $-4$. Computation uses normalized
+weights and restores native units at readout. The occupancy sum is not
+$\widehat r$: the latter is a bounded scalar estimate of finite recovery.
+For example, $L=8$, $U=14$ and joint optimum $12$ illustrate distinct
+warm, bound and joint values in the mathematical schematic; they are not
+experimental observations. Neither bound nor prediction certifies the
+executor's finite outcome.
+
+\subsection{Execution-Aligned Supervision}
+Each graph supplies two equally weighted snapshots: after the paid common
+prefix, and after at most one actually startable, fixed-order history call
+using the same remaining decision budget. Every alternative clones the
+same current best, warm memberships, spent requests and remaining time.
+Executing one alternative never warms another. The procedure's returned $T_j$,
+including its retained actual warm start when no new native output is available,
+is fully checked against the original graph and fixed base. Valid responses
+provide signed target $t_j=(q_{a_j}+w(T_j))/s_G$ and binary membership
+$m_{ji}=\mathbf1[i\in T_j]$, even when late. The admitted target $y_j$ is
+$[t_j]_+$ only if validation finishes strictly before the snapshot deadline;
+otherwise it is zero. Failed calls retain zero-admission ranking targets
+without invented raw or mask targets. Unstartable alternatives remain in
+coverage but are excluded from model batches.
+Executed targets enter the loss, never the encoder or inference cache.
+
+For snapshot $s$, let $\widetilde t_j=\widehat t_j/s_G$,
+$\mathcal V_s$ be valid returned responses,
+$b_s$ its normalized best gain, and
+$\delta_j=[y_j-b_s]_+$. Define
+\begin{align}
+ \mathcal L_s={}&\operatorname{mean}_{j\in\mathcal V_s}
+    \operatorname{SmoothL1}(\widetilde t_j,t_j)\nonumber\\
+ &+\operatorname{mean}_{\delta_j>\delta_k}
+    \operatorname{softplus}\!\left(-\frac{\widetilde t_j-\widetilde t_k}{0.2}\right)
+    +0.05\mathcal L_s^{\rm mask}.
+ \label{eq:residual-loss}
+\end{align}
+Mask loss averages nodewise logit BCE within each valid nonempty response,
+then across responses. Empty means are zero. Signed prediction differences
+remain unclamped. For domain $d$ with $n_d$ graphs, the objective is
+$\sum_G(\mathcal L_{G,0}+\mathcal L_{G,1})/(4n_{d(G)})$.
+This gives equal domain mass and half weight to each snapshot, without
+reweighting empty states. Checkpoint selection uses offline conditional
+allocation regret, a proxy distinct from complete online return quality.
+
+\subsection{Finite Allocation and Feasible Return}
+For current best gain $g^*$ and shared expected call cost $c_j$, requests
+are ordered by $[\widehat t_j-g^*]_+/c_j$, then $[\widehat t_j]_+/c_j$
+and fixed request order. This point-marginal heuristic is not
+$\mathbb E[(G_j-g^*)_+]$ for random admitted gain $G_j$. Only unspent requests whose native allowance and
+expected cost fit the remaining time can start, with at most eight calls.
+Every started call, including failure or overrun, is spent. The executor
+receives the actual $W$; its finite response is independently materialized,
+validated and rescored. Integer objectives use native exact sums. A timely
+strict improvement updates the incumbent; other responses preserve it.
+Final validation, synchronization and actual caller receipt must precede
+the total deadline, otherwise the primary return is the original $S$.
+
+The matched controls FreeOccupancy, NoAux, NoWarm and CheapSummary
+omit occupancy contraction, mask BCE, warm membership identity, or graph
+encoding, respectively. All retain the same executed $W$, scalar $L$,
+upper bound and execution options; removing warm identity keeps native warm
+starts unchanged. The learned point estimate only chooses execution order.
+Feasibility and nondecrease come from the kernel, and additional benefit
+must be measured above the common greedy prefix.

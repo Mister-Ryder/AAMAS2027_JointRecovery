@@ -1,0 +1,51 @@
+\begin{table*}[t]
+\centering
+\caption{\textbf{Published whole-graph performance on 40 original public graphs.}
+Three common initial schedules per graph; accepted gain is relative to the
+original incumbent, with failures retaining its weight. Aggregation is
+graph-first and family-balanced. Native cold costs and neural resident costs
+have different boundaries.}
+\label{tab:public-published-performance}
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+& & \multicolumn{4}{c}{Accepted gain (\%) $\uparrow$} & & \\
+\cmidrule(lr){3-6}
+Method & Workpoint & DIMACS & UF & CBS & \textbf{Equal-family} & Cost (s) $\downarrow$ & Valid/120 $\uparrow$ \\
+\midrule
+\multicolumn{8}{@{}l}{\textbf{Native CPU: one thread; complete cold wall cost}} \\
+CHILS-p1~\cite{grossmann2025chils} & 0.5\,s & 56.789 & 7.932 & 8.178 & 24.300 & 0.5455 & 120/120 \\
+CHILS-p1~\cite{grossmann2025chils} & 2\,s & 57.235 & 7.961 & 8.209 & 24.468 & 2.0438 & 120/120 \\
+$m^2$wis~\cite{grossmann2024mwis} & 0.5\,s & 25.428 & 7.383 & 7.833 & 13.548 & 4.1856 & 93/120 \\
+$m^2$wis~\cite{grossmann2024mwis} & 2\,s & 25.428 & 7.383 & 7.833 & 13.548 & 5.5979 & 93/120 \\
+$m^2$wis+s~\cite{grossmann2024mwis} & 0.5\,s & 25.428 & 7.162 & 7.491 & 13.360 & 4.1731 & 93/120 \\
+$m^2$wis+s~\cite{grossmann2024mwis} & 2\,s & 25.428 & 6.967 & 7.566 & 13.320 & 5.5732 & 93/120 \\
+Struction-fast~\cite{gellner2021struction} & 0.5\,s & 25.367 & 1.557 & 2.418 & 9.781 & 0.5519 & 120/120 \\
+Struction-fast~\cite{gellner2021struction} & 2\,s & 36.260 & 1.915 & 2.645 & 13.607 & 2.0483 & 120/120 \\
+Struction-strong~\cite{gellner2021struction} & 0.5\,s & 25.896 & 1.557 & 2.418 & 9.957 & 0.5482 & 120/120 \\
+Struction-strong~\cite{gellner2021struction} & 2\,s & 36.177 & 1.924 & 2.645 & 13.582 & 2.0481 & 120/120 \\
+WeightedBR (original)~\cite{lamm2019exact} & 0.5\,s & 13.376 & 4.975 & 6.147 & 8.166 & 3.8401 & 93/120 \\
+WeightedBR (original)~\cite{lamm2019exact} & 2\,s & 13.902 & 6.723 & 7.686 & 9.437 & 5.2060 & 93/120 \\
+\midrule
+\multicolumn{8}{@{}l}{\textbf{Native CPU: 16 threads; complete cold wall cost}} \\
+CHILS-p16-c16~\cite{grossmann2025chils} & 0.5\,s & 58.738 & 8.085 & 8.463 & 25.096 & 0.5505 & 120/120 \\
+CHILS-p16-c16~\cite{grossmann2025chils} & 2\,s & 58.738 & 8.113 & 8.478 & 25.110 & 2.0494 & 120/120 \\
+\midrule
+\multicolumn{8}{@{}l}{\textbf{Released neural models: GPU; resident request cost}} \\
+DIFUSCO-SAT~\cite{sun2023difusco} & $50\!\times\!1$ & 10.220 & 7.864 & 8.090 & 8.724 & 1.4209 & 120/120 \\
+DIFUSCO-SAT~\cite{sun2023difusco} & $50\!\times\!4$ & 20.835 & 7.923 & 8.180 & 12.313 & 5.5737 & 120/120 \\
+COExpander-SAT-CM~\cite{ma2025coexpander} & $1\!\times\!1$ & 7.553 & 5.644 & 5.844 & 6.347 & 0.0730 & 120/120 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\textwidth}
+\footnotesize
+Native workpoints are soft search allowances, not complete decision deadlines;
+cold cost includes export, startup, preprocessing, parsing and validation.
+Neural workpoints give steps $\times$ samples (DIFUSCO) or the released CM recipe
+(COExpander). Once-only parent setup, excluded from resident cost:
+DIFUSCO one/four samples: 5.948/5.946\,s; COExpander: 7.238\,s.
+Costs are graph-first, equal-family means; valid counts retain all 120 runs.
+\end{minipage}
+\end{table*}

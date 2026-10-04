@@ -1,0 +1,70 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Multi-agent coordination and scheduling.}
+Satellite constellation scheduling already combines auctions and distributed
+constraint optimization to coordinate users holding exclusive orbit
+portions~\cite{picard2022satellite}. Consensus-based allocation also handles
+multi-mode composite requests whose constituent tasks require several slot
+owners to revise their schedules~\cite{picard2023composite}. These models
+establish that the benefit of an allocation can depend on coordinated
+schedule changes. Coalition action selection further learns simultaneous
+combinatorial allocations in online resource
+allocation~\cite{gebrekidan2024coalition}. Our owner-partitioned contact graph
+focuses on the recovery induced by a proposed adjustment: displaced and
+newly available contacts must be compatible with both the fixed commitments
+and one another. Ownership identifies the participating agents; our central
+execution procedure does not establish a distributed communication protocol
+or the privacy guarantees of the satellite allocation methods.
+
+\paragraph{MWIS algorithms.}
+Weighted branch-and-reduce combines exact data reductions with branching
+for MWIS~\cite{lamm2019exact}. Struction extends this approach with
+transformations that can enlarge a graph to expose further
+reductions~\cite{gellner2021struction}. The memetic algorithm
+$m^2$wis combines population search with recursive vertex selection and
+data reduction~\cite{grossmann2024mwis}, while CHILS supplies concurrent
+iterated local search and can also exploit parallel
+execution~\cite{grossmann2025chils}. These are substantial weighted search
+methods and relevant whole-graph baselines, as well as potential recovery
+executors. Our learned controller allocates finite recovery calls; it does
+not certify their optimality. Whole-graph solving and selection among
+action-induced recovery requests have different inputs and initialization
+contracts. We therefore distinguish published-solver comparisons from
+comparisons in which policies share the incumbent, action pool, scopes,
+executor, and available workpoints.
+
+\paragraph{Learning independent sets and improvement.}
+DIFUSCO generates graph solutions by denoising binary selection
+vectors~\cite{sun2023difusco}; COExpander uses global predictions to guide
+adaptive expansion of determined partial
+solutions~\cite{ma2025coexpander}. Their MIS evaluations concern constructing
+independent sets, and our comparisons retain their supported unit-weight
+task. Learning local revision is also established: neural rewriting
+learns successive changes to an existing
+solution~\cite{chen2019}. Learning to Delegate is particularly close: it
+predicts a blackbox subsolver's resulting cost, obtains training labels by
+executing candidate subproblems from a current solution, and retains the
+current subsolution when a replacement fails to
+improve it~\cite{li2021delegate}. Thus, neither learned repair selection nor
+supervision from solver outcomes is new here.
+
+\paragraph{Execution-conditioned value and computation.}
+Data-driven heuristic scheduling already uses observed call durations and
+success to determine which primal heuristics to run and for how
+long~\cite{chmiela2021schedule}. Decision-focused learning likewise aligns
+predictions with downstream decisions, including through ranking
+losses~\cite{mandi2022rank}. Classical clique inequalities provide established
+constraints on compatible vertex selections~\cite{chvatal1975polytopes}.
+Our narrower target is the jointly executable recovery value conditional
+on an adjustment, recovery scope, finite solver workpoint, and actual warm
+start. Alternatives share the same incumbent snapshot, and labels record
+the feasible outcomes actually produced by the execution procedure.
+The model represents conflicts within the recovery set rather than summing
+isolated replacement values. Its benefit must be assessed against
+nonlearned allocation using the same execution options, charging preparation, inference,
+execution, validation, and return. The primary quantity is the feasible
+improvement received by the caller before the total deadline; internally
+available or late solutions are separate measurements. This formulation
+poses an empirical question about decision quality per complete online
+budget, without presuming an advantage over existing search.

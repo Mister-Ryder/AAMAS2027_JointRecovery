@@ -1,0 +1,42 @@
+\begin{table*}[t]
+\centering
+\caption{\textbf{Complete-decision comparison on all 24 validation graphs.}
+Gain: timely improvement over the original incumbent (\%, higher is better).
+Late: caller deadline-miss fraction. Time: actual caller latency (s), including
+late returns. Aggregation is graph-first and domain-balanced; bold marks the
+highest mean at each deadline, without a significance claim.}
+\label{tab:main-runtime-ablation}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+& \multicolumn{3}{c}{$D=0.139$\,s} & \multicolumn{3}{c}{$D=0.556$\,s (primary)} & \multicolumn{3}{c}{$D=2.221$\,s} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+Method & Gain $\uparrow$ & Late $\downarrow$ & Time $\downarrow$ & Gain $\uparrow$ & Late $\downarrow$ & Time $\downarrow$ & Gain $\uparrow$ & Late $\downarrow$ & Time $\downarrow$ \\
+\midrule
+\textbf{\method{} (Capacity)} & 74.887 & 0.861 & 0.240 & 57.542 & 0.833 & 0.642 & 236.334 & 0.000 & 1.725 \\
+\midrule
+AnytimeGreedyPortfolio & \textbf{234.266} & 0.000 & 0.035 & \textbf{234.266} & 0.000 & 0.035 & 234.266 & 0.000 & 0.035 \\
+Immediate & 21.107 & 0.944 & 0.232 & 21.107 & 0.944 & 0.634 & 234.624 & 0.000 & 1.429 \\
+Upper & 108.040 & 0.778 & 0.218 & 43.078 & 0.889 & 0.642 & 234.266 & 0.000 & 1.606 \\
+PairPriority (P1) & 78.310 & 0.861 & 0.230 & 56.909 & 0.889 & 0.648 & 236.218 & 0.000 & 1.474 \\
+Lower & 21.107 & 0.944 & 0.234 & 0.000 & 1.000 & 0.651 & 234.393 & 0.000 & 1.602 \\
+RoundRobin & 21.107 & 0.944 & 0.231 & 13.348 & 0.972 & 0.636 & 234.266 & 0.000 & 1.480 \\
+\midrule
+FreeOccupancy & 76.759 & 0.861 & 0.240 & 43.099 & 0.889 & 0.650 & 237.007 & 0.000 & 1.696 \\
+NoAux & 80.406 & 0.852 & 0.240 & 51.799 & 0.843 & 0.642 & 236.916 & 0.000 & 1.726 \\
+NoWarm & 71.939 & 0.870 & 0.238 & 69.318 & 0.833 & 0.642 & 236.891 & 0.000 & 1.721 \\
+CheapSummary & 73.834 & 0.861 & 0.230 & 94.665 & 0.806 & 0.645 & \textbf{238.355} & 0.000 & 1.674 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\textwidth}
+\footnotesize
+All methods share the executed greedy prefix; every native request uses
+the CHILS-p1 recovery kernel~\cite{grossmann2025chils}. Upper uses the classical clique
+bound~\cite{chvatal1975polytopes}. These are matched allocation controls,
+not separate published whole-graph solvers. All graph and fit slots retain
+their prescribed weights; a late final return receives zero strict gain.
+Once-only resident graph/model setup is excluded from decision time.
+\end{minipage}
+\end{table*}

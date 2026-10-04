@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aamas-joint-recovery"
+version = "0.3.0"
+description = "Execution-aligned learning of joint recovery in partitioned MWIS"
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.22", "torch>=1.11", "scipy>=1.9", "matplotlib>=3.5"]
+
+[project.optional-dependencies]
+cloud = ["paramiko>=2.11"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

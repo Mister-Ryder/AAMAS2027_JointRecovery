@@ -1,0 +1,50 @@
+% AAMAS 2027 anonymous research-track revision, submission 1979.
+% The official aamas.cls and bibliography style are copied unchanged.
+% Preserve the format of native vector diagram exports; no layout override.
+\ifdefined\pdfminorversion\pdfminorversion=7\relax\fi
+\documentclass[sigconf,anonymous]{aamas}
+% Compatibility guard for the unchanged class's incomplete default metadata.
+\makeatletter
+\def\AAMAS@orphanfi{\fi}
+\def\AAMAS@repairconference{%
+  \acmConference@editors
+  \global\let\acmConference@editors\@empty}
+\ifx\acmConference@editors\AAMAS@orphanfi
+  \expandafter\AAMAS@repairconference
+\fi
+\makeatother
+\usepackage{balance}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% Official AAMAS 2027 copyright block (unchanged from the supplied template).
+\makeatletter
+\gdef\@copyrightpermission{
+  \begin{minipage}{0.2\columnwidth}
+   \href{https://creativecommons.org/licenses/by/4.0/}{\includegraphics[width=0.90\textwidth]{by}}
+  \end{minipage}\hfill
+  \begin{minipage}{0.8\columnwidth}
+   \href{https://creativecommons.org/licenses/by/4.0/}{This work is licensed under a Creative Commons Attribution International 4.0 License.}
+  \end{minipage}
+  \vspace{5pt}
+}
+\makeatother
+\setcopyright{ifaamas}
+\acmConference[AAMAS 2027]{Proc.\@ of the 26th International Conference
+on Autonomous Agents and Multiagent Systems (AAMAS 2027)}{3--7 May 2027}{Hanoi, Vietnam}{M.~Baldoni, F.~Fang, W.~Yeoh, N.~Yorke-Smith (eds.)}
+\copyrightyear{2027}
+\acmYear{2027}
+\acmDOI{}
+\acmISBN{}
+\acmSubmissionID{1979}
+\submissionType{Research Paper Track}
+\title{Supplementary Material: Learning Joint Recovery of Multi-Agent Graph Optimization for Satellite--Ground Scheduling}
+
+% Author names are retained separately in submission_metadata.json.
+% Affiliations and emails are not inferred. The submission remains anonymous.
+
+\begin{document}
+\maketitle
+\input{v4_supplement}
+\end{document}

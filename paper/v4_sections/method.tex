@@ -1,0 +1,197 @@
+\section{Learning Finite Joint Recovery}
+\label{sec:method}
+
+The immediate term $q_a$ is known once an action is proposed; learning it is
+unnecessary. The unknown quantity is the reward of mutually compatible
+replacements returned by a finite execution procedure, conditional on its
+scope, native work allowance, and actual warm start. We predict this joint
+response and use it to prioritize requests. Scope construction, clique
+inequalities, and cost-aware destroy--repair allocation supply the execution
+framework; the learned component estimates finite joint recovery within it.
+
+\subsection{A Shared Conditional Response Encoder}
+\label{sec:v4-response}
+For action $a=(C_a,E_a)$, the fixed base is
+$B_a=(S\setminus((N(C_a)\cap S)\cup E_a))\cup C_a$.
+The eligible set and nested prefixes $R_{a,r}$ follow
+Eq.~\eqref{eq:v4-recovery-scope}. Commitments use a common pool of the top
+32 vertices by individual immediate gain and 32 seeded exploratory vertices;
+a compatible prefix supplies $C_a$. Optional releases follow a seeded
+breadth-first traversal of the incumbent boundary graph, in which two
+incumbent vertices are adjacent when they share an unselected neighbor.
+These proposals use no recovery outcome. Identical actual prefixes retain
+their lowest-cap representative, with no repeated alias queries.
+
+Write $R=R_{a,r}$ and let $W\subseteq R$ be the actual feasible warm start.
+We construct the induced conflict graph $G[R]$ and factors $\mathcal F_R$:
+greedily grown conflict cliques in decreasing reward--degree order with
+identifier ties, supplied resource cliques restricted to $R$, and size-two
+factors for uncovered edges. All factors are genuine conflict cliques and
+duplicates are removed. There is no maximal-clique enumeration. Let
+$s_G=\max(1,|V|^{-1}\sum_{v\in V}w_v)$ and $d_i$ be the degree in $G[R]$.
+Node features contain $w_i/s_G$, $\log(1+d_i)$,
+$d_i/\max(1,|R|-1)$, $\mathbf1[i\in W]$, and the logarithms of one plus
+the incident-factor count and maximum incident-factor size (at least one).
+
+The encoder has width 32 and two layers. Starting from an affine embedding
+and ReLU, each layer combines a self transformation, mean conflict-neighbor
+messages, and a mean relay through incident factors:
+\begin{equation}
+ h_i^{\ell+1}=\operatorname{ReLU}\!\left(
+ A_\ell h_i^\ell+
+ B_\ell\operatorname{mean}_{j\in N_R(i)}h_j^\ell+
+ D_\ell\operatorname{mean}_{F\ni i}\bar h_F^\ell\right),
+ \label{eq:v4-encoder}
+\end{equation}
+where $\bar h_F^\ell=|F|^{-1}\sum_{j\in F}h_j^\ell$ and empty means are
+zero. The structural unit is $(R,\mathcal F_R,W,s_G)$: requests with the
+same unit share one encoding within a decision. Neither $q_a$, native work
+allowance, remaining time, action identifier, nor owner identifier enters
+this encoder. A changed actual warm set requires a new encoding. This
+factorization follows the recovery interface, whose search input is the
+weighted induced graph and warm membership; the base already determines
+eligibility.
+
+For workpoint $\kappa=(k,b)$ and remaining time $\tau$, the request head uses
+\begin{equation}
+ c_{\kappa,\tau,W}=\left(
+ \mathbf1[k=\mathrm{seconds}],\mathbf1[k=\mathrm{nodes}],
+ \mathbf1[k=\mathrm{iterations}],\log(1+b),\log(1+\tau),
+ \frac{w(W)}{s_G},\frac{|W|}{\max(1,|R|)}\right).
+ \label{eq:v4-head-context}
+\end{equation}
+The head also receives observable scope summaries: normalized reward
+sum/maximum/mean/deviation, logarithmic edge and factor counts, edge density,
+and factor size
+statistics, mean memberships, the fraction of factors of size at least
+three, a uniform-occupancy capacity summary, and a disjoint-clique upper
+bound. Logarithmic counts use $\log(1+\cdot)$. The calibrated
+request cost and current best gain are allocation quantities, not head
+inputs. A shared width-32 ReLU head applied to
+$(h_i^2,\operatorname{mean}_{j\in R}h_j^2,c_{\kappa,\tau,W},s_R)$ produces
+the occupancy logit $\ell_i$.
+
+\subsection{A Capacity-Informed Value Readout}
+\label{sec:v4-capacity}
+Set $p_i=\sigma(\ell_i)$. Using loads computed once from these proposed
+occupancies, apply one simultaneous contraction:
+\begin{equation}
+ L_F=\sum_{j\in F}p_j,\qquad
+ z_i=\frac{p_i}{\max\{1,\max_{F\ni i}L_F\}}.
+ \label{eq:v4-capacity}
+\end{equation}
+The inner maximum is zero without incident factors. Every factor then has
+load at most one: if $L_F>1$, each of its node denominators is at least
+$L_F$; otherwise contraction cannot increase load. Edge coverage gives
+$z_i+z_j\leq1$ on every conflict edge. This uses classical clique
+capacities~\cite{chvatal1975polytopes} as an inductive bias for a value
+surrogate. It is not an integer recovery or a certificate of its value:
+half-occupancy on a unit-weight five-cycle satisfies the factors but sums
+to $2.5$, whereas an independent set has weight at most two.
+
+The signed normalized prediction and deployed native score are
+\begin{equation}
+ \widehat t_u=\frac{q_a}{s_G}+\sum_{i\in R}\frac{w_i}{s_G}z_i,
+ \qquad \widehat g_u=s_G[\widehat t_u]_+,
+ \label{eq:v4-prediction}
+\end{equation}
+for request $u=(a,r,\kappa,W,\tau)$. Thus $q_a$ appears only as the known
+final offset; training uses $\widehat t_u$ before clamping. An empty pool
+has zero recovery contribution. Joint incompatibilities affect both the
+representations and the aggregate occupancy, rather than allowing each
+individually attractive replacement to contribute its full reward.
+
+\subsection{Supervision from Actual Finite Responses}
+\label{sec:v4-supervision}
+Alternatives are executed independently from the same immutable state,
+with the same executor reset and their declared workpoints. Each alternative
+restores that state's remaining allowance and actual warm membership;
+its outcome never warms another alternative. The primary executor is
+CHILS~\cite{grossmann2025chils} with population one, one thread, seed 17,
+native warm input, and a reset for each request. Two snapshots each receive
+weight $1/2$: after paid validation of known $S\cap R$ recoveries, and
+after at most one actually startable round-robin request at cap 64 and
+50\,ms under the same history deadline.
+
+A valid returned membership $T_u$ supplies the signed target
+$t_u=(q_a+w(T_u))/s_G$ and binary labels $\mathbf1[i\in T_u]$. Its
+admitted target $y_u$ is $[t_u]_+$ when full validation and rescoring finish
+within the cloned remaining allowance, and zero otherwise. Valid late or
+nonimproving outputs still supervise signed values and masks. Failed outputs
+have no invented value or mask target, but remain in admitted-outcome
+ranking with $y_u=0$.
+
+Let $b_s$ be the snapshot's best materialized gain divided by $s_G$, and
+let $\mathcal P_s=\{(u,v):[y_u-b_s]_+>[y_v-b_s]_+\}$. The state loss is
+\begin{align}
+ \mathcal L_s={}&\operatorname{mean}_{u\in\mathcal V_s}
+       \operatorname{SmoothL1}(\widehat t_u,t_u)\nonumber\\
+ &+\operatorname{mean}_{(u,v)\in\mathcal P_s}
+       \log\!\left(1+e^{-(\widehat t_u-\widehat t_v)/0.2}\right)
+   +0.05\mathcal L_{\mathrm{mask}},
+ \label{eq:v4-loss}
+\end{align}
+where $\mathcal V_s$ contains valid returned outputs. Mask BCE is averaged
+over nodes within each valid nonempty request and then over requests.
+Empty terms are zero. Both value regression and pair differences use signed
+pre-clamp predictions. Domains have equal total weight, graphs have equal
+weight within a domain, and the two snapshot weights remain fixed; failed
+graph slots and unavailable snapshots contribute zero without redistributing
+their weight. The protocol uses Adam at $10^{-3}$ for 40 epochs in batches
+of four graphs and fit seeds 17, 29, and 43. Checkpoints use the first minimum
+validation conditional allocation regret: this offline, single-request
+proxy can abstain and does not measure the online multi-call controller.
+
+Matched controls replace the capacity readout with a free scalar head,
+remove only mask BCE, mask all warm-input channels, or use the same
+observable summaries without graph messages. These isolate readout,
+supervision, warm conditioning, and representation effects.
+
+\subsection{Paid Request Allocation and Feasible Admission}
+\label{sec:v4-controller}
+All proposals, scope/factor preparation, warm validation, transfers,
+encoding, cache access, heads, solver calls, and final checks are charged
+to the decision. Native slices are 10, 50, and 200\,ms; their common
+calibrated full request costs are 35, 75, and 214\,ms.
+Calibration is not a runtime guarantee. Only unspent requests whose native
+slice and calibrated cost fit the current remaining time are startable.
+With best materialized gain $g^*$, the learned policy selects
+\begin{equation}
+ u^*=\arg\max_u\left(
+ \frac{[\widehat g_u-g^*]_+}{\widehat c_u},
+ \frac{\widehat g_u}{\widehat c_u},-\operatorname{index}(u)\right)
+ \label{eq:v4-priority}
+\end{equation}
+lexicographically. This point-value heuristic is neither an optimal
+allocation nor an estimate of expected positive marginal gain. Zero first
+components do not cause online abstention.
+
+\begin{algorithm}[t]
+\caption{Finite joint-recovery allocation}
+\label{alg:v4-recovery}
+\begin{algorithmic}[1]
+\State Start deadline; validate $S$; set $S^*\gets S$, $g^*\gets0$
+\State Prepare fixed actions, unique nested scopes, and requests
+\State Validate known $S\cap R$; retain timely improving schedules
+\State Initialize same-action warm memory from timely known recoveries
+\While{fewer than eight calls and a startable unspent request exists}
+  \State Score current request views; choose by Eq.~\eqref{eq:v4-priority}
+  \State Recheck time; mark chosen request spent before launch
+  \State Execute with actual same-action warm memory intersected with $R$
+  \State Fully validate $T\subseteq R$ and rescore $B_a\cup T$
+  \If{$T$ is valid and validation finishes before the deadline}
+    \State Retain better recovery warm memory and improving $S^*$
+  \EndIf
+\EndWhile
+\State Fully validate and return $S^*$; measure caller receipt time
+\end{algorithmic}
+\end{algorithm}
+
+Every launched request is spent, including invalid, failed, and late calls.
+Only timely validated recoveries can update same-action warm memory or the
+best feasible schedule; all policies preserve their actual incumbent.
+The primary gain uses the fully validated schedule actually received by
+the caller strictly before $D$, reverting to the original $S$ otherwise.
+A separately observed schedule validated inside the procedure before $D$
+is a secondary availability measure, not a return-time guarantee.
+Soft solver limits therefore require reporting actual latency and misses.

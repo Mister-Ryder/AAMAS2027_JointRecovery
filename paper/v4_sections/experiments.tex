@@ -1,0 +1,99 @@
+\section{Experimental Design}
+\label{sec:experiments}
+
+The protocol asks whether predicting additional joint recovery improves
+complete-decision quality beyond an executed greedy response; whether
+compatibility structure, occupancy supervision and warm information explain
+any improvement; and how published solvers behave on public graph
+optimization tasks. Published whole-graph
+solvers and priorities within a shared recovery kernel answer complementary
+questions. Performance tables pair each published method with its citation
+and execution cost; implementation configurations are provided separately.
+
+\paragraph{Controlled tasks and splits.}
+Recovery menus cross 64/256 alternatives per menu, eight menus, three
+topologies (Erd\H{o}s--R\'enyi, components, bipartite), densities
+$0.08/0.20/0.45$, and cross-menu coupling $0.04$. Resource graphs cross
+48/96 visibility passes with two/four/eight ground stations, eight
+satellites and six alternatives per pass. Their conflicts represent
+satellite and ground occupation. These 18 menu and six resource cells
+define 72 training and 24 validation graphs, with graph-seed splits preceding
+action/state extraction. All policy results use the complete 24-graph
+development validation split. Previously inspected public inputs remain
+exposed benchmark data.
+
+\paragraph{Published whole-graph comparisons.}
+The completed public comparison retains all 40 original unit-weight graphs:
+16 DIMACS clique complements~\cite{johnson1996dimacs}, 18 SATLIB UF and six
+CBS clause-conflict graphs~\cite{hoos2000satlib}, each with three common
+initial schedules. The seven native configurations are CHILS-p1 and
+CHILS-p16-c16~\cite{grossmann2025chils}, the two
+$m^2$wis variants~\cite{grossmann2024mwis}, both Struction
+configurations~\cite{gellner2021struction}, and
+WeightedBR~\cite{lamm2019exact}. Their $0.5/2$\,s soft search workpoints
+give 1,680 runs. The 16-thread CHILS configuration is reported separately
+from single-thread configurations. Three released neural recipes add 360
+runs: DIFUSCO-SAT with 50 steps and one/four
+samples~\cite{sun2023difusco}, and COExpander-SAT-CM with one
+sample (CM $1\times1$)~\cite{ma2025coexpander}. Raw and accepted cardinalities
+are reported separately. Released-model
+training overlap is unresolved, so this benchmark is a transfer comparison.
+
+\paragraph{Numerical and application scope.}
+The public benchmark uses the original unit rewards and conflict edges,
+so released unit-MIS models are evaluated within their mathematical domain.
+The controlled resource family retains satellite and station interval
+conflicts and positive rewards. We do not extrapolate released unit-MIS
+models to weighted contact scheduling. Large original contact sources and
+weighted route benchmarks require separate numerical-domain and policy
+transfer experiments; they are not part of the completed policy comparison.
+
+\paragraph{Matched recovery controls.}
+Every policy uses the same eleven commitment/release cells
+$|C|\in\{0,2,4,8\}$, $|E|\in\{0,16,64\}$, excluding the no-op, and
+fixed replacement cap of 256. The common paid prefix executes all three
+weight/degree greedy sweeps and compares their feasible memberships with
+$S\cap R$, yielding $W$. AnytimeGreedyPortfolio (greedy-only) returns this prefix;
+Lower reuses it without repeating sweeps. Immediate, Upper, P1, Lower and
+RoundRobin prioritize the same CHILS-p1 requests: one thread, seed 17,
+10/50/200\,ms workpoints and at most eight calls. Upper uses a
+clique-partition bound; P1 uses clique-load discounts. Unavailable cells remain
+in coverage. All methods share
+feasibility checks and incumbent preservation.
+
+\paragraph{Learned controls and selection.}
+Capacity and the FreeOccupancy, NoAux, NoWarm and CheapSummary controls
+retain the same $W$, lower and upper bounds, and execution options.
+NoWarm masks warm indicators and warm fraction while retaining scalar
+$L=w(W)$. The label design clones two actual execution snapshots under
+the revised warm semantics. Before fitting, the protocol requires measuring
+native extra above the shared prefix across the full pool. Graph encoders
+use width 32 and two layers; training fixes Adam $10^{-3}$,
+four-graph batches and 40 epochs. All seeds 17/29/43 contribute;
+each fit selects its first minimum validation
+conditional regret. The strongest of all six classical controls at
+$D=0.556$\,s is selected using the complete validation grid.
+
+\paragraph{Quality, cost and statistics.}
+Measured runs use Linux, an RTX 4080 and PyTorch 1.11/CUDA 11.3;
+native solvers use one thread except the separately marked CHILS-p16-c16.
+The total deadlines are 0.139, 0.556 and 2.221\,s. We normalize the
+timely gain $g_\pi(D)$ by $\max\{1,w(S)\}$; a late return retains $S$.
+Timing includes
+proposals, scopes, features, bounds, inference, transfers, native execution,
+validation/rescoring, synchronization and caller return. Common-prefix gain and
+additional returned gain are reported separately from source availability.
+Resident graph/model setup is separate; each decision starts with empty
+caches. Native cold wall time includes export, startup, parsing and validation;
+neural resident request time and once-only setup remain separate from
+native soft stops and controller deadlines. They do not establish a
+matched-budget speedup.
+
+Fits and initial seeds are averaged within each graph before aggregation.
+Controlled domains receive equal mass; public DIMACS/UF/CBS means receive
+equal family weight. Failures, late returns and zero-opportunity graphs keep
+their original mass; N/A remains distinct from executable failure.
+Queries and repeated fits are not independent observations. Paired graph
+bootstrap intervals describe development uncertainty, resampling graphs
+within each domain and retaining equal domain weight. They do not constitute
+an independent confirmation test.

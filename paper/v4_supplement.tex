@@ -1,0 +1,139 @@
+\section{Feature and Execution Details}
+\paragraph{Observable inputs.}
+The reward scale is $s_G=\max\{1,\sum_i w_i/|V|\}$.
+Each recovery vertex supplies normalized reward, log degree, local degree
+fraction, actual warm membership, log factor memberships and log maximum
+incident factor size. The structural encoder has two layers of width 32.
+Its shared mean and reward-weighted pooled encodings each have width 32.
+The seven request features are the seconds/nodes/iterations indicators,
+log native allowance, log remaining seconds, normalized actual warm value
+and actual warm fraction. The thirteen summary features are total,
+maximum, mean and standard deviation of normalized recovery reward;
+log edge count and density; log factor count, maximum/mean factor size,
+mean memberships and high-order factor fraction; clique-load priority P1;
+and the clique-partition upper value. The immediate gain is an exact offset,
+not a learned input. The evaluated version uses these features directly;
+it does not contain the subsequent untrained normalization proposal.
+
+\paragraph{Cache boundary.}
+A structural unit is identified by its graph/model version, ordered recovery
+vertices, factors, actual warm membership and reward scale. Different native
+allowances share a unit. Changed warm membership creates a new unit.
+No target membership, execution score or previous graph enters the cache.
+Offline training uses attached encodings; online encodings are detached.
+Each decision starts with empty caches. Packing, bound calculation, device
+transfer, cache lookup and inference are charged to the decision.
+
+\paragraph{Fractional capacity property.}
+Let $s_F=\sum_{j\in F}p_j$ and define
+\[
+d_i=\max\{1,\max_{F\ni i}s_F\}.
+\]
+For each factor $F$ with $s_F>0$,
+$d_i\geq s_F$ for every $i\in F$, giving
+$\sum_{i\in F}p_i/d_i\leq s_F/s_F=1$. When $s_F=0$ the sum is zero.
+Thus simultaneous contraction satisfies the covered clique inequalities.
+It does not establish integral feasibility, and the fractional weighted sum
+is only an input to the bounded scalar head. Feasible memberships are
+produced and checked by the executor.
+
+\paragraph{Bounds and empty cases.}
+The warm lower value is from an actually executed feasible membership.
+The upper value sums the maximum reward in each disjoint clique block plus
+leftover singleton rewards. Hence every independent recovery lies below it.
+Empty recovery scopes have zero recovery; empty loss means are zero.
+Floating summation noise may raise an upper value to its warm lower value
+within the declared absolute/relative tolerance, but cannot replace original
+integer objectives or membership checks.
+
+\section{Complete Fitting Configuration}
+The fixed pool contains 72 training and 24 development validation graphs,
+split by graph before snapshot and alternative extraction. All five variants
+use seeds 17, 29 and 43, Adam learning rate $10^{-3}$, four-graph batches and
+40 epochs. The first minimum conditional allocation regret selects a
+checkpoint. Table~\ref{tab:supp-fit} gives every selection; repeated epochs
+or fit seeds are not additional independent graphs.
+
+\begin{table}[t]
+\centering
+\caption{All 15 completed fits. Regret $\downarrow$ is the selected
+conditional allocation proxy, in fractions of original incumbent value.
+It is not complete online return quality.}
+\label{tab:supp-fit}
+\footnotesize
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Variant & Seed & Epoch & Regret $\downarrow$\\
+\midrule
+Capacity & 17 & 1 & 0.204938\\
+Capacity & 29 & 1 & 0.204938\\
+Capacity & 43 & 1 & 0.204938\\
+FreeOccupancy & 17 & 5 & 0.204060\\
+FreeOccupancy & 29 & 1 & 0.204938\\
+FreeOccupancy & 43 & 19 & 0.203691\\
+NoAux & 17 & 1 & 0.204938\\
+NoAux & 29 & 12 & 0.201069\\
+NoAux & 43 & 14 & 0.195201\\
+NoWarm & 17 & 1 & 0.204938\\
+NoWarm & 29 & 1 & 0.204938\\
+NoWarm & 43 & 1 & 0.204938\\
+CheapSummary & 17 & 1 & 0.204938\\
+CheapSummary & 29 & 1 & 0.204938\\
+CheapSummary & 43 & 1 & 0.204938\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Eleven histories have exactly constant conditional regret although parameters
+and auxiliary losses change. The unchanged proxy does not imply that gradients
+through the entire model disappear. The main paper's online comparison uses
+all selected fits rather than choosing a favorable fitting seed.
+
+\section{Benchmark Roles and Cost Boundaries}
+The main controlled comparison uses all 24 validation graphs, eleven policies
+and three total deadlines. Each learned policy has three fitting seeds,
+giving 1,512 runs. Within each graph, fit means precede equal menu/resource
+aggregation. Zero opportunities, failures and late returns retain their weight.
+The fixed common greedy prefix is included in total returned quality and
+subtracted separately for additional recovery. A result received after its
+deadline has zero strict gain regardless of an internally available candidate.
+
+The public profile retains all 40 original unit-weight graphs: 16 DIMACS clique
+complements, 18 SATLIB UF and six CBS conflict graphs. Seven native
+configurations at two soft workpoints give 1,680 runs; three released neural
+recipes give 360, for 2,040 runs total. Family means have equal mass after
+three initial schedules are averaged within each graph. Complete native cold
+cost includes export, startup, preprocessing, parsing and validation. Resident
+neural request cost excludes once-only setup. DIFUSCO one/four-sample
+parent/worker setup is 5.948/5.785 and 5.946/5.828 seconds; COExpander setup
+is 7.238/7.125 seconds. These boundaries preclude a common-budget speedup claim.
+
+Whole-graph profiles compare published solvers and establish context for the
+shared repair kernel. They do not test our learned policy on the same public
+graphs. Released checkpoint overlap remains unresolved. The current controlled
+development results also do not establish independent confirmation or full
+application-scale transfer. The companion data tables retain these roles
+explicitly; future experimental designs are not presented as completed evidence.
+
+\section{Research Assistance Disclosure}
+OpenAI Codex, using GPT-6-family agents, assisted with method formulation,
+experiment design, implementation, analysis, drafting and deterministic
+scientific plotting. Human authors remain responsible for the research claims,
+references and final submission. The retained instructions included:
+\begin{quote}
+``The value of a coordinated adjustment depends on both its immediate gain
+and the mutually compatible contact opportunities that can be recovered
+afterward.''
+\end{quote}
+\begin{quote}
+``Training compares feasible outcomes obtained by applying alternative actions
+to the same state under a shared, budgeted execution procedure.''
+\end{quote}
+The authors requested formally published baselines, public graph tasks,
+complete-cost comparisons, separate section agents, compact consistent
+figures, and separation of operational reports from the paper. Their final
+instruction froze the completed version rather than continuing exploratory
+search. Exact identifiers and complete prompts for every earlier model run
+were not preserved; this disclosure does not reconstruct missing records.
+Figures are deterministic vector diagrams or plots of recorded results.
+Illustrative graph weights are mathematical examples, not experimental outputs.

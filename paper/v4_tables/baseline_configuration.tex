@@ -1,0 +1,32 @@
+\begin{table*}[t]
+\centering
+\caption{Published baseline configurations and allocation controls.
+The upper block solves the original public unit-weight whole graph; the lower
+block compares priorities under a common complete decision deadline.
+Native search time, full cold wall time, and resident neural inference have
+different boundaries. These configurations do not imply equal-budget runtime
+or whole-graph superiority. All configurations retain a common incumbent at
+acceptance; only the indicated native methods receive it as a solver input.}
+\label{tab:baseline-configuration}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{0.29\textwidth}p{0.27\textwidth}p{0.22\textwidth}p{0.17\textwidth}@{}}
+\toprule
+Method / configuration & Comparison task & Fixed workpoint & Resource / solver warm start \\
+\midrule
+CHILS-p1~\cite{grossmann2025chils} & Public whole-graph MIS & $0.5/2$\,s native search & 1 CPU thread / yes \\
+CHILS-p16-c16~\cite{grossmann2025chils} & Public whole-graph MIS & $0.5/2$\,s native search & 16 CPU threads / yes \\
+$m^2$wis~\cite{grossmann2024mwis} & Public whole-graph MIS & $0.5/2$\,s native search & 1 CPU thread / no \\
+$m^2$wis+s~\cite{grossmann2024mwis} & Public whole-graph MIS & $0.5/2$\,s native search & 1 CPU thread / no \\
+Struction-fast~\cite{gellner2021struction} & Public whole-graph MIS & $0.5/2$\,s; cyclicFast & 1 CPU thread / no \\
+Struction-strong~\cite{gellner2021struction} & Public whole-graph MIS & $0.5/2$\,s; cyclicStrong & 1 CPU thread / no \\
+WeightedBR~\cite{lamm2019exact} & Public whole-graph MIS & $0.5/2$\,s native search & 1 CPU thread / no \\
+DIFUSCO-SAT~\cite{sun2023difusco} & Public unit MIS; released model & 50 steps $\times$ 1/4 samples & GPU / no \\
+COExpander-SAT~\cite{ma2025coexpander} & Public unit MIS; released model & CM $1\times1$ & GPU / no \\
+\midrule
+Immediate, Upper, P1, Lower, RoundRobin & Common actions/scopes; CHILS-p1~\cite{grossmann2025chils} & $10/50/200$\,ms; total $D$ & 1 CPU thread / actual \\
+Five learned priorities & Same CHILS-p1~\cite{grossmann2025chils} requests & Same workpoints and $D$ & 1 CPU thread; GPU model \\
+AnytimeGreedyPortfolio & Same actions/scopes; greedy sweep & Exponents $0/0.5/1$; total $D$ & 1 CPU thread / observed \\
+\bottomrule
+\end{tabular}
+\end{table*}

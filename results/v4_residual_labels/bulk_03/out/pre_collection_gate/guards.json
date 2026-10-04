@@ -1,0 +1,18 @@
+{
+  "expected_tests": 73,
+  "tests_run": 73,
+  "by_source": {
+    "test_v4_residual_fit.py": 25,
+    "test_v4_residual_collect_training.py": 7,
+    "test_v4_residual_training_data.py": 17,
+    "test_v4_residual_common.py": 10,
+    "test_v4_residual_model.py": 14
+  },
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "unexpected_successes": 0,
+  "expected_failures": 0,
+  "log_sha256": "a2ef6cd3753b8d37c6d1cf1b11cc509003b716742eec00f404d1a2ec93ea51ec",
+  "scope": "finite_mocks_not_actual_collection_or_training"
+}

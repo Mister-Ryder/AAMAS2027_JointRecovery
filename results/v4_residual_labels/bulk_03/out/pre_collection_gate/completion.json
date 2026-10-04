@@ -1,0 +1,65 @@
+{
+  "status": "complete_residual_pre_collection_source_runtime_gate_not_quality",
+  "files": {
+    "protocol.json": {
+      "sha256": "b0bf379e5269f20a4d9d75ff05932f03e675266b3ae781076b69bdb335af25a7",
+      "bytes": 6455
+    },
+    "guards.txt": {
+      "sha256": "a2ef6cd3753b8d37c6d1cf1b11cc509003b716742eec00f404d1a2ec93ea51ec",
+      "bytes": 8028
+    },
+    "guards.json": {
+      "sha256": "f322ce95fce9bcf03f78b0492ccfa43ea17bab66d0036f3c8d986c453b044b77",
+      "bytes": 517
+    },
+    "source_origins.json": {
+      "sha256": "11950db20fec18c6cd2ac77650da36e8050f62eb63a07d4f8a5148850603699b",
+      "bytes": 6115
+    }
+  },
+  "source_manifest_sha256": "d25c1ae4420be800da4ba943b26c9c112a99f6b9f7753307d9e15729bcae3684",
+  "calibration_sha256": "495dab54ad7ca75e8a543338eb71da1049e20afdd35ad18825669d37d54c5bec",
+  "scientific_source_paths": [
+    "experiments/v3_domains.py",
+    "experiments/v3_pilot.py",
+    "experiments/v3_published_baselines.py",
+    "experiments/v3_solvers.py",
+    "experiments/v4_backends.py",
+    "experiments/v4_neighborhoods.py",
+    "experiments/v4_residual_collect_training.py",
+    "experiments/v4_residual_common.py",
+    "experiments/v4_residual_fit.py",
+    "experiments/v4_residual_fit_gate.py",
+    "experiments/v4_residual_training_data.py",
+    "src/joint_recovery/__init__.py",
+    "src/joint_recovery/core.py",
+    "src/joint_recovery/efficient_core.py",
+    "src/joint_recovery/generators.py",
+    "src/joint_recovery/v4_budgeted_recovery.py",
+    "src/joint_recovery/v4_controller_coordination.py",
+    "src/joint_recovery/v4_factorized_model.py",
+    "src/joint_recovery/v4_factors.py",
+    "src/joint_recovery/v4_factors_fast.py",
+    "src/joint_recovery/v4_model.py",
+    "src/joint_recovery/v4_model_fast.py",
+    "src/joint_recovery/v4_residual_controller_coordination.py",
+    "src/joint_recovery/v4_residual_model.py",
+    "tests/test_v4_residual_collect_training.py",
+    "tests/test_v4_residual_common.py",
+    "tests/test_v4_residual_fit.py",
+    "tests/test_v4_residual_model.py",
+    "tests/test_v4_residual_training_data.py"
+  ],
+  "tests_run": 73,
+  "elapsed_seconds": 1.8352112621068954,
+  "labels_loaded": 0,
+  "research_graphs_generated": 0,
+  "confirmation_graphs_generated": 0,
+  "actual_solver_calls": 0,
+  "cuda_forward_calls": 0,
+  "cuda_backward_calls": 0,
+  "optimizer_steps": 0,
+  "model_fits_started": 0,
+  "scope": "73 finite explicit/mock fixtures + actual runtime/source compatibility; no corpus/quality evidence"
+}

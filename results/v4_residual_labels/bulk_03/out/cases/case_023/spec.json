@@ -1,0 +1,9 @@
+{
+  "domain": "resource",
+  "satellites": 8,
+  "grounds": 8,
+  "passes": 96,
+  "alternatives": 6,
+  "split": "training",
+  "seed": 20420023
+}

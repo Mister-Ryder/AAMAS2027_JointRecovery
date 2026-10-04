@@ -1,0 +1,1271 @@
+{
+  "status": "frozen_actual_fresh_label_queue",
+  "source_capsule": {
+    "capsule": "f26ed12c577736625ac7accc847ec9b2d7818032a5391064b1ecf2e7ae3b5027",
+    "files": [
+      {
+        "path": "docs/research_v4/CALIBRATION_FROZEN.json",
+        "sha256": "495dab54ad7ca75e8a543338eb71da1049e20afdd35ad18825669d37d54c5bec",
+        "bytes": 1602
+      },
+      {
+        "path": "experiments/v3_domains.py",
+        "sha256": "3349e782f0a5662aaee9e937e6dfeb1d486f81e911d6c9f6d08616643b4e72c8",
+        "bytes": 10553
+      },
+      {
+        "path": "experiments/v3_pilot.py",
+        "sha256": "4331b7b4a2fbf8a905f9465d0df46d7999437baf1d58c8276de09099d44c5b62",
+        "bytes": 14276
+      },
+      {
+        "path": "experiments/v3_published_baselines.py",
+        "sha256": "44bb33a19d777c960fe712ac24e608d8840f46f8df4eb84c15c3cc92428e1739",
+        "bytes": 21823
+      },
+      {
+        "path": "experiments/v3_solvers.py",
+        "sha256": "2ad6166b8fa710c705bae21624757dc1f90fbd3fdcb0c3366aca5c59a67c9931",
+        "bytes": 8648
+      },
+      {
+        "path": "experiments/v4_backends.py",
+        "sha256": "936a079292097ad1999265b27630930b1baf28a866ca2b6f1b358ad2a87edeb7",
+        "bytes": 6187
+      },
+      {
+        "path": "experiments/v4_neighborhoods.py",
+        "sha256": "15eb606f27c9022802ce05a259c0693b6992df1ab0cd26c456831b53d275b8f7",
+        "bytes": 10131
+      },
+      {
+        "path": "experiments/v4_residual_collect_training.py",
+        "sha256": "e742389ec3b856e1268205863b4c5750981a1f0df9fd2b9cbaf2a36f082208f8",
+        "bytes": 10602
+      },
+      {
+        "path": "experiments/v4_residual_common.py",
+        "sha256": "f444666eb640d98fe4a1ba26ce22762ca8d2355fd3073dd237d52fafbdfddb51",
+        "bytes": 3372
+      },
+      {
+        "path": "experiments/v4_residual_fit.py",
+        "sha256": "803f86f680da51261c1726aef302e5b42011f405b4d7f9858165d3d77af7b9b6",
+        "bytes": 64529
+      },
+      {
+        "path": "experiments/v4_residual_fit_gate.py",
+        "sha256": "7342ac284847d7e99144c900acba364a329ab4e50ac1fc14a6c131d6bb43e035",
+        "bytes": 27348
+      },
+      {
+        "path": "experiments/v4_residual_training_data.py",
+        "sha256": "6ed9cb7c3a6c505588e3ba8d4703438ecfad6172244a95ec94242c28cb384898",
+        "bytes": 23668
+      },
+      {
+        "path": "src/joint_recovery/__init__.py",
+        "sha256": "b524992298f03a29cd671ea20c60f31458f5e31a9ff870f49dfd9694a360f73c",
+        "bytes": 482
+      },
+      {
+        "path": "src/joint_recovery/core.py",
+        "sha256": "902653228483c5ab51c82f64e5115df4fec1b4b245f701140a9e56f154eca656",
+        "bytes": 18010
+      },
+      {
+        "path": "src/joint_recovery/efficient_core.py",
+        "sha256": "769570ba6c629e670aa581fe2b1dcd700c9937d2a12ca0d94e8e5953eadf5a8b",
+        "bytes": 4728
+      },
+      {
+        "path": "src/joint_recovery/generators.py",
+        "sha256": "027bc73716714f4d4b6bab8d069ce5dfcf2f9098cb8e140ed7036755bf883351",
+        "bytes": 7707
+      },
+      {
+        "path": "src/joint_recovery/v4_budgeted_recovery.py",
+        "sha256": "b4b5bbd3d8abdeba2fcb9a117c54f161786c2deccc032764e792d5899bd3d1ad",
+        "bytes": 27509
+      },
+      {
+        "path": "src/joint_recovery/v4_controller_coordination.py",
+        "sha256": "7bb0ec286ef10fccbc5898e3048af4486e9f592f97cfac615a609de5270820d0",
+        "bytes": 10406
+      },
+      {
+        "path": "src/joint_recovery/v4_factorized_model.py",
+        "sha256": "983d05e8dae02d7d7fa2e7eee683fa266d9093d10248ac99f3534ed5ea91d526",
+        "bytes": 20525
+      },
+      {
+        "path": "src/joint_recovery/v4_factors.py",
+        "sha256": "d57cbe67cbf4f0aaf3b2605392c9fecf001e612e6d653c3db138619628781980",
+        "bytes": 2810
+      },
+      {
+        "path": "src/joint_recovery/v4_factors_fast.py",
+        "sha256": "d792cb3bf41464a6419f3522a50aae0af608a489565ec0f976994e022cbede96",
+        "bytes": 4166
+      },
+      {
+        "path": "src/joint_recovery/v4_model.py",
+        "sha256": "42dafec2062235c4cfd014066087c4a138861327dd8d4c12d771b513afadb62f",
+        "bytes": 26006
+      },
+      {
+        "path": "src/joint_recovery/v4_model_fast.py",
+        "sha256": "c208715d51526101bcec6e664b9dcfd90e43a591636a39c86bbd3f1fb23dddb2",
+        "bytes": 5915
+      },
+      {
+        "path": "src/joint_recovery/v4_residual_controller_coordination.py",
+        "sha256": "827c9a15d4259f8a8852f97fbdf574c000ed16f4efed5a2782dbd7adfc31b48f",
+        "bytes": 11253
+      },
+      {
+        "path": "src/joint_recovery/v4_residual_model.py",
+        "sha256": "d6c974b3e57b1880bbb0d24c6dceca8f343d303c47e74736f3864c8da054a750",
+        "bytes": 13819
+      },
+      {
+        "path": "tests/test_v4_residual_collect_training.py",
+        "sha256": "4ef9775d50688c580d8a1dea526f2cfb7c916b29803e721c68ed6932b460a0ef",
+        "bytes": 7392
+      },
+      {
+        "path": "tests/test_v4_residual_common.py",
+        "sha256": "aaad07f26cdc61199ae1ee52b5b7b2fc2a609da4ef50cd06464daec501039826",
+        "bytes": 10678
+      },
+      {
+        "path": "tests/test_v4_residual_fit.py",
+        "sha256": "397ca02fd7ec0903602b2959d1b4de6f97dea53e2dc1116470482649948b9ee2",
+        "bytes": 22972
+      },
+      {
+        "path": "tests/test_v4_residual_model.py",
+        "sha256": "824cadf019f729707b37b59e769f067d59d13515816efbfa5178abf55e41e7b7",
+        "bytes": 16032
+      },
+      {
+        "path": "tests/test_v4_residual_training_data.py",
+        "sha256": "b7f6aa43372d777b77aa28d7da854a0e2255373a6fe3435501d28a55ee109ed4",
+        "bytes": 13834
+      }
+    ]
+  },
+  "complete_specs": [
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420000
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420001
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420002
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420003
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420004
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420005
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420006
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420007
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420008
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420009
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420010
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420011
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420012
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420013
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420014
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420015
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420016
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420017
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420018
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420019
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420020
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420021
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420022
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420023
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420024
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420025
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420026
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420027
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420028
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420029
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420030
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420031
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420032
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420033
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420034
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420035
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420036
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420037
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420038
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420039
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420040
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420041
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420042
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420043
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420044
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420045
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420046
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420047
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420048
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420049
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420050
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420051
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420052
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420053
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420054
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420055
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420056
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420057
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420058
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "training",
+      "seed": 20420059
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420060
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420061
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "training",
+      "seed": 20420062
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420063
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420064
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "training",
+      "seed": 20420065
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420066
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420067
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420068
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420069
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420070
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "training",
+      "seed": 20420071
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "validation",
+      "seed": 20430000
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "validation",
+      "seed": 20430001
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "validation",
+      "seed": 20430002
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "validation",
+      "seed": 20430003
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "validation",
+      "seed": 20430004
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "validation",
+      "seed": 20430005
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "validation",
+      "seed": 20430006
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "validation",
+      "seed": 20430007
+    },
+    {
+      "domain": "menu",
+      "replacements": 64,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "validation",
+      "seed": 20430008
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "validation",
+      "seed": 20430009
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "validation",
+      "seed": 20430010
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "erdos",
+      "split": "validation",
+      "seed": 20430011
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "validation",
+      "seed": 20430012
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "validation",
+      "seed": 20430013
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "components",
+      "split": "validation",
+      "seed": 20430014
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.08,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "validation",
+      "seed": 20430015
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.2,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "validation",
+      "seed": 20430016
+    },
+    {
+      "domain": "menu",
+      "replacements": 256,
+      "menus": 8,
+      "density": 0.45,
+      "coupling": 0.04,
+      "topology": "bipartite",
+      "split": "validation",
+      "seed": 20430017
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "validation",
+      "seed": 20430018
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "validation",
+      "seed": 20430019
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 48,
+      "alternatives": 6,
+      "split": "validation",
+      "seed": 20430020
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 2,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "validation",
+      "seed": 20430021
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 4,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "validation",
+      "seed": 20430022
+    },
+    {
+      "domain": "resource",
+      "satellites": 8,
+      "grounds": 8,
+      "passes": 96,
+      "alternatives": 6,
+      "split": "validation",
+      "seed": 20430023
+    }
+  ],
+  "splits": [
+    "training",
+    "validation"
+  ],
+  "calibration": {
+    "status": "frozen_before_V4_fitting_and_fresh_validation",
+    "phase": "wider_coordination_actual_warm_development",
+    "source_capsule": "951bc8a0f95e8eb3e8da4c1b142fd32f66ba67e138313e20e33ade4627fe2394",
+    "completion_sha256": "ca4418f795a9eeb023585f6771698bca02359fce85dd109bc53550710e32940b",
+    "requests_sha256": "563f65db70ccc7482f004420614bfe5e9ed4ef583ac80a76ec70d9de6e10350b",
+    "expected_cases": 30,
+    "expected_calls": 1845,
+    "complete_pool_p95_full_10ms_seconds": 0.03468773700296879,
+    "deadline_rule": "ceil_ms(max(0.05, multiplier*p95_full_10ms)); multipliers 4,16,64; same predeclared rule after wider action-domain revision",
+    "total_deadlines_seconds": [
+      0.139,
+      0.556,
+      2.221
+    ],
+    "primary_deadline_seconds": 0.556,
+    "workpoints": [
+      {
+        "name": "slice0.01",
+        "kind": "seconds",
+        "amount": 0.01,
+        "p95_full_seconds": 0.03468773700296879,
+        "expected_seconds": 0.035
+      },
+      {
+        "name": "slice0.05",
+        "kind": "seconds",
+        "amount": 0.05,
+        "p95_full_seconds": 0.0742351412773132,
+        "expected_seconds": 0.075
+      },
+      {
+        "name": "slice0.2",
+        "kind": "seconds",
+        "amount": 0.2,
+        "p95_full_seconds": 0.21390697136521333,
+        "expected_seconds": 0.214
+      }
+    ],
+    "caps": [
+      64,
+      256,
+      1024
+    ],
+    "history_max_queries": 1,
+    "history_request": "first actually startable input-fixed round-robin cap64/native50ms; same paid initial deadline",
+    "request_cost_scope": "conversion/native procedure/full returned membership validation/rescore; feature inference separately paid by every online policy",
+    "all_cases_failures_and_late_outputs_retained": true,
+    "costs_are_calibration_not_hard_guarantees": true,
+    "no_fitted_model_or_policy_winner_used": true
+  },
+  "calibration_sha256": "495dab54ad7ca75e8a543338eb71da1049e20afdd35ad18825669d37d54c5bec",
+  "execution_origins": [
+    {
+      "module": "__main__",
+      "path": "experiments/v4_residual_collect_training.py",
+      "sha256": "e742389ec3b856e1268205863b4c5750981a1f0df9fd2b9cbaf2a36f082208f8"
+    },
+    {
+      "module": "joint_recovery.core",
+      "path": "src/joint_recovery/core.py",
+      "sha256": "902653228483c5ab51c82f64e5115df4fec1b4b245f701140a9e56f154eca656"
+    },
+    {
+      "module": "joint_recovery",
+      "path": "src/joint_recovery/__init__.py",
+      "sha256": "b524992298f03a29cd671ea20c60f31458f5e31a9ff870f49dfd9694a360f73c"
+    },
+    {
+      "module": "joint_recovery.generators",
+      "path": "src/joint_recovery/generators.py",
+      "sha256": "027bc73716714f4d4b6bab8d069ce5dfcf2f9098cb8e140ed7036755bf883351"
+    },
+    {
+      "module": "joint_recovery.efficient_core",
+      "path": "src/joint_recovery/efficient_core.py",
+      "sha256": "769570ba6c629e670aa581fe2b1dcd700c9937d2a12ca0d94e8e5953eadf5a8b"
+    },
+    {
+      "module": "experiments.v3_pilot",
+      "path": "experiments/v3_pilot.py",
+      "sha256": "4331b7b4a2fbf8a905f9465d0df46d7999437baf1d58c8276de09099d44c5b62"
+    },
+    {
+      "module": "experiments.v3_domains",
+      "path": "experiments/v3_domains.py",
+      "sha256": "3349e782f0a5662aaee9e937e6dfeb1d486f81e911d6c9f6d08616643b4e72c8"
+    },
+    {
+      "module": "joint_recovery.v4_factors",
+      "path": "src/joint_recovery/v4_factors.py",
+      "sha256": "d57cbe67cbf4f0aaf3b2605392c9fecf001e612e6d653c3db138619628781980"
+    },
+    {
+      "module": "joint_recovery.v4_budgeted_recovery",
+      "path": "src/joint_recovery/v4_budgeted_recovery.py",
+      "sha256": "b4b5bbd3d8abdeba2fcb9a117c54f161786c2deccc032764e792d5899bd3d1ad"
+    },
+    {
+      "module": "experiments.v4_neighborhoods",
+      "path": "experiments/v4_neighborhoods.py",
+      "sha256": "15eb606f27c9022802ce05a259c0693b6992df1ab0cd26c456831b53d275b8f7"
+    },
+    {
+      "module": "experiments.v4_residual_common",
+      "path": "experiments/v4_residual_common.py",
+      "sha256": "f444666eb640d98fe4a1ba26ce22762ca8d2355fd3073dd237d52fafbdfddb51"
+    },
+    {
+      "module": "experiments.v4_residual_training_data",
+      "path": "experiments/v4_residual_training_data.py",
+      "sha256": "6ed9cb7c3a6c505588e3ba8d4703438ecfad6172244a95ec94242c28cb384898"
+    },
+    {
+      "module": "experiments.v3_solvers",
+      "path": "experiments/v3_solvers.py",
+      "sha256": "2ad6166b8fa710c705bae21624757dc1f90fbd3fdcb0c3366aca5c59a67c9931"
+    },
+    {
+      "module": "experiments.v3_published_baselines",
+      "path": "experiments/v3_published_baselines.py",
+      "sha256": "44bb33a19d777c960fe712ac24e608d8840f46f8df4eb84c15c3cc92428e1739"
+    },
+    {
+      "module": "experiments.v4_backends",
+      "path": "experiments/v4_backends.py",
+      "sha256": "936a079292097ad1999265b27630930b1baf28a866ca2b6f1b358ad2a87edeb7"
+    }
+  ],
+  "pre_collection_gate": {
+    "directory": "pre_collection_gate",
+    "completion_sha256": "a68f2020f37fc49fc6624b4b130ef2c9ac615b18c558429e446ccad6c3454445",
+    "status": "complete_residual_pre_collection_source_runtime_gate_not_quality",
+    "tests_run": 73,
+    "files": {
+      "protocol.json": {
+        "sha256": "b0bf379e5269f20a4d9d75ff05932f03e675266b3ae781076b69bdb335af25a7",
+        "bytes": 6455
+      },
+      "guards.txt": {
+        "sha256": "a2ef6cd3753b8d37c6d1cf1b11cc509003b716742eec00f404d1a2ec93ea51ec",
+        "bytes": 8028
+      },
+      "guards.json": {
+        "sha256": "f322ce95fce9bcf03f78b0492ccfa43ea17bab66d0036f3c8d986c453b044b77",
+        "bytes": 517
+      },
+      "source_origins.json": {
+        "sha256": "11950db20fec18c6cd2ac77650da36e8050f62eb63a07d4f8a5148850603699b",
+        "bytes": 6115
+      }
+    },
+    "source_manifest_sha256": "d25c1ae4420be800da4ba943b26c9c112a99f6b9f7753307d9e15729bcae3684"
+  },
+  "labels_schema": "case/spec.json+labels.json+observable.npz(weights,agents,edges,selected,cliques_flat,cliques_ptr)",
+  "state_weight": 0.5,
+  "executed_common_greedy_prefix": true,
+  "fixed_scope_cap": 256,
+  "graph_weight": "equal domains then equal graphs within domain",
+  "backend_reset_each_alternative": true,
+  "peer_outcomes_never_update_peers": true,
+  "serial_single_native_thread": true,
+  "model_fits_started": 0,
+  "confirmation_graphs_generated": 0,
+  "no_policy_or_learning_advantage_claim": true,
+  "runtime": {
+    "python": "3.8.10 (default, Jun  4 2021, 15:09:15) \n[GCC 7.5.0]",
+    "numpy": "1.22.4",
+    "scipy": "1.10.1",
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17"
+  }
+}

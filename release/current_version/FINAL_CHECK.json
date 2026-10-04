@@ -1,0 +1,33 @@
+{
+  "scope": "current completed version frozen by the authors; no further exploration",
+  "body_pages": 8,
+  "reference_pages": 1,
+  "total_main_pages": 9,
+  "supplement_pages": 2,
+  "main_pdf_sha256": "7f2edf71639a6a3e62b698edb7710ffff786acae5749ab8657f8839bb0a5cecc",
+  "cited_formal_entries": 18,
+  "arxiv_entries": 0,
+  "unresolved_compile_or_overfull_errors": 0,
+  "model_bindings": {
+    "src/joint_recovery/v4_residual_model.py": "d6c974b3e57b1880bbb0d24c6dceca8f343d303c47e74736f3864c8da054a750",
+    "experiments/v4_residual_fit.py": "803f86f680da51261c1726aef302e5b42011f405b4d7f9858165d3d77af7b9b6"
+  },
+  "source_and_figures": {
+    "path": "release/current_version/paper_source_and_figures.zip",
+    "bytes": 748082,
+    "files": 59,
+    "sha256": "fa144ed28c52a264cc23134d48f9e995da1a0b7c28606f277746c21b4d892892"
+  },
+  "scientific_companion": {
+    "path": "release/current_version/anonymous_scientific_companion.zip",
+    "bytes": 18199168,
+    "files": 538,
+    "sha256": "498d62bdedf668005238a2a1a8c885cd3a4ab45617fbc3667de1693bc3be5131"
+  },
+  "raw_experiments_rerun_for_final_check": 0,
+  "visual_quality_review": "PASS: root inspected all 9 main pages and both companion pages; unified figure palette, legible compact panels, directional table headers, no clipping or overlap",
+  "key_limitations": [
+    "no stable learned-policy advantage over strong greedy",
+    "public learned transfer and independent confirmation not executed"
+  ]
+}

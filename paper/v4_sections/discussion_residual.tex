@@ -1,0 +1,51 @@
+\section{Discussion and Limitations}
+\label{sec:discussion-residual}
+
+The results delimit the practical contribution. At the primary 0.556\,s
+deadline, Capacity returns less improvement than the shared greedy policy;
+the longer 2.221\,s budget permits additional recovery, but CheapSummary
+achieves higher aggregate improvement than Capacity. These comparisons do
+not establish an advantage for the structural learner. The contribution is
+an execution-conditioned formulation and evaluation of coordinated recovery
+beyond a common feasible response. Learned delegation and heuristic
+scheduling already prioritize subsolver calls using execution
+outcomes~\cite{li2021delegate,chmiela2021schedule}. Action-induced
+compatibility, the warm anchor, and same-state supervision define the
+specific prediction problem here. Graph message passing and clique bounds
+remain established components whose inclusion provides no general
+performance guarantee.
+
+Conditional recovery opportunity and timely policy improvement differ.
+All policies receive the same executed greedy prefix, so its improvement
+cannot be attributed to learning. The complete caller deadline charges
+preparation, prediction, executor calls, membership validation, and return.
+A late result retains the original schedule under the stated metric, even
+when a useful candidate existed internally. The high deadline-miss rate
+therefore materially affects Capacity's primary result. Native soft search
+allowances describe a different boundary. Point-value divided by expected
+cost also omits runtime uncertainty and is a heuristic allocation rule;
+valuable cloned responses alone cannot justify its effectiveness.
+
+Post hoc diagnostics on a fixed training subset identify sensitivity to
+request representation. Structural value summaries have much larger
+magnitudes than the native-budget features, while predicted residual
+fractions change little across workpoints whose executed extra values
+differ. Most complete fitting histories have flat conditional allocation
+regret, despite parameter updates and changing auxiliary losses. Some
+scalar heads approach their warm floor; this does not support a conclusion
+of network-wide gradient collapse. Unit imbalance is a plausible mechanism
+for weak workpoint discrimination, but these observations neither isolate
+the sole cause nor establish that normalization improves timed decisions.
+Offline checkpoint regret evaluates one conditional choice and does not
+optimize the complete multi-call return objective.
+
+The bounds restrict scalar values; fractional occupancies need not be
+integer schedules. Feasibility follows from checking actual memberships
+against original conflicts. Ownership specifies participating agents without
+establishing decentralized communication or privacy. Synthetic visibility
+contacts omit orbital and operational uncertainty, and public ID partitions
+are artificial. Published whole-graph solvers have different initialization
+and scope contracts. Generalization beyond the observed domains and fixed
+coupling remains unestablished. Failures and zero-opportunity graphs retain
+their weight, fits are averaged within graphs, and the current development
+results do not constitute independent confirmation.

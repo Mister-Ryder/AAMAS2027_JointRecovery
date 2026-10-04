@@ -1,0 +1,93 @@
+\section{Results}
+\label{sec:results-residual}
+
+\paragraph{Complete-decision quality at the primary budget.}
+Table~\ref{tab:main-runtime-ablation} compares \method{} (Capacity), all six
+classical priorities, and four matched learned controls. All 15 fits and
+24 validation graphs contribute to the 1,512 complete decisions across
+three deadlines. Fitting seeds are averaged within each graph before
+assigning equal mass to the menu and resource domains. The gain is the
+strictly returned improvement relative to the original incumbent, not the
+best solution internally available before caller return.
+
+Figure~\ref{fig:online-budget-v4} separates complete return quality,
+additional recovery, and caller deadline misses. At the primary
+$D=0.556$\,s, Capacity returns 57.542\% gain, while the greedy-only
+policy returns the shared prefix's 234.266\% gain in 0.035\,s.
+Capacity's 83.333\% late-return rate removes otherwise materialized
+improvements from the strict objective. The primary comparison therefore
+does not establish a learned-policy advantage; Section~\ref{sec:discussion-residual}
+discusses the implications for finite allocation. Longer allowances expose
+the additional recovery that a short complete deadline cannot retain.
+
+\input{v4_tables/main_runtime_ablation}
+\input{v4_figures/residual_results/online_float}
+
+\paragraph{Longer budgets and matched components.}
+At $D=2.221$\,s, all methods return on time. Capacity reaches 236.334\%,
+including 2.068 percentage points beyond the 234.266\% common prefix.
+The menu and resource contributions above their respective prefixes are
+3.882 and 0.254 points. Thus most total improvement still comes from
+executed greedy preparation, and the remaining recovery is concentrated
+in the menu domain. Percentages exceeding 100\% reflect the original
+incumbent denominator; they are neither optimality gaps nor improvements
+over the greedy response.
+
+Capacity exceeds PairPriority (P1), the strongest long-budget classical
+priority, by only 0.116 points (236.218\% for P1), below the predefined
+0.5-point mean materiality criterion. It also requires 1.725\,s mean
+caller time versus P1's 1.474\,s. CheapSummary achieves the highest mean
+gain, 238.355\%, with 4.090 points above the prefix and 1.674\,s mean
+latency. FreeOccupancy, NoAux and NoWarm also exceed Capacity at this
+workpoint. These controls retain the same actual warm starts and bounds;
+their results provide no consistent online benefit from occupancy
+contraction, auxiliary membership supervision, or warm identity. In
+particular, the structural encoder does not outperform the scalar summary
+control. The representation expresses joint compatibility, but that
+mechanism alone is insufficient to establish better finite allocation.
+
+\paragraph{Available recovery and its execution scale.}
+Figure~\ref{fig:conditional-recovery-opportunity} explains why additional
+recovery is a meaningful, domain-dependent target despite the online
+result. Across the complete 72 training and 24 validation graphs, two
+fixed execution snapshots retain all zero-opportunity cases. Validation
+best single admitted extra averages 20.494\% of original incumbent value:
+39.981\% for menus and 1.006\% for resource graphs. Renormalization by
+each snapshot's current feasible best yields 7.178\% and 0.848\%,
+respectively. Menu incumbents initially contain eight vertices, whereas
+the executed prefix selects 49--103, explaining part of the denominator
+effect without eliminating residual opportunity.
+
+The 10\,ms workpoint produces no additional global gain; its procedure
+usually retains the actual warm recovery. At 50/200\,ms, validation menu
+opportunity is 39.061\%/39.981\%, while resource opportunity stays at
+1.006\%. Longer search adds best-one opportunity on five of eighteen menu
+graphs and none of six resource graphs. The structure panel further shows
+that clique-bound headroom can exceed finite feasible recovery. These
+conditional single-call outcomes motivate execution-aligned supervision;
+they neither certify an adaptive-policy upper bound nor demonstrate that
+the learned controller selects or returns those opportunities.
+
+\input{v4_figures/residual_results/figure_float}
+
+\paragraph{Published whole-graph solver profiles.}
+Table~\ref{tab:public-published-performance} retains all 17 published
+configurations on 40 original public unit-weight graphs. Three runs are
+averaged within each graph before equal-family aggregation. All 2,040
+runs contribute, including 162 failed returns that preserve the initial
+schedule. CHILS-p1 achieves 24.300\%/24.468\% accepted gain at the two
+soft workpoints; the separate 16-thread configuration reaches
+25.096\%/25.110\%. DIFUSCO's four-sample recipe improves accepted gain
+over its one-sample recipe (12.313\% versus 8.724\%), with higher resident
+request cost. COExpander's 6.347\% gain accompanies a 0.073\,s resident
+cost. These observations characterize solver quality and cost on the
+exposed inputs.
+
+Native costs include startup, preprocessing, parsing and validation;
+0.5/2\,s search allowances are not complete deadlines. Neural request
+costs exclude the separately reported once-only setup. Released SAT-model
+training overlap remains unresolved. No complete matched \method{} public
+evaluation accompanies these profiles, so they do not establish its
+transfer superiority or a speedup under matched total budgets.
+
+\input{v4_tables/public_published_performance}

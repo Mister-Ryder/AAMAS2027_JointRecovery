@@ -1,0 +1,18 @@
+{
+  "status": "fit_epoch_update_nonfinal",
+  "is_final": false,
+  "semantics": "replace_latest_epoch_update; completion.json alone records finished fit",
+  "variant": "ResidualNoAux",
+  "fit_seed": 29,
+  "epoch": 40,
+  "expected_epochs": 40,
+  "offline_conditional_regret": 0.20493809804096097,
+  "training_weighted_loss": {
+    "total": 8.160475853830576,
+    "regression": 4.193723917007446,
+    "ranking": 3.9667518734931946,
+    "auxiliary": 0.0
+  },
+  "elapsed_seconds": 168.21749547496438,
+  "scope": "offline_conditional_labels_not_full_policy"
+}

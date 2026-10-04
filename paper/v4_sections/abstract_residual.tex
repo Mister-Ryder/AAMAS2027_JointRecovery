@@ -1,0 +1,24 @@
+In multi-agent satellite--ground scheduling, a coordinated adjustment is valuable
+only when its immediate change and recovered contacts form a compatible
+schedule. Summing individual replacement values can overestimate improvement,
+while solving every candidate can exhaust the decision budget. We formulate
+learning the additional joint recovery beyond a shared, executed greedy
+response. An action-conditioned graph encoder represents eligible contacts,
+conflict factors and actual warm membership. A request-aware head combines
+fractional capacity features with warm and budget context to predict finite
+recovery between a feasible lower value and a clique-partition upper bound;
+the known immediate gain is added separately. Training compares alternative
+requests executed from cloned states, using signed values, improvement rankings
+and feasible membership supervision. At deployment, predictions prioritize
+finite executor calls while an independent kernel checks complete schedules
+and preserves the incumbent. Quality measures feasible improvement actually
+received before the total deadline, charging preparation, inference, execution
+and final checks.
+Controlled experiments identify substantial conditional recovery opportunity,
+but distinguish it from realized policy quality: longer allowances permit
+additional recovery, while inexpensive summary and greedy controls remain
+competitive and strict short deadlines expose the cost of allocation.
+Profiles of seven published native configurations and three released neural
+recipes on 40 public graphs provide a complementary solver comparison.
+The results clarify when joint recovery is an informative learning target
+and why structural prediction alone does not guarantee better timed schedules.

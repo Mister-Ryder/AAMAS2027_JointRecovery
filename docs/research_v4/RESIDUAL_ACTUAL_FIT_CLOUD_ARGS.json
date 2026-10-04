@@ -1,0 +1,14 @@
+[
+  "--collection-root",
+  "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/research_v4/runs/v4_residual_labels_03/out",
+  "--protocol-sha256",
+  "11a4cd87a719825c60912c513090d98e50cbe3e3f303e68cb2d970eeb572f639",
+  "--completion-sha256",
+  "7eb16d3b557cd04f02ccfc49a60e2177e713d06398e35a1937c12335e2e146f5",
+  "--source-manifest",
+  "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/research_v4/capsules/f26ed12c577736625ac7accc847ec9b2d7818032a5391064b1ecf2e7ae3b5027/source_manifest.json",
+  "--source-manifest-sha256",
+  "d25c1ae4420be800da4ba943b26c9c112a99f6b9f7753307d9e15729bcae3684",
+  "--device",
+  "cuda"
+]

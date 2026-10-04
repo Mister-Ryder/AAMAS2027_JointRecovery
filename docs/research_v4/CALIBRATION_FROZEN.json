@@ -1,0 +1,25 @@
+{
+  "status": "frozen_before_V4_fitting_and_fresh_validation",
+  "phase": "wider_coordination_actual_warm_development",
+  "source_capsule": "951bc8a0f95e8eb3e8da4c1b142fd32f66ba67e138313e20e33ade4627fe2394",
+  "completion_sha256": "ca4418f795a9eeb023585f6771698bca02359fce85dd109bc53550710e32940b",
+  "requests_sha256": "563f65db70ccc7482f004420614bfe5e9ed4ef583ac80a76ec70d9de6e10350b",
+  "expected_cases": 30,
+  "expected_calls": 1845,
+  "complete_pool_p95_full_10ms_seconds": 0.03468773700296879,
+  "deadline_rule": "ceil_ms(max(0.05, multiplier*p95_full_10ms)); multipliers 4,16,64; same predeclared rule after wider action-domain revision",
+  "total_deadlines_seconds": [0.139,0.556,2.221],
+  "primary_deadline_seconds": 0.556,
+  "workpoints": [
+    {"name":"slice0.01","kind":"seconds","amount":0.01,"p95_full_seconds":0.03468773700296879,"expected_seconds":0.035},
+    {"name":"slice0.05","kind":"seconds","amount":0.05,"p95_full_seconds":0.0742351412773132,"expected_seconds":0.075},
+    {"name":"slice0.2","kind":"seconds","amount":0.2,"p95_full_seconds":0.21390697136521333,"expected_seconds":0.214}
+  ],
+  "caps": [64,256,1024],
+  "history_max_queries": 1,
+  "history_request": "first actually startable input-fixed round-robin cap64/native50ms; same paid initial deadline",
+  "request_cost_scope": "conversion/native procedure/full returned membership validation/rescore; feature inference separately paid by every online policy",
+  "all_cases_failures_and_late_outputs_retained": true,
+  "costs_are_calibration_not_hard_guarantees": true,
+  "no_fitted_model_or_policy_winner_used": true
+}
