@@ -1,0 +1,4 @@
+{
+  "torch_version": "1.11.0+cu113",
+  "device": "cuda"
+}

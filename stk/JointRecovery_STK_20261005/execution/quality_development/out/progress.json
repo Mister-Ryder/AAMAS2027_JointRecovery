@@ -1,0 +1,8 @@
+{
+  "schema": "joint_recovery_stk_quality_comparison_v1",
+  "status": "checking_development_completion",
+  "updated_utc": "2026-10-05T17:40:32.397582+00:00",
+  "attempted_cells": 52,
+  "completed_base_cells": 47,
+  "expected_base_cells": 48
+}

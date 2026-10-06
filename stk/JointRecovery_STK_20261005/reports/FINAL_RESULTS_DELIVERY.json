@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETED_RESULTS_DELIVERY",
+  "recorded_utc": "2026-10-05T22:03:33.353184+00:00",
+  "validation_cells": 480,
+  "test_cells": 960,
+  "total_cells": 1440,
+  "allowance_points_seconds": [
+    10,
+    30,
+    60,
+    120,
+    300
+  ],
+  "primary_allowance_seconds": 300,
+  "proposed_method": "JointRecovery (JR), FullCapacity; complete STK framework migration",
+  "public_CHILS_gap_resolved": false,
+  "HiGHS_complete_test_primary_cells": 15,
+  "HiGHS_expected_test_primary_cells": 24,
+  "HiGHS_primary_overall_quality": "N/A",
+  "necessary_claim_check": "PASS",
+  "figure_layout_style_check": "PASS after limited repairs",
+  "automation_id": "jointrecovery",
+  "automation_status": "PAUSED",
+  "local_artifacts": [
+    "reports/JOINTRECOVERY_QUALITY_RESULTS/FINAL_QUALITY_SIGNOFF_ZH.md",
+    "reports/JOINTRECOVERY_QUALITY_RESULTS/JOINTRECOVERY_QUALITY_RESULTS_ZH.md",
+    "reports/JOINTRECOVERY_QUALITY_FIGURES/test/quality_curves_test.pdf",
+    "reports/JOINTRECOVERY_QUALITY_FIGURES/test/quality_curves_test.png",
+    "reports/P1_RESULTS/P1_RESULTS_ZH.md",
+    "reports/SUBMITTED_METHOD_RESULTS/SUBMITTED_METHOD_RESULTS_ZH.md",
+    "reports/SUBMITTED_METHOD_RESULTS/figures/submitted_comparison_2x2.pdf",
+    "reports/FIGURE_LAYOUT_STYLE_QA_ZH.md",
+    "README_zh.md"
+  ],
+  "old_paper_modified": false,
+  "new_experiments_launched_during_report_delivery": false
+}

@@ -1,0 +1,142 @@
+BEGIN CentralBody
+
+	Name			Earth
+
+BEGIN		AstroDefinition
+
+	GravityModel		    EGM2008
+
+	Gm					    3.986004415E14
+
+#	SystemGM from DE 421, adjusted for General Relativity
+	SystemGM				4.0350324195861287E14
+
+# Shape values are the WGS84 ellipsoid
+	ShapeName				WGS84
+    Shape                   OblateSpheroid
+    MajorAxis               6.378137E6
+    MinorAxis               6.35675231424E6
+
+	MaxAltitude             8847.7344
+
+# As of STK v11.2, RefDistance is established from the GravityModel      
+# and MinRadius is determined from Shape parameters. Uncomment lines
+# below to for STK versions prior to v11.2.
+#	RefDistance				6.378137E6
+#	MinRadius				6.35675231424E6
+
+# Shape values are for a simple spherical Earth approximation
+#	ShapeName				SphericalEarth
+#   Shape                   Sphere
+#   Radius                  6.378137E6
+	
+    DTEDSearchScale         0.5
+
+	ParentName				Sun
+
+	PathGenerator			GreatArc
+	PathGenerator			ExternalArc
+	PathGenerator			HPOP
+	PathGenerator			SGP4
+	PathGenerator			J2Perturbation
+	PathGenerator			J4Perturbation
+	PathGenerator			Rocket
+	PathGenerator			TwoBody
+	PathGenerator			StkExternal
+	PathGenerator			ExternalMSGP4
+	PathGenerator			Geostationary
+	PathGenerator			PODS
+	PathGenerator			PODSPropagator
+	PathGenerator			LOP
+	PathGenerator			SimpleAscent
+	PathGenerator			DeadReckon
+	PathGenerator			Cowell5
+	PathGenerator			RealTimeProp
+    PathGenerator           Spline
+	PathGenerator			Astrogator
+	PathGenerator			SPICE
+	PathGenerator		    HoldCBIPosition
+	PathGenerator		    HoldCBFPosition
+	PathGenerator		    AdvancedFlight
+	PathGenerator		    GPS
+	PathGenerator			11Parameter
+ 	PathGenerator			SP3
+#  	PathGenerator			UserExternal
+ 	PathGenerator			MissionModeler
+ 	PathGenerator			Aviator
+
+
+END			AstroDefinition
+
+BEGIN 	SpinData
+
+# Uncommenting the RotationDefinitionFile line will override the use of ICRF/FK5IAU76 theories
+# and instead use the (lower fidelity) model defined by the specified file.
+#
+#	RotationDefinitionFile		EarthAttitude2000.rot
+
+END 			SpinData
+
+BEGIN               EphemerisData
+
+# NOTE: currently the ephemeris source is set to use JPL DE file
+#
+# To instead use JPL Spice file, comment out the following line and uncomment the JplSpice line
+
+	EphemerisSource              JplDE
+#	EphemerisSource              JplSpice
+
+	JplSpiceId                   399
+
+END					EphemerisData
+
+BEGIN	Earth
+
+# ICRF Settings
+
+	UseFK5IAU76Theory	No
+	ICRFTheory			2006
+
+# The ICRF frame is currently set to interpolate XYS data previously computed.
+# This achieves very high accuracy (much better than the uncertainty of the
+# theory itself) with very fast speed. To instead use the actual defining algorithm
+# for XYS, comment out the Interpolate line and uncomment the next line. This
+# produces the most accuracy but, because so many terms are computed, it is slower
+# than interpolating previously computed data.
+
+	ICRF_XYS_Algorithm	Interpolate
+#	ICRF_XYS_Algorithm	SOFA_Del_Psi_Eps
+
+ 	NutationUpdateInterval	 0.0
+	ApplyPoleWander			 Yes
+	OceanTideFilename	OTIDES.TOPEX_3.0.PURE.ot
+
+# Default settings for ODTK
+#	IAU1980NUTATIONMETHOD	 IERS1996
+#	NutationUpdateInterval	 0.0
+
+#
+# For the most accurate data involving ref frame transformations based upon
+# J2000 and FK5 theory, one should use an updated equation of equinox
+# computation that accounts for periodic oscillations in the mean longtitude
+# of the ascending node of the moon, per IERS Tech Note 21 pgs 21-23.
+#
+# For consistency with other software, however, this value may be set to No
+# instead of the default value of Yes
+#
+   	UseUpdatedEquationOfEquinox	Yes
+
+
+# UTM may be displayed wrt a different ellipsoid than that defined by the shape above
+#     By default, if there is no setting for UtmReferenceEllipsoid, then WGS84 will be used
+#     To specify another ellipsoid, use values and nomenclature consistent with PROJ.4 (pj_ellps.c)
+#        where PROJ.4 can be found at http://proj.maptools.org/
+#
+#     Two examples, both commented out, are shown below
+#	UtmReferenceEllipsoid "GRS80",	"a=6378137.0", "rf=298.257222101", "GRS 1980(IUGG, 1980)",
+#	UtmReferenceEllipsoid "clrk66",	"a=6378206.4", "b=6356583.8", "Clarke 1866",
+
+END		Earth
+
+END		CentralBody
+

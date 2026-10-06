@@ -1,0 +1,1080 @@
+{
+  "schema": "joint_recovery_stk_quality_results_report_v1",
+  "generated_utc": "2026-10-05T21:57:24.056152+00:00",
+  "status": "COMPLETED_QUALITY_TEST_REPORT",
+  "completed_block_statuses": {
+    "validation": {
+      "status": "COMPLETED",
+      "expected_cells": 480,
+      "received_cells": 480,
+      "row_file_read": true,
+      "issues": [],
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\quality_comparison\\out\\validation\\summary.json",
+      "summary_status": "QUALITY_COMPARISON_MATRIX_COMPLETE",
+      "evaluation_deadline_seconds": [
+        10.0,
+        30.0,
+        60.0,
+        120.0,
+        300.0
+      ]
+    },
+    "test": {
+      "status": "COMPLETED",
+      "expected_cells": 960,
+      "received_cells": 960,
+      "row_file_read": true,
+      "issues": [],
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\quality_comparison\\out\\test\\summary.json",
+      "summary_status": "QUALITY_COMPARISON_MATRIX_COMPLETE",
+      "evaluation_deadline_seconds": [
+        10.0,
+        30.0,
+        60.0,
+        120.0,
+        300.0
+      ]
+    }
+  },
+  "selected_allowance": {
+    "schema": "joint_recovery_stk_quality_allowance_v1",
+    "status": "QUALITY_ALLOWANCE_PROTOCOL",
+    "stage": "frozen_from_development_completion",
+    "frozen_utc": "2026-10-05T17:40:32.398080+00:00",
+    "development_sources": [
+      4
+    ],
+    "allowed_development_deadline_seconds": [
+      60.0,
+      120.0,
+      300.0
+    ],
+    "selected_deadline_seconds": 300.0,
+    "evaluation_deadline_seconds": [
+      10.0,
+      30.0,
+      60.0,
+      120.0,
+      300.0
+    ],
+    "primary_table_deadline_seconds": 300.0,
+    "curve_points_are_independent_actual_runs": true,
+    "selection_rule": "max first-complete allowance across all 48 fixed cells; unresolved at300 contributes300",
+    "completion_thresholds": [
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "FullCapacity-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCapacity-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "FullCapacity-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCapacity-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "FullCheapSummary-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCheapSummary-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "FullCheapSummary-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCheapSummary-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "FullP1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullP1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "FullGreedy",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullGreedy",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "CHILS-p1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__CHILS-p1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0170",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "FullCapacity-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCapacity-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "FullCapacity-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCapacity-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "FullCheapSummary-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCheapSummary-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "FullCheapSummary-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCheapSummary-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "FullP1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullP1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "FullGreedy",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullGreedy",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "CHILS-p1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__CHILS-p1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": null,
+        "required_allowance_seconds": 300.0,
+        "complete_within_declared_ladder": false,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-120s__HiGHS-MILP",
+            "deadline_seconds": 120.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-300s__HiGHS-MILP",
+            "deadline_seconds": 300.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": true
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "FullCapacity-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCapacity-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "FullCapacity-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCapacity-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "FullCheapSummary-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCheapSummary-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "FullCheapSummary-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCheapSummary-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "FullP1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullP1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "FullGreedy",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullGreedy",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "CHILS-p1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__CHILS-p1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": null,
+        "required_allowance_seconds": 300.0,
+        "complete_within_declared_ladder": false,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-120s__HiGHS-MILP",
+            "deadline_seconds": 120.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-300s__HiGHS-MILP",
+            "deadline_seconds": 300.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": true
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "FullCapacity-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCapacity-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "FullCapacity-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCapacity-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "FullCheapSummary-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCheapSummary-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "FullCheapSummary-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCheapSummary-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "FullP1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullP1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "FullGreedy",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullGreedy",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "CHILS-p1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__CHILS-p1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0170",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "FullCapacity-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCapacity-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "FullCapacity-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCapacity-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "FullCheapSummary-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCheapSummary-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "FullCheapSummary-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCheapSummary-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "FullP1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullP1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "FullGreedy",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullGreedy",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "CHILS-p1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__CHILS-p1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0340",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "FullCapacity-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCapacity-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "FullCapacity-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCapacity-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "FullCheapSummary-seed17",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCheapSummary-seed17",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "FullCheapSummary-seed29",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCheapSummary-seed29",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "FullP1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullP1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "FullGreedy",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullGreedy",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "CHILS-p1",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__CHILS-p1",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R8-g0680",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": 60.0,
+        "required_allowance_seconds": 60.0,
+        "complete_within_declared_ladder": true,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": true,
+            "completion_failure_reasons": []
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": false
+      }
+    ],
+    "selection_uses_gain": false,
+    "test_outcomes_used": false,
+    "quality_plan_sha256": "a9576d61bae3ae43ed45fe1499d70b2376ca84a31e499854137068d6b90016e0",
+    "fit_completion_sha256": "42d4c0b8f3ff620c3c3e9c6c5cda4a824133e5934dedf45a92ae52a4c693f7e5",
+    "code_sha256": {
+      "quality_method_comparison_pipeline.py": "a0721a48f568b2fe265940276bacc62d7ef9b363aa6b854d24bc3f0804cd138c",
+      "full_joint_recovery_deadline.py": "7c4eb2d22c735e0253e38d24dbe796bf3c17713f48286eed6f5a33d59cb374e4",
+      "quality_published_wholegraph.py": "8180273002c6c3caa0e286dbe1d98b7cbcefecd8eb5084e56719bef89ffefdde",
+      "published_wholegraph_deadline.py": "bf7fac550c0032fb2154a0e9c11690756f894134e3cff76e05f40408edd622e2",
+      "p0_recovery_probes.py": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+      "p1_actual_policy.py": "e2cf40d3c9c58a50e4388c2a31492f16110c226c1f387da6994b9f68b48a73c6",
+      "p1_fit_and_allocate.py": "5432f15b950d3f485467d323ef806493ff96c6ac065d73ac7be886c0279c4125",
+      "p1_benchmark_driver.py": "9873e7522a43337ec248bf54b1114817b206020a9f21509ea7471235de4054da",
+      "submitted_method_comparison_pipeline.py": "191d81b25f6a346df9356ce4d33d2e013bf4168db77abf6636a4b41798dea3b0"
+    },
+    "development_protocol_sha256": "5cea3025728f839530cb706e874784d2dbc797260da6f71248e1d718c807ab18",
+    "development_rows_sha256": "726ac959dd69b44620043bbc56a9f4317ad87c158b3376b6db1a7ebcf8024974",
+    "unresolved_development_cells": [
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0340",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": null,
+        "required_allowance_seconds": 300.0,
+        "complete_within_declared_ladder": false,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-120s__HiGHS-MILP",
+            "deadline_seconds": 120.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0340__quality-300s__HiGHS-MILP",
+            "deadline_seconds": 300.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": true
+      },
+      {
+        "graph_id": "JR-DUAL-r004-R12-g0680",
+        "policy_label": "HiGHS-MILP",
+        "first_complete_deadline_seconds": null,
+        "required_allowance_seconds": 300.0,
+        "complete_within_declared_ladder": false,
+        "attempts": [
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__HiGHS-MILP",
+            "deadline_seconds": 60.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-120s__HiGHS-MILP",
+            "deadline_seconds": 120.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          },
+          {
+            "run_id": "JR-DUAL-r004-R12-g0680__quality-300s__HiGHS-MILP",
+            "deadline_seconds": 300.0,
+            "complete_result_produced": false,
+            "completion_failure_reasons": [
+              "caller_return_late_or_unknown",
+              "procedure_not_finished",
+              "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+            ]
+          }
+        ],
+        "unresolved_after_300_seconds_is_NA": true
+      }
+    ],
+    "guarantees_all_methods_complete": false,
+    "no_unbounded_allowance_growth": true
+  },
+  "proposed_method_raw_key": "FullCapacity",
+  "proposed_method_display": "JointRecovery (JR)",
+  "method_display_mapping": {
+    "FullCapacity": {
+      "display": "JointRecovery（本文方法，JR；完整框架 STK 迁移）",
+      "short": "JointRecovery (JR, ours)",
+      "role": "PROPOSED_FULL_FRAMEWORK"
+    },
+    "FullCheapSummary": {
+      "display": "JR-CheapSummary（简化表示消融）",
+      "short": "JR-CheapSummary",
+      "role": "SIMPLIFIED_REPRESENTATION_ABLATION"
+    },
+    "FullGreedy": {
+      "display": "Greedy-rank+CHILS（贪心请求排序内部对照）",
+      "short": "Greedy-rank+CHILS",
+      "role": "INTERNAL_GREEDY_REQUEST_RANKING"
+    },
+    "FullP1": {
+      "display": "Independent-replacement+CHILS（独立替代估计对照）",
+      "short": "Independent-replacement+CHILS",
+      "role": "INTERNAL_INDEPENDENT_REPLACEMENT_CONTROL"
+    },
+    "Capacity": {
+      "display": "JointRecovery（静态 max4 内部诊断）",
+      "short": "JointRecovery (static diagnostic)",
+      "role": "INTERNAL_STATIC_MAX4_DIAGNOSTIC"
+    },
+    "CheapSummary": {
+      "display": "JR-CheapSummary（静态简化表示诊断）",
+      "short": "JR-CheapSummary (static)",
+      "role": "INTERNAL_STATIC_SUMMARY_DIAGNOSTIC"
+    },
+    "Greedy": {
+      "display": "Greedy-rank+CHILS（静态贪心排序对照）",
+      "short": "Greedy-rank+CHILS (static)",
+      "role": "INTERNAL_STATIC_GREEDY_CONTROL"
+    },
+    "P1": {
+      "display": "Independent-replacement+CHILS（静态独立替代对照）",
+      "short": "Independent-replacement+CHILS (static)",
+      "role": "INTERNAL_STATIC_INDEPENDENT_CONTROL"
+    },
+    "CHILS-p1": {
+      "display": "CHILS-p1（SEA 2025 公开 MWIS 算法）",
+      "short": "CHILS-p1 (SEA 2025)",
+      "role": "PUBLISHED_MWIS_BASELINE"
+    },
+    "HiGHS-MILP": {
+      "display": "HiGHS-MILP（通用 MILP 软件参照）",
+      "short": "HiGHS (generic MILP)",
+      "role": "GENERIC_MILP_SOFTWARE_REFERENCE"
+    },
+    "StrongCheapControl": {
+      "display": "较强内部对照（描述性参照）",
+      "short": "Stronger internal control",
+      "role": "DESCRIPTIVE_CONTROL_REFERENCE"
+    }
+  },
+  "report_role": "AMPLE_ALLOWANCE_PRIMARY_SOLUTION_QUALITY_CALLER_COST_SEPARATE",
+  "physical_test_sources": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "quality_null_not_zero_for_no_complete_output": true,
+  "external_S_not_solver_production": true,
+  "failed_late_incomplete_rows_retained": true,
+  "success_only_means_not_used": true,
+  "live_incomplete_row_files_not_read": true,
+  "experiments_launched": false,
+  "remaining_time_head_zero_not_validated": true,
+  "generator_sha256": "a1b0d47bc30c2cebc712a8a7368670c5809fa62b368f718fcc86eb4ba4953d2b",
+  "inputs": [
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\quality_comparison\\out\\selected_allowance.json",
+      "sha256": "6a5ae33c204e64bb765fe676880591b4fc1710bbe0a8c42a6eccf44230d2b5fc"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\quality_comparison\\out\\test\\actual_run_rows.json",
+      "sha256": "04ce8aa05028063f57a6c4ce84eb5fdb59f9a925f9a38e272d89cc8bfdd5c8f7"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\quality_comparison\\out\\test\\summary.json",
+      "sha256": "24fd10ffb11822d9510f1f474e6cab11d07072d36cf10c72cf9b87602075b666"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\quality_comparison\\out\\validation\\actual_run_rows.json",
+      "sha256": "71f48e4d39573e8ea232750e05f1f886f5cee17c700c7bbcbf982236b1a5c53b"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\quality_comparison\\out\\validation\\summary.json",
+      "sha256": "f994d372ecf4854de70217b906834a1c75f4aa6dc496016367376b1ece1ad3bb"
+    }
+  ],
+  "issues": []
+}

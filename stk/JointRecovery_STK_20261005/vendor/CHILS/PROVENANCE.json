@@ -1,0 +1,10 @@
+{
+  "source": "official CHILS-v3 checkout",
+  "commit": "515952724cd3dcc6c4365a340ecf0f1da782119a",
+  "binary_sha256": "19610c03f334c6267f94543ad3053d792cba56e9ae211fceb6c36f21750c88a0",
+  "binary_bytes": 49176,
+  "license_sha256": "b376de21e1326e8c3c622f84edf6deb3dc6193ea413fb666d91ab22d0b99cf11",
+  "platform": "Linux ELF, single-process experiment executable",
+  "extraction_note": "On Linux: chmod +x vendor/CHILS/CHILS",
+  "caution": "Do not substitute a different local CHILS binary for the frozen numeric guard."
+}

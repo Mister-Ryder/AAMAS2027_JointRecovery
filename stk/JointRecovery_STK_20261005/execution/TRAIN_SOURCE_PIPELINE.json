@@ -1,0 +1,96 @@
+{
+  "status": "ALL_FOUR_FIXED_TRAIN_SOURCES_AND_24_PROBE_GRAPHS_COMPLETE",
+  "sources": {
+    "r002": {
+      "geometry_manifest_sha256": "de3fc5c5d71a78710033cf867f2b06c63022bee0714fcac96ae383fd76fa4e6c",
+      "graph_ids": [
+        "JR-DUAL-r002-R12-g0170",
+        "JR-DUAL-r002-R12-g0340",
+        "JR-DUAL-r002-R12-g0680",
+        "JR-DUAL-r002-R8-g0170",
+        "JR-DUAL-r002-R8-g0340",
+        "JR-DUAL-r002-R8-g0680"
+      ],
+      "jobs": [
+        "p1_labels_r002_0",
+        "p1_labels_r002_1",
+        "p1_labels_r002_2",
+        "p1_labels_r002_3",
+        "p1_labels_r002_4",
+        "p1_labels_r002_5"
+      ],
+      "stage": "COMPLETE"
+    },
+    "r003": {
+      "geometry_manifest_sha256": "b1e500711f9f90bff60322f7ad2055787edc7cce90cafa2bc859df1e715c7eaa",
+      "graph_ids": [
+        "JR-DUAL-r003-R12-g0170",
+        "JR-DUAL-r003-R12-g0340",
+        "JR-DUAL-r003-R12-g0680",
+        "JR-DUAL-r003-R8-g0170",
+        "JR-DUAL-r003-R8-g0340",
+        "JR-DUAL-r003-R8-g0680"
+      ],
+      "jobs": [
+        "p1_labels_r003_0",
+        "p1_labels_r003_1",
+        "p1_labels_r003_2",
+        "p1_labels_r003_3",
+        "p1_labels_r003_4",
+        "p1_labels_r003_5"
+      ],
+      "stage": "COMPLETE"
+    },
+    "r004": {
+      "geometry_manifest_sha256": "bbf9101d2baeb82e475600fc0f317a6cde0d74ba4629d60c209ad44bcfb7ce19",
+      "graph_ids": [
+        "JR-DUAL-r004-R12-g0170",
+        "JR-DUAL-r004-R12-g0340",
+        "JR-DUAL-r004-R12-g0680",
+        "JR-DUAL-r004-R8-g0170",
+        "JR-DUAL-r004-R8-g0340",
+        "JR-DUAL-r004-R8-g0680"
+      ],
+      "jobs": [
+        "p1_labels_r004_0",
+        "p1_labels_r004_1",
+        "p1_labels_r004_2",
+        "p1_labels_r004_3",
+        "p1_labels_r004_4",
+        "p1_labels_r004_5"
+      ],
+      "stage": "COMPLETE"
+    },
+    "r005": {
+      "geometry_manifest_sha256": "64b2f4b9a719b37f617636e9b6fa8aa0cd04b9fe9b46b65825953fa62be1661f",
+      "graph_ids": [
+        "JR-DUAL-r005-R12-g0170",
+        "JR-DUAL-r005-R12-g0340",
+        "JR-DUAL-r005-R12-g0680",
+        "JR-DUAL-r005-R8-g0170",
+        "JR-DUAL-r005-R8-g0340",
+        "JR-DUAL-r005-R8-g0680"
+      ],
+      "jobs": [
+        "p1_labels_r005_0",
+        "p1_labels_r005_1",
+        "p1_labels_r005_2",
+        "p1_labels_r005_3",
+        "p1_labels_r005_4",
+        "p1_labels_r005_5"
+      ],
+      "stage": "COMPLETE"
+    }
+  },
+  "no_training_or_test_selection": true,
+  "probe_budgets_ms": [
+    200,
+    1000,
+    50,
+    10
+  ],
+  "repeats": 2,
+  "target_states_per_graph": 12,
+  "short_probe_basis": "P0_SHORT_PROBE_GATE.json: actual r000 net opportunity established",
+  "elapsed_seconds": 1176.7567952999998
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "joint_recovery_stk_quality_source_orchestrator_v1",
+  "status": "running_test",
+  "updated_utc": "2026-10-05T21:49:06.317574+00:00",
+  "active_sources": [],
+  "exited_sources": [
+    11,
+    9,
+    8,
+    10
+  ],
+  "source_results_not_used_to_select_execution": true
+}

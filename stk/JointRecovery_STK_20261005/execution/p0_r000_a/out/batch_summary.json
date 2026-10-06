@@ -1,0 +1,106 @@
+{
+  "schema": "joint_recovery_stk_p0_v1",
+  "graphs": [
+    {
+      "schema": "joint_recovery_stk_p0_v1",
+      "graph": {
+        "graph_id": "JR-DUAL-r000-R12-g0170",
+        "source_group": "JR-SOURCE-r000",
+        "split": "train",
+        "npz_sha256": "848e851257a8c48c5b33f04e13a7300e7c687d22c0f5c1c0aedc8b373659e679",
+        "vertices": 20918,
+        "edges": 160565,
+        "weight_unit": "original_duration_seconds",
+        "agent_contract": "satellite_owner_is_label_not_whole_day_capacity",
+        "resource_member_CSR_is_not_static_conflict_cliques": true,
+        "raw_endpoint_duration_identity": "PASS_EXACT_ORIGINAL_DECIMAL_TO_FLOAT64",
+        "binary_endpoint_subtraction_max_error_seconds": 2.8990143619012088e-11,
+        "edge_kind_counts": {
+          "1": 79904,
+          "2": 80661,
+          "3": 0
+        },
+        "contact_ids_sha256": "2e8a71441e594ee9b9fe44b231980e9e874186a651f3f90d617e7dc01691670e"
+      },
+      "status": "ACTUAL_P0_PROBES_COMPLETE_NO_TRAINING",
+      "target_unique_states": 12,
+      "actual_unique_controller_states": 12,
+      "distinct_original_schedule_memberships": 1,
+      "distinct_best_schedule_memberships": 2,
+      "state_count_is_not_independent_physical_source_count": true,
+      "actual_request_rows": 528,
+      "actual_native_calls": 376,
+      "failed_rows": 0,
+      "zero_extra_gain_rows": 160,
+      "G1_states_with_local_at_least_one_percent_and_net_beyond_snapshot": 12,
+      "G1_fraction": 1.0,
+      "G1_thirty_percent_is_development_reference_not_sample_filter": true,
+      "G3_states_with_same_direction_repeated_200_1000ms_difference": 2,
+      "G3_repeatable_fraction": 0.16666666666666666,
+      "G2_graph_information_advantage_established": false,
+      "actual_max_beyond_snapshot_seconds": 356.2731787982011,
+      "actual_median_complete_conditional_seconds": 0.22837346605956554,
+      "budgets_ms": [
+        200,
+        1000
+      ],
+      "source_group_split_preserved": true,
+      "no_model_training": true,
+      "no_old_data_or_calibration": true,
+      "strict_end_to_end_deadline_policy_test": false,
+      "learning_advantage_established": false
+    },
+    {
+      "schema": "joint_recovery_stk_p0_v1",
+      "graph": {
+        "graph_id": "JR-DUAL-r000-R8-g0170",
+        "source_group": "JR-SOURCE-r000",
+        "split": "train",
+        "npz_sha256": "3108b26eb5ef371e921a5abf631cb6694f4ddccc856778d56636541001202c7d",
+        "vertices": 13949,
+        "edges": 86214,
+        "weight_unit": "original_duration_seconds",
+        "agent_contract": "satellite_owner_is_label_not_whole_day_capacity",
+        "resource_member_CSR_is_not_static_conflict_cliques": true,
+        "raw_endpoint_duration_identity": "PASS_EXACT_ORIGINAL_DECIMAL_TO_FLOAT64",
+        "binary_endpoint_subtraction_max_error_seconds": 2.8705926524708048e-11,
+        "edge_kind_counts": {
+          "1": 53259,
+          "2": 32955,
+          "3": 0
+        },
+        "contact_ids_sha256": "6002aa062647c12544bfa368536d6da5b5f271ff242dc440470caf246bd8473e"
+      },
+      "status": "ACTUAL_P0_PROBES_COMPLETE_NO_TRAINING",
+      "target_unique_states": 12,
+      "actual_unique_controller_states": 12,
+      "distinct_original_schedule_memberships": 1,
+      "distinct_best_schedule_memberships": 3,
+      "state_count_is_not_independent_physical_source_count": true,
+      "actual_request_rows": 528,
+      "actual_native_calls": 376,
+      "failed_rows": 0,
+      "zero_extra_gain_rows": 164,
+      "G1_states_with_local_at_least_one_percent_and_net_beyond_snapshot": 12,
+      "G1_fraction": 1.0,
+      "G1_thirty_percent_is_development_reference_not_sample_filter": true,
+      "G3_states_with_same_direction_repeated_200_1000ms_difference": 6,
+      "G3_repeatable_fraction": 0.5,
+      "G2_graph_information_advantage_established": false,
+      "actual_max_beyond_snapshot_seconds": 1155.1189687639526,
+      "actual_median_complete_conditional_seconds": 0.22292989678680897,
+      "budgets_ms": [
+        200,
+        1000
+      ],
+      "source_group_split_preserved": true,
+      "no_model_training": true,
+      "no_old_data_or_calibration": true,
+      "strict_end_to_end_deadline_policy_test": false,
+      "learning_advantage_established": false
+    }
+  ],
+  "actual_graph_count": 2,
+  "no_training": true,
+  "failure_and_zero_rows_retained": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "ALL_CORE_P1_DEVELOPMENT_COMPARISONS_COMPLETE",
+  "fit_root": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out",
+  "sources": [
+    4,
+    5
+  ],
+  "native_workpoints_ms": [
+    10,
+    50,
+    200,
+    1000
+  ],
+  "no_validation_or_test_evaluation": true,
+  "fit_completion_sha256": "42d4c0b8f3ff620c3c3e9c6c5cda4a824133e5934dedf45a92ae52a4c693f7e5",
+  "fixed_call_summary_sha256": "88caff7524afde859dfa3288a10e26f093810019d48e688a33f89bdab8a492bc",
+  "frozen_budgets_sha256": "371a9f6c3302196859b63cdf8ded51ce6de784634e0cee8089d9fd2011138880"
+}

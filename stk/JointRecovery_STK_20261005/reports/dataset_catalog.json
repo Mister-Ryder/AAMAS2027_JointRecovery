@@ -1,0 +1,2745 @@
+{
+  "catalog_format_version": "1.0",
+  "updated_utc": "2026-10-05T13:21:15.650385+00:00",
+  "dataset_root": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005",
+  "index_method": "small manifests and graph JSON only; metadata hashes reused; no STK/NPZ load/large-file rehash",
+  "summary": {
+    "planned_mother_geometries": 12,
+    "completed_mother_geometries": 12,
+    "planned_graphs": 72,
+    "completed_graphs": 72,
+    "full_contained_contacts": 250782,
+    "boundary_crossing_contacts": 868,
+    "counts_are_unique_mother_windows_not_graph_duplicates": true,
+    "split_counts": {
+      "TRAIN": {
+        "planned": 6,
+        "completed": 6
+      },
+      "VALIDATION": {
+        "planned": 2,
+        "completed": 2
+      },
+      "TEST": {
+        "planned": 4,
+        "completed": 4
+      }
+    }
+  },
+  "sources": [
+    {
+      "scene_id": "JR-DUAL-r000",
+      "source_group": "JR-SOURCE-r000",
+      "replicate_id": "r000",
+      "geometry_id": "DUAL168",
+      "split": "TRAIN",
+      "epoch_utc": "2026-11-01T00:00:00Z",
+      "planning_stop_utc": "2026-11-04T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21559,
+        "full_contained": 20918,
+        "crossing": 71,
+        "outside_planning": 570,
+        "padding_boundary_clipped": 74
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r000/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r000/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r000/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r000/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r000/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r000/scene/JR-DUAL-r000.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r000/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6131836,
+          "sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 21395,
+          "sha256": "b8f3ce406c7bf425468e63b731b97731cd7ff62d598e34aced6df6ad7cbd76f1"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6454726,
+          "sha256": "4b3bf63b02198930ce75497410dcbca40b3a589e3b6d66a34fe4031fda29604b"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776189,
+          "sha256": "4dc546078d3b6c491ecbb4521ab4dc4cd5fcc9a31ede10e19c5eb0ac14534032"
+        },
+        "scene/JR-DUAL-r000.sc": {
+          "size_bytes": 78161,
+          "sha256": "ea6f1c039471f96f9397cd7be2a14c3ff1cdeb1675c5cd34571fb7721969bf50"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "9d975ebe45f6454e8b85a3b6b63e9c5800f46e5331aab4556d21c4914c4cd7d4",
+      "save_recovery_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r001",
+      "source_group": "JR-SOURCE-r001",
+      "replicate_id": "r001",
+      "geometry_id": "DUAL168",
+      "split": "TRAIN",
+      "epoch_utc": "2026-11-08T00:00:00Z",
+      "planning_stop_utc": "2026-11-11T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21563,
+        "full_contained": 20899,
+        "crossing": 75,
+        "outside_planning": 589,
+        "padding_boundary_clipped": 67
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r001/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r001/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r001/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r001/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r001/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r001/scene/JR-DUAL-r001.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r001/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6140208,
+          "sha256": "4d4b0347a9fef60f8d43799a53cfb19615c7765bd0d543b21d33d77b7df943c3"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 22604,
+          "sha256": "91c03f8293e0b5b103c9b75463646c488570f76452b4a204f3967a2386a03d46"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6470052,
+          "sha256": "3b015b8b00447d59f756eb98509e98cd2ff023bdaa34a044b0982730b1c93756"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776223,
+          "sha256": "335669e8b7de41168323e4b7a2960d4f0f2c4d320c3960a6584a6b1955b8d39f"
+        },
+        "scene/JR-DUAL-r001.sc": {
+          "size_bytes": 78161,
+          "sha256": "8c8c530aa30e7572d156d392861036597db13698c53032703eb6603d89712800"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r002",
+      "source_group": "JR-SOURCE-r002",
+      "replicate_id": "r002",
+      "geometry_id": "DUAL168",
+      "split": "TRAIN",
+      "epoch_utc": "2026-11-15T00:00:00Z",
+      "planning_stop_utc": "2026-11-18T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21554,
+        "full_contained": 20892,
+        "crossing": 84,
+        "outside_planning": 578,
+        "padding_boundary_clipped": 65
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r002/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r002/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r002/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r002/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r002/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r002/scene/JR-DUAL-r002.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r002/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6166040,
+          "sha256": "5632056a44ffb3f47979aff1e644a9404f34bd5ba03d99b7546bc82d19a4f3ba"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 25394,
+          "sha256": "ffe886b6344a80e5627f43b14e804405f920a342dff2e6c0837eeb12f4265543"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6495817,
+          "sha256": "cde22099d124a335242f623f49cd67641f3e5cb992d503a2cde4063099015b1e"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776029,
+          "sha256": "ff795389cb566b9fb283117bf3fbb4526fba7b76c08d644d1598afa6129fc841"
+        },
+        "scene/JR-DUAL-r002.sc": {
+          "size_bytes": 78166,
+          "sha256": "38fa7dc5d9cce3bcf5d92f3881b812e03bbc5f3333163035f0443eaccc796723"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r003",
+      "source_group": "JR-SOURCE-r003",
+      "replicate_id": "r003",
+      "geometry_id": "DUAL168",
+      "split": "TRAIN",
+      "epoch_utc": "2026-11-22T00:00:00Z",
+      "planning_stop_utc": "2026-11-25T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21545,
+        "full_contained": 20890,
+        "crossing": 74,
+        "outside_planning": 581,
+        "padding_boundary_clipped": 74
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r003/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r003/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r003/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r003/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r003/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r003/scene/JR-DUAL-r003.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r003/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6165424,
+          "sha256": "b09924d683b7217e17f476dea757f9fca3124e2d32cfc6f1b625373d0931cbdd"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 22422,
+          "sha256": "3b2fd88978863f5975b3823efc95327831c798d03a87206c93fdc074a3515145"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6493127,
+          "sha256": "4351a5fbb2c0440264293d2b1838c5d6dbb7c16683e23e61106c4c5029412760"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1775700,
+          "sha256": "a326c24715232ea84c1456ed9e88ec3cb7177b2bc336f386d821c9077f370a24"
+        },
+        "scene/JR-DUAL-r003.sc": {
+          "size_bytes": 78166,
+          "sha256": "b0f4da3ca519501038ba2f97c1792f8df255580d809048b7af72e8144ad98a4b"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r004",
+      "source_group": "JR-SOURCE-r004",
+      "replicate_id": "r004",
+      "geometry_id": "DUAL168",
+      "split": "TRAIN",
+      "epoch_utc": "2026-11-29T00:00:00Z",
+      "planning_stop_utc": "2026-12-02T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21574,
+        "full_contained": 20919,
+        "crossing": 72,
+        "outside_planning": 583,
+        "padding_boundary_clipped": 68
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r004/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r004/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r004/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r004/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r004/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r004/scene/JR-DUAL-r004.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r004/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6160026,
+          "sha256": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 21729,
+          "sha256": "777d87ea0ddd533c7e46c8d6815622e40a00cbdaa5eee163a2797e3ba46b2e76"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6487281,
+          "sha256": "b54d98c2fe0d0fad4828842123eba52c05c84291a4adcda671e1080c0cf50dbb"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776658,
+          "sha256": "fedf475b293bfee7145fd0d56e465938c1129cd7fc3936c85e029becaa536445"
+        },
+        "scene/JR-DUAL-r004.sc": {
+          "size_bytes": 78163,
+          "sha256": "8c63794dc8be9170275daaaeca701f6ba684b25dc7d8cc0d4064c8b89c197353"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r005",
+      "source_group": "JR-SOURCE-r005",
+      "replicate_id": "r005",
+      "geometry_id": "DUAL168",
+      "split": "TRAIN",
+      "epoch_utc": "2026-12-06T00:00:00Z",
+      "planning_stop_utc": "2026-12-09T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21561,
+        "full_contained": 20909,
+        "crossing": 74,
+        "outside_planning": 578,
+        "padding_boundary_clipped": 77
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r005/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r005/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r005/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r005/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r005/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r005/scene/JR-DUAL-r005.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r005/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6129205,
+          "sha256": "999f39c8aae3026dc304d0945a981eea22cb5cbfe516c4f93e83685eecddb05a"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 22291,
+          "sha256": "e291208ef946e806af7f8e078170baf4cf4fbe4c419df6734cd09cea6842a30e"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6454804,
+          "sha256": "3b603788693616c8bd5f36243f7ff792c01fd5df9c2654a4f0905f5d40c44f2b"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776191,
+          "sha256": "272ed9b78ac395d2946aafb9b21c922ae3e8a91126ef9e3ed6c1c392ca2a6390"
+        },
+        "scene/JR-DUAL-r005.sc": {
+          "size_bytes": 78158,
+          "sha256": "a798f2e1ce6fea4c1f71aa5440e43d46fdfc1e5ef0fb82426a01fb95dfa18f63"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r006",
+      "source_group": "JR-SOURCE-r006",
+      "replicate_id": "r006",
+      "geometry_id": "DUAL168",
+      "split": "VALIDATION",
+      "epoch_utc": "2026-12-13T00:00:00Z",
+      "planning_stop_utc": "2026-12-16T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21541,
+        "full_contained": 20893,
+        "crossing": 70,
+        "outside_planning": 578,
+        "padding_boundary_clipped": 77
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r006/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r006/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r006/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r006/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r006/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r006/scene/JR-DUAL-r006.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r006/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6166266,
+          "sha256": "1c16bc8a11faaa4c6ed27045b3048373c37066779cef780da9688f1034214447"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 21220,
+          "sha256": "b76fd08e7c870b65c3cc8e69d8d145105c2a046f06e23063385f160b90a94a0d"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6491859,
+          "sha256": "59fd7d4d21aaf7c763aa5741692fc2e5529c3891e0350093b7cf96f515dc64fd"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1775427,
+          "sha256": "63cfe24d8916d450297b1b6c5aa1b84140b1e9aa209eeebce1ab9faef6433572"
+        },
+        "scene/JR-DUAL-r006.sc": {
+          "size_bytes": 78166,
+          "sha256": "8e218131d765b4484a2738087adcdc8420add55f3780a741b6f0b1ffb1226826"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r007",
+      "source_group": "JR-SOURCE-r007",
+      "replicate_id": "r007",
+      "geometry_id": "DUAL168",
+      "split": "VALIDATION",
+      "epoch_utc": "2026-12-20T00:00:00Z",
+      "planning_stop_utc": "2026-12-23T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21542,
+        "full_contained": 20892,
+        "crossing": 71,
+        "outside_planning": 579,
+        "padding_boundary_clipped": 73
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r007/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r007/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r007/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r007/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r007/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r007/scene/JR-DUAL-r007.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r007/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6165982,
+          "sha256": "b8aec10ac2a48486a31b2a261f1eccde94f8ed2bc1680b09656219da759ee10e"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 21532,
+          "sha256": "d9db6222708df13d7b07048ed9b1d87c6500fa5f5766fa6d79077e35b4142b10"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6492190,
+          "sha256": "07610f4be23dc4bbaacc966d0e77957ad7390080c72f8b337076be381e645362"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1775608,
+          "sha256": "a5430ccd01b371aa3ed299c730d99bc69dc35121cd94b18113502649faafc46c"
+        },
+        "scene/JR-DUAL-r007.sc": {
+          "size_bytes": 78166,
+          "sha256": "74fa8460b5970cfb0005253977e03f4f46eb9f927755410cc3d30b34ae725cd3"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r008",
+      "source_group": "JR-SOURCE-r008",
+      "replicate_id": "r008",
+      "geometry_id": "DUAL168",
+      "split": "TEST",
+      "epoch_utc": "2026-12-27T00:00:00Z",
+      "planning_stop_utc": "2026-12-30T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21557,
+        "full_contained": 20892,
+        "crossing": 65,
+        "outside_planning": 600,
+        "padding_boundary_clipped": 81
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r008/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r008/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r008/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r008/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r008/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r008/scene/JR-DUAL-r008.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r008/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6166002,
+          "sha256": "571e432a15780a75375dfeeb3efcb9d31de38fa758b6af12880a283f3d90f339"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 19713,
+          "sha256": "3c730a37dce78970786610dc2f9e4bbde527369601de6a0cb72206fd56b98cbe"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6496902,
+          "sha256": "619345e19df9170164b2efebc25c7851f81533b5d39eb000feaf952730902387"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776021,
+          "sha256": "3808506b178124582e9a3b535cfa5c39e7421efa20468505b788d714b45c7991"
+        },
+        "scene/JR-DUAL-r008.sc": {
+          "size_bytes": 78166,
+          "sha256": "4c3532f3f2fa03787f27c6012aecd882a4c6d000d00562891955da0a3d873dc0"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r009",
+      "source_group": "JR-SOURCE-r009",
+      "replicate_id": "r009",
+      "geometry_id": "DUAL168",
+      "split": "TEST",
+      "epoch_utc": "2027-01-03T00:00:00Z",
+      "planning_stop_utc": "2027-01-06T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21547,
+        "full_contained": 20884,
+        "crossing": 77,
+        "outside_planning": 586,
+        "padding_boundary_clipped": 69
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r009/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r009/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r009/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r009/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r009/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r009/scene/JR-DUAL-r009.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r009/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6121882,
+          "sha256": "ba53b5944a57b558a26c6af09fb03a58164403dbd09a40251c9bbd9300725147"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 23173,
+          "sha256": "a67ab30074fa739aeff4868570d832a02a5cdb348a729eef78c585f161989c53"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6450698,
+          "sha256": "ac047b663c4308065e1e02bc8138f4de6f2f1f78ef7504534767bf2576833369"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1775899,
+          "sha256": "dc5f7b7d777a78de4a0232d8585e170fff12ca934195fb0ff30c44a8215c88c4"
+        },
+        "scene/JR-DUAL-r009.sc": {
+          "size_bytes": 78158,
+          "sha256": "0bb72cd214a43403d33000419c362113c6a0129c80066b953bee169b3edb839c"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r010",
+      "source_group": "JR-SOURCE-r010",
+      "replicate_id": "r010",
+      "geometry_id": "DUAL168",
+      "split": "TEST",
+      "epoch_utc": "2027-01-10T00:00:00Z",
+      "planning_stop_utc": "2027-01-13T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21575,
+        "full_contained": 20910,
+        "crossing": 66,
+        "outside_planning": 599,
+        "padding_boundary_clipped": 76
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r010/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r010/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r010/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r010/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r010/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r010/scene/JR-DUAL-r010.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r010/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6171311,
+          "sha256": "a18216f2fe739392ba43fa6a008ff742856d7edd5276967f2dc2a763bcc179b0"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 20002,
+          "sha256": "bf6020108ed06e994a9223e8e908275c5394f5d985d519b0042f86d277ce3d96"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6501705,
+          "sha256": "1c39c20d8b2575231a4d1a284d0fbfd1304f02f471b8075d59763264b2eed384"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776651,
+          "sha256": "a22130215392cbab01cbd1e285544ea82290688ad2bf76927c85943c41cc2fa4"
+        },
+        "scene/JR-DUAL-r010.sc": {
+          "size_bytes": 78163,
+          "sha256": "1dab5c8e12a6ab44e88106bf6e72cda82f1a57c02b8ce5188a391cf9e5fcd28e"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    },
+    {
+      "scene_id": "JR-DUAL-r011",
+      "source_group": "JR-SOURCE-r011",
+      "replicate_id": "r011",
+      "geometry_id": "DUAL168",
+      "split": "TEST",
+      "epoch_utc": "2027-01-17T00:00:00Z",
+      "planning_stop_utc": "2027-01-20T00:00:00Z",
+      "recorded_status": "success",
+      "completed": true,
+      "counts": {
+        "raw_padded": 21558,
+        "full_contained": 20884,
+        "crossing": 69,
+        "outside_planning": 605,
+        "padding_boundary_clipped": 74
+      },
+      "planned_satellites": 168,
+      "planned_sites": 12,
+      "completed_graph_count": 6,
+      "planned_graph_count": 6,
+      "manifest_path": "raw_geometry/JR-DUAL-r011/manifest.json",
+      "paths": {
+        "contacts": "raw_geometry/JR-DUAL-r011/contacts.csv",
+        "boundary_contacts": "raw_geometry/JR-DUAL-r011/boundary_contacts.csv",
+        "padded_raw_access": "raw_geometry/JR-DUAL-r011/access_raw.csv",
+        "original_access_reports": "raw_geometry/JR-DUAL-r011/raw_access_reports.jsonl",
+        "editable_scene": "raw_geometry/JR-DUAL-r011/scene/JR-DUAL-r011.sc",
+        "scene_dependencies_directory": "raw_geometry/JR-DUAL-r011/scene"
+      },
+      "frozen_receipts": {
+        "contacts.csv": {
+          "size_bytes": 6163664,
+          "sha256": "051c716e754475c38828d32cc92aca41b9af92c0a8b4a17614ca9c2a30de6486"
+        },
+        "boundary_contacts.csv": {
+          "size_bytes": 20921,
+          "sha256": "1e95cdada9ecdde81016486b7c83ffa8c91db54d5879bec7bdb56c65d1c1cc8e"
+        },
+        "access_raw.csv": {
+          "size_bytes": 6497280,
+          "sha256": "d7c2155c4511d25f4b4d8d318b90d7b35ae201637762d82b9c1c84b928e18832"
+        },
+        "raw_access_reports.jsonl": {
+          "size_bytes": 1776094,
+          "sha256": "ae88cd82637384c08e36a2b1e0630df7a1e155dcf83247e089133678bc23c239"
+        },
+        "scene/JR-DUAL-r011.sc": {
+          "size_bytes": 78166,
+          "sha256": "7c4ebd85765484ef34ad09a910d3e9a4540384201baf9dd9d92abd2ebd8f45ab"
+        }
+      },
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "geometry_generator_sha256": "63409c164f8febde28e43cdb8db5261abe6ca1b79e86dbad7f75fb4de702c682",
+      "save_recovery_generator_sha256": null,
+      "spot_check_count": 12,
+      "spot_check_counts_match": true,
+      "spot_check_within_5ms": true
+    }
+  ],
+  "graphs": [
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "source_group": "JR-SOURCE-r000",
+      "replicate_id": "r000",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20918,
+      "edges": 160565,
+      "mean_degree": 15.35185008126972,
+      "cross_agent_edge_fraction": 0.49764269921838505,
+      "duration_range_seconds": [
+        0.648960991,
+        718.945903736
+      ],
+      "contacts_sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "848e851257a8c48c5b33f04e13a7300e7c687d22c0f5c1c0aedc8b373659e679",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r000-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r000-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "source_group": "JR-SOURCE-r000",
+      "replicate_id": "r000",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20918,
+      "edges": 183416,
+      "mean_degree": 17.53666698537145,
+      "cross_agent_edge_fraction": 0.5602292057399573,
+      "duration_range_seconds": [
+        0.648960991,
+        718.945903736
+      ],
+      "contacts_sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "96dfb10250600754426f11b5055b257b093b4ee10026c6116bb73665d5cfac1a",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r000-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r000-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "source_group": "JR-SOURCE-r000",
+      "replicate_id": "r000",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20918,
+      "edges": 232565,
+      "mean_degree": 22.23587341045989,
+      "cross_agent_edge_fraction": 0.6531679315460194,
+      "duration_range_seconds": [
+        0.648960991,
+        718.945903736
+      ],
+      "contacts_sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "b461c9eaaf09abf9da2c6279a0e91f56d177e967ef9abdece2ec2732388fc08f",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r000-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r000-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "source_group": "JR-SOURCE-r000",
+      "replicate_id": "r000",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13949,
+      "edges": 86214,
+      "mean_degree": 12.361316223385188,
+      "cross_agent_edge_fraction": 0.617753497111838,
+      "duration_range_seconds": [
+        0.648960991,
+        718.94304534
+      ],
+      "contacts_sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "3108b26eb5ef371e921a5abf631cb6694f4ddccc856778d56636541001202c7d",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r000-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r000-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "source_group": "JR-SOURCE-r000",
+      "replicate_id": "r000",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13949,
+      "edges": 101437,
+      "mean_degree": 14.543981647429923,
+      "cross_agent_edge_fraction": 0.6751185464869821,
+      "duration_range_seconds": [
+        0.648960991,
+        718.94304534
+      ],
+      "contacts_sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "f87fafc363d571b103239baa01d60d8f783088f4ab09d6f61f16ebc925a90fec",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r000-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r000-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "source_group": "JR-SOURCE-r000",
+      "replicate_id": "r000",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13949,
+      "edges": 134213,
+      "mean_degree": 19.243386622696967,
+      "cross_agent_edge_fraction": 0.7544574668623755,
+      "duration_range_seconds": [
+        0.648960991,
+        718.94304534
+      ],
+      "contacts_sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "4609e987f4cb82d1a479c7cfbe299afb4e33def25a52633ef9f041421c4303e5",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r000-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r000-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "source_group": "JR-SOURCE-r001",
+      "replicate_id": "r001",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20899,
+      "edges": 160550,
+      "mean_degree": 15.364371501028756,
+      "cross_agent_edge_fraction": 0.4974711927748365,
+      "duration_range_seconds": [
+        5.765771493,
+        718.922866034
+      ],
+      "contacts_sha256": "4d4b0347a9fef60f8d43799a53cfb19615c7765bd0d543b21d33d77b7df943c3",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "d0c0a3aa597e4d2a65ba992338c9c9cc32b5df8d80f5aa7c06c61d4dc161cfa5",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r001-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r001-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "source_group": "JR-SOURCE-r001",
+      "replicate_id": "r001",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20899,
+      "edges": 183315,
+      "mean_degree": 17.54294463849945,
+      "cross_agent_edge_fraction": 0.5598778059624144,
+      "duration_range_seconds": [
+        5.765771493,
+        718.922866034
+      ],
+      "contacts_sha256": "4d4b0347a9fef60f8d43799a53cfb19615c7765bd0d543b21d33d77b7df943c3",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "d0eea805e94f20bc28016ff5f983bf17c466778aa0e7ae932e52f828362b740b",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r001-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r001-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "source_group": "JR-SOURCE-r001",
+      "replicate_id": "r001",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20899,
+      "edges": 232402,
+      "mean_degree": 22.24048997559692,
+      "cross_agent_edge_fraction": 0.6528386158466795,
+      "duration_range_seconds": [
+        5.765771493,
+        718.922866034
+      ],
+      "contacts_sha256": "4d4b0347a9fef60f8d43799a53cfb19615c7765bd0d543b21d33d77b7df943c3",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "f9074a20f1534da6188cd678a5c6edd3b10a34e1c4d16a8a0f7660251b9a74f6",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r001-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r001-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "source_group": "JR-SOURCE-r001",
+      "replicate_id": "r001",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13934,
+      "edges": 86173,
+      "mean_degree": 12.36873833787857,
+      "cross_agent_edge_fraction": 0.6177573021712137,
+      "duration_range_seconds": [
+        5.765771493,
+        718.922866034
+      ],
+      "contacts_sha256": "4d4b0347a9fef60f8d43799a53cfb19615c7765bd0d543b21d33d77b7df943c3",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "e473c255782465996435fa7e824fafc66b6e4a6722cfb3a963e3430a2fa365e6",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r001-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r001-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "source_group": "JR-SOURCE-r001",
+      "replicate_id": "r001",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13934,
+      "edges": 101363,
+      "mean_degree": 14.549016793454859,
+      "cross_agent_edge_fraction": 0.6750392154928327,
+      "duration_range_seconds": [
+        5.765771493,
+        718.922866034
+      ],
+      "contacts_sha256": "4d4b0347a9fef60f8d43799a53cfb19615c7765bd0d543b21d33d77b7df943c3",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "71c96df3076631aa229ec8c00af121e1d735342cd602a1e0096798ac969327d8",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r001-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r001-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "source_group": "JR-SOURCE-r001",
+      "replicate_id": "r001",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13934,
+      "edges": 134067,
+      "mean_degree": 19.243146260944453,
+      "cross_agent_edge_fraction": 0.7543094124579501,
+      "duration_range_seconds": [
+        5.765771493,
+        718.922866034
+      ],
+      "contacts_sha256": "4d4b0347a9fef60f8d43799a53cfb19615c7765bd0d543b21d33d77b7df943c3",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "7ffc44523c810cf1422dfd6f0379344a019d04e9502ef4626a40f42d358e6188",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r001-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r001-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r002-R12-g0170",
+      "source_group": "JR-SOURCE-r002",
+      "replicate_id": "r002",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 160481,
+      "mean_degree": 15.362914034080031,
+      "cross_agent_edge_fraction": 0.49728005184414353,
+      "duration_range_seconds": [
+        2.607811576,
+        718.952586215
+      ],
+      "contacts_sha256": "5632056a44ffb3f47979aff1e644a9404f34bd5ba03d99b7546bc82d19a4f3ba",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "ed1572771a4052c0b0a30b96cd98aa1de8e6703782679ea8eb09aa493d3bd152",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r002-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r002-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r002-R12-g0340",
+      "source_group": "JR-SOURCE-r002",
+      "replicate_id": "r002",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 183259,
+      "mean_degree": 17.543461612100327,
+      "cross_agent_edge_fraction": 0.5597651411390436,
+      "duration_range_seconds": [
+        2.607811576,
+        718.952586215
+      ],
+      "contacts_sha256": "5632056a44ffb3f47979aff1e644a9404f34bd5ba03d99b7546bc82d19a4f3ba",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "f2cb1e6e5d5821e90bf148f662988b0426bd175b2c646f352505ee8bf474df51",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r002-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r002-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r002-R12-g0680",
+      "source_group": "JR-SOURCE-r002",
+      "replicate_id": "r002",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 232319,
+      "mean_degree": 22.239996170783076,
+      "cross_agent_edge_fraction": 0.6527318041141706,
+      "duration_range_seconds": [
+        2.607811576,
+        718.952586215
+      ],
+      "contacts_sha256": "5632056a44ffb3f47979aff1e644a9404f34bd5ba03d99b7546bc82d19a4f3ba",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "08e2f0dc924340cf4e81c3c09f8df941f0658284f9ecfef61c588d997ac67278",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r002-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r002-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r002-R8-g0170",
+      "source_group": "JR-SOURCE-r002",
+      "replicate_id": "r002",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13932,
+      "edges": 86163,
+      "mean_degree": 12.369078380706288,
+      "cross_agent_edge_fraction": 0.6174460035049847,
+      "duration_range_seconds": [
+        2.607811576,
+        718.952586215
+      ],
+      "contacts_sha256": "5632056a44ffb3f47979aff1e644a9404f34bd5ba03d99b7546bc82d19a4f3ba",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "3e78a05aa7a402b806a30f2a9d699767f19c9329af07da672ebca5f45da647b2",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r002-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r002-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r002-R8-g0340",
+      "source_group": "JR-SOURCE-r002",
+      "replicate_id": "r002",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13932,
+      "edges": 101324,
+      "mean_degree": 14.545506747057134,
+      "cross_agent_edge_fraction": 0.6746871422367849,
+      "duration_range_seconds": [
+        2.607811576,
+        718.952586215
+      ],
+      "contacts_sha256": "5632056a44ffb3f47979aff1e644a9404f34bd5ba03d99b7546bc82d19a4f3ba",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "df49f21da493b0491094d035c45507d7ef7adee2b033725852f17be0e6e698ca",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r002-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r002-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r002-R8-g0680",
+      "source_group": "JR-SOURCE-r002",
+      "replicate_id": "r002",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13932,
+      "edges": 134066,
+      "mean_degree": 19.245765144989953,
+      "cross_agent_edge_fraction": 0.7541360225560545,
+      "duration_range_seconds": [
+        2.607811576,
+        718.952586215
+      ],
+      "contacts_sha256": "5632056a44ffb3f47979aff1e644a9404f34bd5ba03d99b7546bc82d19a4f3ba",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "61d7282d3a0308ac4b406483a73eb98a7297beb1a58aa93aab306c32b142c2e6",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r002-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r002-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r003-R12-g0170",
+      "source_group": "JR-SOURCE-r003",
+      "replicate_id": "r003",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20890,
+      "edges": 160334,
+      "mean_degree": 15.35031115366204,
+      "cross_agent_edge_fraction": 0.49780458293312707,
+      "duration_range_seconds": [
+        4.251812593,
+        718.93245864
+      ],
+      "contacts_sha256": "b09924d683b7217e17f476dea757f9fca3124e2d32cfc6f1b625373d0931cbdd",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "8e1631a0acf1092bf0817dbf27eddc2bfae955c48b5bfbc745086e83b3c696a3",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r003-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r003-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r003-R12-g0340",
+      "source_group": "JR-SOURCE-r003",
+      "replicate_id": "r003",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20890,
+      "edges": 183069,
+      "mean_degree": 17.526950694112017,
+      "cross_agent_edge_fraction": 0.5601713015311167,
+      "duration_range_seconds": [
+        4.251812593,
+        718.93245864
+      ],
+      "contacts_sha256": "b09924d683b7217e17f476dea757f9fca3124e2d32cfc6f1b625373d0931cbdd",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "f2f70f5b41bb132c48ae7e04197a6f6c23f06a5234a949531531cc870f70b2b8",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r003-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r003-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r003-R12-g0680",
+      "source_group": "JR-SOURCE-r003",
+      "replicate_id": "r003",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20890,
+      "edges": 232104,
+      "mean_degree": 22.221541407371948,
+      "cross_agent_edge_fraction": 0.6530908558232517,
+      "duration_range_seconds": [
+        4.251812593,
+        718.93245864
+      ],
+      "contacts_sha256": "b09924d683b7217e17f476dea757f9fca3124e2d32cfc6f1b625373d0931cbdd",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "82e2ca459d985a6643b0bc0bb493e1b7b4ed954defb4d529aac0d37ebbba01eb",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r003-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r003-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r003-R8-g0170",
+      "source_group": "JR-SOURCE-r003",
+      "replicate_id": "r003",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 86076,
+      "mean_degree": 12.361025346449344,
+      "cross_agent_edge_fraction": 0.6181281658069613,
+      "duration_range_seconds": [
+        4.251812593,
+        718.912173936
+      ],
+      "contacts_sha256": "b09924d683b7217e17f476dea757f9fca3124e2d32cfc6f1b625373d0931cbdd",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "b176fe210a65b51dd3c961c36015ff98a8731c36573f7e9a7c15da4cd1ea40ba",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r003-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r003-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r003-R8-g0340",
+      "source_group": "JR-SOURCE-r003",
+      "replicate_id": "r003",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 101200,
+      "mean_degree": 14.532921662956847,
+      "cross_agent_edge_fraction": 0.6751976284584981,
+      "duration_range_seconds": [
+        4.251812593,
+        718.912173936
+      ],
+      "contacts_sha256": "b09924d683b7217e17f476dea757f9fca3124e2d32cfc6f1b625373d0931cbdd",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "56d30a73e49ad525232e4a1c721034fcf122db132839ac74e50691de0fab8bff",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r003-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r003-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r003-R8-g0680",
+      "source_group": "JR-SOURCE-r003",
+      "replicate_id": "r003",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 133909,
+      "mean_degree": 19.230128527321032,
+      "cross_agent_edge_fraction": 0.7545347960181915,
+      "duration_range_seconds": [
+        4.251812593,
+        718.912173936
+      ],
+      "contacts_sha256": "b09924d683b7217e17f476dea757f9fca3124e2d32cfc6f1b625373d0931cbdd",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "42680a38f24f96e96a018ec115a00195120b677d4a4626890677606d8b89a3bb",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r003-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r003-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "source_group": "JR-SOURCE-r004",
+      "replicate_id": "r004",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20919,
+      "edges": 160598,
+      "mean_degree": 15.354271236674792,
+      "cross_agent_edge_fraction": 0.4971792923946749,
+      "duration_range_seconds": [
+        0.970492009,
+        718.955946664
+      ],
+      "contacts_sha256": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "9aaf29e9bb5aaef591487a5e0ea7959e4147c570b827dadb96163db6226f74dc",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r004-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r004-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "source_group": "JR-SOURCE-r004",
+      "replicate_id": "r004",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20919,
+      "edges": 183475,
+      "mean_degree": 17.541469477508485,
+      "cross_agent_edge_fraction": 0.5598746423218423,
+      "duration_range_seconds": [
+        0.970492009,
+        718.955946664
+      ],
+      "contacts_sha256": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "58f28ac65cd4cdee59b0684b19d1e2e581dabc21bb9a3ee022d368050198c8bf",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r004-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r004-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "source_group": "JR-SOURCE-r004",
+      "replicate_id": "r004",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20919,
+      "edges": 232636,
+      "mean_degree": 22.24159854677566,
+      "cross_agent_edge_fraction": 0.6528826149005313,
+      "duration_range_seconds": [
+        0.970492009,
+        718.955946664
+      ],
+      "contacts_sha256": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "a47e1dfaf6fa6e710f276615adc965a5bd5b14bc70c12924f49e993434fe0056",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r004-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r004-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "source_group": "JR-SOURCE-r004",
+      "replicate_id": "r004",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13942,
+      "edges": 86153,
+      "mean_degree": 12.35877205565916,
+      "cross_agent_edge_fraction": 0.6174828502779938,
+      "duration_range_seconds": [
+        0.970492009,
+        718.955946664
+      ],
+      "contacts_sha256": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "c899ad03df1c37bb03b21abd5a5160a9977c22fbaf0456505a2e944ab213f55e",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r004-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r004-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "source_group": "JR-SOURCE-r004",
+      "replicate_id": "r004",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13942,
+      "edges": 101397,
+      "mean_degree": 14.54554583273562,
+      "cross_agent_edge_fraction": 0.6749903843308973,
+      "duration_range_seconds": [
+        0.970492009,
+        718.955946664
+      ],
+      "contacts_sha256": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "c3f2b169771b57f0cb8140ea12793876e5596bb611111aff3be405a96d27c8f5",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r004-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r004-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "source_group": "JR-SOURCE-r004",
+      "replicate_id": "r004",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13942,
+      "edges": 134094,
+      "mean_degree": 19.235977621575095,
+      "cross_agent_edge_fraction": 0.7542395632914224,
+      "duration_range_seconds": [
+        0.970492009,
+        718.955946664
+      ],
+      "contacts_sha256": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "1f3c06d83dbb96857767ae85a9c87d954b29654904543e4d67655b1b8929694e",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r004-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r004-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r005-R12-g0170",
+      "source_group": "JR-SOURCE-r005",
+      "replicate_id": "r005",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20909,
+      "edges": 160494,
+      "mean_degree": 15.351666746377159,
+      "cross_agent_edge_fraction": 0.49784415616783184,
+      "duration_range_seconds": [
+        4.398496824,
+        718.952902694
+      ],
+      "contacts_sha256": "999f39c8aae3026dc304d0945a981eea22cb5cbfe516c4f93e83685eecddb05a",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "b0c6d657a5851805edfd75f7abb4a267cca6f4349437d8e1322ea9cb01f7b582",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r005-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r005-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r005-R12-g0340",
+      "source_group": "JR-SOURCE-r005",
+      "replicate_id": "r005",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20909,
+      "edges": 183330,
+      "mean_degree": 17.535989286909942,
+      "cross_agent_edge_fraction": 0.560393825342279,
+      "duration_range_seconds": [
+        4.398496824,
+        718.952902694
+      ],
+      "contacts_sha256": "999f39c8aae3026dc304d0945a981eea22cb5cbfe516c4f93e83685eecddb05a",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "ab8ab425d270faa0d7cf85010ff71144f3d7c7e048e85367be641d0d39db959d",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r005-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r005-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r005-R12-g0680",
+      "source_group": "JR-SOURCE-r005",
+      "replicate_id": "r005",
+      "split": "TRAIN",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20909,
+      "edges": 232395,
+      "mean_degree": 22.22918360514611,
+      "cross_agent_edge_fraction": 0.653206824587448,
+      "duration_range_seconds": [
+        4.398496824,
+        718.952902694
+      ],
+      "contacts_sha256": "999f39c8aae3026dc304d0945a981eea22cb5cbfe516c4f93e83685eecddb05a",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "f797f8a04f2cca0f6bcf2656c9e4b61c458ca32726a21f03a292305511673ae3",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r005-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r005-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r005-R8-g0170",
+      "source_group": "JR-SOURCE-r005",
+      "replicate_id": "r005",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13938,
+      "edges": 86148,
+      "mean_degree": 12.361601377529057,
+      "cross_agent_edge_fraction": 0.6180642615034592,
+      "duration_range_seconds": [
+        4.398496824,
+        718.952902694
+      ],
+      "contacts_sha256": "999f39c8aae3026dc304d0945a981eea22cb5cbfe516c4f93e83685eecddb05a",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "05613f2a597383b4ed292de6a1c091e2524eb4e7c58b47731c93874aa66f807d",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r005-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r005-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r005-R8-g0340",
+      "source_group": "JR-SOURCE-r005",
+      "replicate_id": "r005",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13938,
+      "edges": 101347,
+      "mean_degree": 14.542545558903717,
+      "cross_agent_edge_fraction": 0.6753431280649649,
+      "duration_range_seconds": [
+        4.398496824,
+        718.952902694
+      ],
+      "contacts_sha256": "999f39c8aae3026dc304d0945a981eea22cb5cbfe516c4f93e83685eecddb05a",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "be11ebd61e1ce7714dd10c32e36ededed3a83fa4a897366a541d46341342b9d2",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r005-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r005-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r005-R8-g0680",
+      "source_group": "JR-SOURCE-r005",
+      "replicate_id": "r005",
+      "split": "TRAIN",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13938,
+      "edges": 134059,
+      "mean_degree": 19.236475821495194,
+      "cross_agent_edge_fraction": 0.7545632892979957,
+      "duration_range_seconds": [
+        4.398496824,
+        718.952902694
+      ],
+      "contacts_sha256": "999f39c8aae3026dc304d0945a981eea22cb5cbfe516c4f93e83685eecddb05a",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "ba3f91311015eff039a578593fbf8195aabbb20fd17e662b719e79966e38f326",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r005-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r005-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r006-R12-g0170",
+      "source_group": "JR-SOURCE-r006",
+      "replicate_id": "r006",
+      "split": "VALIDATION",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20893,
+      "edges": 160252,
+      "mean_degree": 15.340257502512804,
+      "cross_agent_edge_fraction": 0.497722337318723,
+      "duration_range_seconds": [
+        3.227742489,
+        718.950168666
+      ],
+      "contacts_sha256": "1c16bc8a11faaa4c6ed27045b3048373c37066779cef780da9688f1034214447",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "eaee9bdeab14b0f345d4fba3e3ef643416452406bed14a5e5b9dc15c767e20b7",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r006-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r006-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r006-R12-g0340",
+      "source_group": "JR-SOURCE-r006",
+      "replicate_id": "r006",
+      "split": "VALIDATION",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20893,
+      "edges": 183068,
+      "mean_degree": 17.524338295122767,
+      "cross_agent_edge_fraction": 0.5603218476194638,
+      "duration_range_seconds": [
+        3.227742489,
+        718.950168666
+      ],
+      "contacts_sha256": "1c16bc8a11faaa4c6ed27045b3048373c37066779cef780da9688f1034214447",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "4129a11ef42f80d68398ad63f0be4b0a671ced46be715d3efef4791afafb4920",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r006-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r006-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r006-R12-g0680",
+      "source_group": "JR-SOURCE-r006",
+      "replicate_id": "r006",
+      "split": "VALIDATION",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20893,
+      "edges": 232066,
+      "mean_degree": 22.21471306179103,
+      "cross_agent_edge_fraction": 0.6531547059888135,
+      "duration_range_seconds": [
+        3.227742489,
+        718.950168666
+      ],
+      "contacts_sha256": "1c16bc8a11faaa4c6ed27045b3048373c37066779cef780da9688f1034214447",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "71e64263b870ab9b80c97ff5679f594d52e221754befaf7ca08c2941191c58ad",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r006-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r006-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r006-R8-g0170",
+      "source_group": "JR-SOURCE-r006",
+      "replicate_id": "r006",
+      "split": "VALIDATION",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 86030,
+      "mean_degree": 12.35441947296618,
+      "cross_agent_edge_fraction": 0.618109961641288,
+      "duration_range_seconds": [
+        3.227742489,
+        718.942152137
+      ],
+      "contacts_sha256": "1c16bc8a11faaa4c6ed27045b3048373c37066779cef780da9688f1034214447",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "c9a66a343f613909bd5c64cb3d47910e1056d73b26b763cdf2cf506fee7ef400",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r006-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r006-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r006-R8-g0340",
+      "source_group": "JR-SOURCE-r006",
+      "replicate_id": "r006",
+      "split": "VALIDATION",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 101240,
+      "mean_degree": 14.538665900768292,
+      "cross_agent_edge_fraction": 0.6754839984195969,
+      "duration_range_seconds": [
+        3.227742489,
+        718.942152137
+      ],
+      "contacts_sha256": "1c16bc8a11faaa4c6ed27045b3048373c37066779cef780da9688f1034214447",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "aec9aae34e849ecf302a46d941e76d1253b8fbdd92fd9f3218f8a334ce94588e",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r006-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r006-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r006-R8-g0680",
+      "source_group": "JR-SOURCE-r006",
+      "replicate_id": "r006",
+      "split": "VALIDATION",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 133893,
+      "mean_degree": 19.227830832196453,
+      "cross_agent_edge_fraction": 0.754624961723167,
+      "duration_range_seconds": [
+        3.227742489,
+        718.942152137
+      ],
+      "contacts_sha256": "1c16bc8a11faaa4c6ed27045b3048373c37066779cef780da9688f1034214447",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "b3a02effe8909c2e92c2d70c87b1844f9c1b84d94391b108adf79e4dde9a51e5",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r006-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r006-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r007-R12-g0170",
+      "source_group": "JR-SOURCE-r007",
+      "replicate_id": "r007",
+      "split": "VALIDATION",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 160190,
+      "mean_degree": 15.335056480949646,
+      "cross_agent_edge_fraction": 0.4982832885947937,
+      "duration_range_seconds": [
+        4.528895272,
+        718.949668874
+      ],
+      "contacts_sha256": "b8aec10ac2a48486a31b2a261f1eccde94f8ed2bc1680b09656219da759ee10e",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "352a0f5e094316106576ec8c1ef95927ae1f01e76cdbbc332f07cb8c80511dc9",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r007-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r007-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r007-R12-g0340",
+      "source_group": "JR-SOURCE-r007",
+      "replicate_id": "r007",
+      "split": "VALIDATION",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 182944,
+      "mean_degree": 17.51330652881486,
+      "cross_agent_edge_fraction": 0.5606852370124191,
+      "duration_range_seconds": [
+        4.528895272,
+        718.949668874
+      ],
+      "contacts_sha256": "b8aec10ac2a48486a31b2a261f1eccde94f8ed2bc1680b09656219da759ee10e",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "2499d208be9e7fd2175037b0ac04d5369efd26ed7e0aef0804176c5d6e7d3b3f",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r007-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r007-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r007-R12-g0680",
+      "source_group": "JR-SOURCE-r007",
+      "replicate_id": "r007",
+      "split": "VALIDATION",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 231986,
+      "mean_degree": 22.208117939881294,
+      "cross_agent_edge_fraction": 0.6535566801444915,
+      "duration_range_seconds": [
+        4.528895272,
+        718.949668874
+      ],
+      "contacts_sha256": "b8aec10ac2a48486a31b2a261f1eccde94f8ed2bc1680b09656219da759ee10e",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "0d34e917817b9a763879c2edc4218a2f781990806f79af6af15c75a62857cc56",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r007-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r007-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r007-R8-g0170",
+      "source_group": "JR-SOURCE-r007",
+      "replicate_id": "r007",
+      "split": "VALIDATION",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 85986,
+      "mean_degree": 12.348100811373591,
+      "cross_agent_edge_fraction": 0.6184727746377318,
+      "duration_range_seconds": [
+        4.528895272,
+        718.949668874
+      ],
+      "contacts_sha256": "b8aec10ac2a48486a31b2a261f1eccde94f8ed2bc1680b09656219da759ee10e",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "151d4e2e339398412efdb24431726d011f0e166971491751a722b92e227d00a3",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r007-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r007-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r007-R8-g0340",
+      "source_group": "JR-SOURCE-r007",
+      "replicate_id": "r007",
+      "split": "VALIDATION",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 101118,
+      "mean_degree": 14.521145975443384,
+      "cross_agent_edge_fraction": 0.6755671591605846,
+      "duration_range_seconds": [
+        4.528895272,
+        718.949668874
+      ],
+      "contacts_sha256": "b8aec10ac2a48486a31b2a261f1eccde94f8ed2bc1680b09656219da759ee10e",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "7c9d62b17b5b756d3ae6519b355efe976b2cc68ccd41f005112b2928ca0519e3",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r007-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r007-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r007-R8-g0680",
+      "source_group": "JR-SOURCE-r007",
+      "replicate_id": "r007",
+      "split": "VALIDATION",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 133858,
+      "mean_degree": 19.22280462411144,
+      "cross_agent_edge_fraction": 0.7549193921917255,
+      "duration_range_seconds": [
+        4.528895272,
+        718.949668874
+      ],
+      "contacts_sha256": "b8aec10ac2a48486a31b2a261f1eccde94f8ed2bc1680b09656219da759ee10e",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "89e484a98ad391973ca75f579589b26367d761fe6d4ca6acb0f315d4b4b3b696",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r007-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r007-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r008-R12-g0170",
+      "source_group": "JR-SOURCE-r008",
+      "replicate_id": "r008",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 160096,
+      "mean_degree": 15.326057821175569,
+      "cross_agent_edge_fraction": 0.4981448630821507,
+      "duration_range_seconds": [
+        9.318042951,
+        718.937973959
+      ],
+      "contacts_sha256": "571e432a15780a75375dfeeb3efcb9d31de38fa758b6af12880a283f3d90f339",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "4a162df101a20eb93108e36e638081d0a33d4b6789be656714548983182edcef",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r008-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r008-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r008-R12-g0340",
+      "source_group": "JR-SOURCE-r008",
+      "replicate_id": "r008",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 182927,
+      "mean_degree": 17.511679111621675,
+      "cross_agent_edge_fraction": 0.5607810766043285,
+      "duration_range_seconds": [
+        9.318042951,
+        718.937973959
+      ],
+      "contacts_sha256": "571e432a15780a75375dfeeb3efcb9d31de38fa758b6af12880a283f3d90f339",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "50b69c71589f617287bc30cdd3bb997a175569234854472eebb482292b786451",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r008-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r008-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r008-R12-g0680",
+      "source_group": "JR-SOURCE-r008",
+      "replicate_id": "r008",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20892,
+      "edges": 231942,
+      "mean_degree": 22.20390580126364,
+      "cross_agent_edge_fraction": 0.6535987445137146,
+      "duration_range_seconds": [
+        9.318042951,
+        718.937973959
+      ],
+      "contacts_sha256": "571e432a15780a75375dfeeb3efcb9d31de38fa758b6af12880a283f3d90f339",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "3d360fe08379a8dec5d4e962625cec03012c4bd7baf454b5ab67e56095ae31cc",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r008-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r008-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r008-R8-g0170",
+      "source_group": "JR-SOURCE-r008",
+      "replicate_id": "r008",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13931,
+      "edges": 85959,
+      "mean_degree": 12.340679061086785,
+      "cross_agent_edge_fraction": 0.6183180353424307,
+      "duration_range_seconds": [
+        9.318042951,
+        718.937973959
+      ],
+      "contacts_sha256": "571e432a15780a75375dfeeb3efcb9d31de38fa758b6af12880a283f3d90f339",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "8d467ab6eaa822b993a035b70e1ba7a811b5cc2a66f71caf440de1000ecf3f2a",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r008-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r008-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r008-R8-g0340",
+      "source_group": "JR-SOURCE-r008",
+      "replicate_id": "r008",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13931,
+      "edges": 101165,
+      "mean_degree": 14.523724068623933,
+      "cross_agent_edge_fraction": 0.6756882320960806,
+      "duration_range_seconds": [
+        9.318042951,
+        718.937973959
+      ],
+      "contacts_sha256": "571e432a15780a75375dfeeb3efcb9d31de38fa758b6af12880a283f3d90f339",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "090847d08798aa76362f8d88d3521b8bc0709420758d62c1494361a8ce7020e0",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r008-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r008-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r008-R8-g0680",
+      "source_group": "JR-SOURCE-r008",
+      "replicate_id": "r008",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13931,
+      "edges": 133895,
+      "mean_degree": 19.22259708563635,
+      "cross_agent_edge_fraction": 0.7549647111542627,
+      "duration_range_seconds": [
+        9.318042951,
+        718.937973959
+      ],
+      "contacts_sha256": "571e432a15780a75375dfeeb3efcb9d31de38fa758b6af12880a283f3d90f339",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "15b12af2da58d502a01ec2ff570118b4a951c427b9b201caf7af88ce7a0e9f4a",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r008-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r008-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r009-R12-g0170",
+      "source_group": "JR-SOURCE-r009",
+      "replicate_id": "r009",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20884,
+      "edges": 160263,
+      "mean_degree": 15.347921854050949,
+      "cross_agent_edge_fraction": 0.4977068942925067,
+      "duration_range_seconds": [
+        0.376110817,
+        718.947566046
+      ],
+      "contacts_sha256": "ba53b5944a57b558a26c6af09fb03a58164403dbd09a40251c9bbd9300725147",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "78507e7555acae696fd57d1a81e1d4b6c94eb319c55542c5e4c463b99126211e",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r009-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r009-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r009-R12-g0340",
+      "source_group": "JR-SOURCE-r009",
+      "replicate_id": "r009",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20884,
+      "edges": 182998,
+      "mean_degree": 17.52518674583413,
+      "cross_agent_edge_fraction": 0.560109946556793,
+      "duration_range_seconds": [
+        0.376110817,
+        718.947566046
+      ],
+      "contacts_sha256": "ba53b5944a57b558a26c6af09fb03a58164403dbd09a40251c9bbd9300725147",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "2fc48ff9f503db4e5539ffd8bc9207b2353820e860971f83a8aba8990d5b4404",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r009-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r009-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r009-R12-g0680",
+      "source_group": "JR-SOURCE-r009",
+      "replicate_id": "r009",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20884,
+      "edges": 231973,
+      "mean_degree": 22.215380195364872,
+      "cross_agent_edge_fraction": 0.6529811659115501,
+      "duration_range_seconds": [
+        0.376110817,
+        718.947566046
+      ],
+      "contacts_sha256": "ba53b5944a57b558a26c6af09fb03a58164403dbd09a40251c9bbd9300725147",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "f6193f0484a8132a6b812a3deb78bcbcbe7f35d1708c41012782b40d328deb9e",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r009-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r009-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r009-R8-g0170",
+      "source_group": "JR-SOURCE-r009",
+      "replicate_id": "r009",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13919,
+      "edges": 86000,
+      "mean_degree": 12.357209569652992,
+      "cross_agent_edge_fraction": 0.6179534883720931,
+      "duration_range_seconds": [
+        0.376110817,
+        718.947566046
+      ],
+      "contacts_sha256": "ba53b5944a57b558a26c6af09fb03a58164403dbd09a40251c9bbd9300725147",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "bee07cba3692be2c78e99f5043f01f94d8b6c0483bdc7b87cd0f891ec7f8a73a",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r009-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r009-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r009-R8-g0340",
+      "source_group": "JR-SOURCE-r009",
+      "replicate_id": "r009",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13919,
+      "edges": 101128,
+      "mean_degree": 14.530928946044975,
+      "cross_agent_edge_fraction": 0.675104817656831,
+      "duration_range_seconds": [
+        0.376110817,
+        718.947566046
+      ],
+      "contacts_sha256": "ba53b5944a57b558a26c6af09fb03a58164403dbd09a40251c9bbd9300725147",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "f974334a97d6260b36a12fce36b70d9baf8ef5240909bbce3bbf3d225426f30a",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r009-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r009-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r009-R8-g0680",
+      "source_group": "JR-SOURCE-r009",
+      "replicate_id": "r009",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13919,
+      "edges": 133800,
+      "mean_degree": 19.22551907464617,
+      "cross_agent_edge_fraction": 0.754439461883408,
+      "duration_range_seconds": [
+        0.376110817,
+        718.947566046
+      ],
+      "contacts_sha256": "ba53b5944a57b558a26c6af09fb03a58164403dbd09a40251c9bbd9300725147",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "dde53da42596743b3b228d4a8edc9586cd986e54b69199d7c23242c998b88a10",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r009-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r009-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r010-R12-g0170",
+      "source_group": "JR-SOURCE-r010",
+      "replicate_id": "r010",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20910,
+      "edges": 160270,
+      "mean_degree": 15.329507412721187,
+      "cross_agent_edge_fraction": 0.49778498783303177,
+      "duration_range_seconds": [
+        3.246641877,
+        718.943764368
+      ],
+      "contacts_sha256": "a18216f2fe739392ba43fa6a008ff742856d7edd5276967f2dc2a763bcc179b0",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "6978d248e9bec90800cd675eb7da6bc8e31917482ce0bf609637372d41a74441",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r010-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r010-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r010-R12-g0340",
+      "source_group": "JR-SOURCE-r010",
+      "replicate_id": "r010",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20910,
+      "edges": 183103,
+      "mean_degree": 17.513438546150166,
+      "cross_agent_edge_fraction": 0.5604113531728043,
+      "duration_range_seconds": [
+        3.246641877,
+        718.943764368
+      ],
+      "contacts_sha256": "a18216f2fe739392ba43fa6a008ff742856d7edd5276967f2dc2a763bcc179b0",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "9744af14a9abc127ab3a58659b1cfd74491dd565c2ac39d167688ce03febe45a",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r010-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r010-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r010-R12-g0680",
+      "source_group": "JR-SOURCE-r010",
+      "replicate_id": "r010",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20910,
+      "edges": 232251,
+      "mean_degree": 22.214347202295553,
+      "cross_agent_edge_fraction": 0.6534352919901314,
+      "duration_range_seconds": [
+        3.246641877,
+        718.943764368
+      ],
+      "contacts_sha256": "a18216f2fe739392ba43fa6a008ff742856d7edd5276967f2dc2a763bcc179b0",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "5e8013e3c0e809ab08083a7851d1afed980c99aa65cb80fbb5369a75a8c3c58c",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r010-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r010-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r010-R8-g0170",
+      "source_group": "JR-SOURCE-r010",
+      "replicate_id": "r010",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13944,
+      "edges": 86090,
+      "mean_degree": 12.347963281698222,
+      "cross_agent_edge_fraction": 0.6179811824834476,
+      "duration_range_seconds": [
+        5.373287303,
+        718.940820277
+      ],
+      "contacts_sha256": "a18216f2fe739392ba43fa6a008ff742856d7edd5276967f2dc2a763bcc179b0",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "dcc83d55a6580a907d9aad713182ffbc484e7dfd7796fc6397d2c4d797990dcb",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r010-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r010-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r010-R8-g0340",
+      "source_group": "JR-SOURCE-r010",
+      "replicate_id": "r010",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13944,
+      "edges": 101307,
+      "mean_degree": 14.530550774526677,
+      "cross_agent_edge_fraction": 0.6753630055178813,
+      "duration_range_seconds": [
+        5.373287303,
+        718.940820277
+      ],
+      "contacts_sha256": "a18216f2fe739392ba43fa6a008ff742856d7edd5276967f2dc2a763bcc179b0",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "1c5a02f8bfeabd495a4000fffe3f98a8c0a943499bdaa08bc5f3f350049cfbf9",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r010-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r010-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r010-R8-g0680",
+      "source_group": "JR-SOURCE-r010",
+      "replicate_id": "r010",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13944,
+      "edges": 134128,
+      "mean_degree": 19.238095238095237,
+      "cross_agent_edge_fraction": 0.7548013837528331,
+      "duration_range_seconds": [
+        5.373287303,
+        718.940820277
+      ],
+      "contacts_sha256": "a18216f2fe739392ba43fa6a008ff742856d7edd5276967f2dc2a763bcc179b0",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "b6504e9863640aa2d171eb4f90fb3829ffd86fa0e29ec24a773695d297eb96ac",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r010-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r010-R8-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r011-R12-g0170",
+      "source_group": "JR-SOURCE-r011",
+      "replicate_id": "r011",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 20884,
+      "edges": 160060,
+      "mean_degree": 15.328481133882399,
+      "cross_agent_edge_fraction": 0.49791953017618396,
+      "duration_range_seconds": [
+        5.288926007,
+        718.943991484
+      ],
+      "contacts_sha256": "051c716e754475c38828d32cc92aca41b9af92c0a8b4a17614ca9c2a30de6486",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "e8ccfc202cf1d32f38f35080155beb6c2a5ec03f2ff9004b4b01e9299fcef8b7",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r011-R12-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r011-R12-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r011-R12-g0340",
+      "source_group": "JR-SOURCE-r011",
+      "replicate_id": "r011",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 20884,
+      "edges": 182835,
+      "mean_degree": 17.509576709442637,
+      "cross_agent_edge_fraction": 0.560461618399103,
+      "duration_range_seconds": [
+        5.288926007,
+        718.943991484
+      ],
+      "contacts_sha256": "051c716e754475c38828d32cc92aca41b9af92c0a8b4a17614ca9c2a30de6486",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "c9f1a3575fbd588a0c962aa73b5ae486c4310a9ccdf4b9c53beecae4b232fb2c",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r011-R12-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r011-R12-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r011-R12-g0680",
+      "source_group": "JR-SOURCE-r011",
+      "replicate_id": "r011",
+      "split": "TEST",
+      "station_view": "R12",
+      "station_count": 12,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 20884,
+      "edges": 231856,
+      "mean_degree": 22.204175445316988,
+      "cross_agent_edge_fraction": 0.6533926230073839,
+      "duration_range_seconds": [
+        5.288926007,
+        718.943991484
+      ],
+      "contacts_sha256": "051c716e754475c38828d32cc92aca41b9af92c0a8b4a17614ca9c2a30de6486",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "264473c87ca9959c9ac1550a4a12256dcd4fa39a714d64e494c2dd972f8ea5e9",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r011-R12-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r011-R12-g0680.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r011-R8-g0170",
+      "source_group": "JR-SOURCE-r011",
+      "replicate_id": "r011",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 86030,
+      "mean_degree": 12.35441947296618,
+      "cross_agent_edge_fraction": 0.6184238056491922,
+      "duration_range_seconds": [
+        5.288926007,
+        718.935594759
+      ],
+      "contacts_sha256": "051c716e754475c38828d32cc92aca41b9af92c0a8b4a17614ca9c2a30de6486",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "84ab47ad6a095bc94dceb639379d0de13a13b3549bf890c9d6f4160a9e3ccf18",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r011-R8-g0170.json",
+      "npz_path": "graphs/JR-DUAL-r011-R8-g0170.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r011-R8-g0340",
+      "source_group": "JR-SOURCE-r011",
+      "replicate_id": "r011",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 101196,
+      "mean_degree": 14.532347239175701,
+      "cross_agent_edge_fraction": 0.6756097078935926,
+      "duration_range_seconds": [
+        5.288926007,
+        718.935594759
+      ],
+      "contacts_sha256": "051c716e754475c38828d32cc92aca41b9af92c0a8b4a17614ca9c2a30de6486",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "90849f843b3e1b724d3ee93328cf29558b982d673ab5bdd88a5532514d7cc00b",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r011-R8-g0340.json",
+      "npz_path": "graphs/JR-DUAL-r011-R8-g0340.npz",
+      "completed": true
+    },
+    {
+      "graph_id": "JR-DUAL-r011-R8-g0680",
+      "source_group": "JR-SOURCE-r011",
+      "replicate_id": "r011",
+      "split": "TEST",
+      "station_view": "R8",
+      "station_count": 8,
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "vertices": 13927,
+      "edges": 133917,
+      "mean_degree": 19.23127737488332,
+      "cross_agent_edge_fraction": 0.7548705541492118,
+      "duration_range_seconds": [
+        5.288926007,
+        718.935594759
+      ],
+      "contacts_sha256": "051c716e754475c38828d32cc92aca41b9af92c0a8b4a17614ca9c2a30de6486",
+      "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+      "npz_sha256": "0932016c3f950ed1dcc4c742ae771ad6a3d7c6f7044d32ded6538326c3ada752",
+      "npz_present": true,
+      "metadata_path": "graphs/JR-DUAL-r011-R8-g0680.json",
+      "npz_path": "graphs/JR-DUAL-r011-R8-g0680.npz",
+      "completed": true
+    }
+  ],
+  "station_views": {
+    "R12": [
+      "GS01",
+      "GS02",
+      "GS03",
+      "GS04",
+      "GS05",
+      "GS06",
+      "GS07",
+      "GS08",
+      "GS09",
+      "GS10",
+      "GS11",
+      "GS12"
+    ],
+    "R8": [
+      "GS01",
+      "GS03",
+      "GS04",
+      "GS06",
+      "GS07",
+      "GS09",
+      "GS10",
+      "GS12"
+    ]
+  },
+  "graph_configurations": [
+    {
+      "config_id": "g0170",
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150
+    },
+    {
+      "config_id": "g0340",
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150
+    },
+    {
+      "config_id": "g0680",
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150
+    }
+  ],
+  "settings": {
+    "model": "full_visibility_interval_duration_reward_capacity_one_v2",
+    "weight_rule": "duration = end - start; no task generation, slicing, rescheduling within access or reward reassignment",
+    "satellite_capacity": 1,
+    "antennas_per_site": 1,
+    "ground_antenna_capacity": 1,
+    "satellite_switching_gap_seconds": 150,
+    "edge_rule": "order u,v by (start,id); edge iff (same antenna and start_v < end_u + ground_gap) or (same satellite and start_v < end_u + satellite_gap); all overlaps including containment are conflicts",
+    "propagator": "J2Perturbation",
+    "initial_state_coordinate_system": "J2000",
+    "earth_model": "WGS84",
+    "eccentricity": 0,
+    "argument_of_perigee_deg": 0,
+    "minimum_elevation_deg": 15,
+    "site_altitude_m_ellipsoid": 0,
+    "terrain_mask": false,
+    "earth_obstruction": true,
+    "additional_sensor_fov_restriction": false,
+    "light_time_delay": false,
+    "weather_rf_lighting_business_constraints": false,
+    "artificial_minimum_contact_duration_filter": false,
+    "planning_horizon_hours": 72,
+    "propagation_padding_hours_each_side": 1,
+    "horizon_contact_policy": "keep only unmodified full contacts fully contained in the planning horizon; retain crossing intervals separately",
+    "access_precise_event_times": true,
+    "access_max_step_seconds": 30,
+    "access_time_convergence_seconds": 0.001,
+    "spot_check_max_step_seconds": 15,
+    "relative_time_export_decimal_digits_minimum": 6,
+    "integer_solver_tick_seconds": 1e-06,
+    "tick_note": "fixed serialization only; not a statement of orbital accuracy; do not coarsen to manufacture feature equality; check integer overflow",
+    "historical_inputs_required": false,
+    "simulation_executed": false
+  },
+  "data_dictionary": {
+    "contact_csv": [
+      {
+        "field": "source_group",
+        "type_or_unit": "string",
+        "meaning_zh": "来源组；同母库所有站网、gap、状态和恢复请求必须同组划分"
+      },
+      {
+        "field": "geometry_id / replicate_id",
+        "type_or_unit": "string",
+        "meaning_zh": "物理族标识 / 重新传播的物理实现标识"
+      },
+      {
+        "field": "epoch_utc",
+        "type_or_unit": "ISO UTC",
+        "meaning_zh": "规划起点及轨道历元；relative seconds的零点"
+      },
+      {
+        "field": "contact_id / pass_id",
+        "type_or_unit": "string",
+        "meaning_zh": "完整接触唯一标识 / 卫星—站点流的原始过境序号"
+      },
+      {
+        "field": "satellite_id",
+        "type_or_unit": "string",
+        "meaning_zh": "卫星实体；同时通信容量为1；也是owner"
+      },
+      {
+        "field": "site_id / antenna_id",
+        "type_or_unit": "string",
+        "meaning_zh": "站点 / 单副天线资源标识"
+      },
+      {
+        "field": "start_rel_seconds / end_rel_seconds",
+        "type_or_unit": "decimal seconds",
+        "meaning_zh": "权威端点；9位小数；不裁切、不整数秒化；区间[s,e)"
+      },
+      {
+        "field": "duration_seconds",
+        "type_or_unit": "decimal seconds",
+        "meaning_zh": "严格等于冻结CSV的end−start；唯一收益，无业务权重"
+      },
+      {
+        "field": "start_utc / end_utc",
+        "type_or_unit": "STK UTCG",
+        "meaning_zh": "辅助人工显示；STK默认毫秒显示，不能代替权威相对端点"
+      },
+      {
+        "field": "boundary_crossing",
+        "type_or_unit": "string",
+        "meaning_zh": "contacts.csv恒为none；边界表left/right/both；原始表另有outside_before/after"
+      },
+      {
+        "field": "access_settings_hash",
+        "type_or_unit": "SHA-256",
+        "meaning_zh": "对应access_settings_actual.json中的真实Access设置"
+      },
+      {
+        "field": "padding_boundary_clipped",
+        "type_or_unit": "boolean",
+        "meaning_zh": "仅raw/boundary表：传播padding边界上可能被截断；不得作为完整规划接触"
+      }
+    ],
+    "graph_npz": [
+      {
+        "field": "start_decimal_seconds / end_decimal_seconds / duration_decimal_seconds",
+        "type_or_unit": "string[N]",
+        "meaning_zh": "冻结CSV原小数；收益为端点差"
+      },
+      {
+        "field": "start_ns / end_ns",
+        "type_or_unit": "int64[N], ns",
+        "meaning_zh": "9位小数的整数表示；原始冲突边在此精度建立"
+      },
+      {
+        "field": "start_ticks / end_ticks",
+        "type_or_unit": "int64[N], us",
+        "meaning_zh": "求解器微秒序列化；不是物理精度声明"
+      },
+      {
+        "field": "weights",
+        "type_or_unit": "float64[N], seconds",
+        "meaning_zh": "完整接触时长；无重新赋权"
+      },
+      {
+        "field": "owner / agents / satellite_id_mapping",
+        "type_or_unit": "integer[N] / string[168]",
+        "meaning_zh": "owner=卫星的索引映射；不构成全天团"
+      },
+      {
+        "field": "edges / edge_u / edge_v",
+        "type_or_unit": "integer[E,2] / integer[E]",
+        "meaning_zh": "去重无向冲突边，u<v"
+      },
+      {
+        "field": "edge_types",
+        "type_or_unit": "uint8[E]",
+        "meaning_zh": "位1=同天线冲突，位2=同卫星冲突；3=同时满足两类"
+      },
+      {
+        "field": "mother_contact_index / contact_id",
+        "type_or_unit": "integer[N] / string[N]",
+        "meaning_zh": "R8/R12顶点回溯到同母contacts.csv；保留原窗口"
+      },
+      {
+        "field": "vertex_factors / factor_indptr / factor_vertices",
+        "type_or_unit": "CSR-style arrays",
+        "meaning_zh": "时间资源归属：每个顶点关联一副地面天线和一个卫星通道；成员并非静态团"
+      },
+      {
+        "field": "factor_ids / factor_kind / factor_capacity / factor_gap_seconds",
+        "type_or_unit": "arrays",
+        "meaning_zh": "天线/卫星资源类型，容量恒1，各自gap"
+      },
+      {
+        "field": "source_group / split / graph_id / contacts_sha256 / parameters_sha256",
+        "type_or_unit": "scalar strings",
+        "meaning_zh": "来源分组、派生图和冻结输入证据"
+      },
+      {
+        "field": "duration_greedy_witness_vertices",
+        "type_or_unit": "integer[K]",
+        "meaning_zh": "建图验收的可行调度见证；不是学习算法结果或最优证书"
+      }
+    ]
+  },
+  "warnings": []
+}

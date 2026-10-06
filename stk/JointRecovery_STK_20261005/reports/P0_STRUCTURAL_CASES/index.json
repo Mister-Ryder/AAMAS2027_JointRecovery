@@ -1,0 +1,161 @@
+{
+  "status": "ACTUAL_CASES_EXTRACTED",
+  "selected_batch_outs": [
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_a\\out",
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_b\\out",
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_c\\out",
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_d\\out",
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_a\\out",
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_b\\out",
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_c\\out",
+    "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_d\\out"
+  ],
+  "completed_graph_collections": [
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "source_group": "JR-SOURCE-r000",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_a\\out\\JR-DUAL-r000-R12-g0170\\summary.json",
+      "summary_sha256": "0e7f46427bfa5dc069788a65c123c2ea9386b747fabff5886414c6f88a773878",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "source_group": "JR-SOURCE-r000",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_a\\out\\JR-DUAL-r000-R8-g0170\\summary.json",
+      "summary_sha256": "1e93c23db07abfbf1e56a83dc1534f7536fb91ed5651bf988e7b458e4d22780b",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "source_group": "JR-SOURCE-r000",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_b\\out\\JR-DUAL-r000-R12-g0340\\summary.json",
+      "summary_sha256": "4edd5e11f6bde3b3eec0383a993cfbe3782b15bfc140604dd415005c875de22c",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "source_group": "JR-SOURCE-r000",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_b\\out\\JR-DUAL-r000-R8-g0340\\summary.json",
+      "summary_sha256": "aa9b7f994a8775d1960d13470aaae46255a2157cff70afd5aab74054de7a56a8",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "source_group": "JR-SOURCE-r000",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_c\\out\\JR-DUAL-r000-R12-g0680\\summary.json",
+      "summary_sha256": "8404b764a4f0bb99b7d3e4e0cdc7f947be218022577e836c63da2975d9e3b9dd",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "source_group": "JR-SOURCE-r000",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r000_d\\out\\JR-DUAL-r000-R8-g0680\\summary.json",
+      "summary_sha256": "73a03cf8baadd016349eb62d7cf210248f997c3cbebbc07fc7cd72011caef318",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "source_group": "JR-SOURCE-r001",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_a\\out\\JR-DUAL-r001-R12-g0170\\summary.json",
+      "summary_sha256": "d18e024e57349e3a6ca4c223b623e4dad1681fea24a9d7c99177ca44718c4f6f",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "source_group": "JR-SOURCE-r001",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_a\\out\\JR-DUAL-r001-R8-g0170\\summary.json",
+      "summary_sha256": "7a875c12857916439c3f8b7b1af8811a9ea892a0ebbd7a95f7256e431ee913be",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "source_group": "JR-SOURCE-r001",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_b\\out\\JR-DUAL-r001-R12-g0340\\summary.json",
+      "summary_sha256": "86366f1bb459060947c1f5b265b43c4ac6b1f34696be36bf4bde8c0e9fd8f846",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "source_group": "JR-SOURCE-r001",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_b\\out\\JR-DUAL-r001-R8-g0340\\summary.json",
+      "summary_sha256": "c859f608c6b4898cf13c1e514e261b468d464b4dcf611b63e8feba4e3a24dc2b",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "source_group": "JR-SOURCE-r001",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_c\\out\\JR-DUAL-r001-R12-g0680\\summary.json",
+      "summary_sha256": "22b73748d559dba316a20b81979ea21bb7180e8822108954d992e3d83f75121e",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "source_group": "JR-SOURCE-r001",
+      "summary_path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p0_r001_d\\out\\JR-DUAL-r001-R8-g0680\\summary.json",
+      "summary_sha256": "ae8fd63eb4648669e8db8e5ebb32a7b2697cc261d197e54dc39ab0424d3949ad",
+      "target_states": 12,
+      "actual_states": 12,
+      "deduplicated_shortfall_retained": false
+    }
+  ],
+  "positive_request_rows_before_deduplication": 1754,
+  "distinct_positive_scope_warm_return_outcomes": 188,
+  "selected_case_count": 3,
+  "case_selection_rule": "Largest actual added seconds; distinct graph first, then unique scope/warm/return. Illustrative selection only.",
+  "cases_are_not_independent_physical_sources_or_performance_estimates": true,
+  "endpoint_serialization_note": "9-digit decimal export describes the frozen numerical graph; not nanosecond physical accuracy.",
+  "graph_learning_advantage_established": false,
+  "cases": [
+    {
+      "file": "case_01.json",
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "source_group": "JR-SOURCE-r000",
+      "snapshot_id": "s-004",
+      "action_index": 10,
+      "beyond_snapshot_added_seconds": 2345.705265351942,
+      "joint_recovery_bundle_count": 31
+    },
+    {
+      "file": "case_02.json",
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "source_group": "JR-SOURCE-r001",
+      "snapshot_id": "s-004",
+      "action_index": 7,
+      "beyond_snapshot_added_seconds": 1715.586241903984,
+      "joint_recovery_bundle_count": 21
+    },
+    {
+      "file": "case_03.json",
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "source_group": "JR-SOURCE-r001",
+      "snapshot_id": "s-000",
+      "action_index": 10,
+      "beyond_snapshot_added_seconds": 1317.231127751049,
+      "joint_recovery_bundle_count": 20
+    }
+  ],
+  "tool_sha256": "3303c22b1da30040f6a45baa562bc0c451db038a39a2029b8f239d4ea2d5d889",
+  "created_utc": "2026-10-05T12:44:53.133158+00:00"
+}

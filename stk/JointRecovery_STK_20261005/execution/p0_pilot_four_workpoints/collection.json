@@ -1,0 +1,1098 @@
+{
+  "name": "p0_pilot_four_workpoints",
+  "jobs": [
+    "p0_short_r000_a",
+    "p0_short_r000_b",
+    "p0_short_r000_c",
+    "p0_short_r000_d",
+    "p0_short_r001_a",
+    "p0_short_r001_b",
+    "p0_short_r001_c",
+    "p0_short_r001_d"
+  ],
+  "graph_count": 12,
+  "files": [
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/protocol.json",
+      "sha256": "faf672006b9606f14d5f1d482fcfa5cdaad436f127b5bfb49948453769fff737"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/requests.csv",
+      "sha256": "dda4fa9498efd278f1b56785fd05b48d9e66573a67cbf0ae4b3c0a98e75d9914"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_000.json",
+      "sha256": "0c182b712178b54bfe67733b83e14dee7f16a5b2080a979d79b6c192f054e8b1"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_001.json",
+      "sha256": "078d43b5fd43e491a80d5f396401e6afdeacf972b31fbe3c5d9bba781c73ae6f"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_002.json",
+      "sha256": "98699887077bd05e8d7033fac6477596cfbf2d225bbc76f388da017223046501"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_003.json",
+      "sha256": "f539a0433fb9d2e10d93d928773f8526bf3ddee04ae134bef755d3ebc4be1ed2"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_004.json",
+      "sha256": "b8f3dd25776ab7c2f841d19ee51e8ee3b691df08fe9f82ff36bfec85d263d474"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_005.json",
+      "sha256": "63151ed5e4e7e2d5b498032ee59f5c61acb5f488ec7d68b4d4edbb22a30a4b22"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_006.json",
+      "sha256": "2d55ecc549a57125ece69e2032f78e59a8c029c36027f2e35dffb27acd7e3ce9"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_007.json",
+      "sha256": "3de25092179893414da121a65139e6456c41baa2c073da4b4035f550a30d5e38"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_008.json",
+      "sha256": "4dd24661c3f4dd76cacf000f92a4063099d53d22aed58ebb2e3b1ae0ef625fbb"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_009.json",
+      "sha256": "d36d44ecfc0a1cf6f7d76ff4e872fe26c4259900dbee7d601e6dfc141147e590"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_010.json",
+      "sha256": "8b44b5b958b3d07c90d22eb15ecdd23eb3aa496fb6084f978d7668fd7df3d935"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_011.json",
+      "sha256": "15f2c44262e07d93bcdffe93bdd73d4bc6af9e78422dd464af6bab8bfc235435"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0170",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R12-g0170/summary.json",
+      "sha256": "792bdde5c2b0fd7cc0c0effdc7afa8fca1ae9dbe8e8ea2e5d8eaaa450e278152"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/protocol.json",
+      "sha256": "c7917f1ae8b911865f34f4f0d06fb29a60e9bb8269d9ee5723f936c8b4974003"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/requests.csv",
+      "sha256": "94e1d20bb7432f718c83273db91db48e7cdfffc6d1d35b1339e16e4b1ca50b52"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_000.json",
+      "sha256": "06e13a6330c2764e0d531411fae773379341b6758fecd5615d899dba4c2f56da"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_001.json",
+      "sha256": "26526686d1a1c3365aa4aa79d537d28aa3d63e7b1a6e7616ad629f13dd9bde9a"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_002.json",
+      "sha256": "480bc4a156a3a2fc967faea129c584e01cb9c3cc71eaf65ea29e0ce89c29d2c0"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_003.json",
+      "sha256": "d260b66d188f8f497345398b2a4582dbffe834edd638298c6d321fcba9e635f7"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_004.json",
+      "sha256": "e32fb11b9e72942dad3cbf57c0f4a90fbc6a7e2978a4d3bb16bcef2899534d82"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_005.json",
+      "sha256": "bc1c47c6e30b946ce6b8a99595b7821846855fe063b7f3688d1464e223d1250d"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_006.json",
+      "sha256": "7e06ac5442e7e8ed1eed48701c21c4fa9604d3b1efdd9f8cb81fb5135d3168d4"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_007.json",
+      "sha256": "b494d945ad8222531531b6e518e155349e53f921d1c2ed83a07903866676aefc"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_008.json",
+      "sha256": "cc8d99cf71f1e47a1e7b67729aeb2cfddb63de9d118d69aae57df9e47b422ee1"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_009.json",
+      "sha256": "7fa5dbc6533b7861b1a3a8adf51727f413d03e83f6b85559dd7784f7cbfd1660"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_010.json",
+      "sha256": "bad8dde2adb25bc80c8a196f871f3956c1d73fd5899b32965b7f55a8a24b6507"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_011.json",
+      "sha256": "1c105491be611aed5c1bd979a6fa29e8f7b49368e31d7c3fa5cafb68d6d4d487"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0340",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R12-g0340/summary.json",
+      "sha256": "7c49d1f0475dd1e096850f23e9f891170745846c38ee87d9098a7dd890e8646f"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/protocol.json",
+      "sha256": "28611e22ad8b674f7772fd1811c18fbac0da5c3040f3fd11a4709f76166bf299"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/requests.csv",
+      "sha256": "8cef79c17be2ff7b9c8988551e0f10f88eed82af65effdc9ddbeba9265cd92a0"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_000.json",
+      "sha256": "0244162c2e7574591e660fc32737171285b65b67d1c5f19a420d21cf6e98cd77"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_001.json",
+      "sha256": "d44df1665f6375d2790604131f2636873928ba69988af84f7920f0ff55546a29"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_002.json",
+      "sha256": "64b9d52923f18b1fe56713cdd585e9f9ef9510dc1d49fb17948d26b3b3682124"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_003.json",
+      "sha256": "35fc47c6c215f141b7ac61535fa8f6540bbe8eeb4604fd9329ddcd3c812ba640"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_004.json",
+      "sha256": "bde70720b04ddd4ce15f9f84e2b7a304438445859c48a5d7742518902914d015"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_005.json",
+      "sha256": "3cad787e24a4c6212bc5f9fbb27d4e4b3d90dd6d654fd3fa189fb7da40c9e94e"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_006.json",
+      "sha256": "890d2b0a437c951c2d92423c7e6a1b728f597dc06f083b48fbec077c27783368"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_007.json",
+      "sha256": "599460a188aff60897c9165da7bc8d893da8c5bf307a61064db12e26d3725132"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_008.json",
+      "sha256": "7e95953797bde85501d30f904a5c9509afb46f7e7d9642ca9b444bd4edf3d0ae"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_009.json",
+      "sha256": "722348b6cff195c440288a93c3950b6894ed958ba297f85480ffb1762474f74b"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_010.json",
+      "sha256": "fe16a474b4ea80e375e919b835ce6a1b5bb93cb2ed43577d736c71d9f8f34e9e"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_011.json",
+      "sha256": "a3dccf8f93a252c74295607531acef0ccef9804dda403feb3c36c32c01a98fe6"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R12-g0680",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_c/out/JR-DUAL-r000-R12-g0680/summary.json",
+      "sha256": "919896d95cac6e6469b5ad90fe9a15c25e462011fea5dcadd1255d524a2ce30f"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/protocol.json",
+      "sha256": "92c30c80642bb02b0cbf9835a2ec2ad6c73bc24bf30cb811e200e190df82eacf"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/requests.csv",
+      "sha256": "52785394c528263b2d2c0deb57b089979392af4ea24ac812678cc7582024f567"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_000.json",
+      "sha256": "be39a2b81ac77896881d4c52c1ab013f088ef36719014805ed6b3c121fe4b766"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_001.json",
+      "sha256": "b2dbc244abaa97184a1f89a23a6c399d613e53f7fbc8531a7828dbdf4e08a23f"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_002.json",
+      "sha256": "87a579d4ba825dc2e424d73de3f1f1edf224d5fd034bb67dae0c4a7f1d985b08"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_003.json",
+      "sha256": "2414cf536d99dbd8a7d2d4f762557a1801ab46885fe3214fe9260c744ad17ee2"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_004.json",
+      "sha256": "0f683cbf9d531288af62695ea248fbbea01b801e72c8faa46445e7c602895883"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_005.json",
+      "sha256": "1a524974720c7203a3976de318cdc6be3b3c6420825432e0e2414d86a9473f86"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_006.json",
+      "sha256": "d54fea8ae06cfdbf873eceda1ea9d3b5f13c6a4aacfd7446c494c7555c6622ac"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_007.json",
+      "sha256": "d10a158d427856dda8189ac3f909b0e35b7abde9d1b621f76a77d2ecbabc44f3"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_008.json",
+      "sha256": "a0d0527c57dfb1e61a2f2a68028a6fd2c32c58b02e8bc432019a4ae868cfb13f"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_009.json",
+      "sha256": "5efd6b11750d91b55ea2d8f1d0d49b699b6535c8db4b6332aae414d5f6785a48"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_010.json",
+      "sha256": "d93696601005ba2cba5350e895a5a742e69d05faac4c7e02fec89e51589c511f"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/snapshot_011.json",
+      "sha256": "5748368a4a2a855ae6909bd89dde02b0efd0f972d5fb69c29bc174fe4700232c"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0170",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_a/out/JR-DUAL-r000-R8-g0170/summary.json",
+      "sha256": "7b25bdb22fe4f36ff56d06d055eb23fe35dee80d2fb3b5a8b61027c7ec427692"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/protocol.json",
+      "sha256": "802e59fc25c20c5cc175a08ea54a09d087819cc607c59c52a957c332cf0d5422"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/requests.csv",
+      "sha256": "f23ab0c5bcf7cd9551d4b96de118012e13a8a3764886075c0c4ef208e7a88bdd"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_000.json",
+      "sha256": "40cb60212cb35df92b5bb0e1cf230aa5f59abc7f3174005522a9fdb286ed2835"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_001.json",
+      "sha256": "01dfe77c25eb36cf6910d0e0d434a4483be1fdf8662ac7751b23a60e6bccd2bc"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_002.json",
+      "sha256": "a785dcf50381a2e358603ea823cb4f00d87f7eb39fdb1dfb235a0da914c86f97"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_003.json",
+      "sha256": "be0b48d4b71c4a390d49e5f7dd5add10586f37dd8c353dd2105d5fdde60a657e"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_004.json",
+      "sha256": "99c6085a9710efefde467061620d5176d52f4f5bec8c6850817718051fa1ec7b"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_005.json",
+      "sha256": "79cb8d5bca99472a679cd54539fb47ee4a75c19ba1b5d2d8137555a48bfc0899"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_006.json",
+      "sha256": "013fc70cb60d2453bfa7055b4aab1cc432ac1658dea3338a35b372801e794ba9"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_007.json",
+      "sha256": "04b4af5c5f61086f0d8e6f04eb15250fe5945379a5ea1d3b98ed7c8dc6f1f2d4"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_008.json",
+      "sha256": "1e127c332797aa706a6321180d7099eae892271be445c8ce21b3d086d73f96e7"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_009.json",
+      "sha256": "2134d706d1cf13e9981556fbfa974c2c2b63e910694c4b27a281939a49a3d5fb"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_010.json",
+      "sha256": "80962c30aec189061cf8c18d41b2b44d5b980b52bedd0159a494a4e121331f25"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/snapshot_011.json",
+      "sha256": "51478da9b95cd9018eca562ae59f272f87672feaf763695a091f83ac24cb5c70"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0340",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_b/out/JR-DUAL-r000-R8-g0340/summary.json",
+      "sha256": "dee28c3624311c06d4e3dd8b84ab3209c72db16209ca07bc287d6b646a79fa24"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/protocol.json",
+      "sha256": "eed0c9dc42c46cb025c75f9a8288c2158fd0161af5467d12160af63ee8862af1"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/requests.csv",
+      "sha256": "59f47ad93ce7e5ea91ea1a19d28048671c476c4a100020294798f30b5b2ae830"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_000.json",
+      "sha256": "86db2647681df1dff71106b791d61add4239caaa2330278760ce6fa82a90b917"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_001.json",
+      "sha256": "9a0d37fedb3be62b02b7e9786e62d177401904475335d733c2cdf5a7708af35b"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_002.json",
+      "sha256": "3a05f96a6290f13d02623f2595b913eb67938c102b021b851e0d2b11a2dfc11b"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_003.json",
+      "sha256": "f51e71935f1f7ec1ac7173cd5c110a9acc71e8675fa9ea5fe91f57825f382f9d"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_004.json",
+      "sha256": "7ec5d18a6def548863dcfe05feef37f31da8fc144e1c36a5dee5e5b01c6595fe"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_005.json",
+      "sha256": "faa7a9ab06c57235c740a0286a3af58fb75dc95778b2513888e8539c8d795058"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_006.json",
+      "sha256": "b191f832bcf72675d6a63af492d319a99fd9b1f7486fde568b2811c785fc711f"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_007.json",
+      "sha256": "b88c9c3dfd0e313f76f7523537ca3d937d716f9f568a83c15f67b09b19d415ca"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_008.json",
+      "sha256": "843984840f5f868ead2b4dc1e278bd55ca617d9ffc5c24cb01bad484f6c4adb2"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_009.json",
+      "sha256": "5fbd14f04298bf2f354286f45b3300189c88269f9e81ada93f83f346e650ea8a"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_010.json",
+      "sha256": "a448767bc6905eb8f8d6d4f999e133e0b76b810606a4a9bd5d2ac1e431c20335"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_011.json",
+      "sha256": "b591f3af2feea70514ac5ee599ab88470ed1f01990aed040a6c2f0cfd4bf5aef"
+    },
+    {
+      "graph_id": "JR-DUAL-r000-R8-g0680",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r000_d/out/JR-DUAL-r000-R8-g0680/summary.json",
+      "sha256": "9ac55108fe6cf38b91ae09c6fb60fde7ba62a51f4f8de8a5a9beabd953d17305"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/protocol.json",
+      "sha256": "69d5c8c6f1b7d8b2f4037088cf7cc3d790182eef2c1df9085c3375b437f73594"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/requests.csv",
+      "sha256": "112e8c02420602419b201e0d0b8e5b1a911a876866ee8d3a41a9ec6adc0543f1"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_000.json",
+      "sha256": "635aa5838165855f26465998e67fa9133c3ef351e61d154b69de85a30e7919f6"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_001.json",
+      "sha256": "7c7735d6a8bcee03ea7a1bf064d68296f8bfb78556e6c1e2c537807a3be1bf59"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_002.json",
+      "sha256": "8ffebb21573f8db29677c44a84e0deea83b9e812ad00247d652a07e6ba44e620"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_003.json",
+      "sha256": "492ced2a9abf4d559eb6c37022becb4d9a44b9ff24a5ce6c7a63e0a0f9e57596"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_004.json",
+      "sha256": "e870bc9c5926880e1fd6059b693aa23dbee5cbf98d8d69455dfb13719039cb82"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_005.json",
+      "sha256": "f2370347e04c8a34d8280c3edf98f78dedc421825c0069b4870c4cbc8025ab6c"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_006.json",
+      "sha256": "f553fc0160fc55e06aeb0f4cdaaaa83ea230cc3c40f2f66e06f9ee6e51d05aa8"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_007.json",
+      "sha256": "f46a75108f693c0f145b7f3f5ea667e5035ab3f1506c1cb3a71d26171abfd08b"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_008.json",
+      "sha256": "0ba9bbe3f2e5e33893ad42d1e574092e22a0aaf1e76cd8ca45636a868392b609"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_009.json",
+      "sha256": "14cb3aa7b4b2d68c3525eb29801f812aac4fa66ec9935d87decad4f773d7b1af"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_010.json",
+      "sha256": "6b58956321c801e3aca71c0874f65375bf8d19f3a58c80df98784b5f302569f6"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_011.json",
+      "sha256": "d3386b7a4804c526d7facb54befad754e53658373bf3c10c9e4af424f6a0de53"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0170",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R12-g0170/summary.json",
+      "sha256": "e2b997b3a950722e0388359481ea9d69ad5a977e61e310396a20579637f2aa2a"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/protocol.json",
+      "sha256": "0c66dcee22fbde6e3c2cf62376a8aeebb6315a724c58f50dcbff6cb1a722ea68"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/requests.csv",
+      "sha256": "272a69751d6b9381e82042b31647e3999b6e7df596adce8c83ca6235ae3443fd"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_000.json",
+      "sha256": "49a2041107b5dd1c6c0f2ae6a9235d3dd8f165ac68bd85f09c2ea6f37f17e8c7"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_001.json",
+      "sha256": "6f84119f679803792c0abb8fa2151e6efc0747e86a6115a203821577a2081f8f"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_002.json",
+      "sha256": "dae51181189a839f8b658bab315386cc4bafc191b8a80435764f71221999aaa0"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_003.json",
+      "sha256": "723583222e5db46f0d09a07b76b1ba1896ab2b00c3aec33eed84147951c76496"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_004.json",
+      "sha256": "89d4608e6106255c6a734e7de5ba7e64835856dd07e43353efde4adc09cc4137"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_005.json",
+      "sha256": "07721f894ddaaf0f06cd60c35d8b7f5cb5ff381ec61dfffee4ef2464e86f7696"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_006.json",
+      "sha256": "d8c4a00e388ebf7eccc28c4dde33f12b28170603c7073c720f858aa61ab82490"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_007.json",
+      "sha256": "85de61f49ce4a7ceb17eea5d276c888e720c39b9e107d93642c1e5efd21386ab"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_008.json",
+      "sha256": "22589fe770f57311c127950a38aaf384a62f9fbe6d4bff99d5c733bcec40f83c"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_009.json",
+      "sha256": "a12b3445c615d2cb36f55258a2e504134c28d67ca873f4541e35061f784c8aad"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_010.json",
+      "sha256": "bdc3beae01265cecae32e03ccce16aeda18d44856de1374f3858db8123fef8e6"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_011.json",
+      "sha256": "795575dd9522a532c9a2751e3522de7167b665d4ce01408f629840970c4bf70b"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0340",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R12-g0340/summary.json",
+      "sha256": "ea93fce4c38484a59433c0840dc9e77c6287986afb6d60da8794b3f2a99ac265"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/protocol.json",
+      "sha256": "060f1b20f596b4f50225fb8eb1fea23923aa576dd816155b90950358359399a8"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/requests.csv",
+      "sha256": "c2724b8fadd4360721a1a07fb13c5479befdaacd7ed3a7041b3dd07af8702fee"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_000.json",
+      "sha256": "0df4a90b162bbac8d21eb62d82c5dfc85ccc8a36e79868ebdcd02294e7fe2a89"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_001.json",
+      "sha256": "a01d103f3fb082dc9045a0a12f8a0c53f50ee297c9f9e3d5c2c16c77418851d3"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_002.json",
+      "sha256": "3d0add9affd872780c31ea36de3021f5e5f4806c6fa1a0f524b046b38d8aee43"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_003.json",
+      "sha256": "f473f4ac04c1cc03ee2661643d446ed4ec3ee15b5fe357ebdcb981de327c9a9a"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_004.json",
+      "sha256": "5cf8bd5a7af85b17da062bd66039bc5911956fec86d219850187fada4dc4eeb5"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_005.json",
+      "sha256": "4cbbc7fe3cb5228e98a52d118487fbd57bfb633cefaa656ab89aa47df670e3ce"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_006.json",
+      "sha256": "09b3e3e99c85efe28b52f00d3bcc88a9a9362334caa572af31082e9856f78551"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_007.json",
+      "sha256": "4af5ed9606a96e0bf990fa4872d28b76dd3c27eb227a24f22bbee9d1d0670cf4"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_008.json",
+      "sha256": "ea32bdb7ae4c01d97ccefe400d9a76bbd8cdca066a628fe4bd9de68c11b2a5ed"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_009.json",
+      "sha256": "546b50fd00a63245c707f15f6023b64a6ad1dc1d4bfbbca7181447cd3f58f123"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_010.json",
+      "sha256": "67ae838551b60bb7178c97e5d893877b498efb2db18c92a72d18606916392367"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_011.json",
+      "sha256": "d852c1e6be0ab38a21fb2694229b27afcf1a2726201f085ad420e89603499650"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R12-g0680",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_c/out/JR-DUAL-r001-R12-g0680/summary.json",
+      "sha256": "c522c25d5e48be830b6345dbc5d6af6394ad6ca91fd664f8ddaa3171ba03c72d"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/protocol.json",
+      "sha256": "b5dcd74f7e745fdaff2a15051f9eee5fc6bcbe257b81172a6a3689e72c335439"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/requests.csv",
+      "sha256": "b539d1d818e07d598c4ab626141941b45113361aa475208112ffa9e1f83c77e7"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_000.json",
+      "sha256": "53c7bb2f5489a446a7c3d45cbb64326613520328b32cd245bc36b7d86b4e8e89"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_001.json",
+      "sha256": "f95f2cfd1bb2138cc4aa56eac7f08eba74791cda743f7038c61e1fbb4e071006"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_002.json",
+      "sha256": "cff030ade9e03be677ad1dd18be699553850c89a7dba8bcb56dc486078e210ca"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_003.json",
+      "sha256": "171ee484019c58034172296b7b97ddee59080668cd7b36f7b6166d357b78f37b"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_004.json",
+      "sha256": "3ba6c4cc61b083324a717fc9a9bd40c7a9555a55a1eefcc444c80f241293bd1e"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_005.json",
+      "sha256": "298f7373f9111405d45722c86f9dae0538f654477eca6cbc15d699a2a981e543"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_006.json",
+      "sha256": "9de345beeffdb17c35ab0a1fd9e0ebf80a018f028854a2d9bf454bf681b6c77a"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_007.json",
+      "sha256": "9aa1848e2619eacb168c96bef50ecc7896772ce15e973601069f6121fef586c5"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_008.json",
+      "sha256": "37fc59f762cb5908f32e2863eac9d53e1453d1c64d240b2f75aadc04c897a715"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_009.json",
+      "sha256": "9aebc87a32d2ad4772ad398152a4cf8f8e8ca6afed8e7cc91c85cdf1874de951"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_010.json",
+      "sha256": "ed99db80b75f89e059adac70b924b7788d09894063d217e7b0b940e3903ce117"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/snapshot_011.json",
+      "sha256": "1a105680ac2db5cd56ba3eb92419377b9b469c45cded89c822aac7a82306b989"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0170",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out/JR-DUAL-r001-R8-g0170/summary.json",
+      "sha256": "98feaacef1c69c9e1fb6a242b768fc39447530c5e1c7871db1049336b8b4b507"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/protocol.json",
+      "sha256": "8aa098dec9c9f872cbbf4717d4dd86d091ec5f3fbf4e5090c8f2cd4ea3ebee4e"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/requests.csv",
+      "sha256": "30c8be5456fad5611c7760485d04af0380c52fa14f2bc3e33dcc06ed52e01133"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_000.json",
+      "sha256": "5b7f04758f714e1eacfbdc1ce8229578464b8cda7e32708a864ea36d7ae2c9f3"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_001.json",
+      "sha256": "dd913dee3c9bb99f6fddb7ced843874bb53f9b0ba2af2c1c47e62d99c8d7a7b9"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_002.json",
+      "sha256": "1031d661bff4ffa4065b25aa6ea0ded57a85f16bbaad368f9edad7a6ffb88b4c"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_003.json",
+      "sha256": "57424a2921326190f96ff8fa9fe050c82a15d024ffe82ef5080b2ca28d470381"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_004.json",
+      "sha256": "0b51d3959ef63f0d0b333fb6e75af73fff6dbc11fb1fcb3f772fe1206d0057e5"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_005.json",
+      "sha256": "6b05477700ab64b35fd33fb20a2a7dbf25d61fe8c7043c6c3c03cc728839bf92"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_006.json",
+      "sha256": "abe97283ca7ed4910c7fdb2e267e67deab00586b7eae1971aa6fea30081d8702"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_007.json",
+      "sha256": "f500143effb1654407205e264e8b9c4ffa89aa23505ab3641e69407ed99e7e33"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_008.json",
+      "sha256": "9d8e2c66d7b6d6b723f75ef448a55d07c9e90aa1dfa6dade2367ceb2f645ea69"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_009.json",
+      "sha256": "c1ad456841e561d6fd8297b8d5c2608cb8602f194728c0563e80d928d0c2ecc1"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_010.json",
+      "sha256": "2e3b326e0028e7490c17fafad3fb5e154302d71da972cbc8a4c82a549e32ac9c"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/snapshot_011.json",
+      "sha256": "315be80c33e914061aca431d94ea433b73f8d8bca2b73b0b9a7277661e6c5498"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0340",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_b/out/JR-DUAL-r001-R8-g0340/summary.json",
+      "sha256": "c6671f6b7e2ecc4030944f0df154e7f44f30ed2d0c0ea2f34585b40f88eadf02"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "protocol.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/protocol.json",
+      "sha256": "d1a67f943b6b9719a240b4eea493d9f043913f92aba48f353d78ea3ff15f304b"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "requests.csv",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/requests.csv",
+      "sha256": "cabaee3eeb3c3489fd698bb73ba414d62a89692e220ec6aa5dadd43275efc8cd"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_000.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_000.json",
+      "sha256": "b714c9d27165971dc21f6d5c1438a49d6ff596e7051af83ef6ad0ca71d54ba1c"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_001.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_001.json",
+      "sha256": "fdf85511ccba4acf551c1ef3b82e9ca278bf6db248fb9773981eddf498965246"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_002.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_002.json",
+      "sha256": "c6f0eba933073ae1363256663f8e314f908b51c0aae421ec0bb74594a8d3dc09"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_003.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_003.json",
+      "sha256": "15c16efa52c299cf6630fe5a6c2d49864cb74c171bf5efc5dcdbb4b563019469"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_004.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_004.json",
+      "sha256": "4c8931a64bc159dfd813e65e317a8dec93e2a1b051eb7831aa3dea0ee970b54c"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_005.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_005.json",
+      "sha256": "74484cec148fcb2a571d7d90486383ba221625741d9b8b672680adfce44ccbe0"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_006.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_006.json",
+      "sha256": "bc88a3eab2224205c3078b28620ccbf993f405d3d9cc243a9f2e8e30d0e9ec76"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_007.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_007.json",
+      "sha256": "69490899b9098210917eb7b38eb801e212a32f7d162af555e2787b9c2a40c811"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_008.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_008.json",
+      "sha256": "b03780b8c2828a346dd044ae9916f9f9df69620b7e042f9cb448699a19a2d0c6"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_009.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_009.json",
+      "sha256": "2cdf7a3e5205d3701f6c2dfc039bc781773a6436fcf51cb67ecd821c63e66e69"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_010.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_010.json",
+      "sha256": "6a068c2b105113818e34235692298e3e54be98270ecbcb947c05e450d25192d8"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "snapshot_011.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_011.json",
+      "sha256": "7205d028b9c690ade600d4dc739eeb14eeb214ac8a06bb5c7108000ab83c7bf5"
+    },
+    {
+      "graph_id": "JR-DUAL-r001-R8-g0680",
+      "name": "summary.json",
+      "source": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_d/out/JR-DUAL-r001-R8-g0680/summary.json",
+      "sha256": "4d04acb39ecbca955534b9115e10236b133716b1e9c79761ff773da1620b8068"
+    }
+  ],
+  "immutable_inputs": true,
+  "selection_by_declared_job_not_outcome": true
+}

@@ -1,0 +1,11 @@
+{
+  "pair_count": 2016,
+  "counts": {
+    "raw_padded": 21574,
+    "full_contained": 20919,
+    "crossing": 72,
+    "outside_planning": 583,
+    "padding_boundary_clipped": 68
+  },
+  "elapsed_seconds": 532.2289621999989
+}

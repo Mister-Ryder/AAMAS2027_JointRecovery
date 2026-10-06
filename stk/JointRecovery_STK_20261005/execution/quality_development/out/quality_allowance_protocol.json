@@ -1,0 +1,16 @@
+{
+  "schema": "joint_recovery_stk_quality_allowance_v1",
+  "status": "QUALITY_ALLOWANCE_PROTOCOL",
+  "stage": "development_completion_threshold",
+  "development_sources": [
+    4
+  ],
+  "allowed_deadline_seconds": [
+    60.0,
+    120.0,
+    300.0
+  ],
+  "quality_plan_sha256": "a9576d61bae3ae43ed45fe1499d70b2376ca84a31e499854137068d6b90016e0",
+  "selection_uses_gain": false,
+  "test_outcomes_used": false
+}

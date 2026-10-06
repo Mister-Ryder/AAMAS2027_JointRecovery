@@ -1,0 +1,27 @@
+{
+  "job": "p1_followup",
+  "pid": 36747,
+  "capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/c3d6daf0975504e556407249dcb215a924a5a2a33b20b8e7386f00c52bc495e3",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/c3d6daf0975504e556407249dcb215a924a5a2a33b20b8e7386f00c52bc495e3/code/p1_followup_pipeline.py",
+    "--dataset-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005",
+    "--runtime-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/c3d6daf0975504e556407249dcb215a924a5a2a33b20b8e7386f00c52bc495e3/runtime",
+    "--fit-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out",
+    "--p0-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/collections/p1_all_train_labels",
+    "--out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_followup/out",
+    "--chils",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3/CHILS",
+    "--chils-source",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3"
+  ],
+  "cpu_affinity": [
+    40
+  ],
+  "created_utc": "2026-10-05T13:18:17Z"
+}

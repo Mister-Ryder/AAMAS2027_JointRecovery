@@ -1,0 +1,50 @@
+{
+  "vertices": 20918,
+  "edges": 160565,
+  "ground_edges_including_double": 79904,
+  "satellite_edges_including_double": 80661,
+  "ground_only_edges": 79904,
+  "satellite_only_edges": 80661,
+  "double_resource_edges": 0,
+  "cross_agent_edges": 79904,
+  "cross_agent_edge_fraction": 0.49764269921838505,
+  "mean_degree": 15.35185008126972,
+  "median_degree": 16.0,
+  "max_degree": 23,
+  "degree_p95": 21.0,
+  "mean_contact_duration_seconds": 448.34042753871967,
+  "min_contact_duration_seconds": 0.648960991,
+  "max_contact_duration_seconds": 718.945903736,
+  "raw_contact_duration_sum_seconds": 9378385.063254938,
+  "satellite_mapping_count": 168,
+  "station_count": 12,
+  "boundary_strict_inequality": {
+    "ground": {
+      "near_microsecond_boundary_pairs": 0,
+      "exact_gap_equality_compatible_pairs": 0
+    },
+    "satellite": {
+      "near_microsecond_boundary_pairs": 0,
+      "exact_gap_equality_compatible_pairs": 0
+    }
+  },
+  "owner_contract": "Satellite identity; not a time partition or all-day capacity-one clique.",
+  "edge_resource_types_valid": true,
+  "duplicate_or_self_edges": 0,
+  "R8_unchanged_subset": true,
+  "duration_greedy_feasible_count": 2532,
+  "duration_greedy_total_seconds": 1258772.228229256,
+  "capacity_total_duration_upper_bound_seconds": 3110400,
+  "capacity_bound_valid": true,
+  "duration_greedy_independent_set_valid": true,
+  "graph_id": "JR-DUAL-r000-R12-g0170",
+  "source_group": "JR-SOURCE-r000",
+  "split": "train",
+  "replicate_id": "r000",
+  "station_view": "R12",
+  "ground_gap_seconds": 170,
+  "satellite_gap_seconds": 150,
+  "contacts_sha256": "5337fefd75068fcff1689e7ecf4c248a75f82afcdd4de965b0d678df8b3a6646",
+  "parameters_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+  "npz_sha256": "848e851257a8c48c5b33f04e13a7300e7c687d22c0f5c1c0aedc8b373659e679"
+}

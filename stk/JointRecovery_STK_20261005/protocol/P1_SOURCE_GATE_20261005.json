@@ -1,0 +1,34 @@
+{
+  "allow_p1_execution": true,
+  "allow_short_probe_execution": true,
+  "reason": "Formal P0 complete: two fixed physical sources, 12 configurations and 144 deduplicated actual controller states; every observed state has >=1% local recovery and actual net gain beyond held common-prefix/incumbent. Proceed with only Capacity/CheapSummary x seeds17/29 and matched controls.",
+  "p0_analysis_sha256": "6fcfc6d0bd710dde9dd5cccc9b0e46eea04e1bbfbb9a0adf154b659f53b1a588",
+  "graph_count": 12,
+  "physical_source_count": 2,
+  "controller_states": 144,
+  "request_rows": 6336,
+  "G2_graph_advantage_established": false,
+  "G3_configuration_dependent": true,
+  "training_sources": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "development_sources": [
+    4,
+    5
+  ],
+  "validation_sources": [
+    6,
+    7
+  ],
+  "test_sources": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "no_result_based_source_filtering": true,
+  "created_utc": "2026-10-05T12:44:09Z"
+}

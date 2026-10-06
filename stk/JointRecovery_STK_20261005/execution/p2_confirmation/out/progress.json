@@ -1,0 +1,8 @@
+{
+  "schema": "joint_recovery_stk_p2_confirmation_pipeline_v1",
+  "status": "complete",
+  "updated_utc": "2026-10-05T16:28:06.173038+00:00",
+  "completion_file": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p2_confirmation/out/completion.json",
+  "expected_cells": 648,
+  "received_cells": 648
+}

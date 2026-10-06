@@ -1,0 +1,32 @@
+{
+  "job": "quality_development",
+  "pid": 305406,
+  "capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/b4dcf0e8b24d82ed54a0da0960d1c47ca54d913d2700706e24eb97474ebd21e3",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/b4dcf0e8b24d82ed54a0da0960d1c47ca54d913d2700706e24eb97474ebd21e3/code/quality_method_comparison_pipeline.py",
+    "dev",
+    "--dataset-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005",
+    "--runtime-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/b4dcf0e8b24d82ed54a0da0960d1c47ca54d913d2700706e24eb97474ebd21e3/runtime",
+    "--fit-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out",
+    "--numeric-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/chils_wholegraph_gate/out",
+    "--quality-plan",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/protocol/QUALITY_EVALUATION_PLAN_20261006.json",
+    "--chils",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3/CHILS",
+    "--chils-source",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3",
+    "--out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/quality_development/out",
+    "--development-cpu-id",
+    "42"
+  ],
+  "cpu_affinity": [
+    42
+  ],
+  "created_utc": "2026-10-05T17:10:27Z"
+}

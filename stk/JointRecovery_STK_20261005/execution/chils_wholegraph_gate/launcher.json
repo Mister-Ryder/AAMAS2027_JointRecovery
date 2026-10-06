@@ -1,0 +1,27 @@
+{
+  "job": "chils_wholegraph_gate",
+  "pid": 172200,
+  "capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060/code/chils_wholegraph_numeric_gate.py",
+    "--root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005",
+    "--runtime-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060/runtime",
+    "--graphs",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs",
+    "--chils",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3/CHILS",
+    "--chils-source",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3",
+    "--out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/chils_wholegraph_gate/out",
+    "--mode",
+    "run"
+  ],
+  "cpu_affinity": [
+    42
+  ],
+  "created_utc": "2026-10-05T15:59:12Z"
+}

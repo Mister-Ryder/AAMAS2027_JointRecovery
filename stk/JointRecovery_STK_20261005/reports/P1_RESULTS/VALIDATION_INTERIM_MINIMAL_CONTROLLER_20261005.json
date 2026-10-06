@@ -1,0 +1,335 @@
+{
+  "stage": "COMPLETE_VALIDATION_ONLY_MINIMAL_STATIC_MAX4_CONTROLLER",
+  "validation_cells": 216,
+  "summary": [
+    {
+      "budget": "wide",
+      "policy": "Capacity-seed17",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 2219.3200728596908,
+        "actual_gain_seconds": 2219.3200728596908,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 581.2553615139817,
+        "external_caller_observed_return_seconds": 2.4226633943617344
+      },
+      "late": 0,
+      "failure": 0,
+      "source_strict": {
+        "6": 2379.996268849529,
+        "7": 2058.643876869852
+      }
+    },
+    {
+      "budget": "wide",
+      "policy": "Capacity-seed29",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 2204.9859428903633,
+        "actual_gain_seconds": 2204.9859428903633,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 566.9212315446542,
+        "external_caller_observed_return_seconds": 2.487553003244102
+      },
+      "late": 0,
+      "failure": 0,
+      "source_strict": {
+        "6": 2303.5439652010296,
+        "7": 2106.427920579697
+      }
+    },
+    {
+      "budget": "wide",
+      "policy": "CheapSummary-seed17",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 2225.4384676010327,
+        "actual_gain_seconds": 2225.4384676010327,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 587.3737562553239,
+        "external_caller_observed_return_seconds": 2.384057430860897
+      },
+      "late": 0,
+      "failure": 0,
+      "source_strict": {
+        "6": 2392.233058332213,
+        "7": 2058.643876869852
+      }
+    },
+    {
+      "budget": "wide",
+      "policy": "CheapSummary-seed29",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 2219.3200728596908,
+        "actual_gain_seconds": 2219.3200728596908,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 581.2553615139817,
+        "external_caller_observed_return_seconds": 2.3123351003353796
+      },
+      "late": 0,
+      "failure": 0,
+      "source_strict": {
+        "6": 2379.996268849529,
+        "7": 2058.643876869852
+      }
+    },
+    {
+      "budget": "wide",
+      "policy": "P1",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 1638.064711345709,
+        "actual_gain_seconds": 1638.064711345709,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 0.0,
+        "external_caller_observed_return_seconds": 1.6799446151902278
+      },
+      "late": 0,
+      "failure": 0,
+      "source_strict": {
+        "6": 1637.3530501088437,
+        "7": 1638.7763725825741
+      }
+    },
+    {
+      "budget": "wide",
+      "policy": "Greedy",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 2219.3200728596908,
+        "actual_gain_seconds": 2219.3200728596908,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 581.2553615139817,
+        "external_caller_observed_return_seconds": 2.124856364292403
+      },
+      "late": 0,
+      "failure": 0,
+      "source_strict": {
+        "6": 2379.996268849529,
+        "7": 2058.643876869852
+      }
+    },
+    {
+      "budget": "half",
+      "policy": "Capacity-seed17",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 380.5160949525889,
+        "actual_gain_seconds": 2078.1642218329457,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 440.09951048723696,
+        "external_caller_observed_return_seconds": 1.9437053153912227
+      },
+      "late": 9,
+      "failure": 0,
+      "source_strict": {
+        "6": 165.60048915684456,
+        "7": 595.4317007483332
+      }
+    },
+    {
+      "budget": "half",
+      "policy": "Capacity-seed29",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 166.43951772133974,
+        "actual_gain_seconds": 2060.646763946124,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 422.5820526004148,
+        "external_caller_observed_return_seconds": 1.9623647949968774
+      },
+      "late": 11,
+      "failure": 0,
+      "source_strict": {
+        "6": 0.0,
+        "7": 332.8790354426795
+      }
+    },
+    {
+      "budget": "half",
+      "policy": "CheapSummary-seed17",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 1990.1710748899593,
+        "actual_gain_seconds": 2260.2232862154583,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 622.1585748697495,
+        "external_caller_observed_return_seconds": 1.4107789294794202
+      },
+      "late": 2,
+      "failure": 0,
+      "source_strict": {
+        "6": 2161.83620723238,
+        "7": 1818.5059425475386
+      }
+    },
+    {
+      "budget": "half",
+      "policy": "CheapSummary-seed29",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 907.9606098898415,
+        "actual_gain_seconds": 2236.645833092703,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 598.581121746994,
+        "external_caller_observed_return_seconds": 1.6824584308390815
+      },
+      "late": 5,
+      "failure": 0,
+      "source_strict": {
+        "6": 655.7361887361816,
+        "7": 1160.1850310435013
+      }
+    },
+    {
+      "budget": "half",
+      "policy": "P1",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 1263.4466324565194,
+        "actual_gain_seconds": 1638.064711345709,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 0.0,
+        "external_caller_observed_return_seconds": 1.4875255012884736
+      },
+      "late": 3,
+      "failure": 0,
+      "source_strict": {
+        "6": 1637.3530501088437,
+        "7": 889.5402148041952
+      }
+    },
+    {
+      "budget": "half",
+      "policy": "Greedy",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 233.5666823425078,
+        "actual_gain_seconds": 2212.1061100016136,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 574.0413986559046,
+        "external_caller_observed_return_seconds": 1.959552217895786
+      },
+      "late": 10,
+      "failure": 0,
+      "source_strict": {
+        "6": 165.60048915684456,
+        "7": 301.532875528171
+      }
+    },
+    {
+      "budget": "quarter",
+      "policy": "Capacity-seed17",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 279.1559259445057,
+        "actual_gain_seconds": 2022.7624484615324,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 384.6977371158234,
+        "external_caller_observed_return_seconds": 0.9904190609231591
+      },
+      "late": 11,
+      "failure": 0,
+      "source_strict": {
+        "6": 558.3118518890115,
+        "7": 0.0
+      }
+    },
+    {
+      "budget": "quarter",
+      "policy": "Capacity-seed29",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 82.80024457842228,
+        "actual_gain_seconds": 2021.3455151599483,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 383.28080381423933,
+        "external_caller_observed_return_seconds": 0.986820752111574
+      },
+      "late": 11,
+      "failure": 0,
+      "source_strict": {
+        "6": 165.60048915684456,
+        "7": 0.0
+      }
+    },
+    {
+      "budget": "quarter",
+      "policy": "CheapSummary-seed17",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 449.6270169616716,
+        "actual_gain_seconds": 2240.987902154195,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 602.9231908084863,
+        "external_caller_observed_return_seconds": 0.9859758863846461
+      },
+      "late": 10,
+      "failure": 0,
+      "source_strict": {
+        "6": 597.7211583951721,
+        "7": 301.532875528171
+      }
+    },
+    {
+      "budget": "quarter",
+      "policy": "CheapSummary-seed29",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 928.358497222022,
+        "actual_gain_seconds": 2088.9221108871184,
+        "paid_shared_prefix_gain_seconds": 1638.064711345709,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 450.8573995414093,
+        "external_caller_observed_return_seconds": 0.9811846511438489
+      },
+      "late": 8,
+      "failure": 0,
+      "source_strict": {
+        "6": 613.7771955343584,
+        "7": 1242.9397989096858
+      }
+    },
+    {
+      "budget": "quarter",
+      "policy": "P1",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 1311.4719603351161,
+        "actual_gain_seconds": 1551.1940446034616,
+        "paid_shared_prefix_gain_seconds": 1549.4601081916287,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 1.7339364118330802,
+        "external_caller_observed_return_seconds": 0.8380497793356577
+      },
+      "late": 3,
+      "failure": 0,
+      "source_strict": {
+        "6": 1463.6117166243494,
+        "7": 1159.3322040458831
+      }
+    },
+    {
+      "budget": "quarter",
+      "policy": "Greedy",
+      "n": 12,
+      "mean": {
+        "strict_delivered_gain_including_failed_runs_seconds": 1056.7479854024423,
+        "actual_gain_seconds": 2070.88768721888,
+        "paid_shared_prefix_gain_seconds": 1549.4601081916287,
+        "actual_gain_beyond_paid_shared_prefix_seconds": 521.4275790272513,
+        "external_caller_observed_return_seconds": 0.9790236332143346
+      },
+      "late": 8,
+      "failure": 0,
+      "source_strict": {
+        "6": 1172.08904742337,
+        "7": 941.4069233815147
+      }
+    }
+  ],
+  "test_progress": {
+    "completed_cells": 169,
+    "expected_cells": 432
+  },
+  "validation_receipt": true
+}

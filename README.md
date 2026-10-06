@@ -1,5 +1,11 @@
 # Learning Joint Recovery of Multi-Agent Graph Optimization for Satellite–Ground Scheduling
 
+## New STK dataset and completed quality evaluation
+
+The [STK material directory](stk/JointRecovery_STK_20261005/) adds 12 physical sources, 72 weighted satellite–ground conflict graphs, frozen code and checkpoints, and completed experimental reports. This update leaves the earlier manuscript unchanged. The [final findings](stk/JointRecovery_STK_20261005/reports/JOINTRECOVERY_QUALITY_RESULTS/FINAL_QUALITY_SIGNOFF_ZH.md) report a small JR improvement over internal greedy ranking, a substantial quality gap to published CHILS-p1, and N/A complete quality for incomplete HiGHS outputs; remaining-head is fixed to zero. The [five-point quality/time curves](stk/JointRecovery_STK_20261005/reports/JOINTRECOVERY_QUALITY_FIGURES/test/quality_curves_test.pdf) come from independent actual executions, with missing outputs and completion rates retained.
+
+See the [dataset README](stk/JointRecovery_STK_20261005/README.md) and [reproduction guide](stk/JointRecovery_STK_20261005/reports/PUBLICATION_REPRODUCTION_GUIDE_ZH.md). Full raw data and execution records are split into ten [Release archives (`stk-jointrecovery-20261006`)](https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/tag/stk-jointrecovery-20261006); extract all archives into `stk/JointRecovery_STK_20261005` because their internal paths are relative to that dataset root. Git already provides the readable scientific materials, graphs, contacts, final checkpoints and frozen sources; the release supplies the larger evidence records.
+
 **当前版本的代码、实验结果和论文，供专家审阅。** AAMAS 2027，提交号 1979。本文与实验冻结于 2026-10-04；本仓库仅包含与审阅有关的科学材料。
 
 ## 阅读与下载

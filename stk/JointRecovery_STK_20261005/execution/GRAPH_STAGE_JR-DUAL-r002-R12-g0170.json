@@ -1,0 +1,73 @@
+{
+  "graph_ids": [
+    "JR-DUAL-r002-R12-g0170",
+    "JR-DUAL-r002-R12-g0340",
+    "JR-DUAL-r002-R12-g0680",
+    "JR-DUAL-r002-R8-g0170",
+    "JR-DUAL-r002-R8-g0340",
+    "JR-DUAL-r002-R8-g0680"
+  ],
+  "files": [
+    {
+      "file": "JR-DUAL-r002-R12-g0170.npz",
+      "sha256": "ed1572771a4052c0b0a30b96cd98aa1de8e6703782679ea8eb09aa493d3bd152",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R12-g0170.json",
+      "sha256": "6e84b74536c455ece88587204d32c1e6fc4f1a44bd01cab1266eb194d5883eda",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R12-g0340.npz",
+      "sha256": "f2cb1e6e5d5821e90bf148f662988b0426bd175b2c646f352505ee8bf474df51",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R12-g0340.json",
+      "sha256": "8451748b05c0d2b6c893e9bf155451179498a7625a18a8fc0ea4c4333af6f6e9",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R12-g0680.npz",
+      "sha256": "08e2f0dc924340cf4e81c3c09f8df941f0658284f9ecfef61c588d997ac67278",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R12-g0680.json",
+      "sha256": "3fed8aafb1044e3aa4d2db69cb7a292a399d9cda42a14163810a63d0685011f8",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R8-g0170.npz",
+      "sha256": "3e78a05aa7a402b806a30f2a9d699767f19c9329af07da672ebca5f45da647b2",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R8-g0170.json",
+      "sha256": "bad2e6466ee5c25615597f0a703077b1f8c1bbc6e0f581feb0623dced381bd31",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R8-g0340.npz",
+      "sha256": "df49f21da493b0491094d035c45507d7ef7adee2b033725852f17be0e6e698ca",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R8-g0340.json",
+      "sha256": "6a44d38f1891ee6ecb6c243ff5470a44a9157b2f2cf6f56a3655af19daef8d11",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R8-g0680.npz",
+      "sha256": "61d7282d3a0308ac4b406483a73eb98a7297beb1a58aa93aab306c32b142c2e6",
+      "uploaded": true
+    },
+    {
+      "file": "JR-DUAL-r002-R8-g0680.json",
+      "sha256": "7da2fc3bd11e949b8754ba8a2120b90bf34e09b3cf5e746e8228abb43a30405f",
+      "uploaded": true
+    }
+  ],
+  "remote_root": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005"
+}

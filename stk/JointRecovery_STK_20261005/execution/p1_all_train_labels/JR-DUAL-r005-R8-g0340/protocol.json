@@ -1,0 +1,74 @@
+{
+  "schema": "joint_recovery_stk_p0_v1",
+  "graph": {
+    "graph_id": "JR-DUAL-r005-R8-g0340",
+    "source_group": "JR-SOURCE-r005",
+    "split": "train",
+    "npz_sha256": "be11ebd61e1ce7714dd10c32e36ededed3a83fa4a897366a541d46341342b9d2",
+    "vertices": 13938,
+    "edges": 101347,
+    "weight_unit": "original_duration_seconds",
+    "agent_contract": "satellite_owner_is_label_not_whole_day_capacity",
+    "resource_member_CSR_is_not_static_conflict_cliques": true,
+    "raw_endpoint_duration_identity": "PASS_EXACT_ORIGINAL_DECIMAL_TO_FLOAT64",
+    "binary_endpoint_subtraction_max_error_seconds": 2.864908310584724e-11,
+    "edge_kind_counts": {
+      "1": 68444,
+      "2": 32903,
+      "3": 0
+    },
+    "contact_ids_sha256": "7b3306346a36e7bcfc9f1282a85820bc6846a3e95696bdb22b95a7b9b1449484"
+  },
+  "code_sha256": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+  "reference_sha256": {
+    "src/joint_recovery/core.py": "902653228483c5ab51c82f64e5115df4fec1b4b245f701140a9e56f154eca656",
+    "src/joint_recovery/v4_budgeted_recovery.py": "b4b5bbd3d8abdeba2fcb9a117c54f161786c2deccc032764e792d5899bd3d1ad",
+    "src/joint_recovery/v4_factors.py": "d57cbe67cbf4f0aaf3b2605392c9fecf001e612e6d653c3db138619628781980",
+    "experiments/v4_neighborhoods.py": "15eb606f27c9022802ce05a259c0693b6992df1ab0cd26c456831b53d275b8f7",
+    "experiments/v4_residual_common.py": "f444666eb640d98fe4a1ba26ce22762ca8d2355fd3073dd237d52fafbdfddb51"
+  },
+  "numeric_audit": {
+    "status": "PASS_NARROW_SOURCE_DOMAIN_CHECK",
+    "checks": {
+      "reward_longlong": true,
+      "cost_longlong": true,
+      "adjacent_weight_longlong": true,
+      "p1_branch": true,
+      "p1_iteration_guard": true,
+      "log_reset": true
+    },
+    "source_files_sha256": {
+      "include/chils.h": "3d0c6e4cfb618fad8a2415bc1748751ed3314a919f0981cdbba4d7a267de9801",
+      "include/chils_internal.h": "9f9632a69552c501daec03300fd4c8f2f87190904a12ec167b6929581baf179e",
+      "include/graph.h": "8e9d38b0c80c68a073440da50759f5770caa36e4467cbdd282ab11cca0bdeba8",
+      "include/local_search.h": "64bf1cec407f3e38f331a4c0f17d773f58e3f14988b93923f9514cadd32dbd0b",
+      "src/chils.c": "5fb4fa4189c81e41d1ee6cb09cb6dc1b79ff0faab4475a2e0e095e3fc4d8a6e6",
+      "src/chils_internal.c": "3957fe991dfbd0913b74f6608ead3b217cdf7bf61eb329af95a669eb176a9937",
+      "src/graph.c": "4b684cf91ece5690ede3fe1fa80237e8081aef3204001e99f0db10ad11e9db26",
+      "src/local_search.c": "72b9ce55083d5c4f4e5b91ba02a95cad01776b3b047c280eb96e4bca4cc3ac6e",
+      "src/main.c": "d67f7700f1150c4c0faa3ff03eea3559252d16adb49fe112f70563b5ae4741d4"
+    },
+    "maximum_scope_vertices": 32760,
+    "maximum_tick_weight_sum": 1099511627776,
+    "population": 1,
+    "threads": 1,
+    "native_seed": 17,
+    "reward_arithmetic": "signed long long; conservative p1 weight sum <= 2**40",
+    "not_a_universal_native_or_physical_timing_certificate": true
+  },
+  "native_binary_sha256": "19610c03f334c6267f94543ad3053d792cba56e9ae211fceb6c36f21750c88a0",
+  "seed": 17,
+  "native_seed": 17,
+  "budgets_ms": [
+    200,
+    1000,
+    50,
+    10
+  ],
+  "repeats": 2,
+  "target_states": 12,
+  "cap": 256,
+  "peer_states_never_mutated": true,
+  "timing_contract": "native search workpoint plus all measured export/launch/parse/full validation/return cost",
+  "common_prefix_and_native_executor_gains_not_learning_gains": true
+}

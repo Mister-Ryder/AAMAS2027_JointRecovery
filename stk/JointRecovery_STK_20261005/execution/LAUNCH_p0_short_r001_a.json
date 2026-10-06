@@ -1,0 +1,27 @@
+{
+  "job": "p0_short_r001_a",
+  "pid": 11432,
+  "capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857/code/p0_supplement.py",
+    "--runtime-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857/runtime",
+    "--graphs-dir",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs",
+    "--source-out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_a/out",
+    "--out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_short_r001_a/out",
+    "--chils",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3/CHILS",
+    "--chils-source",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3",
+    "--p0-gate",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/protocol/P1_SOURCE_GATE_20261005.json"
+  ],
+  "cpu_affinity": [
+    4
+  ],
+  "created_utc": "2026-10-05T12:44:57Z"
+}

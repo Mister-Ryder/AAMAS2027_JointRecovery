@@ -1,0 +1,2289 @@
+{
+  "schema": "joint_recovery_stk_publication_content_inventory_v1",
+  "snapshot_utc": "2026-10-06T10:35:06.262492+00:00",
+  "root": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005",
+  "target_repository": "Mister-Ryder/AAMAS2027_JointRecovery",
+  "inspection": "stat-only tree inventory plus small completion JSON and tar member headers; no experiment/no cloud/no deletion/no full content hashing",
+  "self_reports_excluded_from_snapshot": [
+    "reports/PUBLICATION_CONTENT_INVENTORY.json",
+    "reports/PUBLICATION_CONTENT_RECOMMENDATION_ZH.md"
+  ],
+  "total": {
+    "file_count": 21636,
+    "total_bytes": 10312276457,
+    "largest_file": {
+      "path": "execution/p1_fit/out/feature_index.json",
+      "bytes": 683078812
+    }
+  },
+  "top_level_directories": {
+    "[ROOT_FILES]": {
+      "file_count": 1,
+      "total_bytes": 15237,
+      "largest_file": {
+        "path": "README_zh.md",
+        "bytes": 15237
+      }
+    },
+    "code": {
+      "file_count": 72,
+      "total_bytes": 1640376,
+      "largest_file": {
+        "path": "code/__pycache__/p1_results_report.cpython-313.pyc",
+        "bytes": 58754
+      }
+    },
+    "execution": {
+      "file_count": 16717,
+      "total_bytes": 6999378838,
+      "largest_file": {
+        "path": "execution/p1_fit/out/feature_index.json",
+        "bytes": 683078812
+      }
+    },
+    "graphs": {
+      "file_count": 144,
+      "total_bytes": 193603942,
+      "largest_file": {
+        "path": "graphs/JR-DUAL-r004-R12-g0680.npz",
+        "bytes": 3425461
+      }
+    },
+    "protocol": {
+      "file_count": 12,
+      "total_bytes": 938475,
+      "largest_file": {
+        "path": "protocol/JointRecovery_parameters.json",
+        "bytes": 859402
+      }
+    },
+    "raw_geometry": {
+      "file_count": 4599,
+      "total_bytes": 3016018352,
+      "largest_file": {
+        "path": "raw_geometry/JR-DUAL-r010/access_raw.csv",
+        "bytes": 6501705
+      }
+    },
+    "reports": {
+      "file_count": 91,
+      "total_bytes": 100681237,
+      "largest_file": {
+        "path": "reports/P1_LABEL_CHARACTERISTICS/request_recorded_scalars.csv",
+        "bytes": 44478455
+      }
+    }
+  },
+  "execution_subtrees": {
+    "execution/[ROOT_FILES]": {
+      "file_count": 113,
+      "total_bytes": 10735957,
+      "largest_file": {
+        "path": "execution/c7b484879387e6b5c99ac808795577a54e3bb956f0d31debd8bc0255b351609d.tar.gz",
+        "bytes": 984503
+      }
+    },
+    "execution/chils_wholegraph_gate": {
+      "file_count": 79,
+      "total_bytes": 2425034,
+      "largest_file": {
+        "path": "execution/chils_wholegraph_gate/out/native_checks/development_fullgraph/input.graph",
+        "bytes": 1969624
+      }
+    },
+    "execution/p0_pilot_four_workpoints": {
+      "file_count": 181,
+      "total_bytes": 508081278,
+      "largest_file": {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R12-g0170/snapshot_008.json",
+        "bytes": 4559742
+      }
+    },
+    "execution/p0_r000_a": {
+      "file_count": 47,
+      "total_bytes": 64631567,
+      "largest_file": {
+        "path": "execution/p0_r000_a/out/JR-DUAL-r000-R12-g0170/snapshot_008.json",
+        "bytes": 2586575
+      }
+    },
+    "execution/p0_r000_b": {
+      "file_count": 47,
+      "total_bytes": 56428906,
+      "largest_file": {
+        "path": "execution/p0_r000_b/out/JR-DUAL-r000-R12-g0340/snapshot_002.json",
+        "bytes": 2324778
+      }
+    },
+    "execution/p0_r000_c": {
+      "file_count": 25,
+      "total_bytes": 25837726,
+      "largest_file": {
+        "path": "execution/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_002.json",
+        "bytes": 1867466
+      }
+    },
+    "execution/p0_r000_d": {
+      "file_count": 25,
+      "total_bytes": 18909828,
+      "largest_file": {
+        "path": "execution/p0_r000_d/out/JR-DUAL-r000-R8-g0680/snapshot_008.json",
+        "bytes": 1361857
+      }
+    },
+    "execution/p0_r001_a": {
+      "file_count": 47,
+      "total_bytes": 64362023,
+      "largest_file": {
+        "path": "execution/p0_r001_a/out/JR-DUAL-r001-R12-g0170/snapshot_000.json",
+        "bytes": 2569800
+      }
+    },
+    "execution/p0_r001_b": {
+      "file_count": 47,
+      "total_bytes": 55759445,
+      "largest_file": {
+        "path": "execution/p0_r001_b/out/JR-DUAL-r001-R12-g0340/snapshot_004.json",
+        "bytes": 2288864
+      }
+    },
+    "execution/p0_r001_c": {
+      "file_count": 25,
+      "total_bytes": 26176298,
+      "largest_file": {
+        "path": "execution/p0_r001_c/out/JR-DUAL-r001-R12-g0680/snapshot_008.json",
+        "bytes": 1893591
+      }
+    },
+    "execution/p0_r001_d": {
+      "file_count": 25,
+      "total_bytes": 18720594,
+      "largest_file": {
+        "path": "execution/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_000.json",
+        "bytes": 1346962
+      }
+    },
+    "execution/p0_smoke_r000_02": {
+      "file_count": 9,
+      "total_bytes": 2245690,
+      "largest_file": {
+        "path": "execution/p0_smoke_r000_02/out/JR-DUAL-r000-R12-g0340/snapshot_000.json",
+        "bytes": 1440526
+      }
+    },
+    "execution/p1_all_train_labels": {
+      "file_count": 709,
+      "total_bytes": 1606558344,
+      "largest_file": {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R12-g0170/snapshot_000.json",
+        "bytes": 4561358
+      }
+    },
+    "execution/p1_fit": {
+      "file_count": 1310,
+      "total_bytes": 1549314809,
+      "largest_file": {
+        "path": "execution/p1_fit/out/feature_index.json",
+        "bytes": 683078812
+      }
+    },
+    "execution/p1_followup": {
+      "file_count": 301,
+      "total_bytes": 60583043,
+      "largest_file": {
+        "path": "execution/p1_followup/out/fixed_calls/fixed_call_results.json",
+        "bytes": 10146448
+      }
+    },
+    "execution/p2_confirmation": {
+      "file_count": 2718,
+      "total_bytes": 329910928,
+      "largest_file": {
+        "path": "execution/p2_confirmation/out/test/actual_run_rows.json",
+        "bytes": 1912993
+      }
+    },
+    "execution/quality_comparison": {
+      "file_count": 6747,
+      "total_bytes": 1766522736,
+      "largest_file": {
+        "path": "execution/quality_comparison/out/test/actual_run_rows.json",
+        "bytes": 4684402
+      }
+    },
+    "execution/quality_development": {
+      "file_count": 248,
+      "total_bytes": 58935735,
+      "largest_file": {
+        "path": "execution/quality_development/out/runs/JR-DUAL-r004-R12-g0680__quality-60s__CHILS-p1/wholegraph_native/input.graph",
+        "bytes": 2759195
+      }
+    },
+    "execution/submitted_comparison": {
+      "file_count": 4014,
+      "total_bytes": 773238897,
+      "largest_file": {
+        "path": "execution/submitted_comparison/out/test/runs/JR-DUAL-r010-R12-g0680__half__CHILS-p1/wholegraph_native/input.graph",
+        "bytes": 2754783
+      }
+    }
+  },
+  "publication_size_guards": {
+    "git_single_file_conservative_bytes": 100000000,
+    "release_asset_conservative_bytes": 2000000000,
+    "release_asset_target_bytes": 1500000000,
+    "compressed_size_not_measured": true
+  },
+  "over_git_single_file_guard": [
+    {
+      "path": "execution/p1_fit/out/feature_index.json",
+      "bytes": 683078812
+    }
+  ],
+  "over_release_single_file_guard": [],
+  "dataset_presence": {
+    "mother_count": 12,
+    "mothers_with_contacts": 12,
+    "mothers_with_editable_scene": 12,
+    "graph_npz_count": 72,
+    "graph_json_count": 72,
+    "mothers": [
+      {
+        "source": "r000",
+        "file_count": 386,
+        "total_bytes": 249786801,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r000/access_raw.csv",
+          "bytes": 6454726
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r000/scene/JR-DUAL-r000.sc"
+        ],
+        "release_asset": "stk-geometry-r000.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r000/"
+      },
+      {
+        "source": "r001",
+        "file_count": 383,
+        "total_bytes": 251443837,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r001/access_raw.csv",
+          "bytes": 6470052
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r001/scene/JR-DUAL-r001.sc"
+        ],
+        "release_asset": "stk-geometry-r001.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r001/"
+      },
+      {
+        "source": "r002",
+        "file_count": 383,
+        "total_bytes": 251500865,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r002/access_raw.csv",
+          "bytes": 6495817
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r002/scene/JR-DUAL-r002.sc"
+        ],
+        "release_asset": "stk-geometry-r002.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r002/"
+      },
+      {
+        "source": "r003",
+        "file_count": 383,
+        "total_bytes": 251494551,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r003/access_raw.csv",
+          "bytes": 6493127
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r003/scene/JR-DUAL-r003.sc"
+        ],
+        "release_asset": "stk-geometry-r003.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r003/"
+      },
+      {
+        "source": "r004",
+        "file_count": 383,
+        "total_bytes": 251483313,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r004/access_raw.csv",
+          "bytes": 6487281
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r004/scene/JR-DUAL-r004.sc"
+        ],
+        "release_asset": "stk-geometry-r004.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r004/"
+      },
+      {
+        "source": "r005",
+        "file_count": 383,
+        "total_bytes": 251417402,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r005/access_raw.csv",
+          "bytes": 6454804
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r005/scene/JR-DUAL-r005.sc"
+        ],
+        "release_asset": "stk-geometry-r005.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r005/"
+      },
+      {
+        "source": "r006",
+        "file_count": 383,
+        "total_bytes": 251492968,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r006/access_raw.csv",
+          "bytes": 6491859
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r006/scene/JR-DUAL-r006.sc"
+        ],
+        "release_asset": "stk-geometry-r006.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r006/"
+      },
+      {
+        "source": "r007",
+        "file_count": 383,
+        "total_bytes": 251493912,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r007/access_raw.csv",
+          "bytes": 6492190
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r007/scene/JR-DUAL-r007.sc"
+        ],
+        "release_asset": "stk-geometry-r007.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r007/"
+      },
+      {
+        "source": "r008",
+        "file_count": 383,
+        "total_bytes": 251496513,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r008/access_raw.csv",
+          "bytes": 6496902
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r008/scene/JR-DUAL-r008.sc"
+        ],
+        "release_asset": "stk-geometry-r008.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r008/"
+      },
+      {
+        "source": "r009",
+        "file_count": 383,
+        "total_bytes": 251406763,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r009/access_raw.csv",
+          "bytes": 6450698
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r009/scene/JR-DUAL-r009.sc"
+        ],
+        "release_asset": "stk-geometry-r009.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r009/"
+      },
+      {
+        "source": "r010",
+        "file_count": 383,
+        "total_bytes": 251505831,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r010/access_raw.csv",
+          "bytes": 6501705
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r010/scene/JR-DUAL-r010.sc"
+        ],
+        "release_asset": "stk-geometry-r010.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r010/"
+      },
+      {
+        "source": "r011",
+        "file_count": 383,
+        "total_bytes": 251495596,
+        "largest_file": {
+          "path": "raw_geometry/JR-DUAL-r011/access_raw.csv",
+          "bytes": 6497280
+        },
+        "contacts_csv_present": true,
+        "boundary_csv_present": true,
+        "raw_access_csv_present": true,
+        "raw_access_jsonl_present": true,
+        "editable_scenario_paths": [
+          "raw_geometry/JR-DUAL-r011/scene/JR-DUAL-r011.sc"
+        ],
+        "release_asset": "stk-geometry-r011.zip",
+        "include_prefix": "raw_geometry/JR-DUAL-r011/"
+      }
+    ]
+  },
+  "final_checkpoint_files": [
+    {
+      "path": "execution/p1_fit/out/ResidualCapacity-seed17/final.pt",
+      "bytes": 54767
+    },
+    {
+      "path": "execution/p1_fit/out/ResidualCapacity-seed29/final.pt",
+      "bytes": 54767
+    },
+    {
+      "path": "execution/p1_fit/out/ResidualCheapSummary-seed17/final.pt",
+      "bytes": 5663
+    },
+    {
+      "path": "execution/p1_fit/out/ResidualCheapSummary-seed29/final.pt",
+      "bytes": 5663
+    }
+  ],
+  "final_checkpoint_summary": {
+    "file_count": 4,
+    "total_bytes": 120860,
+    "largest_file": {
+      "path": "execution/p1_fit/out/ResidualCapacity-seed17/final.pt",
+      "bytes": 54767
+    }
+  },
+  "locally_present_completion_receipts": {
+    "p1_fit": {
+      "status": "ACTUAL_P1_FIT_COMPLETE"
+    },
+    "p1_followup": {
+      "status": "ALL_CORE_P1_DEVELOPMENT_COMPARISONS_COMPLETE"
+    },
+    "p2_confirmation": {
+      "status": "complete",
+      "pipeline_completed": true,
+      "received_cells": 648
+    },
+    "submitted_comparison": {
+      "status": "complete",
+      "pipeline_completed": true,
+      "expected_cells": 864,
+      "received_cells": 864
+    },
+    "quality_development": {
+      "status": "QUALITY_DEVELOPMENT_COMPLETION_THRESHOLD_COMPLETE",
+      "pipeline_completed": true
+    },
+    "quality_comparison": {
+      "status": "QUALITY_COMPARISON_MATRIX_COMPLETE",
+      "pipeline_completed": true,
+      "expected_cells": 1440,
+      "received_cells": 1440
+    },
+    "chils_wholegraph_gate": {
+      "status": "WHOLEGRAPH_NUMERIC_GUARD_PASS",
+      "pass_graphs": 48
+    }
+  },
+  "git_commit_recommendation": {
+    "base_include_prefixes": [
+      "code/",
+      "protocol/",
+      "graphs/",
+      "reports/"
+    ],
+    "root_readme": true,
+    "exclude_globs": [
+      "**/__pycache__/**",
+      "**/*.pyc",
+      "**/*.pyo"
+    ],
+    "base_stat": {
+      "file_count": 294,
+      "total_bytes": 296010274,
+      "largest_file": {
+        "path": "reports/P1_LABEL_CHARACTERISTICS/request_recorded_scalars.csv",
+        "bytes": 44478455
+      }
+    },
+    "four_final_checkpoints": [
+      {
+        "path": "execution/p1_fit/out/ResidualCapacity-seed17/final.pt",
+        "bytes": 54767
+      },
+      {
+        "path": "execution/p1_fit/out/ResidualCapacity-seed29/final.pt",
+        "bytes": 54767
+      },
+      {
+        "path": "execution/p1_fit/out/ResidualCheapSummary-seed17/final.pt",
+        "bytes": 5663
+      },
+      {
+        "path": "execution/p1_fit/out/ResidualCheapSummary-seed29/final.pt",
+        "bytes": 5663
+      }
+    ],
+    "raw_result_index_candidates": [
+      {
+        "path": "execution/chils_wholegraph_gate/out/completion.json",
+        "bytes": 5097
+      },
+      {
+        "path": "execution/chils_wholegraph_gate/out/protocol.json",
+        "bytes": 2403
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/collection.json",
+        "bytes": 56360
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R12-g0170/protocol.json",
+        "bytes": 8921
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R12-g0170/summary.json",
+        "bytes": 2211
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R12-g0340/protocol.json",
+        "bytes": 8922
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R12-g0340/summary.json",
+        "bytes": 2212
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R12-g0680/protocol.json",
+        "bytes": 8922
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R12-g0680/summary.json",
+        "bytes": 2196
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R8-g0170/protocol.json",
+        "bytes": 8905
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R8-g0170/summary.json",
+        "bytes": 2194
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R8-g0340/protocol.json",
+        "bytes": 8906
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R8-g0340/summary.json",
+        "bytes": 2194
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R8-g0680/protocol.json",
+        "bytes": 8907
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r000-R8-g0680/summary.json",
+        "bytes": 2212
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R12-g0170/protocol.json",
+        "bytes": 7943
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R12-g0170/summary.json",
+        "bytes": 2194
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R12-g0340/protocol.json",
+        "bytes": 7944
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R12-g0340/summary.json",
+        "bytes": 2197
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R12-g0680/protocol.json",
+        "bytes": 7944
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R12-g0680/summary.json",
+        "bytes": 2197
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R8-g0170/protocol.json",
+        "bytes": 7927
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R8-g0170/summary.json",
+        "bytes": 2193
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R8-g0340/protocol.json",
+        "bytes": 7928
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R8-g0340/summary.json",
+        "bytes": 2195
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R8-g0680/protocol.json",
+        "bytes": 7929
+      },
+      {
+        "path": "execution/p0_pilot_four_workpoints/JR-DUAL-r001-R8-g0680/summary.json",
+        "bytes": 2196
+      },
+      {
+        "path": "execution/p0_r000_a/out/JR-DUAL-r000-R12-g0170/protocol.json",
+        "bytes": 3368
+      },
+      {
+        "path": "execution/p0_r000_a/out/JR-DUAL-r000-R12-g0170/summary.json",
+        "bytes": 1911
+      },
+      {
+        "path": "execution/p0_r000_a/out/JR-DUAL-r000-R8-g0170/protocol.json",
+        "bytes": 3366
+      },
+      {
+        "path": "execution/p0_r000_a/out/JR-DUAL-r000-R8-g0170/summary.json",
+        "bytes": 1894
+      },
+      {
+        "path": "execution/p0_r000_b/out/JR-DUAL-r000-R12-g0340/protocol.json",
+        "bytes": 3369
+      },
+      {
+        "path": "execution/p0_r000_b/out/JR-DUAL-r000-R12-g0340/summary.json",
+        "bytes": 1912
+      },
+      {
+        "path": "execution/p0_r000_b/out/JR-DUAL-r000-R8-g0340/protocol.json",
+        "bytes": 3367
+      },
+      {
+        "path": "execution/p0_r000_b/out/JR-DUAL-r000-R8-g0340/summary.json",
+        "bytes": 1893
+      },
+      {
+        "path": "execution/p0_r000_c/out/JR-DUAL-r000-R12-g0680/protocol.json",
+        "bytes": 3369
+      },
+      {
+        "path": "execution/p0_r000_c/out/JR-DUAL-r000-R12-g0680/summary.json",
+        "bytes": 1895
+      },
+      {
+        "path": "execution/p0_r000_d/out/JR-DUAL-r000-R8-g0680/protocol.json",
+        "bytes": 3368
+      },
+      {
+        "path": "execution/p0_r000_d/out/JR-DUAL-r000-R8-g0680/summary.json",
+        "bytes": 1910
+      },
+      {
+        "path": "execution/p0_r001_a/out/JR-DUAL-r001-R12-g0170/protocol.json",
+        "bytes": 3368
+      },
+      {
+        "path": "execution/p0_r001_a/out/JR-DUAL-r001-R12-g0170/summary.json",
+        "bytes": 1894
+      },
+      {
+        "path": "execution/p0_r001_a/out/JR-DUAL-r001-R8-g0170/protocol.json",
+        "bytes": 3366
+      },
+      {
+        "path": "execution/p0_r001_a/out/JR-DUAL-r001-R8-g0170/summary.json",
+        "bytes": 1892
+      },
+      {
+        "path": "execution/p0_r001_b/out/JR-DUAL-r001-R12-g0340/protocol.json",
+        "bytes": 3369
+      },
+      {
+        "path": "execution/p0_r001_b/out/JR-DUAL-r001-R12-g0340/summary.json",
+        "bytes": 1896
+      },
+      {
+        "path": "execution/p0_r001_b/out/JR-DUAL-r001-R8-g0340/protocol.json",
+        "bytes": 3367
+      },
+      {
+        "path": "execution/p0_r001_b/out/JR-DUAL-r001-R8-g0340/summary.json",
+        "bytes": 1895
+      },
+      {
+        "path": "execution/p0_r001_c/out/JR-DUAL-r001-R12-g0680/protocol.json",
+        "bytes": 3369
+      },
+      {
+        "path": "execution/p0_r001_c/out/JR-DUAL-r001-R12-g0680/summary.json",
+        "bytes": 1895
+      },
+      {
+        "path": "execution/p0_r001_d/out/JR-DUAL-r001-R8-g0680/protocol.json",
+        "bytes": 3368
+      },
+      {
+        "path": "execution/p0_r001_d/out/JR-DUAL-r001-R8-g0680/summary.json",
+        "bytes": 1896
+      },
+      {
+        "path": "execution/p0_smoke_r000_02/out/JR-DUAL-r000-R12-g0340/protocol.json",
+        "bytes": 3368
+      },
+      {
+        "path": "execution/p0_smoke_r000_02/out/JR-DUAL-r000-R12-g0340/summary.json",
+        "bytes": 1889
+      },
+      {
+        "path": "execution/p1_all_train_labels/collection.json",
+        "bytes": 223059
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R12-g0170/protocol.json",
+        "bytes": 8921
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R12-g0170/summary.json",
+        "bytes": 2211
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R12-g0340/protocol.json",
+        "bytes": 8922
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R12-g0340/summary.json",
+        "bytes": 2212
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R12-g0680/protocol.json",
+        "bytes": 8922
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R12-g0680/summary.json",
+        "bytes": 2196
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R8-g0170/protocol.json",
+        "bytes": 8905
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R8-g0170/summary.json",
+        "bytes": 2194
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R8-g0340/protocol.json",
+        "bytes": 8906
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R8-g0340/summary.json",
+        "bytes": 2194
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R8-g0680/protocol.json",
+        "bytes": 8907
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r000-R8-g0680/summary.json",
+        "bytes": 2212
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R12-g0170/protocol.json",
+        "bytes": 7943
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R12-g0170/summary.json",
+        "bytes": 2194
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R12-g0340/protocol.json",
+        "bytes": 7944
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R12-g0340/summary.json",
+        "bytes": 2197
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R12-g0680/protocol.json",
+        "bytes": 7944
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R12-g0680/summary.json",
+        "bytes": 2197
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R8-g0170/protocol.json",
+        "bytes": 7927
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R8-g0170/summary.json",
+        "bytes": 2193
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R8-g0340/protocol.json",
+        "bytes": 7928
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R8-g0340/summary.json",
+        "bytes": 2195
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R8-g0680/protocol.json",
+        "bytes": 7929
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r001-R8-g0680/summary.json",
+        "bytes": 2196
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R12-g0170/protocol.json",
+        "bytes": 3383
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R12-g0170/summary.json",
+        "bytes": 1912
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R12-g0340/protocol.json",
+        "bytes": 3384
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R12-g0340/summary.json",
+        "bytes": 1930
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R12-g0680/protocol.json",
+        "bytes": 3384
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R12-g0680/summary.json",
+        "bytes": 1926
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R8-g0170/protocol.json",
+        "bytes": 3381
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R8-g0170/summary.json",
+        "bytes": 1941
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R8-g0340/protocol.json",
+        "bytes": 3382
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R8-g0340/summary.json",
+        "bytes": 1926
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R8-g0680/protocol.json",
+        "bytes": 3383
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r002-R8-g0680/summary.json",
+        "bytes": 1910
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R12-g0170/protocol.json",
+        "bytes": 3384
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R12-g0170/summary.json",
+        "bytes": 1925
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R12-g0340/protocol.json",
+        "bytes": 3385
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R12-g0340/summary.json",
+        "bytes": 1928
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R12-g0680/protocol.json",
+        "bytes": 3385
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R12-g0680/summary.json",
+        "bytes": 1929
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R8-g0170/protocol.json",
+        "bytes": 3381
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R8-g0170/summary.json",
+        "bytes": 1924
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R8-g0340/protocol.json",
+        "bytes": 3382
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R8-g0340/summary.json",
+        "bytes": 1911
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R8-g0680/protocol.json",
+        "bytes": 3383
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r003-R8-g0680/summary.json",
+        "bytes": 1928
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R12-g0170/protocol.json",
+        "bytes": 3384
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R12-g0170/summary.json",
+        "bytes": 1928
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R12-g0340/protocol.json",
+        "bytes": 3385
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R12-g0340/summary.json",
+        "bytes": 1915
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R12-g0680/protocol.json",
+        "bytes": 3385
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R12-g0680/summary.json",
+        "bytes": 1928
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R8-g0170/protocol.json",
+        "bytes": 3381
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R8-g0170/summary.json",
+        "bytes": 1911
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R8-g0340/protocol.json",
+        "bytes": 3382
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R8-g0340/summary.json",
+        "bytes": 1910
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R8-g0680/protocol.json",
+        "bytes": 3383
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r004-R8-g0680/summary.json",
+        "bytes": 1926
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R12-g0170/protocol.json",
+        "bytes": 3383
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R12-g0170/summary.json",
+        "bytes": 1925
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R12-g0340/protocol.json",
+        "bytes": 3384
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R12-g0340/summary.json",
+        "bytes": 1928
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R12-g0680/protocol.json",
+        "bytes": 3384
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R12-g0680/summary.json",
+        "bytes": 1912
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R8-g0170/protocol.json",
+        "bytes": 3381
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R8-g0170/summary.json",
+        "bytes": 1925
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R8-g0340/protocol.json",
+        "bytes": 3382
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R8-g0340/summary.json",
+        "bytes": 1910
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R8-g0680/protocol.json",
+        "bytes": 3383
+      },
+      {
+        "path": "execution/p1_all_train_labels/JR-DUAL-r005-R8-g0680/summary.json",
+        "bytes": 1926
+      },
+      {
+        "path": "execution/p1_fit/out/completion.json",
+        "bytes": 1782
+      },
+      {
+        "path": "execution/p1_fit/out/protocol.json",
+        "bytes": 258792
+      },
+      {
+        "path": "execution/p1_followup/out/completion.json",
+        "bytes": 583
+      },
+      {
+        "path": "execution/p1_followup/out/calibration/actual_run_rows.csv",
+        "bytes": 36828
+      },
+      {
+        "path": "execution/p1_followup/out/calibration/actual_run_rows.json",
+        "bytes": 322673
+      },
+      {
+        "path": "execution/p1_followup/out/calibration/summary.json",
+        "bytes": 15454
+      },
+      {
+        "path": "execution/p1_followup/out/fixed_calls/summary.json",
+        "bytes": 120472
+      },
+      {
+        "path": "execution/p2_confirmation/out/completion.json",
+        "bytes": 5590
+      },
+      {
+        "path": "execution/p2_confirmation/out/protocol.json",
+        "bytes": 36841
+      },
+      {
+        "path": "execution/p2_confirmation/out/test/actual_run_rows.csv",
+        "bytes": 205317
+      },
+      {
+        "path": "execution/p2_confirmation/out/test/actual_run_rows.json",
+        "bytes": 1912993
+      },
+      {
+        "path": "execution/p2_confirmation/out/test/summary.json",
+        "bytes": 79745
+      },
+      {
+        "path": "execution/p2_confirmation/out/validation/actual_run_rows.csv",
+        "bytes": 104168
+      },
+      {
+        "path": "execution/p2_confirmation/out/validation/actual_run_rows.json",
+        "bytes": 962795
+      },
+      {
+        "path": "execution/p2_confirmation/out/validation/summary.json",
+        "bytes": 45420
+      },
+      {
+        "path": "execution/quality_comparison/out/completion.json",
+        "bytes": 1018
+      },
+      {
+        "path": "execution/quality_comparison/out/protocol.json",
+        "bytes": 34221
+      },
+      {
+        "path": "execution/quality_comparison/out/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_comparison/out/summary.json",
+        "bytes": 366245
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r006/completion.json",
+        "bytes": 664
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r006/protocol.json",
+        "bytes": 10906
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r006/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r006/summary.json",
+        "bytes": 90096
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r006/validation/actual_run_rows.csv",
+        "bytes": 121264
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r006/validation/actual_run_rows.json",
+        "bytes": 1176200
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r006/validation/summary.json",
+        "bytes": 88595
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r007/completion.json",
+        "bytes": 664
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r007/protocol.json",
+        "bytes": 10906
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r007/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r007/summary.json",
+        "bytes": 90166
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r007/validation/actual_run_rows.csv",
+        "bytes": 121088
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r007/validation/actual_run_rows.json",
+        "bytes": 1175935
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r007/validation/summary.json",
+        "bytes": 88665
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r008/completion.json",
+        "bytes": 658
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r008/protocol.json",
+        "bytes": 10870
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r008/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r008/summary.json",
+        "bytes": 89498
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r008/test/actual_run_rows.csv",
+        "bytes": 120260
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r008/test/actual_run_rows.json",
+        "bytes": 1170890
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r008/test/summary.json",
+        "bytes": 88285
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r009/completion.json",
+        "bytes": 658
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r009/protocol.json",
+        "bytes": 10870
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r009/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r009/summary.json",
+        "bytes": 89680
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r009/test/actual_run_rows.csv",
+        "bytes": 120479
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r009/test/actual_run_rows.json",
+        "bytes": 1171036
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r009/test/summary.json",
+        "bytes": 88467
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r010/completion.json",
+        "bytes": 658
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r010/protocol.json",
+        "bytes": 10877
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r010/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r010/summary.json",
+        "bytes": 90090
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r010/test/actual_run_rows.csv",
+        "bytes": 120967
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r010/test/actual_run_rows.json",
+        "bytes": 1171589
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r010/test/summary.json",
+        "bytes": 88878
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r011/completion.json",
+        "bytes": 658
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r011/protocol.json",
+        "bytes": 10877
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r011/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r011/summary.json",
+        "bytes": 89896
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r011/test/actual_run_rows.csv",
+        "bytes": 120353
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r011/test/actual_run_rows.json",
+        "bytes": 1170896
+      },
+      {
+        "path": "execution/quality_comparison/out/shards/r011/test/summary.json",
+        "bytes": 88684
+      },
+      {
+        "path": "execution/quality_comparison/out/test/actual_run_rows.csv",
+        "bytes": 478645
+      },
+      {
+        "path": "execution/quality_comparison/out/test/actual_run_rows.json",
+        "bytes": 4684402
+      },
+      {
+        "path": "execution/quality_comparison/out/test/summary.json",
+        "bytes": 230331
+      },
+      {
+        "path": "execution/quality_comparison/out/validation/actual_run_rows.csv",
+        "bytes": 241214
+      },
+      {
+        "path": "execution/quality_comparison/out/validation/actual_run_rows.json",
+        "bytes": 2352132
+      },
+      {
+        "path": "execution/quality_comparison/out/validation/summary.json",
+        "bytes": 136278
+      },
+      {
+        "path": "execution/quality_development/out/actual_run_rows.csv",
+        "bytes": 26946
+      },
+      {
+        "path": "execution/quality_development/out/actual_run_rows.json",
+        "bytes": 252083
+      },
+      {
+        "path": "execution/quality_development/out/completion.json",
+        "bytes": 405
+      },
+      {
+        "path": "execution/quality_development/out/protocol.json",
+        "bytes": 10310
+      },
+      {
+        "path": "execution/quality_development/out/selected_allowance.json",
+        "bytes": 32618
+      },
+      {
+        "path": "execution/quality_development/out/summary.json",
+        "bytes": 27698
+      },
+      {
+        "path": "execution/submitted_comparison/out/completion.json",
+        "bytes": 836
+      },
+      {
+        "path": "execution/submitted_comparison/out/protocol.json",
+        "bytes": 34339
+      },
+      {
+        "path": "execution/submitted_comparison/out/development_integration_smoke/actual_run_rows.json",
+        "bytes": 9456
+      },
+      {
+        "path": "execution/submitted_comparison/out/development_integration_smoke/completion.json",
+        "bytes": 184
+      },
+      {
+        "path": "execution/submitted_comparison/out/test/actual_run_rows.json",
+        "bytes": 2630880
+      },
+      {
+        "path": "execution/submitted_comparison/out/test/summary.json",
+        "bytes": 88449
+      },
+      {
+        "path": "execution/submitted_comparison/out/validation/actual_run_rows.json",
+        "bytes": 1324108
+      },
+      {
+        "path": "execution/submitted_comparison/out/validation/summary.json",
+        "bytes": 51975
+      }
+    ],
+    "execution_top_level_json_receipts": "retain important ARGS, LAUNCH, stage/source execution binding and collection receipts; source scientific provenance must remain byte-identical",
+    "runtime_action": "Extract canonical runtime source members at original runtime/... paths, then publish frozen historical source variants with SHA-to-original-path mapping. Do not drop all capsules until runtime/source closure is published."
+  },
+  "release_asset_recommendation": [
+    {
+      "asset_name": "stk-geometry-r000.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r000/"
+      ],
+      "uncompressed_bytes": 249786801,
+      "file_count": 386,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r001.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r001/"
+      ],
+      "uncompressed_bytes": 251443837,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r002.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r002/"
+      ],
+      "uncompressed_bytes": 251500865,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r003.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r003/"
+      ],
+      "uncompressed_bytes": 251494551,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r004.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r004/"
+      ],
+      "uncompressed_bytes": 251483313,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r005.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r005/"
+      ],
+      "uncompressed_bytes": 251417402,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r006.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r006/"
+      ],
+      "uncompressed_bytes": 251492968,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r007.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r007/"
+      ],
+      "uncompressed_bytes": 251493912,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r008.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r008/"
+      ],
+      "uncompressed_bytes": 251496513,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r009.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r009/"
+      ],
+      "uncompressed_bytes": 251406763,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r010.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r010/"
+      ],
+      "uncompressed_bytes": 251505831,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "stk-geometry-r011.zip",
+      "include_prefixes": [
+        "raw_geometry/JR-DUAL-r011/"
+      ],
+      "uncompressed_bytes": 251495596,
+      "file_count": 383,
+      "role": "original_windows_editable_STK_scene_all_dependencies_manifest"
+    },
+    {
+      "asset_name": "training-labels-r000.zip",
+      "include_globs": [
+        "execution/p1_all_train_labels/JR-DUAL-r000-*/**"
+      ],
+      "uncompressed_bytes": 254567637,
+      "file_count": 90,
+      "role": "all_four_workpoint_training_labels_original_masks_and_receipts"
+    },
+    {
+      "asset_name": "training-labels-r001.zip",
+      "include_globs": [
+        "execution/p1_all_train_labels/JR-DUAL-r001-*/**"
+      ],
+      "uncompressed_bytes": 253457281,
+      "file_count": 90,
+      "role": "all_four_workpoint_training_labels_original_masks_and_receipts"
+    },
+    {
+      "asset_name": "training-labels-r002.zip",
+      "include_globs": [
+        "execution/p1_all_train_labels/JR-DUAL-r002-*/**"
+      ],
+      "uncompressed_bytes": 273781819,
+      "file_count": 132,
+      "role": "all_four_workpoint_training_labels_original_masks_and_receipts"
+    },
+    {
+      "asset_name": "training-labels-r003.zip",
+      "include_globs": [
+        "execution/p1_all_train_labels/JR-DUAL-r003-*/**"
+      ],
+      "uncompressed_bytes": 275221738,
+      "file_count": 132,
+      "role": "all_four_workpoint_training_labels_original_masks_and_receipts"
+    },
+    {
+      "asset_name": "training-labels-r004.zip",
+      "include_globs": [
+        "execution/p1_all_train_labels/JR-DUAL-r004-*/**"
+      ],
+      "uncompressed_bytes": 274795895,
+      "file_count": 132,
+      "role": "all_four_workpoint_training_labels_original_masks_and_receipts"
+    },
+    {
+      "asset_name": "training-labels-r005.zip",
+      "include_globs": [
+        "execution/p1_all_train_labels/JR-DUAL-r005-*/**"
+      ],
+      "uncompressed_bytes": 274510915,
+      "file_count": 132,
+      "role": "all_four_workpoint_training_labels_original_masks_and_receipts"
+    },
+    {
+      "asset_name": "p0-pilot-four-workpoints.zip",
+      "include_prefixes": [
+        "execution/p0_pilot_four_workpoints/"
+      ],
+      "uncompressed_bytes": 508081278,
+      "file_count": 181,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "p1-fit.zip",
+      "include_prefixes": [
+        "execution/p1_fit/"
+      ],
+      "uncompressed_bytes": 1549314809,
+      "file_count": 1310,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "p1-followup.zip",
+      "include_prefixes": [
+        "execution/p1_followup/"
+      ],
+      "uncompressed_bytes": 60583043,
+      "file_count": 301,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "p2-confirmation.zip",
+      "include_prefixes": [
+        "execution/p2_confirmation/"
+      ],
+      "uncompressed_bytes": 329910928,
+      "file_count": 2718,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "submitted-comparison.zip",
+      "include_prefixes": [
+        "execution/submitted_comparison/"
+      ],
+      "uncompressed_bytes": 773238897,
+      "file_count": 4014,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "quality-development.zip",
+      "include_prefixes": [
+        "execution/quality_development/"
+      ],
+      "uncompressed_bytes": 58935735,
+      "file_count": 248,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "quality-comparison.zip",
+      "include_prefixes": [
+        "execution/quality_comparison/"
+      ],
+      "uncompressed_bytes": 1766522736,
+      "file_count": 6747,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "chils-wholegraph-gate.zip",
+      "include_prefixes": [
+        "execution/chils_wholegraph_gate/"
+      ],
+      "uncompressed_bytes": 2425034,
+      "file_count": 79,
+      "role": "full_stage_raw_rows_trace_logs_protocol_checkpoints_if_applicable",
+      "split_if_archive_bytes_ge": 2000000000
+    },
+    {
+      "asset_name": "p0-original-probe-jobs.zip",
+      "include_globs": [
+        "execution/p0_r*/**",
+        "execution/p0_smoke*/**"
+      ],
+      "uncompressed_bytes": 333072077,
+      "file_count": 297,
+      "role": "original_P0_execution_results_including_failed_smoke_if_present"
+    }
+  ],
+  "large_feature_index": {
+    "path": "execution/p1_fit/out/feature_index.json",
+    "bytes": 683078812
+  },
+  "source_closure": {
+    "unpacked_runtime_directory_present": false,
+    "canonical_archive_candidate": "execution/c7b484879387e6b5c99ac808795577a54e3bb956f0d31debd8bc0255b351609d.tar.gz",
+    "restore_member_paths_without_rewriting_original_source_hashes": true,
+    "archive_version_closures": [
+      {
+        "archive_path": "execution/16fd28300df037407ce84778a26ad45486cbad722ff391ea5bc9eb55982e808f.tar.gz",
+        "archive_bytes": 828693,
+        "filename_claimed_sha256": "16fd28300df037407ce84778a26ad45486cbad722ff391ea5bc9eb55982e808f",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 8,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/1f0c8230437fab7fc9066c19e01444c3199aa44327295965c9b4d5bd555c25e7.tar.gz",
+        "archive_bytes": 889595,
+        "filename_claimed_sha256": "1f0c8230437fab7fc9066c19e01444c3199aa44327295965c9b4d5bd555c25e7",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 24,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/27baca61ff4ed135d203d9edd7acafa5baf0b1cfb8d62fffcfd16d73c05e34af.tar.gz",
+        "archive_bytes": 884064,
+        "filename_claimed_sha256": "27baca61ff4ed135d203d9edd7acafa5baf0b1cfb8d62fffcfd16d73c05e34af",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 22,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/3c5bac74c354d8a26d20ceabb36184524f0672fb191b16d440bb3fea98a084bb.tar.gz",
+        "archive_bytes": 809159,
+        "filename_claimed_sha256": "3c5bac74c354d8a26d20ceabb36184524f0672fb191b16d440bb3fea98a084bb",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 6,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/660d574700903ad00b2d10a8a6ff77243c30ee689805297b36f5e6534753976e.tar.gz",
+        "archive_bytes": 832285,
+        "filename_claimed_sha256": "660d574700903ad00b2d10a8a6ff77243c30ee689805297b36f5e6534753976e",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 9,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060.tar.gz",
+        "archive_bytes": 933350,
+        "filename_claimed_sha256": "a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 30,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/afb83d9fc9d75889f44a58a9c59a42f7bf2e8e27cf4da3746478ed7391a5fcfa.tar.gz",
+        "archive_bytes": 871517,
+        "filename_claimed_sha256": "afb83d9fc9d75889f44a58a9c59a42f7bf2e8e27cf4da3746478ed7391a5fcfa",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 19,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/b4dcf0e8b24d82ed54a0da0960d1c47ca54d913d2700706e24eb97474ebd21e3.tar.gz",
+        "archive_bytes": 980164,
+        "filename_claimed_sha256": "b4dcf0e8b24d82ed54a0da0960d1c47ca54d913d2700706e24eb97474ebd21e3",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 37,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/c3d6daf0975504e556407249dcb215a924a5a2a33b20b8e7386f00c52bc495e3.tar.gz",
+        "archive_bytes": 885405,
+        "filename_claimed_sha256": "c3d6daf0975504e556407249dcb215a924a5a2a33b20b8e7386f00c52bc495e3",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 23,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/c7b484879387e6b5c99ac808795577a54e3bb956f0d31debd8bc0255b351609d.tar.gz",
+        "archive_bytes": 984503,
+        "filename_claimed_sha256": "c7b484879387e6b5c99ac808795577a54e3bb956f0d31debd8bc0255b351609d",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 38,
+        "canonical_current_candidate": true
+      },
+      {
+        "archive_path": "execution/cd99d8f7b6ff901acfd4edcdf2ae894f7ebc11f345cd459ac9fe5594e7eb2489.tar.gz",
+        "archive_bytes": 817675,
+        "filename_claimed_sha256": "cd99d8f7b6ff901acfd4edcdf2ae894f7ebc11f345cd459ac9fe5594e7eb2489",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 7,
+        "canonical_current_candidate": false
+      },
+      {
+        "archive_path": "execution/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857.tar.gz",
+        "archive_bytes": 854332,
+        "filename_claimed_sha256": "f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857",
+        "content_sha256_not_recomputed": true,
+        "scientific_runtime_member_count": 29,
+        "scientific_runtime_uncompressed_bytes": 340683,
+        "scientific_runtime_members": [
+          "runtime/src/joint_recovery/__init__.py",
+          "runtime/src/joint_recovery/core.py",
+          "runtime/src/joint_recovery/efficient_core.py",
+          "runtime/src/joint_recovery/generators.py",
+          "runtime/src/joint_recovery/model.py",
+          "runtime/src/joint_recovery/satellite.py",
+          "runtime/src/joint_recovery/v3_budget.py",
+          "runtime/src/joint_recovery/v3_capacity.py",
+          "runtime/src/joint_recovery/v3_controls.py",
+          "runtime/src/joint_recovery/v3_fast.py",
+          "runtime/src/joint_recovery/v3_readout_controls.py",
+          "runtime/src/joint_recovery/v4_anytime_classical.py",
+          "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+          "runtime/src/joint_recovery/v4_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_factorized_model.py",
+          "runtime/src/joint_recovery/v4_factors.py",
+          "runtime/src/joint_recovery/v4_factors_fast.py",
+          "runtime/src/joint_recovery/v4_model.py",
+          "runtime/src/joint_recovery/v4_model_fast.py",
+          "runtime/src/joint_recovery/v4_public_data.py",
+          "runtime/src/joint_recovery/v4_residual_controller_coordination.py",
+          "runtime/src/joint_recovery/v4_residual_model.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/__init__.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/data.py",
+          "runtime/src/joint_recovery/vendor/snsd_core/graph.py",
+          "runtime/experiments/v4_neighborhoods.py",
+          "runtime/experiments/v4_residual_common.py",
+          "runtime/experiments/v4_residual_training_data.py",
+          "runtime/experiments/v4_training_data.py"
+        ],
+        "scientific_code_member_count": 16,
+        "canonical_current_candidate": false
+      }
+    ],
+    "direct_P0_runtime_dependencies": [
+      "runtime/src/joint_recovery/core.py",
+      "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+      "runtime/src/joint_recovery/v4_factors.py",
+      "runtime/experiments/v4_neighborhoods.py",
+      "runtime/experiments/v4_residual_common.py"
+    ],
+    "model_runtime_dependencies": [
+      "runtime/src/joint_recovery/v4_residual_model.py",
+      "runtime/src/joint_recovery/v4_factorized_model.py",
+      "runtime/src/joint_recovery/v4_model.py",
+      "runtime/src/joint_recovery/v4_model_fast.py",
+      "runtime/src/joint_recovery/v4_factors_fast.py"
+    ],
+    "native_CHILS_dependency": {
+      "previous_dependency_description": "Official https://github.com/KarlsruheMIS/CHILS commit515952724cd3dcc6c4365a340ecf0f1da782119a; preserve actual source/binary SHA gate plus reproducible official source/build environment. Local stat inventory does not assert native executable is included.",
+      "local_exact_binary": {
+        "path": "E:\\01-Joycecyq\\2026-AAMAS\\第一篇\\tools\\CHILS-v3\\CHILS",
+        "bytes": 49176,
+        "sha256": "19610c03f334c6267f94543ad3053d792cba56e9ae211fceb6c36f21750c88a0",
+        "expected_experiment_sha256": "19610c03f334c6267f94543ad3053d792cba56e9ae211fceb6c36f21750c88a0",
+        "expected_sha256_match": true,
+        "file_magic": "ELF",
+        "execution_environment_note": "Original Linux native executable, not runnable directly in Windows; preserve executable permission after extraction and declare Linux ABI/build environment.",
+        "license_path": "E:\\01-Joycecyq\\2026-AAMAS\\第一篇\\tools\\CHILS-v3\\LICENSE",
+        "license_sha256": "b376de21e1326e8c3c622f84edf6deb3dc6193ea413fb666d91ab22d0b99cf11",
+        "local_source_commit": "515952724cd3dcc6c4365a340ecf0f1da782119a"
+      },
+      "other_vendor_binaries_note": "chils_public_release/paper1/vendor/CHILS/CHILS and verification/paper1/vendor/CHILS/CHILS have SHA256 3d6cef00a5c31a6869df99c45415f6416b702e0bd4f196f8e55d70c9a66d1680 (48,392 bytes), which differs from the frozen experiment binary and must not substitute for it."
+    },
+    "reference_files_from_p0_module": [
+      {
+        "relative_path": "src/joint_recovery/core.py",
+        "canonical_tar_member": "runtime/src/joint_recovery/core.py",
+        "member_present": true
+      },
+      {
+        "relative_path": "src/joint_recovery/v4_budgeted_recovery.py",
+        "canonical_tar_member": "runtime/src/joint_recovery/v4_budgeted_recovery.py",
+        "member_present": true
+      },
+      {
+        "relative_path": "src/joint_recovery/v4_factors.py",
+        "canonical_tar_member": "runtime/src/joint_recovery/v4_factors.py",
+        "member_present": true
+      },
+      {
+        "relative_path": "experiments/v4_neighborhoods.py",
+        "canonical_tar_member": "runtime/experiments/v4_neighborhoods.py",
+        "member_present": true
+      },
+      {
+        "relative_path": "experiments/v4_residual_common.py",
+        "canonical_tar_member": "runtime/experiments/v4_residual_common.py",
+        "member_present": true
+      }
+    ],
+    "reference_files_note": "REFERENCE_FILES is a tuple in code/p0_recovery_probes.py, not a separate archive filename; preserve every listed relative file plus full runtime/src and imported experiments/model closure."
+  },
+  "exclusions_only_not_local_deletion": {
+    "bytecode": {
+      "file_count": 26,
+      "total_bytes": 868993,
+      "largest_file": {
+        "path": "code/__pycache__/p1_results_report.cpython-313.pyc",
+        "bytes": 58754
+      }
+    },
+    "transport_capsules": {
+      "summary": {
+        "file_count": 12,
+        "total_bytes": 10570742,
+        "largest_file": {
+          "path": "execution/c7b484879387e6b5c99ac808795577a54e3bb956f0d31debd8bc0255b351609d.tar.gz",
+          "bytes": 984503
+        }
+      },
+      "files": [
+        {
+          "path": "execution/16fd28300df037407ce84778a26ad45486cbad722ff391ea5bc9eb55982e808f.tar.gz",
+          "bytes": 828693
+        },
+        {
+          "path": "execution/1f0c8230437fab7fc9066c19e01444c3199aa44327295965c9b4d5bd555c25e7.tar.gz",
+          "bytes": 889595
+        },
+        {
+          "path": "execution/27baca61ff4ed135d203d9edd7acafa5baf0b1cfb8d62fffcfd16d73c05e34af.tar.gz",
+          "bytes": 884064
+        },
+        {
+          "path": "execution/3c5bac74c354d8a26d20ceabb36184524f0672fb191b16d440bb3fea98a084bb.tar.gz",
+          "bytes": 809159
+        },
+        {
+          "path": "execution/660d574700903ad00b2d10a8a6ff77243c30ee689805297b36f5e6534753976e.tar.gz",
+          "bytes": 832285
+        },
+        {
+          "path": "execution/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060.tar.gz",
+          "bytes": 933350
+        },
+        {
+          "path": "execution/afb83d9fc9d75889f44a58a9c59a42f7bf2e8e27cf4da3746478ed7391a5fcfa.tar.gz",
+          "bytes": 871517
+        },
+        {
+          "path": "execution/b4dcf0e8b24d82ed54a0da0960d1c47ca54d913d2700706e24eb97474ebd21e3.tar.gz",
+          "bytes": 980164
+        },
+        {
+          "path": "execution/c3d6daf0975504e556407249dcb215a924a5a2a33b20b8e7386f00c52bc495e3.tar.gz",
+          "bytes": 885405
+        },
+        {
+          "path": "execution/c7b484879387e6b5c99ac808795577a54e3bb956f0d31debd8bc0255b351609d.tar.gz",
+          "bytes": 984503
+        },
+        {
+          "path": "execution/cd99d8f7b6ff901acfd4edcdf2ae894f7ebc11f345cd459ac9fe5594e7eb2489.tar.gz",
+          "bytes": 817675
+        },
+        {
+          "path": "execution/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857.tar.gz",
+          "bytes": 854332
+        }
+      ],
+      "conditional_exclusion": "capsule tar files may be excluded only after preserving canonical scientific runtime and every distinct historical scientific source variant; no bytewise deduplication asserted here"
+    },
+    "repeated_raw_execution_rows": "do not deduplicate P0/P1 or merged/sharded quality raw records using same-size/names; distinct receipt/phase provenance retained",
+    "unrelated_legacy_archive_members": "runtime/experiments/analysis_* and earlier unrelated paper figure/report jobs need not be republished if not imported by current scientific dependency closure"
+  },
+  "errors": []
+}

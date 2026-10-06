@@ -1,0 +1,168 @@
+{
+  "schema": "joint_recovery_stk_submitted_results_report_v1",
+  "generated_utc": "2026-10-05T18:24:15.403742+00:00",
+  "status": "COMPLETED_TEST_REPORT",
+  "completed_block_statuses": {
+    "validation": {
+      "block": "validation",
+      "status": "COMPLETED",
+      "root": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\submitted_comparison\\out\\validation",
+      "expected_cells": 288,
+      "received_cells": 288,
+      "row_file_read": true,
+      "issues": []
+    },
+    "test": {
+      "block": "test",
+      "status": "COMPLETED",
+      "root": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\submitted_comparison\\out\\test",
+      "expected_cells": 576,
+      "received_cells": 576,
+      "row_file_read": true,
+      "issues": []
+    }
+  },
+  "original_p2_internal_statuses": {
+    "validation": {
+      "block": "validation",
+      "status": "COMPLETED",
+      "root": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p2_confirmation\\out\\validation",
+      "expected_cells": 216,
+      "received_cells": 216,
+      "row_file_read": true,
+      "issues": []
+    },
+    "test": {
+      "block": "test",
+      "status": "COMPLETED",
+      "root": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p2_confirmation\\out\\test",
+      "expected_cells": 432,
+      "received_cells": 432,
+      "row_file_read": true,
+      "issues": []
+    }
+  },
+  "p1_internal_status": "COMPLETED",
+  "physical_test_sources": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "two_fit_seeds_are_not_independent_sources": true,
+  "seed_selection": false,
+  "remaining_time_head_zero_not_validated": true,
+  "full_framework_not_all_original_components_validated": true,
+  "raw_unknowns_retained_null": true,
+  "driver_explicit_failed_strict_delivery_zero_retained": true,
+  "live_incomplete_row_files_not_read": true,
+  "no_new_figures_or_experiments": true,
+  "report_role": "EFFICIENCY_AND_SHORT_BUDGET_STRESS_DIAGNOSTIC_NOT_AMPLE_QUALITY_PRIMARY",
+  "proposed_method_raw_key": "FullCapacity",
+  "proposed_method_display": "JointRecovery (JR)",
+  "method_display_mapping": {
+    "FullCapacity": {
+      "display": "JointRecovery（本文方法，JR；完整框架 STK 迁移）",
+      "short": "JointRecovery (JR, ours)",
+      "role": "PROPOSED_FULL_FRAMEWORK"
+    },
+    "FullCheapSummary": {
+      "display": "JR-CheapSummary（简化表示消融）",
+      "short": "JR-CheapSummary",
+      "role": "SIMPLIFIED_REPRESENTATION_ABLATION"
+    },
+    "FullGreedy": {
+      "display": "Greedy-rank+CHILS（贪心请求排序内部对照）",
+      "short": "Greedy-rank+CHILS",
+      "role": "INTERNAL_GREEDY_REQUEST_RANKING"
+    },
+    "FullP1": {
+      "display": "Independent-replacement+CHILS（独立替代估计对照）",
+      "short": "Independent-replacement+CHILS",
+      "role": "INTERNAL_INDEPENDENT_REPLACEMENT_CONTROL"
+    },
+    "Capacity": {
+      "display": "JointRecovery（静态 max4 内部诊断）",
+      "short": "JointRecovery (static diagnostic)",
+      "role": "INTERNAL_STATIC_MAX4_DIAGNOSTIC"
+    },
+    "CheapSummary": {
+      "display": "JR-CheapSummary（静态简化表示诊断）",
+      "short": "JR-CheapSummary (static)",
+      "role": "INTERNAL_STATIC_SUMMARY_DIAGNOSTIC"
+    },
+    "Greedy": {
+      "display": "Greedy-rank+CHILS（静态贪心排序对照）",
+      "short": "Greedy-rank+CHILS (static)",
+      "role": "INTERNAL_STATIC_GREEDY_CONTROL"
+    },
+    "P1": {
+      "display": "Independent-replacement+CHILS（静态独立替代对照）",
+      "short": "Independent-replacement+CHILS (static)",
+      "role": "INTERNAL_STATIC_INDEPENDENT_CONTROL"
+    },
+    "CHILS-p1": {
+      "display": "CHILS-p1（SEA 2025 公开 MWIS 算法）",
+      "short": "CHILS-p1 (SEA 2025)",
+      "role": "PUBLISHED_MWIS_BASELINE"
+    },
+    "HiGHS-MILP": {
+      "display": "HiGHS-MILP（通用 MILP 软件参照）",
+      "short": "HiGHS (generic MILP)",
+      "role": "GENERIC_MILP_SOFTWARE_REFERENCE"
+    },
+    "StrongCheapControl": {
+      "display": "较强内部对照（描述性参照）",
+      "short": "Stronger internal control",
+      "role": "DESCRIPTIVE_CONTROL_REFERENCE"
+    }
+  },
+  "issues": [],
+  "inputs": [
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p1_followup\\out\\calibration\\frozen_budgets.json",
+      "sha256": "371a9f6c3302196859b63cdf8ded51ce6de784634e0cee8089d9fd2011138880"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p1_followup\\out\\fixed_calls\\summary.json",
+      "sha256": "88caff7524afde859dfa3288a10e26f093810019d48e688a33f89bdab8a492bc"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p2_confirmation\\out\\test\\actual_run_rows.json",
+      "sha256": "e223ef04fae21c3cee821e68e49436aa44b8f969146d1ea8c85c7a06454a7ae0"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p2_confirmation\\out\\test\\summary.json",
+      "sha256": "798b7020d126220426980e7baaffad2e2fc17171736d1a00e5d5301f68daaa5a"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p2_confirmation\\out\\validation\\actual_run_rows.json",
+      "sha256": "7a4e255618675b53124fd16a95ee4c588151d5b63cabdf8e82cbdf5a67fc539a"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\p2_confirmation\\out\\validation\\summary.json",
+      "sha256": "cc212a80ad0c3911b7a100f6c780ba5a0d97fe11ddb82e400461f7d5c5e9cd8a"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\submitted_comparison\\out\\test\\actual_run_rows.json",
+      "sha256": "adf72895bbb3d9ed43976cca92d95760c44e00d7597b1194b3fab9c31a4a7e21"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\submitted_comparison\\out\\test\\summary.json",
+      "sha256": "ec4a84693bb05dfd92d4d80276054f57ff662a7f6200f6c7a4da66a455ec4179"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\submitted_comparison\\out\\validation\\actual_run_rows.json",
+      "sha256": "1a2016d5f0c8db73afd1ed075e0a11b776710b98a64ffc428fe6dbebcffa5c5c"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\execution\\submitted_comparison\\out\\validation\\summary.json",
+      "sha256": "63893c37092fce4507469779e33ec15657c74154e1951cb98a349be75740896f"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\protocol\\SUBMITTED_COMPARISON_EXTENSION_PLAN_20261005.json",
+      "sha256": "73db9a01102a38dc885d4dfe63ecd31fd4d8acb5806024084bacba04973b3107"
+    }
+  ],
+  "generator_sha256": "162dd35e288b368ab25c369752284a1a4e6025820f35d680681d6b5761f29a44"
+}

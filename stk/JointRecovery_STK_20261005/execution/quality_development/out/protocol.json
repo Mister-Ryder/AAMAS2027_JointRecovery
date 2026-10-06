@@ -1,0 +1,241 @@
+{
+  "schema": "joint_recovery_stk_quality_comparison_v1",
+  "frozen_utc": "2026-10-05T17:10:27.859813+00:00",
+  "identity_sha256": "d495a9f44418395b694a58001f5414a97b2bd636f0874f5e8671e78bad1bf483",
+  "quality_plan_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/protocol/QUALITY_EVALUATION_PLAN_20261006.json",
+  "quality_plan_sha256": "a9576d61bae3ae43ed45fe1499d70b2376ca84a31e499854137068d6b90016e0",
+  "fit": {
+    "fit_root": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out",
+    "fit_protocol_sha256": "09fc08e98aea871e0ffd35356aa5a5dbc6a811a01b1649f71ff23aff97facff8",
+    "completion_sha256": "42d4c0b8f3ff620c3c3e9c6c5cda4a824133e5934dedf45a92ae52a4c693f7e5",
+    "checkpoints": [
+      {
+        "variant": "ResidualCapacity",
+        "seed": 17,
+        "path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCapacity-seed17/final.pt",
+        "sha256_from_fit_completion": "f7166498a714c134f2097d1fb11fc8cf6f857b6a3b10989e36fd51c45d874a41"
+      },
+      {
+        "variant": "ResidualCapacity",
+        "seed": 29,
+        "path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCapacity-seed29/final.pt",
+        "sha256_from_fit_completion": "245f96f7423b12280e17018b1cb9e2a5435f2f8e01a30cd68271a8d225385445"
+      },
+      {
+        "variant": "ResidualCheapSummary",
+        "seed": 17,
+        "path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCheapSummary-seed17/final.pt",
+        "sha256_from_fit_completion": "cadcc487e071687bd27bb927a8a5cafedfac562304730cf26400d9454b592b95"
+      },
+      {
+        "variant": "ResidualCheapSummary",
+        "seed": 29,
+        "path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCheapSummary-seed29/final.pt",
+        "sha256_from_fit_completion": "4a1e54aba29664858336e6ecd48b4080b98fffb667c6aa29cb110e395689aab5"
+      }
+    ],
+    "normalization": {
+      "scale_seconds": 404.76506670425,
+      "rule": "median of per-fit-source R12-g0170 full-contact-duration medians",
+      "fit_sources": [
+        {
+          "source": "r000",
+          "graph_id": "JR-DUAL-r000-R12-g0170",
+          "full_contact_duration_median_seconds": 404.535176621,
+          "graph_sha256": "848e851257a8c48c5b33f04e13a7300e7c687d22c0f5c1c0aedc8b373659e679"
+        },
+        {
+          "source": "r001",
+          "graph_id": "JR-DUAL-r001-R12-g0170",
+          "full_contact_duration_median_seconds": 404.865830664,
+          "graph_sha256": "d0c0a3aa597e4d2a65ba992338c9c9cc32b5df8d80f5aa7c06c61d4dc161cfa5"
+        },
+        {
+          "source": "r002",
+          "graph_id": "JR-DUAL-r002-R12-g0170",
+          "full_contact_duration_median_seconds": 404.77943176049996,
+          "graph_sha256": "ed1572771a4052c0b0a30b96cd98aa1de8e6703782679ea8eb09aa493d3bd152"
+        },
+        {
+          "source": "r003",
+          "graph_id": "JR-DUAL-r003-R12-g0170",
+          "full_contact_duration_median_seconds": 404.750701648,
+          "graph_sha256": "8e1631a0acf1092bf0817dbf27eddc2bfae955c48b5bfbc745086e83b3c696a3"
+        }
+      ],
+      "uses_development_or_validation_or_test_labels": false,
+      "q_L_U_features_and_signed_targets_divided_by_same_scale": true,
+      "predictions_multiplied_back_to_original_seconds": true,
+      "remaining_time_head_feature_frozen_zero_for_no_unavailable_supervision": true
+    },
+    "model_source_sha256": {
+      "src/joint_recovery/v4_residual_model.py": "d6c974b3e57b1880bbb0d24c6dceca8f343d303c47e74736f3864c8da054a750",
+      "src/joint_recovery/v4_factorized_model.py": "983d05e8dae02d7d7fa2e7eee683fa266d9093d10248ac99f3534ed5ea91d526",
+      "src/joint_recovery/v4_model.py": "42dafec2062235c4cfd014066087c4a138861327dd8d4c12d771b513afadb62f",
+      "src/joint_recovery/v4_model_fast.py": "c208715d51526101bcec6e664b9dcfd90e43a591636a39c86bbd3f1fb23dddb2",
+      "src/joint_recovery/v4_factors_fast.py": "d792cb3bf41464a6419f3522a50aae0af608a489565ec0f976994e022cbede96"
+    }
+  },
+  "code_sha256": {
+    "quality_method_comparison_pipeline.py": "a0721a48f568b2fe265940276bacc62d7ef9b363aa6b854d24bc3f0804cd138c",
+    "full_joint_recovery_deadline.py": "7c4eb2d22c735e0253e38d24dbe796bf3c17713f48286eed6f5a33d59cb374e4",
+    "quality_published_wholegraph.py": "8180273002c6c3caa0e286dbe1d98b7cbcefecd8eb5084e56719bef89ffefdde",
+    "published_wholegraph_deadline.py": "bf7fac550c0032fb2154a0e9c11690756f894134e3cff76e05f40408edd622e2",
+    "p0_recovery_probes.py": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+    "p1_actual_policy.py": "e2cf40d3c9c58a50e4388c2a31492f16110c226c1f387da6994b9f68b48a73c6",
+    "p1_fit_and_allocate.py": "5432f15b950d3f485467d323ef806493ff96c6ac065d73ac7be886c0279c4125",
+    "p1_benchmark_driver.py": "9873e7522a43337ec248bf54b1114817b206020a9f21509ea7471235de4054da",
+    "submitted_method_comparison_pipeline.py": "191d81b25f6a346df9356ce4d33d2e013bf4168db77abf6636a4b41798dea3b0"
+  },
+  "numeric_gate_completion_sha256": "5c7b7b9ebfae88a83e459d27efe683f61ee537a242e988e7fec0188c402aee32",
+  "development_sources": [
+    4
+  ],
+  "development_allowance_ladder_seconds": [
+    60.0,
+    120.0,
+    300.0
+  ],
+  "policies": [
+    [
+      "FullCapacity-seed17",
+      "FullCapacity",
+      17
+    ],
+    [
+      "FullCapacity-seed29",
+      "FullCapacity",
+      29
+    ],
+    [
+      "FullCheapSummary-seed17",
+      "FullCheapSummary",
+      17
+    ],
+    [
+      "FullCheapSummary-seed29",
+      "FullCheapSummary",
+      29
+    ],
+    [
+      "FullP1",
+      "FullP1",
+      17
+    ],
+    [
+      "FullGreedy",
+      "FullGreedy",
+      17
+    ],
+    [
+      "CHILS-p1",
+      "CHILS-p1",
+      17
+    ],
+    [
+      "HiGHS-MILP",
+      "HiGHS-MILP",
+      17
+    ]
+  ],
+  "workpoints_ms": [
+    10,
+    50,
+    200,
+    1000
+  ],
+  "max_calls": 8,
+  "action_seed": 17,
+  "no_retraining": true,
+  "no_model_or_algorithm_configuration_change": true,
+  "selection_uses_gain": false,
+  "test_outcomes_used": false,
+  "original_short_allowance_protocol_not_changed": true,
+  "stage": "development_completion_threshold",
+  "graphs": [
+    {
+      "source": 4,
+      "source_group": "JR-SOURCE-r004",
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "split": "train",
+      "station_view": "R12",
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "graph_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs/JR-DUAL-r004-R12-g0170.npz",
+      "graph_sha256_from_metadata": "9aaf29e9bb5aaef591487a5e0ea7959e4147c570b827dadb96163db6226f74dc",
+      "contacts_sha256_from_metadata": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256_from_metadata": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca"
+    },
+    {
+      "source": 4,
+      "source_group": "JR-SOURCE-r004",
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "split": "train",
+      "station_view": "R12",
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "graph_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs/JR-DUAL-r004-R12-g0340.npz",
+      "graph_sha256_from_metadata": "58f28ac65cd4cdee59b0684b19d1e2e581dabc21bb9a3ee022d368050198c8bf",
+      "contacts_sha256_from_metadata": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256_from_metadata": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca"
+    },
+    {
+      "source": 4,
+      "source_group": "JR-SOURCE-r004",
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "split": "train",
+      "station_view": "R12",
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "graph_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs/JR-DUAL-r004-R12-g0680.npz",
+      "graph_sha256_from_metadata": "a47e1dfaf6fa6e710f276615adc965a5bd5b14bc70c12924f49e993434fe0056",
+      "contacts_sha256_from_metadata": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256_from_metadata": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca"
+    },
+    {
+      "source": 4,
+      "source_group": "JR-SOURCE-r004",
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "split": "train",
+      "station_view": "R8",
+      "ground_gap_seconds": 170,
+      "satellite_gap_seconds": 150,
+      "graph_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs/JR-DUAL-r004-R8-g0170.npz",
+      "graph_sha256_from_metadata": "c899ad03df1c37bb03b21abd5a5160a9977c22fbaf0456505a2e944ab213f55e",
+      "contacts_sha256_from_metadata": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256_from_metadata": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca"
+    },
+    {
+      "source": 4,
+      "source_group": "JR-SOURCE-r004",
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "split": "train",
+      "station_view": "R8",
+      "ground_gap_seconds": 340,
+      "satellite_gap_seconds": 150,
+      "graph_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs/JR-DUAL-r004-R8-g0340.npz",
+      "graph_sha256_from_metadata": "c3f2b169771b57f0cb8140ea12793876e5596bb611111aff3be405a96d27c8f5",
+      "contacts_sha256_from_metadata": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256_from_metadata": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca"
+    },
+    {
+      "source": 4,
+      "source_group": "JR-SOURCE-r004",
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "split": "train",
+      "station_view": "R8",
+      "ground_gap_seconds": 680,
+      "satellite_gap_seconds": 150,
+      "graph_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs/JR-DUAL-r004-R8-g0680.npz",
+      "graph_sha256_from_metadata": "1f3c06d83dbb96857767ae85a9c87d954b29654904543e4d67655b1b8929694e",
+      "contacts_sha256_from_metadata": "4d5f82973b0bd34a4def15829923e9a817807b873aa7666c47852c732fa0e2b6",
+      "parameters_sha256_from_metadata": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca"
+    }
+  ],
+  "cpu_affinity": [
+    42
+  ],
+  "expected_initial_cells": 48,
+  "maximum_attempts": 144,
+  "retries_only_for_incomplete_results": true
+}

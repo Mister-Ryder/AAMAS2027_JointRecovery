@@ -1,0 +1,32 @@
+{
+  "status": "P0_PROTOCOL_FIXED_BEFORE_NEW_GEOMETRY_AND_SOLVER_OUTCOMES",
+  "parameter_sha256": "f2d553b0c468279425db7c4e0071a917ccf1fa6eb62a01afce64e71cb6f4ffca",
+  "word_sha256": "d523ab48fb35ea7a6d355c8be6489c049fc671e4ac2ea284ebb309d596c672fe",
+  "mother_sources": [
+    "JR-DUAL-r000",
+    "JR-DUAL-r001"
+  ],
+  "derived_graphs": 12,
+  "source_split_preserved": true,
+  "reward": "unaltered full visibility interval duration e-s",
+  "owner": "satellite",
+  "ground_gaps_seconds": [
+    170,
+    340,
+    680
+  ],
+  "satellite_gap_seconds": 150,
+  "scope_cap": 256,
+  "native_probe_order_ms": [
+    200,
+    1000,
+    50,
+    10
+  ],
+  "same_snapshot_clones": true,
+  "target_snapshots_per_graph": 12,
+  "failed_zero_and_late_records_retained": true,
+  "P1_P2_condition": "stage-gated by actual G1-G4 results; do not train before P0",
+  "P3_not_scheduled": true,
+  "normalization_candidate_untrained_from_previous_version_not_imported": true
+}

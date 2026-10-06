@@ -1,0 +1,25 @@
+{
+  "schema": "jointrecovery_human_quality_budget_revision_v1",
+  "recorded_utc": "2026-10-05T16:48:40.538198+00:00",
+  "human_instruction": "以能求出结果为起码的时间限定；若时间不是主要目标则放宽；报告明确方法名称。",
+  "canonical_method": "JointRecovery (JR)",
+  "canonical_name_source": "第一篇/paper/main_v4.tex macro method=JointRecovery",
+  "ours_full_raw_key": "FullCapacity",
+  "ours_static_diagnostic_raw_key": "Capacity",
+  "primary_scientific_objective": "maximize original feasible total full-contact duration",
+  "time_role": "reported computation cost and abstract efficiency claim; the earlier empirical deadlines are not a demonstrated physical satellite business limit",
+  "old_short_budget_results_role": "efficiency and stress diagnostic; retained unchanged",
+  "quality_development_allowances_seconds": [
+    60,
+    120,
+    300
+  ],
+  "selection_rule": "start60; escalate only failed/non-completed/no-original-graph-native-membership development cells; same final allowance at maximum necessary complete tier, not selected by objective score; no unbounded escalation",
+  "new_quality_validation_cells": 96,
+  "new_quality_test_cells": 192,
+  "sources_models_seeds_workpoints_caps_unchanged": true,
+  "no_retraining_no_label_recollection": true,
+  "new_quality_primary_results": "reports/JOINTRECOVERY_QUALITY_RESULTS",
+  "state": "AUTHORIZED_IMPLEMENTATION_IN_PROGRESS_NOT_YET_EXECUTED",
+  "instructions_override_previous_heartbeat_end_condition": true
+}

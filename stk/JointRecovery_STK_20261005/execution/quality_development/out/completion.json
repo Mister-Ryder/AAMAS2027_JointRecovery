@@ -1,0 +1,8 @@
+{
+  "schema": "joint_recovery_stk_quality_comparison_v1",
+  "status": "QUALITY_DEVELOPMENT_COMPLETION_THRESHOLD_COMPLETE",
+  "pipeline_completed": true,
+  "selected_allowance_sha256": "6a5ae33c204e64bb765fe676880591b4fc1710bbe0a8c42a6eccf44230d2b5fc",
+  "development_rows_sha256": "726ac959dd69b44620043bbc56a9f4317ad87c158b3376b6db1a7ebcf8024974",
+  "completed_utc": "2026-10-05T17:40:32.402421+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.826s\n\nOK\n",
+  "elapsed_seconds": 1.0965285673737526,
+  "fit_executed": false,
+  "native_executed": false,
+  "real_dataset_read": false,
+  "guard_directory": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/guards/p1_input_units_f34a1eeda5c6",
+  "code_sha256": {
+    "p1_fit_and_allocate.py": "1c8dacdc87ea88cb031932e022128d1e767af8b156d0b2b50d6ef362500103a0",
+    "p1_actual_policy.py": "faac629458fe86e0ac2bf4db0534eabee45b98d1c46379378b1a270f3fe9e218",
+    "p1_contract_test.py": "1d7f1bdc747f7c0bacc17c26b99e5ff649c47fa7b79bbb446d988e7643d70989"
+  },
+  "runtime_capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/660d574700903ad00b2d10a8a6ff77243c30ee689805297b36f5e6534753976e"
+}

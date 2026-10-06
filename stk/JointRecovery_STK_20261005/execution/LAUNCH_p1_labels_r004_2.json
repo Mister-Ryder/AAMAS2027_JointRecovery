@@ -1,0 +1,36 @@
+{
+  "pid": 25188,
+  "job": "p1_labels_r004_2",
+  "cpu_affinity": [
+    22
+  ],
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857/code/p0_recovery_probes.py",
+    "--runtime-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857/runtime",
+    "--chils",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3/CHILS",
+    "--chils-source",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3",
+    "--out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_labels_r004_2/out",
+    "--states",
+    "12",
+    "--repeats",
+    "2",
+    "--seed",
+    "17",
+    "--budgets-ms",
+    "200",
+    "1000",
+    "50",
+    "10",
+    "--graph",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs/JR-DUAL-r004-R12-g0680.npz"
+  ],
+  "capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/f2ab6c7b9633cf37d5990fa3bb1be49bd9bc5f0bd5e9b4d9d0c316198abab857",
+  "created_utc": "2026-10-05T12:54:50Z",
+  "native_threads": 1,
+  "native_seed": 17
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "joint_recovery_stk_quality_figures_v1",
+  "generated_utc": "2026-10-05T22:01:03.740044+00:00",
+  "phase": "test",
+  "generator_sha256": "6c9013b9541c0b47046a80f30b5b36b1173418938c622128e63238751cb4bbb3",
+  "plots_from_completed_local_csv_only": true,
+  "cloud_or_native_called": false,
+  "smoothing_or_quality_imputation": false,
+  "seed_range_is_not_confidence_interval": true,
+  "status": "COMPLETE_QUALITY_FIGURES",
+  "inputs": [
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\JOINTRECOVERY_QUALITY_RESULTS\\QUALITY_REPORT_MANIFEST.json",
+      "sha256": "9499ca6a270b08ab9800036574a3d2941401d88e62544969ac4698be138444b3"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\JOINTRECOVERY_QUALITY_RESULTS\\quality_source_equal.csv",
+      "sha256": "7fef48ccff2af6366206474e0368afa35134fe52a8fc665fb49c0b3434c52811"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\JOINTRECOVERY_QUALITY_RESULTS\\quality_per_physical_source.csv",
+      "sha256": "97caa65f7ce494fae18accca0ab2b08da24bf140a51e60e0430d1530d095ca7a"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\JOINTRECOVERY_QUALITY_RESULTS\\jointrecovery_quality_comparator_differences.csv",
+      "sha256": "afa0cf8f1b524bca6d9aef2a49cb3746ab57e5c73e2d6b2d0230ab0b927b188d"
+    }
+  ],
+  "selected_deadline_seconds": 300.0,
+  "evaluation_deadline_seconds": [
+    10.0,
+    30.0,
+    60.0,
+    120.0,
+    300.0
+  ],
+  "metric": "complete_gain_percent",
+  "quality_points": 30,
+  "known_quality_points": 25,
+  "unknown_quality_points": [
+    {
+      "policy_label": "HiGHS-MILP",
+      "deadline_seconds": 10.0,
+      "native_complete_quality": "N/A"
+    },
+    {
+      "policy_label": "HiGHS-MILP",
+      "deadline_seconds": 30.0,
+      "native_complete_quality": "N/A"
+    },
+    {
+      "policy_label": "HiGHS-MILP",
+      "deadline_seconds": 60.0,
+      "native_complete_quality": "N/A"
+    },
+    {
+      "policy_label": "HiGHS-MILP",
+      "deadline_seconds": 120.0,
+      "native_complete_quality": "N/A"
+    },
+    {
+      "policy_label": "HiGHS-MILP",
+      "deadline_seconds": 300.0,
+      "native_complete_quality": "N/A"
+    }
+  ],
+  "comparable_external_delta_points": 5,
+  "matplotlib_version": "3.11.1",
+  "outputs": [
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\JOINTRECOVERY_QUALITY_FIGURES\\test\\quality_curves_test.pdf",
+      "sha256": "cef718b0f12217eecd80807be46462c1ab93b6700ce2c69f1d7dd4aee5630ed0"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\JOINTRECOVERY_QUALITY_FIGURES\\test\\quality_curves_test.png",
+      "sha256": "bd6ba6b0b2bd748c1253491a9d68d7c6e5c92ff92e40ba27f004c40ca6ddafa2"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "joint_recovery_quality_development_execution_v1",
+  "created_utc": "2026-10-05T17:09:55.317547+00:00",
+  "quality_plan_sha256": "a9576d61bae3ae43ed45fe1499d70b2376ca84a31e499854137068d6b90016e0",
+  "job": "quality_development",
+  "cpu": 42,
+  "human_authorized_real_curve_timepoints": [
+    10,
+    30,
+    60,
+    120
+  ],
+  "quality_dev_ladder_seconds": [
+    60,
+    120,
+    300
+  ],
+  "dev_base_cells": 48,
+  "curve_include_selected_D": true,
+  "no_gain_based_budget_selection": true,
+  "sealed_short_experiment_unchanged": true,
+  "no_retraining": true,
+  "core_code_sha256": {
+    "quality_method_comparison_pipeline.py": "a0721a48f568b2fe265940276bacc62d7ef9b363aa6b854d24bc3f0804cd138c",
+    "quality_published_wholegraph.py": "8180273002c6c3caa0e286dbe1d98b7cbcefecd8eb5084e56719bef89ffefdde",
+    "full_joint_recovery_deadline.py": "7c4eb2d22c735e0253e38d24dbe796bf3c17713f48286eed6f5a33d59cb374e4",
+    "published_wholegraph_deadline.py": "bf7fac550c0032fb2154a0e9c11690756f894134e3cff76e05f40408edd622e2",
+    "p0_recovery_probes.py": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+    "p1_actual_policy.py": "e2cf40d3c9c58a50e4388c2a31492f16110c226c1f387da6994b9f68b48a73c6",
+    "p1_fit_and_allocate.py": "5432f15b950d3f485467d323ef806493ff96c6ac065d73ac7be886c0279c4125",
+    "p1_benchmark_driver.py": "9873e7522a43337ec248bf54b1114817b206020a9f21509ea7471235de4054da",
+    "submitted_method_comparison_pipeline.py": "191d81b25f6a346df9356ce4d33d2e013bf4168db77abf6636a4b41798dea3b0"
+  }
+}

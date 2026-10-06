@@ -1,0 +1,43 @@
+{
+  "schema": "joint_recovery_quality_comparison_execution_v1",
+  "created_utc": "2026-10-05T17:18:56.634456+00:00",
+  "job": "quality_comparison",
+  "quality_plan_sha256": "a9576d61bae3ae43ed45fe1499d70b2376ca84a31e499854137068d6b90016e0",
+  "execution_binding_file": "QUALITY_SOURCE_EXECUTION_BINDING_20261006.json",
+  "execution_binding_sha256": "9a0dc59c5060fe9769b9999c42569b94cbf3b7ac4b95db93373744ed78e81336",
+  "orchestrator_sha256": "ab09f17432b5834ffcd4aec18f2189520a95a24c2bfb5aee4a88953d2372726b",
+  "core_code_sha256": {
+    "quality_method_comparison_pipeline.py": "a0721a48f568b2fe265940276bacc62d7ef9b363aa6b854d24bc3f0804cd138c",
+    "quality_published_wholegraph.py": "8180273002c6c3caa0e286dbe1d98b7cbcefecd8eb5084e56719bef89ffefdde",
+    "full_joint_recovery_deadline.py": "7c4eb2d22c735e0253e38d24dbe796bf3c17713f48286eed6f5a33d59cb374e4",
+    "published_wholegraph_deadline.py": "bf7fac550c0032fb2154a0e9c11690756f894134e3cff76e05f40408edd622e2",
+    "p0_recovery_probes.py": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+    "p1_actual_policy.py": "e2cf40d3c9c58a50e4388c2a31492f16110c226c1f387da6994b9f68b48a73c6",
+    "p1_fit_and_allocate.py": "5432f15b950d3f485467d323ef806493ff96c6ac065d73ac7be886c0279c4125",
+    "p1_benchmark_driver.py": "9873e7522a43337ec248bf54b1114817b206020a9f21509ea7471235de4054da",
+    "submitted_method_comparison_pipeline.py": "191d81b25f6a346df9356ce4d33d2e013bf4168db77abf6636a4b41798dea3b0"
+  },
+  "core_identical_to_development": true,
+  "matrix_not_started_until_dependencies_sealed": true,
+  "no_live_performance_read_to_choose_execution": true,
+  "curve_timepoints_base_seconds": [
+    10,
+    30,
+    60,
+    120
+  ],
+  "curve_includes_selected_D": true,
+  "validation_sources": [
+    6,
+    7
+  ],
+  "test_sources": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "source_parallel_scheduling_disclosed": true,
+  "one_CPU_per_method_and_within_source_serial": true,
+  "all_failures_late_and_unknown_preserved": true
+}

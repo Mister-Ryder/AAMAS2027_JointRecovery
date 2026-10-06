@@ -1,0 +1,49 @@
+{
+  "schema": "joint_recovery_stk_p1_v1",
+  "status": "ACTUAL_P1_FIT_COMPLETE",
+  "fits": [
+    {
+      "variant": "ResidualCapacity",
+      "seed": 17,
+      "final_checkpoint": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCapacity-seed17/final.pt",
+      "sha256": "f7166498a714c134f2097d1fb11fc8cf6f857b6a3b10989e36fd51c45d874a41",
+      "parameter_counts": {
+        "stored": 11970,
+        "active_scoring": 11970
+      }
+    },
+    {
+      "variant": "ResidualCapacity",
+      "seed": 29,
+      "final_checkpoint": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCapacity-seed29/final.pt",
+      "sha256": "245f96f7423b12280e17018b1cb9e2a5435f2f8e01a30cd68271a8d225385445",
+      "parameter_counts": {
+        "stored": 11970,
+        "active_scoring": 11970
+      }
+    },
+    {
+      "variant": "ResidualCheapSummary",
+      "seed": 17,
+      "final_checkpoint": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCheapSummary-seed17/final.pt",
+      "sha256": "cadcc487e071687bd27bb927a8a5cafedfac562304730cf26400d9454b592b95",
+      "parameter_counts": {
+        "stored": 705,
+        "active_scoring": 705
+      }
+    },
+    {
+      "variant": "ResidualCheapSummary",
+      "seed": 29,
+      "final_checkpoint": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out/ResidualCheapSummary-seed29/final.pt",
+      "sha256": "4a1e54aba29664858336e6ecd48b4080b98fffb667c6aa29cb110e395689aab5",
+      "parameter_counts": {
+        "stored": 705,
+        "active_scoring": 705
+      }
+    }
+  ],
+  "protocol_sha256": "09fc08e98aea871e0ffd35356aa5a5dbc6a811a01b1649f71ff23aff97facff8",
+  "P2_validation_or_test_used": false,
+  "online_advantage_established": false
+}

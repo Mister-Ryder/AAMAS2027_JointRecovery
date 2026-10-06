@@ -1,0 +1,16 @@
+[
+  "--root",
+  "{REMOTE}",
+  "--runtime-root",
+  "{RUNTIME}",
+  "--graphs",
+  "{REMOTE}/graphs",
+  "--chils",
+  "{CHILS}",
+  "--chils-source",
+  "{CHILS_SOURCE}",
+  "--out",
+  "{OUT}",
+  "--mode",
+  "run"
+]

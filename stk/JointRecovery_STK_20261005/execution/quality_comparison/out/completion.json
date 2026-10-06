@@ -1,0 +1,29 @@
+{
+  "schema": "joint_recovery_stk_quality_comparison_v1",
+  "status": "QUALITY_COMPARISON_MATRIX_COMPLETE",
+  "pipeline_completed": true,
+  "expected_cells": 1440,
+  "received_cells": 1440,
+  "blocks": [
+    {
+      "block": "validation",
+      "expected_cells": 480,
+      "received_cells": 480,
+      "complete_result_runs": 455,
+      "initial_mask_mismatches": {},
+      "rows_sha256": "71f48e4d39573e8ea232750e05f1f886f5cee17c700c7bbcbf982236b1a5c53b"
+    },
+    {
+      "block": "test",
+      "expected_cells": 960,
+      "received_cells": 960,
+      "complete_result_runs": 912,
+      "initial_mask_mismatches": {},
+      "rows_sha256": "04ce8aa05028063f57a6c4ce84eb5fdb59f9a925f9a38e272d89cc8bfdd5c8f7"
+    }
+  ],
+  "selected_allowance_sha256": "6a5ae33c204e64bb765fe676880591b4fc1710bbe0a8c42a6eccf44230d2b5fc",
+  "completed_utc": "2026-10-05T21:49:06.637357+00:00",
+  "execution_binding_sha256": "9a0dc59c5060fe9769b9999c42569b94cbf3b7ac4b95db93373744ed78e81336",
+  "frozen_fit_completion_unchanged": true
+}

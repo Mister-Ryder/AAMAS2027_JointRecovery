@@ -1,0 +1,13 @@
+{
+  "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5": {
+    "UsePreciseEventTimes": true,
+    "UseFixedTimeStep": false,
+    "MaxTimeStep": 30.0,
+    "MinTimeStep": 0.01,
+    "TimeConvergence": 0.001,
+    "EnableLightTimeDelay": false,
+    "AbsoluteTolerance": 1e-14,
+    "RelativeTolerance": 1e-08,
+    "AberrationType": 1
+  }
+}

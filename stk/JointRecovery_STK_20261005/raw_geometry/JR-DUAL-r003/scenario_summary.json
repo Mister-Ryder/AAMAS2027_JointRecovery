@@ -1,0 +1,12 @@
+{
+  "name": "JR-DUAL-r003",
+  "epoch_utcg": "22 Nov 2026 00:00:00.000",
+  "analysis_start_utcg": "21 Nov 2026 23:00:00.000",
+  "analysis_stop_utcg": "25 Nov 2026 01:00:00.000",
+  "planning_start_utc": "2026-11-22T00:00:00Z",
+  "planning_stop_utc": "2026-11-25T00:00:00Z",
+  "propagation_padding_seconds_each_side": 3600.0,
+  "propagation_step_seconds": 30,
+  "orbit_element_count": 168,
+  "site_count": 12
+}

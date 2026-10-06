@@ -1,0 +1,16 @@
+[
+  "--runtime-root",
+  "{RUNTIME}",
+  "--graphs-dir",
+  "{REMOTE}/graphs",
+  "--source-out",
+  "{REMOTE}/runs/p0_r000_a/out",
+  "--out",
+  "{OUT}",
+  "--chils",
+  "{CHILS}",
+  "--chils-source",
+  "{CHILS_SOURCE}",
+  "--p0-gate",
+  "{REMOTE}/protocol/P0_SHORT_PROBE_GATE.json"
+]

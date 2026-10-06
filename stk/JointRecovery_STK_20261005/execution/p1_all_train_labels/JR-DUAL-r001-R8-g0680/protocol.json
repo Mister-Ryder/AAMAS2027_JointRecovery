@@ -1,0 +1,140 @@
+{
+  "schema": "joint_recovery_stk_p0_v1",
+  "graph": {
+    "graph_id": "JR-DUAL-r001-R8-g0680",
+    "source_group": "JR-SOURCE-r001",
+    "split": "train",
+    "npz_sha256": "7ffc44523c810cf1422dfd6f0379344a019d04e9502ef4626a40f42d358e6188",
+    "vertices": 13934,
+    "edges": 134067,
+    "weight_unit": "original_duration_seconds",
+    "agent_contract": "satellite_owner_is_label_not_whole_day_capacity",
+    "resource_member_CSR_is_not_static_conflict_cliques": true,
+    "raw_endpoint_duration_identity": "PASS_EXACT_ORIGINAL_DECIMAL_TO_FLOAT64",
+    "binary_endpoint_subtraction_max_error_seconds": 2.8990143619012088e-11,
+    "edge_kind_counts": {
+      "1": 101128,
+      "2": 32939,
+      "3": 0
+    },
+    "contact_ids_sha256": "5752763eb8b95fe0614d3c24f42f5a35017f59d49e9881531f46445969c35cdd"
+  },
+  "code_sha256": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+  "reference_sha256": {
+    "src/joint_recovery/core.py": "902653228483c5ab51c82f64e5115df4fec1b4b245f701140a9e56f154eca656",
+    "src/joint_recovery/v4_budgeted_recovery.py": "b4b5bbd3d8abdeba2fcb9a117c54f161786c2deccc032764e792d5899bd3d1ad",
+    "src/joint_recovery/v4_factors.py": "d57cbe67cbf4f0aaf3b2605392c9fecf001e612e6d653c3db138619628781980",
+    "experiments/v4_neighborhoods.py": "15eb606f27c9022802ce05a259c0693b6992df1ab0cd26c456831b53d275b8f7",
+    "experiments/v4_residual_common.py": "f444666eb640d98fe4a1ba26ce22762ca8d2355fd3073dd237d52fafbdfddb51"
+  },
+  "numeric_audit": {
+    "status": "PASS_NARROW_SOURCE_DOMAIN_CHECK",
+    "checks": {
+      "reward_longlong": true,
+      "cost_longlong": true,
+      "adjacent_weight_longlong": true,
+      "p1_branch": true,
+      "p1_iteration_guard": true,
+      "log_reset": true
+    },
+    "source_files_sha256": {
+      "include/chils.h": "3d0c6e4cfb618fad8a2415bc1748751ed3314a919f0981cdbba4d7a267de9801",
+      "include/chils_internal.h": "9f9632a69552c501daec03300fd4c8f2f87190904a12ec167b6929581baf179e",
+      "include/graph.h": "8e9d38b0c80c68a073440da50759f5770caa36e4467cbdd282ab11cca0bdeba8",
+      "include/local_search.h": "64bf1cec407f3e38f331a4c0f17d773f58e3f14988b93923f9514cadd32dbd0b",
+      "src/chils.c": "5fb4fa4189c81e41d1ee6cb09cb6dc1b79ff0faab4475a2e0e095e3fc4d8a6e6",
+      "src/chils_internal.c": "3957fe991dfbd0913b74f6608ead3b217cdf7bf61eb329af95a669eb176a9937",
+      "src/graph.c": "4b684cf91ece5690ede3fe1fa80237e8081aef3204001e99f0db10ad11e9db26",
+      "src/local_search.c": "72b9ce55083d5c4f4e5b91ba02a95cad01776b3b047c280eb96e4bca4cc3ac6e",
+      "src/main.c": "d67f7700f1150c4c0faa3ff03eea3559252d16adb49fe112f70563b5ae4741d4"
+    },
+    "maximum_scope_vertices": 32760,
+    "maximum_tick_weight_sum": 1099511627776,
+    "population": 1,
+    "threads": 1,
+    "native_seed": 17,
+    "reward_arithmetic": "signed long long; conservative p1 weight sum <= 2**40",
+    "not_a_universal_native_or_physical_timing_certificate": true
+  },
+  "native_binary_sha256": "19610c03f334c6267f94543ad3053d792cba56e9ae211fceb6c36f21750c88a0",
+  "seed": 17,
+  "native_seed": 17,
+  "budgets_ms": [
+    200,
+    1000,
+    50,
+    10
+  ],
+  "repeats": 2,
+  "target_states": 12,
+  "cap": 256,
+  "peer_states_never_mutated": true,
+  "timing_contract": "native search workpoint plus all measured export/launch/parse/full validation/return cost",
+  "common_prefix_and_native_executor_gains_not_learning_gains": true,
+  "supplement_schema": "joint_recovery_stk_p0_supplement_v1",
+  "supplement_code_sha256": "c1092e6e27aeda00cf912267ff9a622c1c1597eab92e5a2f289353785279e5e4",
+  "original_P0_bindings": {
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_000.json": "36406b098ba556aa7683a5189d56f216d92b688042be2e570191eee6e7cc6054",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_001.json": "04a3bfc1547521279aa61b0d206b4a0ee50ab9d3df81bcd94ee45a2808ef8759",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_002.json": "3b98702255dd9976bbccd5426d357fe565bac1a04fcc2c01a7f29626b7d9ceb2",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_003.json": "9576020ec4283e9d54c9b8ff8399748b902658ae2c01697530e3fb7e7a71794a",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_004.json": "61bd25ca7b0a5dcd7a0c8fef2c5fca364c6fa0e590cd6cbab56cd85a417c0de2",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_005.json": "bed484c7640db82e99fc4a51f5e8d230b46a30c9873a68d35645df39b798abdf",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_006.json": "2bec97fbf4903c0ebc8f959f0cdd14e4b13cf710d212460f44c127c8420363e0",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_007.json": "3cf2386dc9d60cb2cbc473ee4e2e15886bad466621e4cfdec01d016270f409f1",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_008.json": "9a74264cd14539b032dc384c4d29e9e8ad7020ed91d5b0739d49bcf23c758762",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_009.json": "5ba05241ae9459c6bdc1b81921dd290b13854ccfabb67265c9fc3ee512cd73ab",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_010.json": "f51407e789da9438fb9567c77c4cba6dd39c4790324a6b9cdc052036baf44341",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/snapshot_011.json": "74c2aa7fcfba2e1dcc73bf98121b8f05992f88824ad54a9f55a1b6fece4d79ec",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/summary.json": "ae8fd63eb4648669e8db8e5ebb32a7b2697cc261d197e54dc39ab0424d3949ad",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r001_d/out/JR-DUAL-r001-R8-g0680/protocol.json": "ab7cfb135dcfad5a941f200fa0fac31b5c07263cf355bd36a8ebbb093c1923e0"
+  },
+  "original_summary_sha256": "ae8fd63eb4648669e8db8e5ebb32a7b2697cc261d197e54dc39ab0424d3949ad",
+  "original_protocol_sha256": "ab7cfb135dcfad5a941f200fa0fac31b5c07263cf355bd36a8ebbb093c1923e0",
+  "original_results_never_modified": true,
+  "exact_original_snapshot_and_warm_clones": true,
+  "additional_native_budget_order_ms": [
+    50,
+    10
+  ],
+  "supplement_repeats": 2,
+  "gate": {
+    "path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/protocol/P1_SOURCE_GATE_20261005.json",
+    "sha256": "f8a2c0a47a6e5f9218a4d1ff3b2c772f70520344b2fd35635dcfb434d7f79917",
+    "decision": {
+      "allow_p1_execution": true,
+      "allow_short_probe_execution": true,
+      "reason": "Formal P0 complete: two fixed physical sources, 12 configurations and 144 deduplicated actual controller states; every observed state has >=1% local recovery and actual net gain beyond held common-prefix/incumbent. Proceed with only Capacity/CheapSummary x seeds17/29 and matched controls.",
+      "p0_analysis_sha256": "6fcfc6d0bd710dde9dd5cccc9b0e46eea04e1bbfbb9a0adf154b659f53b1a588",
+      "graph_count": 12,
+      "physical_source_count": 2,
+      "controller_states": 144,
+      "request_rows": 6336,
+      "G2_graph_advantage_established": false,
+      "G3_configuration_dependent": true,
+      "training_sources": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "development_sources": [
+        4,
+        5
+      ],
+      "validation_sources": [
+        6,
+        7
+      ],
+      "test_sources": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "no_result_based_source_filtering": true,
+      "created_utc": "2026-10-05T12:44:09Z"
+    }
+  },
+  "initial_actions_or_greedy_or_history_not_regenerated": true
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "joint_recovery_stk_figure_layout_style_qa_v1",
+  "status": "PASS_RENDERED_LAYOUT_AND_STYLE_QA",
+  "generated_utc": "2026-10-05T22:02:28.170Z",
+  "scope": "Two existing completed TEST figures; rendering only",
+  "before": {
+    "inputs": {
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/QUALITY_REPORT_MANIFEST.json": "9499ca6a270b08ab9800036574a3d2941401d88e62544969ac4698be138444b3",
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/quality_source_equal.csv": "7fef48ccff2af6366206474e0368afa35134fe52a8fc665fb49c0b3434c52811",
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/quality_per_physical_source.csv": "97caa65f7ce494fae18accca0ab2b08da24bf140a51e60e0430d1530d095ca7a",
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/jointrecovery_quality_comparator_differences.csv": "afa0cf8f1b524bca6d9aef2a49cb3746ab57e5c73e2d6b2d0230ab0b927b188d",
+      "reports/SUBMITTED_METHOD_RESULTS/REPORT_MANIFEST.json": "9b2db9d1478fa446f3b520773e61859bb19aaa268210f4d042f9cb19750feb76",
+      "reports/SUBMITTED_METHOD_RESULTS/main_source_equal.csv": "c3ec370352999e7076055639e4d5ec9e55c81738d03df462f9ccb792f0276b47",
+      "reports/SUBMITTED_METHOD_RESULTS/main_per_physical_source.csv": "b0549dbf340d44dc746a7e5df78efff6b1fffa40bc670c5485907755e9a886b3",
+      "reports/SUBMITTED_METHOD_RESULTS/capacity_comparator_differences.csv": "689d0d48872ec05ecddf6012543156defba0fa48e74063e61cacf4cd2c3ad785"
+    },
+    "outputs": {
+      "reports/JOINTRECOVERY_QUALITY_FIGURES/test/quality_curves_test.png": "e53f84dedc8622fe0f74ac5e376aa965c70c0e9f564bb6f5136c61f10170ac75",
+      "reports/JOINTRECOVERY_QUALITY_FIGURES/test/quality_curves_test.pdf": "1f2214e6368e121cee950bdb8bc09d8bd2802ff6eb0ab9eb4df4fffd18937f91",
+      "reports/JOINTRECOVERY_QUALITY_FIGURES/test/QUALITY_FIGURE_DATA.json": "a82db1b72ca39621c3cc10e483777c7ee2b57586dd605296f38a25e023a3a8a2",
+      "reports/SUBMITTED_METHOD_RESULTS/figures/submitted_comparison_2x2.png": "d1e528afb46de2b2d07a90324ad98ff498080e7dff563422df6baaa4d5943e83",
+      "reports/SUBMITTED_METHOD_RESULTS/figures/submitted_comparison_2x2.pdf": "142f18676659499a83fb6187937eff39eb9403fd6d1043d9bd1c30c1bfc722b6"
+    },
+    "scripts": {
+      "code/quality_comparison_figures.py": "8adf3f279c9c1b822c70954d57ea256327987a57be3417a948a72c475f8926e5",
+      "code/submitted_comparison_figures.py": "c2659ba727fd79cb020bb5db37789731cec97e86e3bcc5a741a8738102c9439e"
+    }
+  },
+  "after": {
+    "inputs": {
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/QUALITY_REPORT_MANIFEST.json": "9499ca6a270b08ab9800036574a3d2941401d88e62544969ac4698be138444b3",
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/quality_source_equal.csv": "7fef48ccff2af6366206474e0368afa35134fe52a8fc665fb49c0b3434c52811",
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/quality_per_physical_source.csv": "97caa65f7ce494fae18accca0ab2b08da24bf140a51e60e0430d1530d095ca7a",
+      "reports/JOINTRECOVERY_QUALITY_RESULTS/jointrecovery_quality_comparator_differences.csv": "afa0cf8f1b524bca6d9aef2a49cb3746ab57e5c73e2d6b2d0230ab0b927b188d",
+      "reports/SUBMITTED_METHOD_RESULTS/REPORT_MANIFEST.json": "9b2db9d1478fa446f3b520773e61859bb19aaa268210f4d042f9cb19750feb76",
+      "reports/SUBMITTED_METHOD_RESULTS/main_source_equal.csv": "c3ec370352999e7076055639e4d5ec9e55c81738d03df462f9ccb792f0276b47",
+      "reports/SUBMITTED_METHOD_RESULTS/main_per_physical_source.csv": "b0549dbf340d44dc746a7e5df78efff6b1fffa40bc670c5485907755e9a886b3",
+      "reports/SUBMITTED_METHOD_RESULTS/capacity_comparator_differences.csv": "689d0d48872ec05ecddf6012543156defba0fa48e74063e61cacf4cd2c3ad785"
+    },
+    "outputs": {
+      "reports/JOINTRECOVERY_QUALITY_FIGURES/test/quality_curves_test.png": "bd6ba6b0b2bd748c1253491a9d68d7c6e5c92ff92e40ba27f004c40ca6ddafa2",
+      "reports/JOINTRECOVERY_QUALITY_FIGURES/test/quality_curves_test.pdf": "cef718b0f12217eecd80807be46462c1ab93b6700ce2c69f1d7dd4aee5630ed0",
+      "reports/JOINTRECOVERY_QUALITY_FIGURES/test/QUALITY_FIGURE_DATA.json": "a82db1b72ca39621c3cc10e483777c7ee2b57586dd605296f38a25e023a3a8a2",
+      "reports/SUBMITTED_METHOD_RESULTS/figures/submitted_comparison_2x2.png": "2919642e72c4197f64c615f5a4574d4ba0fbfd3d282b97db8af20efe759047ed",
+      "reports/SUBMITTED_METHOD_RESULTS/figures/submitted_comparison_2x2.pdf": "e1c9022abfdc6d26fc7c89d88aa7759ab42ca7b4c6823ba5b667a208c73d6e8a"
+    },
+    "scripts": {
+      "code/quality_comparison_figures.py": "6c9013b9541c0b47046a80f30b5b36b1173418938c622128e63238751cb4bbb3",
+      "code/submitted_comparison_figures.py": "c6802b786cb88441eba56bb39ebee7b34883a9521a4f96fefb6f0331886c9329"
+    },
+    "method_colors_markers": {
+      "FullCapacity-mean17/29": {
+        "color": "#BE6628",
+        "marker": "o"
+      },
+      "FullCheapSummary-mean17/29": {
+        "color": "#65899E",
+        "marker": "s"
+      },
+      "FullGreedy": {
+        "color": "#294E66",
+        "marker": "D"
+      },
+      "FullP1": {
+        "color": "#91A6B5",
+        "marker": "^"
+      },
+      "CHILS-p1": {
+        "color": "#43647C",
+        "marker": "P"
+      },
+      "HiGHS-MILP": {
+        "color": "#6F7A86",
+        "marker": "X"
+      }
+    },
+    "styles_match": true
+  },
+  "checks": {
+    "report_input_sha256_unchanged": true,
+    "quality_chart_data_sha256_unchanged": true,
+    "six_method_colors_and_markers_equal": true,
+    "quality_footer_and_xlabel_separated": true,
+    "quality_c_ylabel_complete_and_readable": true,
+    "short_d_reference_and_scientific_offset_separated": true,
+    "main_figure_description_no_stale_no_data_claim": true
+  },
+  "execution": {
+    "figure_rerenders": 2,
+    "actual_post_fix_png_views": 2,
+    "algorithm_runs": 0,
+    "cloud_access": false,
+    "raw_experiment_files_accessed": false,
+    "result_statistics_modified": false,
+    "additional_figures_created": false,
+    "broad_scientific_reverification": false
+  },
+  "changes": [
+    "quality: increased bottom/left margins, shortened C ylabel and rewrapped footer; PNG/PDF exported",
+    "short: D reference moved inside axes; six colors/markers match quality; PNG/PDF exported",
+    "quality figure description reflects completed real-data rendering"
+  ]
+}

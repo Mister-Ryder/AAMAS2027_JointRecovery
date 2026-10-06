@@ -1,0 +1,51 @@
+{
+  "schema": "joint_recovery_stk_p0_v1",
+  "graph": {
+    "graph_id": "JR-DUAL-r003-R8-g0170",
+    "source_group": "JR-SOURCE-r003",
+    "split": "train",
+    "npz_sha256": "b176fe210a65b51dd3c961c36015ff98a8731c36573f7e9a7c15da4cd1ea40ba",
+    "vertices": 13927,
+    "edges": 86076,
+    "weight_unit": "original_duration_seconds",
+    "agent_contract": "satellite_owner_is_label_not_whole_day_capacity",
+    "resource_member_CSR_is_not_static_conflict_cliques": true,
+    "raw_endpoint_duration_identity": "PASS_EXACT_ORIGINAL_DECIMAL_TO_FLOAT64",
+    "binary_endpoint_subtraction_max_error_seconds": 2.864908310584724e-11,
+    "edge_kind_counts": {
+      "1": 53206,
+      "2": 32870,
+      "3": 0
+    },
+    "contact_ids_sha256": "7dab4a2e92e03728d4da5fddd36d5899c27c6500c8f51e60d1283708181f2c75"
+  },
+  "status": "ACTUAL_P0_PROBES_COMPLETE_NO_TRAINING",
+  "target_unique_states": 12,
+  "actual_unique_controller_states": 12,
+  "distinct_original_schedule_memberships": 1,
+  "distinct_best_schedule_memberships": 2,
+  "state_count_is_not_independent_physical_source_count": true,
+  "actual_request_rows": 1056,
+  "actual_native_calls": 760,
+  "failed_rows": 0,
+  "zero_extra_gain_rows": 566,
+  "G1_states_with_local_at_least_one_percent_and_net_beyond_snapshot": 12,
+  "G1_fraction": 1.0,
+  "G1_thirty_percent_is_development_reference_not_sample_filter": true,
+  "G3_states_with_same_direction_repeated_200_1000ms_difference": 4,
+  "G3_repeatable_fraction": 0.3333333333333333,
+  "G2_graph_information_advantage_established": false,
+  "actual_max_beyond_snapshot_seconds": 814.6716943850661,
+  "actual_median_complete_conditional_seconds": 0.07018315605819225,
+  "budgets_ms": [
+    200,
+    1000,
+    50,
+    10
+  ],
+  "source_group_split_preserved": true,
+  "no_model_training": true,
+  "no_old_data_or_calibration": true,
+  "strict_end_to_end_deadline_policy_test": false,
+  "learning_advantage_established": false
+}

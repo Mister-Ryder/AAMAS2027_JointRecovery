@@ -1,0 +1,33 @@
+{
+  "job": "submitted_comparison",
+  "pid": 173546,
+  "capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060/code/submitted_method_comparison_pipeline.py",
+    "--dataset-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005",
+    "--runtime-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/a6afaab5d5210d609e2c887510bf8523dfc097f0d99513f19b0841fefeb3f060/runtime",
+    "--fit-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out",
+    "--budgets-file",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_followup/out/calibration/frozen_budgets.json",
+    "--original-p2-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p2_confirmation/out",
+    "--numeric-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/chils_wholegraph_gate/out",
+    "--extension-protocol",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/protocol/SUBMITTED_COMPARISON_EXTENSION_EXECUTION_20261005.json",
+    "--chils",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3/CHILS",
+    "--chils-source",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3",
+    "--out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/submitted_comparison/out"
+  ],
+  "cpu_affinity": [
+    40
+  ],
+  "created_utc": "2026-10-05T15:59:43Z"
+}

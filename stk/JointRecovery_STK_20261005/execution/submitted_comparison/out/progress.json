@@ -1,0 +1,10 @@
+{
+  "schema": "joint_recovery_stk_submitted_comparison_v1",
+  "status": "evaluating_test",
+  "updated_utc": "2026-10-05T18:14:23.837761+00:00",
+  "completed_cells": 864,
+  "expected_cells": 864,
+  "block_completed_cells": 576,
+  "block_expected_cells": 576,
+  "failed_or_unknown_runs": 0
+}

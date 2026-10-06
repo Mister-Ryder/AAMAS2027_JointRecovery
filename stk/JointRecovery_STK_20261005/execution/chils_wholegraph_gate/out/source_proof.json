@@ -1,0 +1,72 @@
+{
+  "schema": "joint_recovery_stk_chils_wholegraph_numeric_gate_v1_source_proof",
+  "source_commit": "515952724cd3dcc6c4365a340ecf0f1da782119a",
+  "binary_path": "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3/CHILS",
+  "binary_sha256": "19610c03f334c6267f94543ad3053d792cba56e9ae211fceb6c36f21750c88a0",
+  "source_root": "/root/autodl-tmp/AAMAS1979_JointRecovery_v01/tools/CHILS-v3",
+  "source_files_sha256": {
+    "include/chils.h": "3d0c6e4cfb618fad8a2415bc1748751ed3314a919f0981cdbba4d7a267de9801",
+    "include/chils_internal.h": "9f9632a69552c501daec03300fd4c8f2f87190904a12ec167b6929581baf179e",
+    "include/graph.h": "8e9d38b0c80c68a073440da50759f5770caa36e4467cbdd282ab11cca0bdeba8",
+    "include/local_search.h": "64bf1cec407f3e38f331a4c0f17d773f58e3f14988b93923f9514cadd32dbd0b",
+    "src/chils.c": "5fb4fa4189c81e41d1ee6cb09cb6dc1b79ff0faab4475a2e0e095e3fc4d8a6e6",
+    "src/chils_internal.c": "3957fe991dfbd0913b74f6608ead3b217cdf7bf61eb329af95a669eb176a9937",
+    "src/graph.c": "4b684cf91ece5690ede3fe1fa80237e8081aef3204001e99f0db10ad11e9db26",
+    "src/local_search.c": "72b9ce55083d5c4f4e5b91ba02a95cad01776b3b047c280eb96e4bca4cc3ac6e",
+    "src/main.c": "d67f7700f1150c4c0faa3ff03eea3559252d16adb49fe112f70563b5ae4741d4"
+  },
+  "normalized_lf_source_files_sha256": {
+    "include/chils.h": "3d0c6e4cfb618fad8a2415bc1748751ed3314a919f0981cdbba4d7a267de9801",
+    "include/chils_internal.h": "9f9632a69552c501daec03300fd4c8f2f87190904a12ec167b6929581baf179e",
+    "include/graph.h": "8e9d38b0c80c68a073440da50759f5770caa36e4467cbdd282ab11cca0bdeba8",
+    "include/local_search.h": "64bf1cec407f3e38f331a4c0f17d773f58e3f14988b93923f9514cadd32dbd0b",
+    "src/chils.c": "5fb4fa4189c81e41d1ee6cb09cb6dc1b79ff0faab4475a2e0e095e3fc4d8a6e6",
+    "src/chils_internal.c": "3957fe991dfbd0913b74f6608ead3b217cdf7bf61eb329af95a669eb176a9937",
+    "src/graph.c": "4b684cf91ece5690ede3fe1fa80237e8081aef3204001e99f0db10ad11e9db26",
+    "src/local_search.c": "72b9ce55083d5c4f4e5b91ba02a95cad01776b3b047c280eb96e4bca4cc3ac6e",
+    "src/main.c": "d67f7700f1150c4c0faa3ff03eea3559252d16adb49fe112f70563b5ae4741d4"
+  },
+  "expected_normalized_lf_source_files_sha256": {
+    "include/chils.h": "3d0c6e4cfb618fad8a2415bc1748751ed3314a919f0981cdbba4d7a267de9801",
+    "include/chils_internal.h": "9f9632a69552c501daec03300fd4c8f2f87190904a12ec167b6929581baf179e",
+    "include/graph.h": "8e9d38b0c80c68a073440da50759f5770caa36e4467cbdd282ab11cca0bdeba8",
+    "include/local_search.h": "64bf1cec407f3e38f331a4c0f17d773f58e3f14988b93923f9514cadd32dbd0b",
+    "src/chils.c": "5fb4fa4189c81e41d1ee6cb09cb6dc1b79ff0faab4475a2e0e095e3fc4d8a6e6",
+    "src/chils_internal.c": "3957fe991dfbd0913b74f6608ead3b217cdf7bf61eb329af95a669eb176a9937",
+    "src/graph.c": "4b684cf91ece5690ede3fe1fa80237e8081aef3204001e99f0db10ad11e9db26",
+    "src/local_search.c": "72b9ce55083d5c4f4e5b91ba02a95cad01776b3b047c280eb96e4bca4cc3ac6e",
+    "src/main.c": "d67f7700f1150c4c0faa3ff03eea3559252d16adb49fe112f70563b5ae4741d4"
+  },
+  "checks": {
+    "pinned_complete_source_identity": true,
+    "pinned_original_binary_identity": true,
+    "audited_p1_loop_and_log_signatures": true,
+    "audited_longlong_weight_and_counter_types": true
+  },
+  "derivation": [
+    "Only -p 1 -c 1 -r 17, positive simple graphs and the pinned original binary are covered; cooperative p>1 paths are excluded.",
+    "The p1 c<il guard precedes c++ in local_search_explore; even default il=LLONG_MAX cannot postincrement LLONG_MAX.",
+    "Cost and adjacent_weight are nonnegative subset sums bounded by S, including transient add-before-remove membership.",
+    "Distinct two-vertex replacement sums are at most S; signed replacement/path differences are within [-S,S]. Weighted perturbation is at most 2*S; fixed random noise has magnitude at most 2**29.",
+    "Each successful greedy update increases the integer objective by at least 1 and removes at most n vertices. Perturbation has at most 129 updates (MAX_GUESS=128). Removal log length per iteration is at most n*(S+129).",
+    "Log count resets each iteration. Doubled allocation capacity is below 2*n*(S+129); 4-byte entries require below 8*n*(S+129) bytes. This must fit signed64 and the actual Linux 64-bit size_t.",
+    "Queue, tightness and path masks use unique vertex IDs; n, 2*n and 2*m+1 fit signed int32. Symmetric edge pointers and objective weights are long long.",
+    "Generated weighted METIS input uses positive decimal integers and LF. All parser prefixes are bounded by max(n,m,max_weight); the digit-add-before-subtract-48 intermediate is bounded by that value+48.",
+    "S<2**53 additionally preserves exact integer-to-double conversions; all comparisons and membership objectives in the covered source use long long. Original duration rewards remain unchanged outside the native microsecond serialization."
+  ],
+  "extended_domain": {
+    "max_vertices": 20919,
+    "max_edges": 232636,
+    "max_tick_weight_sum": 9383000000000,
+    "maximum_safe_signed64_bound": 1570263816021588408,
+    "safe_signed64_limit": 9223372036854775807,
+    "exact_double_limit": 9007199254740992
+  },
+  "limitations": [
+    "No cap256 certificate is inherited",
+    "No p>1 clearance",
+    "No BR64/KaMIS clearance",
+    "Allocation failure remains a failed run",
+    "No online deadline or solution-quality advantage is established"
+  ]
+}

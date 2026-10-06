@@ -1,0 +1,21 @@
+[
+  "dev",
+  "--dataset-root",
+  "{REMOTE}",
+  "--runtime-root",
+  "{RUNTIME}",
+  "--fit-root",
+  "{REMOTE}/runs/p1_fit/out",
+  "--numeric-root",
+  "{REMOTE}/runs/chils_wholegraph_gate/out",
+  "--quality-plan",
+  "{REMOTE}/protocol/QUALITY_EVALUATION_PLAN_20261006.json",
+  "--chils",
+  "{CHILS}",
+  "--chils-source",
+  "{CHILS_SOURCE}",
+  "--out",
+  "{OUT}",
+  "--development-cpu-id",
+  "42"
+]

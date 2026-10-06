@@ -1,0 +1,826 @@
+{
+  "schema": "joint_recovery_stk_quality_comparison_v1",
+  "status": "QUALITY_DEVELOPMENT_COMPLETION_THRESHOLD_COMPLETE",
+  "initial_cells": 48,
+  "recorded_attempts": 52,
+  "selected_deadline_seconds": 300.0,
+  "completion_thresholds": [
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "FullCapacity-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCapacity-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "FullCapacity-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCapacity-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "FullCheapSummary-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCheapSummary-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "FullCheapSummary-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullCheapSummary-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "FullP1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullP1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "FullGreedy",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__FullGreedy",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "CHILS-p1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__CHILS-p1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0170",
+      "policy_label": "HiGHS-MILP",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0170__quality-60s__HiGHS-MILP",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "FullCapacity-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCapacity-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "FullCapacity-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCapacity-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "FullCheapSummary-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCheapSummary-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "FullCheapSummary-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullCheapSummary-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "FullP1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullP1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "FullGreedy",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__FullGreedy",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "CHILS-p1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__CHILS-p1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0340",
+      "policy_label": "HiGHS-MILP",
+      "first_complete_deadline_seconds": null,
+      "required_allowance_seconds": 300.0,
+      "complete_within_declared_ladder": false,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-60s__HiGHS-MILP",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": false,
+          "completion_failure_reasons": [
+            "caller_return_late_or_unknown",
+            "procedure_not_finished",
+            "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+          ]
+        },
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-120s__HiGHS-MILP",
+          "deadline_seconds": 120.0,
+          "complete_result_produced": false,
+          "completion_failure_reasons": [
+            "caller_return_late_or_unknown",
+            "procedure_not_finished",
+            "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+          ]
+        },
+        {
+          "run_id": "JR-DUAL-r004-R12-g0340__quality-300s__HiGHS-MILP",
+          "deadline_seconds": 300.0,
+          "complete_result_produced": false,
+          "completion_failure_reasons": [
+            "caller_return_late_or_unknown",
+            "procedure_not_finished",
+            "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+          ]
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "FullCapacity-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCapacity-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "FullCapacity-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCapacity-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "FullCheapSummary-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCheapSummary-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "FullCheapSummary-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullCheapSummary-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "FullP1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullP1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "FullGreedy",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__FullGreedy",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "CHILS-p1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__CHILS-p1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R12-g0680",
+      "policy_label": "HiGHS-MILP",
+      "first_complete_deadline_seconds": null,
+      "required_allowance_seconds": 300.0,
+      "complete_within_declared_ladder": false,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-60s__HiGHS-MILP",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": false,
+          "completion_failure_reasons": [
+            "caller_return_late_or_unknown",
+            "procedure_not_finished",
+            "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+          ]
+        },
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-120s__HiGHS-MILP",
+          "deadline_seconds": 120.0,
+          "complete_result_produced": false,
+          "completion_failure_reasons": [
+            "caller_return_late_or_unknown",
+            "procedure_not_finished",
+            "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+          ]
+        },
+        {
+          "run_id": "JR-DUAL-r004-R12-g0680__quality-300s__HiGHS-MILP",
+          "deadline_seconds": 300.0,
+          "complete_result_produced": false,
+          "completion_failure_reasons": [
+            "caller_return_late_or_unknown",
+            "procedure_not_finished",
+            "no_actual_complete_feasible_native_output_external_S_is_fallback_only"
+          ]
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": true
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "FullCapacity-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCapacity-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "FullCapacity-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCapacity-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "FullCheapSummary-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCheapSummary-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "FullCheapSummary-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullCheapSummary-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "FullP1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullP1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "FullGreedy",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__FullGreedy",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "CHILS-p1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__CHILS-p1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0170",
+      "policy_label": "HiGHS-MILP",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0170__quality-60s__HiGHS-MILP",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "FullCapacity-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCapacity-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "FullCapacity-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCapacity-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "FullCheapSummary-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCheapSummary-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "FullCheapSummary-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullCheapSummary-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "FullP1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullP1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "FullGreedy",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__FullGreedy",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "CHILS-p1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__CHILS-p1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0340",
+      "policy_label": "HiGHS-MILP",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0340__quality-60s__HiGHS-MILP",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "FullCapacity-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCapacity-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "FullCapacity-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCapacity-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "FullCheapSummary-seed17",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCheapSummary-seed17",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "FullCheapSummary-seed29",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullCheapSummary-seed29",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "FullP1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullP1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "FullGreedy",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__FullGreedy",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "CHILS-p1",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__CHILS-p1",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    },
+    {
+      "graph_id": "JR-DUAL-r004-R8-g0680",
+      "policy_label": "HiGHS-MILP",
+      "first_complete_deadline_seconds": 60.0,
+      "required_allowance_seconds": 60.0,
+      "complete_within_declared_ladder": true,
+      "attempts": [
+        {
+          "run_id": "JR-DUAL-r004-R8-g0680__quality-60s__HiGHS-MILP",
+          "deadline_seconds": 60.0,
+          "complete_result_produced": true,
+          "completion_failure_reasons": []
+        }
+      ],
+      "unresolved_after_300_seconds_is_NA": false
+    }
+  ],
+  "no_gain_based_allowance_selection": true
+}

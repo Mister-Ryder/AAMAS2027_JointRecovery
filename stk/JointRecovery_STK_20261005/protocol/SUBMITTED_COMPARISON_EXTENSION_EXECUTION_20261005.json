@@ -1,0 +1,124 @@
+{
+  "schema": "joint_recovery_stk_submitted_comparison_extension_plan_v1",
+  "frozen_utc": "2026-10-05T15:53:40.667611+00:00",
+  "status": "EXECUTION_CODE_FROZEN",
+  "original_P2_already_in_progress": true,
+  "not_a_pre_registration_before_dataset_generation": true,
+  "why": "User requires independent performance of the submitted full method versus published methods; the original P2 used static max4 cold-clone ranking.",
+  "blocks": [
+    {
+      "name": "validation",
+      "sources": [
+        6,
+        7
+      ],
+      "graphs": 12,
+      "cells": 288
+    },
+    {
+      "name": "test",
+      "sources": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "graphs": 24,
+      "cells": 576
+    }
+  ],
+  "policies": [
+    "FullCapacity-seed17",
+    "FullCapacity-seed29",
+    "FullCheapSummary-seed17",
+    "FullCheapSummary-seed29",
+    "FullP1",
+    "FullGreedy",
+    "CHILS-p1",
+    "HiGHS-MILP"
+  ],
+  "frozen_budgets_sha256": "371a9f6c3302196859b63cdf8ded51ce6de784634e0cee8089d9fd2011138880",
+  "fit_completion_sha256": "42d4c0b8f3ff620c3c3e9c6c5cda4a824133e5934dedf45a92ae52a4c693f7e5",
+  "budgets": [
+    {
+      "budget_id": "wide",
+      "deadline_seconds": 3.8989239679276935
+    },
+    {
+      "budget_id": "half",
+      "deadline_seconds": 1.9494619839638467
+    },
+    {
+      "budget_id": "quarter",
+      "deadline_seconds": 0.9747309919819234
+    }
+  ],
+  "full_controller": {
+    "max_calls": 8,
+    "scope_cap": 256,
+    "workpoints_ms": [
+      10,
+      50,
+      200,
+      1000
+    ],
+    "action_seed": 17,
+    "dynamic_marginal_gain_per_cost": true,
+    "actual_executed_warm_feedback": true,
+    "exact_W_embedding_cache": true,
+    "remaining_head": 0,
+    "remaining_head_not_validated_or_claimed": true
+  },
+  "published": {
+    "CHILS-p1": {
+      "population": 1,
+      "threads": 1,
+      "seed": 17,
+      "wholegraph": true,
+      "official_warm_initial_S": true,
+      "requires_new_numeric_gate": true
+    },
+    "HiGHS-MILP": {
+      "threads": 1,
+      "wholegraph": true,
+      "S_external_floor_only_no_solver_warm": true
+    },
+    "fixed_native_allowance_rule": "min(0.70D, remaining-0.10D)"
+  },
+  "original_objective": "sum original complete-window durations, no slicing/reweighting",
+  "native_objective_serialization": "same reward microsecond ticks; returned mask original-duration rescoring",
+  "cost": "resident setup separately; decision scope/export/matrix/model inference/native/parse/full validation/IPC/return inside same original caller D",
+  "same_initial_S": "original p0 global incumbent, SHA int8 mask must match across all algorithms",
+  "one_fixed_development_integration_smoke": {
+    "source": 4,
+    "graph_rule": "lexicographically first graph",
+    "budget": "wide",
+    "policies": [
+      "FullCapacity-seed17",
+      "HiGHS-MILP"
+    ],
+    "used_for_performance_selection": false
+  },
+  "numeric_guard": "source-domain derivation, 2-3 >2^40 total ticks tiny fixtures and one source4 wholegraph 100ms smoke; no algorithm change",
+  "all_failed_late_zero_results_retained": true,
+  "no_retraining_recalibration_result_selection_or_old_paper_change": true,
+  "serial_comparison_starts_after_original_P2_finished": true,
+  "primary_reporting": "equal physical source/config means; both model seeds reported; signed test difference against published wholegraph methods and FullGreedy; no seed choice; exact/approx optimality not inferred",
+  "followup": "no P3 or open ended exploration",
+  "execution_code_frozen_utc": "2026-10-05T15:58:51.866986+00:00",
+  "research_plan_sha256": "73db9a01102a38dc885d4dfe63ecd31fd4d8acb5806024084bacba04973b3107",
+  "code_sha256": {
+    "submitted_method_comparison_pipeline.py": "191d81b25f6a346df9356ce4d33d2e013bf4168db77abf6636a4b41798dea3b0",
+    "full_joint_recovery_deadline.py": "7c4eb2d22c735e0253e38d24dbe796bf3c17713f48286eed6f5a33d59cb374e4",
+    "published_wholegraph_deadline.py": "bf7fac550c0032fb2154a0e9c11690756f894134e3cff76e05f40408edd622e2",
+    "chils_wholegraph_numeric_gate.py": "67ce2e81260cf7032cb06aeccdf85f437c135b07671e96c1b450fecc5355b6dd",
+    "p1_actual_policy.py": "e2cf40d3c9c58a50e4388c2a31492f16110c226c1f387da6994b9f68b48a73c6",
+    "p0_recovery_probes.py": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+    "p1_benchmark_driver.py": "9873e7522a43337ec248bf54b1114817b206020a9f21509ea7471235de4054da"
+  },
+  "original_P2_test_performance_not_inspected": true,
+  "original_P2_validation_summary_read_after_research_plan_freeze": true,
+  "research_choices_unchanged_after_validation_read": true,
+  "numeric_job": "chils_wholegraph_gate",
+  "comparison_job": "submitted_comparison"
+}

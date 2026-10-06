@@ -1,0 +1,31 @@
+{
+  "job": "p1_fit",
+  "pid": 36252,
+  "capsule": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/afb83d9fc9d75889f44a58a9c59a42f7bf2e8e27cf4da3746478ed7391a5fcfa",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/afb83d9fc9d75889f44a58a9c59a42f7bf2e8e27cf4da3746478ed7391a5fcfa/code/p1_fit_and_allocate.py",
+    "fit",
+    "--runtime-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/afb83d9fc9d75889f44a58a9c59a42f7bf2e8e27cf4da3746478ed7391a5fcfa/runtime",
+    "--graphs-dir",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/graphs",
+    "--p0-root",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/collections/p1_all_train_labels",
+    "--p0-gate",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/protocol/P1_SOURCE_GATE_20261005.json",
+    "--out",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p1_fit/out",
+    "--device",
+    "cuda",
+    "--epochs",
+    "40"
+  ],
+  "cpu_affinity": [
+    32,
+    33,
+    34,
+    35
+  ],
+  "created_utc": "2026-10-05T13:02:26Z"
+}

@@ -1,0 +1,1398 @@
+[
+  {
+    "command": "Units_Set * Connect Distance km",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 190.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 220.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 250.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 280.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 310.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 340.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 10.714356",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 40.714356000000002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 70.714355999999995",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 100.714356",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 130.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P01-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P01-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 60.237133999999998 160.71435600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 199.28578457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 229.28578457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 259.28578457100002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 289.28578457100002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 319.28578457100002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 349.28578457100002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 19.285784571000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 49.285784571000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 79.285784570999994",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 109.28578457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 139.28578457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P02-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P02-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 111.665705429 169.28578457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 207.857213143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 237.857213143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 267.85721314300002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 297.85721314300002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 327.85721314300002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 357.85721314300002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 27.857213142999999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 57.857213143000003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 87.857213142999996",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 117.857213143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 147.857213143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P03-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P03-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 163.09427685700001 177.857213143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 216.42864171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 246.42864171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 276.42864171399998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 306.42864171399998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 336.42864171399998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 6.4286417140000003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 36.428641714000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 66.428641713999994",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 96.428641713999994",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 126.42864171399999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 156.42864171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P04-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P04-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 214.522848286 186.42864171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 225.00007028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 255.00007028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 285.00007028599998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 315.00007028599998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 345.00007028599998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 15.000070286",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 45.000070286000003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 75.000070285999996",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 105.000070286",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 135.00007028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 165.00007028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P05-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P05-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 265.951419714 195.00007028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 233.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 263.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 293.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 323.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 353.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 23.571498857000002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 53.571498857000002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 83.571498856999995",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 113.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 143.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 173.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P06-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P06-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 317.37999114299998 203.57149885699999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 242.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 272.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 302.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 332.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 2.1429274290000002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 32.142927428999997",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 62.142927428999997",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 92.142927428999997",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 122.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 152.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 182.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite A-P07-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/A-P07-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 6928.1369999999997 0 53 0 8.8085625709999995 212.142927429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 189.23271600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 219.23271600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 249.23271600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 279.23271599999998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 309.23271599999998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 339.23271599999998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 9.2327159999999999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 39.232716000000003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 69.232715999999996",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 99.232715999999996",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 129.23271600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P01-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P01-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 75.237133999999998 159.23271600000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 206.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 236.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 266.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 296.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 326.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 356.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 26.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 56.375573142999997",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 86.375573142999997",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 116.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 146.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P02-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P02-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 126.665705429 176.375573143",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 223.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 253.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 283.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 313.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 343.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 13.518430285999999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 43.518430285999997",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 73.518430285999997",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 103.518430286",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 133.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 163.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P03-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P03-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 178.09427685700001 193.51843028600001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 240.661287429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 270.66128742900003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 300.66128742900003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 330.66128742900003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 0.66128742900000004",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 30.661287429000001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 60.661287428999998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 90.661287428999998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 120.661287429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 150.661287429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 180.661287429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P04-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P04-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 229.522848286 210.661287429",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 257.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 287.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 317.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 347.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 17.804144570999998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 47.804144571000002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 77.804144570999995",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 107.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 137.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 167.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 197.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P05-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P05-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 280.951419714 227.80414457099999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 274.94700171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 304.94700171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 334.94700171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 4.9470017139999998",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 34.947001714000002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 64.947001713999995",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 94.947001713999995",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 124.947001714",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 154.94700171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 184.94700171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 214.94700171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P06-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P06-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 332.37999114299998 244.94700171400001",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S01",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S01 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 292.08985885700002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S02",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S02 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 322.08985885700002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S03",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S03 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 352.08985885700002",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S04",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S04 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 22.089858856999999",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S05",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S05 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 52.089858857000003",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S06",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S06 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 82.089858856999996",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S07",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S07 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 112.089858857",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S08",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S08 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 142.089858857",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S09",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S09 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 172.089858857",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S10",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S10 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 202.089858857",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S11",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S11 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 232.089858857",
+    "result": []
+  },
+  {
+    "command": "New / */Satellite B-P07-S12",
+    "result": []
+  },
+  {
+    "command": "SetState */Satellite/B-P07-S12 Classical J2Perturbation \"16 Jan 2027 23:00:00.000000\" \"20 Jan 2027 01:00:00.000000\" 30 J2000 \"17 Jan 2027 00:00:00.000000\" 7478.1369999999997 0 70 0 23.808562571 262.08985885700002",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS01",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS02",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS03",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS04",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS05",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS06",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS07",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS08",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS09",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS10",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS11",
+    "result": []
+  },
+  {
+    "command": "New / */Facility GS12",
+    "result": []
+  }
+]

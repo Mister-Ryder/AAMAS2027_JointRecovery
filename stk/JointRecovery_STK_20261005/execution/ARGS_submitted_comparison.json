@@ -1,0 +1,22 @@
+[
+  "--dataset-root",
+  "{REMOTE}",
+  "--runtime-root",
+  "{RUNTIME}",
+  "--fit-root",
+  "{REMOTE}/runs/p1_fit/out",
+  "--budgets-file",
+  "{REMOTE}/runs/p1_followup/out/calibration/frozen_budgets.json",
+  "--original-p2-root",
+  "{REMOTE}/runs/p2_confirmation/out",
+  "--numeric-root",
+  "{REMOTE}/runs/chils_wholegraph_gate/out",
+  "--extension-protocol",
+  "{REMOTE}/protocol/SUBMITTED_COMPARISON_EXTENSION_EXECUTION_20261005.json",
+  "--chils",
+  "{CHILS}",
+  "--chils-source",
+  "{CHILS_SOURCE}",
+  "--out",
+  "{OUT}"
+]

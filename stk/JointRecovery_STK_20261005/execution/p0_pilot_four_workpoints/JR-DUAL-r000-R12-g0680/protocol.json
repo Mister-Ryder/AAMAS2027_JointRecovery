@@ -1,0 +1,165 @@
+{
+  "schema": "joint_recovery_stk_p0_v1",
+  "graph": {
+    "graph_id": "JR-DUAL-r000-R12-g0680",
+    "source_group": "JR-SOURCE-r000",
+    "split": "train",
+    "npz_sha256": "b461c9eaaf09abf9da2c6279a0e91f56d177e967ef9abdece2ec2732388fc08f",
+    "vertices": 20918,
+    "edges": 232565,
+    "weight_unit": "original_duration_seconds",
+    "agent_contract": "satellite_owner_is_label_not_whole_day_capacity",
+    "resource_member_CSR_is_not_static_conflict_cliques": true,
+    "raw_endpoint_duration_identity": "PASS_EXACT_ORIGINAL_DECIMAL_TO_FLOAT64",
+    "binary_endpoint_subtraction_max_error_seconds": 2.8990143619012088e-11,
+    "edge_kind_counts": {
+      "1": 151904,
+      "2": 80661,
+      "3": 0
+    },
+    "contact_ids_sha256": "2e8a71441e594ee9b9fe44b231980e9e874186a651f3f90d617e7dc01691670e"
+  },
+  "code_sha256": "edd78e80ae9849fb774b7207d191b705db150999a2f3f0aff46e328648e867df",
+  "reference_sha256": {
+    "src/joint_recovery/core.py": "902653228483c5ab51c82f64e5115df4fec1b4b245f701140a9e56f154eca656",
+    "src/joint_recovery/v4_budgeted_recovery.py": "b4b5bbd3d8abdeba2fcb9a117c54f161786c2deccc032764e792d5899bd3d1ad",
+    "src/joint_recovery/v4_factors.py": "d57cbe67cbf4f0aaf3b2605392c9fecf001e612e6d653c3db138619628781980",
+    "experiments/v4_neighborhoods.py": "15eb606f27c9022802ce05a259c0693b6992df1ab0cd26c456831b53d275b8f7",
+    "experiments/v4_residual_common.py": "f444666eb640d98fe4a1ba26ce22762ca8d2355fd3073dd237d52fafbdfddb51"
+  },
+  "numeric_audit": {
+    "status": "PASS_NARROW_SOURCE_DOMAIN_CHECK",
+    "checks": {
+      "reward_longlong": true,
+      "cost_longlong": true,
+      "adjacent_weight_longlong": true,
+      "p1_branch": true,
+      "p1_iteration_guard": true,
+      "log_reset": true
+    },
+    "source_files_sha256": {
+      "include/chils.h": "3d0c6e4cfb618fad8a2415bc1748751ed3314a919f0981cdbba4d7a267de9801",
+      "include/chils_internal.h": "9f9632a69552c501daec03300fd4c8f2f87190904a12ec167b6929581baf179e",
+      "include/graph.h": "8e9d38b0c80c68a073440da50759f5770caa36e4467cbdd282ab11cca0bdeba8",
+      "include/local_search.h": "64bf1cec407f3e38f331a4c0f17d773f58e3f14988b93923f9514cadd32dbd0b",
+      "src/chils.c": "5fb4fa4189c81e41d1ee6cb09cb6dc1b79ff0faab4475a2e0e095e3fc4d8a6e6",
+      "src/chils_internal.c": "3957fe991dfbd0913b74f6608ead3b217cdf7bf61eb329af95a669eb176a9937",
+      "src/graph.c": "4b684cf91ece5690ede3fe1fa80237e8081aef3204001e99f0db10ad11e9db26",
+      "src/local_search.c": "72b9ce55083d5c4f4e5b91ba02a95cad01776b3b047c280eb96e4bca4cc3ac6e",
+      "src/main.c": "d67f7700f1150c4c0faa3ff03eea3559252d16adb49fe112f70563b5ae4741d4"
+    },
+    "maximum_scope_vertices": 32760,
+    "maximum_tick_weight_sum": 1099511627776,
+    "population": 1,
+    "threads": 1,
+    "native_seed": 17,
+    "reward_arithmetic": "signed long long; conservative p1 weight sum <= 2**40",
+    "not_a_universal_native_or_physical_timing_certificate": true
+  },
+  "native_binary_sha256": "19610c03f334c6267f94543ad3053d792cba56e9ae211fceb6c36f21750c88a0",
+  "seed": 17,
+  "native_seed": 17,
+  "budgets_ms": [
+    200,
+    1000,
+    50,
+    10
+  ],
+  "repeats": 2,
+  "target_states": 12,
+  "cap": 256,
+  "peer_states_never_mutated": true,
+  "timing_contract": "native search workpoint plus all measured export/launch/parse/full validation/return cost",
+  "common_prefix_and_native_executor_gains_not_learning_gains": true,
+  "supplement_schema": "joint_recovery_stk_p0_supplement_v1",
+  "supplement_code_sha256": "c1092e6e27aeda00cf912267ff9a622c1c1597eab92e5a2f289353785279e5e4",
+  "original_P0_bindings": {
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_000.json": "cfeabac879683f54b80555b996070231549528b4302d4a67cadec25c62462ab5",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_001.json": "4c766c84456796c9f4200262d50e5add4445befde3f1e59de2688fafddf88e84",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_002.json": "4c85448c440abf2e5286ca0a94a996b5e1848e6915f6c91e1e8a0e588117cb36",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_003.json": "31bd2a887a35db923d5e438f08f41ac49e6fc29891643d026d013333c14bb5ab",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_004.json": "3fd13a0c977532bead98b13c47817e1b280d634d5d513b08d75c13ae43076518",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_005.json": "f6c9c6523ed44278bc7dd623bc2ebca11ad4f0e67f57f9a51360a37f66874024",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_006.json": "04b068609992a51a131c8537bd2d0242ab5edd6f3dc4787ce7d255c1869d585a",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_007.json": "b55e575b83688fcbba407736a8abf7f9a0893f3f7036a04bcf68e27c8b134e6f",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_008.json": "85cfbf5131e62ea5799e2b92dd9fc41ce0357a586b59febd85708cf549b47f52",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_009.json": "eb2112dbb3412c49352080a0fe4398322f6c8b4a6f77f990c546f97c4ceec1be",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_010.json": "d14e392e9030b2285c5268bad63327df083e5114e074ab84a4834494ff1586ba",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/snapshot_011.json": "b8c4fc6ca00d7ab5e7231fa754fb5f3fce4d4a4460149bc487bec539799f3759",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/summary.json": "8404b764a4f0bb99b7d3e4e0cdc7f947be218022577e836c63da2975d9e3b9dd",
+    "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/runs/p0_r000_c/out/JR-DUAL-r000-R12-g0680/protocol.json": "dd8abfad1d02f30be28ccf3c73bac8ab02c5b924020d0f9dec2ecce514345282"
+  },
+  "original_summary_sha256": "8404b764a4f0bb99b7d3e4e0cdc7f947be218022577e836c63da2975d9e3b9dd",
+  "original_protocol_sha256": "dd8abfad1d02f30be28ccf3c73bac8ab02c5b924020d0f9dec2ecce514345282",
+  "original_results_never_modified": true,
+  "exact_original_snapshot_and_warm_clones": true,
+  "additional_native_budget_order_ms": [
+    50,
+    10
+  ],
+  "supplement_repeats": 2,
+  "gate": {
+    "path": "/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/protocol/P0_SHORT_PROBE_GATE.json",
+    "sha256": "11111d36407c525d30f5a498e06f201de7ba8422a5562ac35b001aad7dd284fc",
+    "decision": {
+      "allow_short_probe_execution": true,
+      "allow_p1_execution": false,
+      "stage": "P0_r000_72_actual_states",
+      "reason": "All six r000 configurations contain actual local recovery >=1% and net gain beyond verified common-prefix/controller incumbent. r001 confirmation and full analysis remain before fitting.",
+      "evidence": [
+        {
+          "graph_id": "JR-DUAL-r000-R12-g0170",
+          "states": 12,
+          "G1": 1.0,
+          "G3": 0.16666666666666666,
+          "failed": 0,
+          "summary_sha256": "0e7f46427bfa5dc069788a65c123c2ea9386b747fabff5886414c6f88a773878"
+        },
+        {
+          "graph_id": "JR-DUAL-r000-R8-g0170",
+          "states": 12,
+          "G1": 1.0,
+          "G3": 0.5,
+          "failed": 0,
+          "summary_sha256": "1e93c23db07abfbf1e56a83dc1534f7536fb91ed5651bf988e7b458e4d22780b"
+        },
+        {
+          "graph_id": "JR-DUAL-r000-R12-g0340",
+          "states": 12,
+          "G1": 1.0,
+          "G3": 0.16666666666666666,
+          "failed": 0,
+          "summary_sha256": "4edd5e11f6bde3b3eec0383a993cfbe3782b15bfc140604dd415005c875de22c"
+        },
+        {
+          "graph_id": "JR-DUAL-r000-R8-g0340",
+          "states": 12,
+          "G1": 1.0,
+          "G3": 0.0,
+          "failed": 0,
+          "summary_sha256": "aa9b7f994a8775d1960d13470aaae46255a2157cff70afd5aab74054de7a56a8"
+        },
+        {
+          "graph_id": "JR-DUAL-r000-R12-g0680",
+          "states": 12,
+          "G1": 1.0,
+          "G3": 0.0,
+          "failed": 0,
+          "summary_sha256": "8404b764a4f0bb99b7d3e4e0cdc7f947be218022577e836c63da2975d9e3b9dd"
+        },
+        {
+          "graph_id": "JR-DUAL-r000-R8-g0680",
+          "states": 12,
+          "G1": 1.0,
+          "G3": 0.08333333333333333,
+          "failed": 0,
+          "summary_sha256": "73a03cf8baadd016349eb62d7cf210248f997c3cbebbc07fc7cd72011caef318"
+        }
+      ],
+      "created_utc": "2026-10-05T12:37:03Z",
+      "not_learning_advantage": true,
+      "do_not_filter_later_sources": true
+    }
+  },
+  "initial_actions_or_greedy_or_history_not_regenerated": true
+}

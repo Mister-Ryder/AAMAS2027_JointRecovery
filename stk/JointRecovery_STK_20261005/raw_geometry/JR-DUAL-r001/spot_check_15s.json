@@ -1,0 +1,693 @@
+{
+  "selection_rule": "12 fixed index pairs, chosen before access execution; both shells and station-grid boundaries",
+  "pairs": [
+    {
+      "satellite_id": "A-P01-S01",
+      "site_id": "GS01",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          7604.998852101,
+          63310.520182363,
+          93668.128796794,
+          149392.656209106,
+          179738.652608026,
+          229562.456337531,
+          235486.656515496,
+          259933.746459869
+        ],
+        "stop_values": [
+          7997.855901187,
+          63714.111052494,
+          94075.486925993,
+          149774.140784664,
+          180142.369858558,
+          229822.651233695,
+          235826.03984146,
+          260116.378136601
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 8,
+        "spot_interval_count": 8,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.000661327998386696,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "B-P01-S01",
+      "site_id": "GS01",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          14779.757530598,
+          64177.852492598,
+          98477.65322246,
+          105127.191543689,
+          147861.484267586,
+          154650.459017778,
+          182225.033766674,
+          188728.952765995,
+          231606.056906916,
+          238173.561412052
+        ],
+        "stop_values": [
+          15495.491121232,
+          64892.302378766,
+          99127.790605236,
+          105630.882497926,
+          148557.463261047,
+          155007.13597723,
+          182687.541670922,
+          189400.70160796,
+          232179.379605535,
+          238783.15783758
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 10,
+        "spot_interval_count": 10,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.000925145999644883,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "A-P04-S06",
+      "site_id": "GS03",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          8813.272704937,
+          14819.643202712,
+          39184.524055684,
+          45133.651346998,
+          94856.700683407,
+          100956.222022501,
+          125227.599018684,
+          131245.121435959,
+          180914.021328765,
+          211281.123898315
+        ],
+        "stop_values": [
+          9153.67123284,
+          15094.56002341,
+          39470.264254,
+          45465.65990697,
+          95242.190719418,
+          101112.053513139,
+          125576.352399962,
+          131483.264334403,
+          181319.689496933,
+          211668.031406038
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 10,
+        "spot_interval_count": 10,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0008891299949027598,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "B-P04-S06",
+      "site_id": "GS03",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          9036.836250626,
+          15672.169264944,
+          43534.955100666,
+          49847.875532402,
+          92848.988848515,
+          99263.045544755,
+          133526.143966882,
+          140297.359975439,
+          182915.718781725,
+          217241.512994242,
+          223827.21572445
+        ],
+        "stop_values": [
+          9665.988037234,
+          16222.028413668,
+          43608.813863021,
+          50561.055662302,
+          93232.016361568,
+          99947.647595685,
+          134225.056599876,
+          140571.295364689,
+          183633.105801756,
+          217830.971708704,
+          224423.185303374
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 11,
+        "spot_interval_count": 11,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0009301929967477918,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "A-P07-S12",
+      "site_id": "GS06",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          39955.775526611,
+          45865.223207122,
+          70332.656997273,
+          76198.172644497,
+          125974.385621066,
+          131972.121538142,
+          156348.170255752,
+          162286.470786565,
+          212016.079416918,
+          218105.394933377,
+          242389.071985935,
+          248393.337108185
+        ],
+        "stop_values": [
+          40197.698796858,
+          46211.734486843,
+          70481.383613795,
+          76584.205128159,
+          126308.250790234,
+          132254.171104239,
+          156620.048501722,
+          162627.932751587,
+          212398.293005574,
+          218274.466090703,
+          242729.065903403,
+          248650.472334586
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 12,
+        "spot_interval_count": 12,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0009765519935172051,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "B-P07-S12",
+      "site_id": "GS06",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          857.576416938,
+          43527.26705204,
+          50503.809344389,
+          77866.299640445,
+          84422.816332178,
+          127246.414301915,
+          133891.645353823,
+          161717.123445869,
+          168061.821478077,
+          211051.682177134,
+          217478.818072338,
+          251738.845103183,
+          258524.334019184
+        ],
+        "stop_values": [
+          1237.647657516,
+          44240.762663205,
+          50529.606248478,
+          78417.276375557,
+          85050.983783039,
+          127882.295556941,
+          134430.909924639,
+          161857.309861848,
+          168773.618932936,
+          211454.767486423,
+          218159.312699977,
+          252440.04864957,
+          258768.547524125
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 13,
+        "spot_interval_count": 13,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0009244109969586134,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "A-P07-S12",
+      "site_id": "GS07",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          51559.019505014,
+          75947.613613128,
+          81823.855392227,
+          137633.676438349,
+          161975.377204287,
+          167904.792830875,
+          217844.908296024,
+          223717.759988128,
+          248020.379165154,
+          253997.163737526
+        ],
+        "stop_values": [
+          51967.955470618,
+          76117.655113859,
+          82223.236758337,
+          138033.877724439,
+          162246.29191991,
+          168275.784103751,
+          218051.351908464,
+          224093.999207153,
+          248353.57019431,
+          254313.903262211
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 10,
+        "spot_interval_count": 10,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0008142379956552759,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "B-P07-S12",
+      "site_id": "GS07",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          496.897677875,
+          7170.771444539,
+          50036.01641487,
+          56763.995770764,
+          84218.927894738,
+          90766.507725833,
+          133787.551465527,
+          140324.209869311,
+          168043.85915686,
+          174414.997803941,
+          217708.586652338,
+          223951.942050177,
+          258094.96048095
+        ],
+        "stop_values": [
+          1174.654287239,
+          7640.066390163,
+          50723.068815216,
+          57227.190679715,
+          84762.446726601,
+          91421.608836028,
+          134342.423432724,
+          140967.691288365,
+          168219.77354312,
+          175131.705011064,
+          217810.885081004,
+          224665.43818606,
+          258790.320861659
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 13,
+        "spot_interval_count": 13,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0009091969986911863,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "A-P04-S06",
+      "site_id": "GS10",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          8901.8624978,
+          14934.138431673,
+          39144.01466051,
+          94954.915995843,
+          101063.126191122,
+          125210.583090874,
+          181018.885993648,
+          205406.796077013,
+          211283.450990283
+        ],
+        "stop_values": [
+          9274.536612891,
+          15203.531170251,
+          39545.979332877,
+          95355.073378488,
+          101231.075992222,
+          125619.594238713,
+          181427.9000348,
+          205575.938037218,
+          211683.504300064
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 9,
+        "spot_interval_count": 9,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0008215720008593053,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "B-P04-S06",
+      "site_id": "GS10",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          9102.71537917,
+          15836.058927356,
+          43284.090468499,
+          49835.877311714,
+          92852.289959785,
+          99393.986958157,
+          127098.362280219,
+          133483.068133049,
+          176757.092166451,
+          183020.285129517,
+          217161.844648369,
+          223886.036194399
+        ],
+        "stop_values": [
+          9791.619500969,
+          16292.915905948,
+          43834.026347518,
+          50487.493384478,
+          93412.14979847,
+          100034.832065891,
+          127302.573181576,
+          134199.195075689,
+          176895.95281073,
+          183733.163357068,
+          217859.291319267,
+          224257.411562884
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 12,
+        "spot_interval_count": 12,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.000923826009966433,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "A-P01-S01",
+      "site_id": "GS12",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          1873.096989732,
+          57682.515797914,
+          82018.240630042,
+          87955.219008995,
+          137886.42503391,
+          143767.133987859,
+          168064.944559257,
+          174049.504552793,
+          223899.929538074,
+          229861.940510235,
+          254119.58367295,
+          260169.164627128
+        ],
+        "stop_values": [
+          2269.984686685,
+          58081.815089448,
+          82300.377305306,
+          88320.921316502,
+          138103.862852504,
+          144141.611074569,
+          168405.390943175,
+          174356.719046708,
+          224218.136814699,
+          230195.048506863,
+          254498.507334135,
+          260364.357578679
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 12,
+        "spot_interval_count": 12,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0005728579999413341,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    },
+    {
+      "satellite_id": "B-P01-S01",
+      "site_id": "GS12",
+      "baseline_settings_hash": "f15eacfea5f4fdf5ab36674c369deeac90ef1324f43cba80f9c6dc879aa792d5",
+      "tight_settings": {
+        "UsePreciseEventTimes": true,
+        "UseFixedTimeStep": false,
+        "MaxTimeStep": 15.0,
+        "MinTimeStep": 0.01,
+        "TimeConvergence": 0.001,
+        "EnableLightTimeDelay": false,
+        "AbsoluteTolerance": 1e-14,
+        "RelativeTolerance": 1e-08,
+        "AberrationType": 1
+      },
+      "tight_report": {
+        "provider": "Access Data",
+        "date_unit": "EpSec",
+        "start_values": [
+          1881.488934178,
+          8287.580593392,
+          51531.470595637,
+          57825.369236525,
+          91964.268947038,
+          98702.718346601,
+          141500.132713939,
+          148302.122392064,
+          175671.943202791,
+          182260.81923483,
+          225229.220143309,
+          231827.595268546,
+          259436.459034097
+        ],
+        "stop_values": [
+          2130.771258893,
+          9002.312280263,
+          51725.695137215,
+          58536.720473559,
+          92665.318243167,
+          99046.540990673,
+          142206.507057674,
+          148663.320648236,
+          176275.077659156,
+          182871.199335507,
+          225841.463331813,
+          232428.877532765,
+          259802.013541352
+        ],
+        "original_value_python_types": [
+          "float"
+        ]
+      },
+      "comparison": {
+        "baseline_interval_count": 13,
+        "spot_interval_count": 13,
+        "interval_count_match": true,
+        "maximum_endpoint_difference_seconds": 0.0009439670029678382,
+        "comparison_tolerance_seconds": 0.005,
+        "within_comparison_tolerance": true
+      }
+    }
+  ],
+  "all_counts_match": true,
+  "all_within_5ms": true
+}

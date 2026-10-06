@@ -1,0 +1,17 @@
+[
+  "fit",
+  "--runtime-root",
+  "{RUNTIME}",
+  "--graphs-dir",
+  "{REMOTE}/graphs",
+  "--p0-root",
+  "{REMOTE}/collections/p1_all_train_labels",
+  "--p0-gate",
+  "{REMOTE}/protocol/P1_SOURCE_GATE_20261005.json",
+  "--out",
+  "{OUT}",
+  "--device",
+  "cuda",
+  "--epochs",
+  "40"
+]

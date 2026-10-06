@@ -1,0 +1,90 @@
+{
+  "status": "ALL_SIX_FIXED_HOLDOUT_SOURCES_AND_36_GRAPHS_READY_NOT_EVALUATED",
+  "sources": {
+    "r006": {
+      "geometry_manifest_sha256": "b16fbbed5c8154a6d3361ad59b586348f28e2ed73a153ff438503252acb16b41",
+      "graph_ids": [
+        "JR-DUAL-r006-R12-g0170",
+        "JR-DUAL-r006-R12-g0340",
+        "JR-DUAL-r006-R12-g0680",
+        "JR-DUAL-r006-R8-g0170",
+        "JR-DUAL-r006-R8-g0340",
+        "JR-DUAL-r006-R8-g0680"
+      ],
+      "status": "DATA_READY_NOT_EVALUATED"
+    },
+    "r007": {
+      "geometry_manifest_sha256": "76f3e2815a84a6333a6bc5f3bb54f5b55717436b199834d4837b9400fe0d0374",
+      "graph_ids": [
+        "JR-DUAL-r007-R12-g0170",
+        "JR-DUAL-r007-R12-g0340",
+        "JR-DUAL-r007-R12-g0680",
+        "JR-DUAL-r007-R8-g0170",
+        "JR-DUAL-r007-R8-g0340",
+        "JR-DUAL-r007-R8-g0680"
+      ],
+      "status": "DATA_READY_NOT_EVALUATED"
+    },
+    "r008": {
+      "geometry_manifest_sha256": "7a17a361c00614544a0fa0c07460b6b5aebd2350b10636305dbc6823df82e2f3",
+      "graph_ids": [
+        "JR-DUAL-r008-R12-g0170",
+        "JR-DUAL-r008-R12-g0340",
+        "JR-DUAL-r008-R12-g0680",
+        "JR-DUAL-r008-R8-g0170",
+        "JR-DUAL-r008-R8-g0340",
+        "JR-DUAL-r008-R8-g0680"
+      ],
+      "status": "DATA_READY_NOT_EVALUATED"
+    },
+    "r009": {
+      "geometry_manifest_sha256": "fa3f68f0dbbe94bef47aa94f0c63692958ce5d9f13f3c3e51457795506cb9e61",
+      "graph_ids": [
+        "JR-DUAL-r009-R12-g0170",
+        "JR-DUAL-r009-R12-g0340",
+        "JR-DUAL-r009-R12-g0680",
+        "JR-DUAL-r009-R8-g0170",
+        "JR-DUAL-r009-R8-g0340",
+        "JR-DUAL-r009-R8-g0680"
+      ],
+      "status": "DATA_READY_NOT_EVALUATED"
+    },
+    "r010": {
+      "geometry_manifest_sha256": "83004fcd3d9d8d098635a4000416fbac8ae5a1ef6ba094c71dcbebea88b7c86e",
+      "graph_ids": [
+        "JR-DUAL-r010-R12-g0170",
+        "JR-DUAL-r010-R12-g0340",
+        "JR-DUAL-r010-R12-g0680",
+        "JR-DUAL-r010-R8-g0170",
+        "JR-DUAL-r010-R8-g0340",
+        "JR-DUAL-r010-R8-g0680"
+      ],
+      "status": "DATA_READY_NOT_EVALUATED"
+    },
+    "r011": {
+      "geometry_manifest_sha256": "0cf605ff060ed1e32b904f53497692d1770e625e01719799ae8b4e6a82b13301",
+      "graph_ids": [
+        "JR-DUAL-r011-R12-g0170",
+        "JR-DUAL-r011-R12-g0340",
+        "JR-DUAL-r011-R12-g0680",
+        "JR-DUAL-r011-R8-g0170",
+        "JR-DUAL-r011-R8-g0340",
+        "JR-DUAL-r011-R8-g0680"
+      ],
+      "status": "DATA_READY_NOT_EVALUATED"
+    }
+  },
+  "validation_sources": [
+    6,
+    7
+  ],
+  "test_sources": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "algorithm_or_policy_evaluation_performed": false,
+  "source_selection": "all predeclared sources; no result-based selection",
+  "elapsed_seconds": 1413.807850000001
+}

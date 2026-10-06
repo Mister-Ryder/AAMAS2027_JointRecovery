@@ -1,0 +1,278 @@
+[
+  {
+    "site_id": "GS01",
+    "antenna_id": "GS01-A1",
+    "latitude_deg": 28,
+    "longitude_deg_east": 88,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS02",
+    "antenna_id": "GS02-A1",
+    "latitude_deg": 28,
+    "longitude_deg_east": 94,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS03",
+    "antenna_id": "GS03-A1",
+    "latitude_deg": 28,
+    "longitude_deg_east": 100,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS04",
+    "antenna_id": "GS04-A1",
+    "latitude_deg": 28,
+    "longitude_deg_east": 106,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS05",
+    "antenna_id": "GS05-A1",
+    "latitude_deg": 28,
+    "longitude_deg_east": 112,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS06",
+    "antenna_id": "GS06-A1",
+    "latitude_deg": 28,
+    "longitude_deg_east": 118,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS07",
+    "antenna_id": "GS07-A1",
+    "latitude_deg": 32,
+    "longitude_deg_east": 88,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS08",
+    "antenna_id": "GS08-A1",
+    "latitude_deg": 32,
+    "longitude_deg_east": 94,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS09",
+    "antenna_id": "GS09-A1",
+    "latitude_deg": 32,
+    "longitude_deg_east": 100,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS10",
+    "antenna_id": "GS10-A1",
+    "latitude_deg": 32,
+    "longitude_deg_east": 106,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS11",
+    "antenna_id": "GS11-A1",
+    "latitude_deg": 32,
+    "longitude_deg_east": 112,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  },
+  {
+    "site_id": "GS12",
+    "antenna_id": "GS12-A1",
+    "latitude_deg": 32,
+    "longitude_deg_east": 118,
+    "altitude_m_ellipsoid": 0,
+    "actual_use_terrain": false,
+    "actual_altitude_reference_enum": 2,
+    "actual_height_above_ground_km": 0.0,
+    "actual_min_elevation_deg": 14.999999999999998,
+    "elevation_min_enabled": true,
+    "elevation_max_enabled": false,
+    "active_constraints": [
+      {
+        "type": 26,
+        "name": "LineOfSight"
+      },
+      {
+        "type": 90,
+        "name": "True"
+      }
+    ]
+  }
+]

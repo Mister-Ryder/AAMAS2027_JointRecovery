@@ -1,0 +1,69 @@
+{
+  "status": "DRAWN_FROM_REAL_P0_ANALYSIS",
+  "generated_utc": "2026-10-05T12:44:54.912533+00:00",
+  "physical_source_group_count": 2,
+  "derived_graph_count": 12,
+  "font_family": "Arial",
+  "all_zero_values_retained": true,
+  "unavailable_values_not_converted_to_zero": true,
+  "plot_spread_is_not_a_confidence_interval": true,
+  "caller_deadline_test_performed": false,
+  "learning_advantage_established": false,
+  "main_diagnostic_counts": {
+    "finite_state_distribution_count": 144,
+    "unknown_states_not_plotted_as_zero": 0,
+    "matched_finite_pair_count": 2530,
+    "cost_rows_with_finite_values": 6336
+  },
+  "scope_diagnostic_counts": {
+    "unique_scope_count": 518,
+    "scopes_with_local_coupling_fields": 518,
+    "scopes_with_cap_fields": 518,
+    "resource_type_validated_graphs": 12
+  },
+  "inputs": [
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\p0_analysis\\analysis.json",
+      "sha256": "6fcfc6d0bd710dde9dd5cccc9b0e46eea04e1bbfbb9a0adf154b659f53b1a588"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\p0_analysis\\graph_acceptance.csv",
+      "sha256": "ac67934124cdcdabdafe150ebc1bff6aac5c49240bf4966ad68da04fe7260148"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\p0_analysis\\state_summary.csv",
+      "sha256": "9ce95ffdc5539d1e1a3ab59b57f9b3537979bfae2e5d99bdcbcbafc0b328f538"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\p0_analysis\\all_requests.csv",
+      "sha256": "e95df65903fa4e97c7dbf47f9e8230eef8c140e5c759512ffb52f6437d1a97b3"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\p0_analysis\\paired_200_1000ms_results.csv",
+      "sha256": "cd60fcd42b338a3289da5c56f048166ea3757464f95b10de9914718c932486a4"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\graph_validation.json",
+      "sha256": "be2b76e47fccb67be907730232a1c8bbcb842fda114aa20d4642e387682b603d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\P0_FIGURES\\p0_recovery_and_cost_4panels.pdf",
+      "sha256": "f1f4b34c3c6de05b7a10d8c7f7f41ac74bbe302f518959d949bb073028fe47c7"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\P0_FIGURES\\p0_recovery_and_cost_4panels.png",
+      "sha256": "8b51ccaafe245f4baa527ef43b235d000e3444b25dbfe22b7bbca9d0b1d70db9"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\P0_FIGURES\\p0_scope_and_resource_4panels.pdf",
+      "sha256": "3823ac52692afc10009d38d3761f41849925bae57d5de57ecca1b803f1b7d12c"
+    },
+    {
+      "path": "E:\\01-Joycecyq\\2026-AAMAS\\data\\两篇论文数据定制化构建\\JointRecovery_STK_20261005\\reports\\P0_FIGURES\\p0_scope_and_resource_4panels.png",
+      "sha256": "0560b1c2aef222c624094512b3c7a6043da9a54830c1f1449226d52149db14f2"
+    }
+  ],
+  "generator_sha256": "950b6da9012d833fb10571fed02ac0307e343b77c42666b5d9bb6d2791d84697"
+}

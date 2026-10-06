@@ -1,0 +1,104 @@
+{
+  "jobs": [
+    {
+      "job": "p0_r000_a",
+      "pid": 2565,
+      "running": true,
+      "complete_states": 6,
+      "log_tail": "{\"graph_id\": \"JR-DUAL-r000-R12-g0170\", \"complete_states\": 1, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0170\", \"complete_states\": 2, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0170\", \"complete_states\": 3, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0170\", \"complete_states\": 4, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0170\", \"complete_states\": 5, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0170\", \"complete_states\": 6, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n"
+    },
+    {
+      "job": "p0_r000_b",
+      "pid": 2582,
+      "running": true,
+      "complete_states": 6,
+      "log_tail": "{\"graph_id\": \"JR-DUAL-r000-R12-g0340\", \"complete_states\": 1, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0340\", \"complete_states\": 2, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0340\", \"complete_states\": 3, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0340\", \"complete_states\": 4, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0340\", \"complete_states\": 5, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0340\", \"complete_states\": 6, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n"
+    },
+    {
+      "job": "p0_r000_c",
+      "pid": 2600,
+      "running": true,
+      "complete_states": 5,
+      "log_tail": "{\"graph_id\": \"JR-DUAL-r000-R12-g0680\", \"complete_states\": 1, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0680\", \"complete_states\": 2, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0680\", \"complete_states\": 3, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0680\", \"complete_states\": 4, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n{\"graph_id\": \"JR-DUAL-r000-R12-g0680\", \"complete_states\": 5, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n"
+    },
+    {
+      "job": "p0_r000_d",
+      "pid": 2621,
+      "running": true,
+      "complete_states": 4,
+      "log_tail": "{\"graph_id\": \"JR-DUAL-r000-R8-g0680\", \"complete_states\": 1, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R8-g0680\", \"complete_states\": 2, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n{\"graph_id\": \"JR-DUAL-r000-R8-g0680\", \"complete_states\": 3, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_common_greedy_prefix\"}\n{\"graph_id\": \"JR-DUAL-r000-R8-g0680\", \"complete_states\": 4, \"target_states\": 12, \"actual_rows\": 44, \"state_kind\": \"after_one_actual_history_call\"}\n"
+    },
+    {
+      "job": "p0_smoke_r000",
+      "pid": 2218,
+      "running": false,
+      "complete_states": 0,
+      "log_tail": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/cd99d8f7b6ff901acfd4edcdf2ae894f7ebc11f345cd459ac9fe5594e7eb2489/code/p0_recovery_probes.py\", line 649, in <module>\n    main()\n  File \"/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/cd99d8f7b6ff901acfd4edcdf2ae894f7ebc11f345cd459ac9fe5594e7eb2489/code/p0_recovery_probes.py\", line 642, in main\n    results.append(collect_graph(path, out, native, api, args))\n  File \"/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/cd99d8f7b6ff901acfd4edcdf2ae894f7ebc11f345cd459ac9fe5594e7eb2489/code/p0_recovery_probes.py\", line 573, in collect_graph\n    write_json(destination / (\"trajectory_%03d.json\" % trajectory), dict(\n  File \"/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/cd99d8f7b6ff901acfd4edcdf2ae894f7ebc11f345cd459ac9fe5594e7eb2489/code/p0_recovery_probes.py\", line 60, in write_json\n    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2,\n  File \"/root/miniconda3/lib/python3.8/json/__init__.py\", line 234, in dumps\n    return cls(\n  File \"/root/miniconda3/lib/python3.8/json/encoder.py\", line 201, in encode\n    chunks = list(chunks)\n  File \"/root/miniconda3/lib/python3.8/json/encoder.py\", line 431, in _iterencode\n    yield from _iterencode_dict(o, _current_indent_level)\n  File \"/root/miniconda3/lib/python3.8/json/encoder.py\", line 405, in _iterencode_dict\n    yield from chunks\n  File \"/root/miniconda3/lib/python3.8/json/encoder.py\", line 325, in _iterencode_list\n    yield from chunks\n  File \"/root/miniconda3/lib/python3.8/json/encoder.py\", line 405, in _iterencode_dict\n    yield from chunks\n  File \"/root/miniconda3/lib/python3.8/json/encoder.py\", line 438, in _iterencode\n    o = _default(o)\n  File \"/root/miniconda3/lib/python3.8/json/encoder.py\", line 179, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type int64 is not JSON serializable\n"
+    },
+    {
+      "job": "p0_smoke_r000_02",
+      "batch_summary.json": {
+        "schema": "joint_recovery_stk_p0_v1",
+        "graphs": [
+          {
+            "schema": "joint_recovery_stk_p0_v1",
+            "graph": {
+              "graph_id": "JR-DUAL-r000-R12-g0340",
+              "source_group": "JR-SOURCE-r000",
+              "split": "train",
+              "npz_sha256": "96dfb10250600754426f11b5055b257b093b4ee10026c6116bb73665d5cfac1a",
+              "vertices": 20918,
+              "edges": 183416,
+              "weight_unit": "original_duration_seconds",
+              "agent_contract": "satellite_owner_is_label_not_whole_day_capacity",
+              "resource_member_CSR_is_not_static_conflict_cliques": true,
+              "raw_endpoint_duration_identity": "PASS_EXACT_ORIGINAL_DECIMAL_TO_FLOAT64",
+              "binary_endpoint_subtraction_max_error_seconds": 2.8990143619012088e-11,
+              "edge_kind_counts": {
+                "1": 102755,
+                "2": 80661,
+                "3": 0
+              },
+              "contact_ids_sha256": "2e8a71441e594ee9b9fe44b231980e9e874186a651f3f90d617e7dc01691670e"
+            },
+            "status": "ACTUAL_P0_PROBES_COMPLETE_NO_TRAINING",
+            "target_unique_states": 1,
+            "actual_unique_controller_states": 1,
+            "distinct_original_schedule_memberships": 1,
+            "distinct_best_schedule_memberships": 1,
+            "state_count_is_not_independent_physical_source_count": true,
+            "actual_request_rows": 22,
+            "actual_native_calls": 16,
+            "failed_rows": 0,
+            "zero_extra_gain_rows": 8,
+            "G1_states_with_local_at_least_one_percent_and_net_beyond_snapshot": 1,
+            "G1_fraction": 1.0,
+            "G1_thirty_percent_is_development_reference_not_sample_filter": true,
+            "G3_states_with_same_direction_repeated_200_1000ms_difference": 0,
+            "G3_repeatable_fraction": 0.0,
+            "G2_graph_information_advantage_established": false,
+            "actual_max_beyond_snapshot_seconds": 539.0009301539903,
+            "actual_median_complete_conditional_seconds": 0.22784248739480972,
+            "budgets_ms": [
+              200,
+              1000
+            ],
+            "source_group_split_preserved": true,
+            "no_model_training": true,
+            "no_old_data_or_calibration": true,
+            "strict_end_to_end_deadline_policy_test": false,
+            "learning_advantage_established": false
+          }
+        ],
+        "actual_graph_count": 1,
+        "no_training": true,
+        "failure_and_zero_rows_retained": true
+      },
+      "pid": 2322,
+      "running": false,
+      "complete_states": 1,
+      "log_tail": "{\"graph_id\": \"JR-DUAL-r000-R12-g0340\", \"complete_states\": 1, \"target_states\": 1, \"actual_rows\": 22, \"state_kind\": \"after_common_greedy_prefix\"}\nTraceback (most recent call last):\n  File \"/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/16fd28300df037407ce84778a26ad45486cbad722ff391ea5bc9eb55982e808f/code/p0_recovery_probes.py\", line 657, in <module>\n    main()\n  File \"/root/autodl-tmp/AAMAS1979_JointRecovery_STK_20261005/capsules/16fd28300df037407ce84778a26ad45486cbad722ff391ea5bc9eb55982e808f/code/p0_recovery_probes.py\", line 653, in main\n    print(json.dumps(dict(status=\"P0_COMPLETE\", graph_count=len(results), out=str(out)), flush=True))\n  File \"/root/miniconda3/lib/python3.8/json/__init__.py\", line 234, in dumps\n    return cls(\nTypeError: __init__() got an unexpected keyword argument 'flush'\n"
+    }
+  ],
+  "free_bytes": 8473554944
+}

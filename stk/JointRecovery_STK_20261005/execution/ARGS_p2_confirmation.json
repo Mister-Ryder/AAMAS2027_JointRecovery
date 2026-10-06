@@ -1,0 +1,16 @@
+[
+  "--dataset-root",
+  "{REMOTE}",
+  "--runtime-root",
+  "{RUNTIME}",
+  "--fit-root",
+  "{REMOTE}/runs/p1_fit/out",
+  "--followup-root",
+  "{REMOTE}/runs/p1_followup/out",
+  "--out",
+  "{OUT}",
+  "--chils",
+  "{CHILS}",
+  "--chils-source",
+  "{CHILS_SOURCE}"
+]

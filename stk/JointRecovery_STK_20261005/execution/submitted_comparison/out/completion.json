@@ -1,0 +1,28 @@
+{
+  "schema": "joint_recovery_stk_submitted_comparison_v1",
+  "status": "complete",
+  "pipeline_completed": true,
+  "completed_utc": "2026-10-05T18:14:23.860701+00:00",
+  "expected_cells": 864,
+  "received_cells": 864,
+  "blocks": [
+    {
+      "block": "validation",
+      "expected_cells": 288,
+      "received_cells": 288,
+      "failed_or_unknown_runs": 0,
+      "initial_mask_mismatches": {},
+      "rows_sha256": "1a2016d5f0c8db73afd1ed075e0a11b776710b98a64ffc428fe6dbebcffa5c5c"
+    },
+    {
+      "block": "test",
+      "expected_cells": 576,
+      "received_cells": 576,
+      "failed_or_unknown_runs": 0,
+      "initial_mask_mismatches": {},
+      "rows_sha256": "adf72895bbb3d9ed43976cca92d95760c44e00d7597b1194b3fab9c31a4a7e21"
+    }
+  ],
+  "frozen_fit_and_budgets_unchanged": true,
+  "elapsed_seconds": 8078.534613735974
+}
