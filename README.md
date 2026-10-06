@@ -39,3 +39,7 @@ See the [dataset README](stk/JointRecovery_STK_20261005/README.md) and [reproduc
 论文编译使用 `paper/` 中的 AAMAS 类文件：对 `main_v4.tex` 运行 LaTeX、BibTeX，再运行 LaTeX 两次。
 
 版本标签：`v4-current-paper-20261004`。原本地科学源码提交：`0401629138c707c32e241f8265559d4717e37854`。本仓库以精选材料建立独立的公开快照，不包含无关开发历史；[MANIFEST.json](MANIFEST.json) 保留交付科学包内文件的 SHA256，[FINAL_CHECK.json](release/current_version/FINAL_CHECK.json) 保留 PDF、页数与交付包校验值。
+
+## Publication receipt
+
+[Completed public upload and asset SHA256 receipt](stk/JointRecovery_STK_20261005/reports/GITHUB_STK_PUBLICATION_ZH.md). Version `stk-jointrecovery-20261006` contains the scientific snapshot; this receipt records the completed Release upload.

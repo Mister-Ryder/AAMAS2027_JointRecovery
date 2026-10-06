@@ -1,0 +1,130 @@
+{
+  "repository": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery",
+  "tag": "stk-jointrecovery-20261006",
+  "commit": "9dbafdb8ff0241842b894d422233e82a836eba74",
+  "release_id": 404603425,
+  "release_url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/tag/stk-jointrecovery-20261006",
+  "assets": [
+    {
+      "name": "01-dataset-r000-r003.zip",
+      "bytes": 429039854,
+      "sha256": "86769431c0cfcbe92582554ff1bd48940f5e22d9113374173fab0bf47ca080e7",
+      "server_digest": "sha256:86769431c0cfcbe92582554ff1bd48940f5e22d9113374173fab0bf47ca080e7",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/01-dataset-r000-r003.zip",
+      "id": 615250160,
+      "state": "uploaded"
+    },
+    {
+      "name": "02-dataset-r004-r007.zip",
+      "bytes": 429040792,
+      "sha256": "457514385c31ce2eb2da8e9e5d0771a25421343f5878764cb10286bf1ce0697b",
+      "server_digest": "sha256:457514385c31ce2eb2da8e9e5d0771a25421343f5878764cb10286bf1ce0697b",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/02-dataset-r004-r007.zip",
+      "id": 615250159,
+      "state": "uploaded"
+    },
+    {
+      "name": "03-dataset-r008-r011.zip",
+      "bytes": 428903118,
+      "sha256": "d6a5c4789ddeadae100efa59ce581e7d6125e5cbb651ba0215c612866adc4037",
+      "server_digest": "sha256:d6a5c4789ddeadae100efa59ce581e7d6125e5cbb651ba0215c612866adc4037",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/03-dataset-r008-r011.zip",
+      "id": 615250163,
+      "state": "uploaded"
+    },
+    {
+      "name": "04-p0-results.zip",
+      "bytes": 122246053,
+      "sha256": "eaf15daa55843037bd241b8332b2d1371c6726c90d22466ce529ea7292041882",
+      "server_digest": "sha256:eaf15daa55843037bd241b8332b2d1371c6726c90d22466ce529ea7292041882",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/04-p0-results.zip",
+      "id": 615263687,
+      "state": "uploaded"
+    },
+    {
+      "name": "05-train-labels.zip",
+      "bytes": 228425975,
+      "sha256": "7987ececc78e1fffc3074ca4b91f135f19c5dad33256493c320b1abaf208fb4d",
+      "server_digest": "sha256:7987ececc78e1fffc3074ca4b91f135f19c5dad33256493c320b1abaf208fb4d",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/05-train-labels.zip",
+      "id": 615263706,
+      "state": "uploaded"
+    },
+    {
+      "name": "06-fit-models-and-features.zip",
+      "bytes": 174040290,
+      "sha256": "88519419a43bcc270c8844cb9669ee5e891f8b8f96d39d41a6e953a0b2309e81",
+      "server_digest": "sha256:88519419a43bcc270c8844cb9669ee5e891f8b8f96d39d41a6e953a0b2309e81",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/06-fit-models-and-features.zip",
+      "id": 615263752,
+      "state": "uploaded"
+    },
+    {
+      "name": "07-p1-followup-p2-results.zip",
+      "bytes": 67663003,
+      "sha256": "8979440c1baf221a4dad41ccc1307dd5dbfc6d223f3bebeb0a3c33845c082d4b",
+      "server_digest": "sha256:8979440c1baf221a4dad41ccc1307dd5dbfc6d223f3bebeb0a3c33845c082d4b",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/07-p1-followup-p2-results.zip",
+      "id": 615268302,
+      "state": "uploaded"
+    },
+    {
+      "name": "08-short-comparison-and-quality-development.zip",
+      "bytes": 187611470,
+      "sha256": "88e6be854091c617cd342d1c0fbe81792bbe3712fd868d3edf2aff163556be9c",
+      "server_digest": "sha256:88e6be854091c617cd342d1c0fbe81792bbe3712fd868d3edf2aff163556be9c",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/08-short-comparison-and-quality-development.zip",
+      "id": 615269975,
+      "state": "uploaded"
+    },
+    {
+      "name": "09-quality-comparison-results.zip",
+      "bytes": 369184902,
+      "sha256": "11afbaaad21abbd328b0affeb3cb11db761f9253686870d7e40bd4c71167f792",
+      "server_digest": "sha256:11afbaaad21abbd328b0affeb3cb11db761f9253686870d7e40bd4c71167f792",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/09-quality-comparison-results.zip",
+      "id": 615270426,
+      "state": "uploaded"
+    },
+    {
+      "name": "10-code-protocol-reports-frozen-sources.zip",
+      "bytes": 13217136,
+      "sha256": "9f145fafa09e3bd2597883d2a081ffd90bd2b2521e2e6d8c4557b793d7f83e4a",
+      "server_digest": "sha256:9f145fafa09e3bd2597883d2a081ffd90bd2b2521e2e6d8c4557b793d7f83e4a",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/10-code-protocol-reports-frozen-sources.zip",
+      "id": 615271607,
+      "state": "uploaded"
+    },
+    {
+      "name": "PUBLICATION_MANIFEST.json",
+      "bytes": 12184833,
+      "sha256": "fc37970509a7245ba1b485c942a47c5bd328677a8b522639ec4e24a16fae5aa3",
+      "server_digest": "sha256:fc37970509a7245ba1b485c942a47c5bd328677a8b522639ec4e24a16fae5aa3",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/PUBLICATION_MANIFEST.json",
+      "id": 615272130,
+      "state": "uploaded"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 970,
+      "sha256": "521f3a40618d35bd3efa68b1c1392583f714d3789f96e3ac49ad397185ededc4",
+      "server_digest": "sha256:521f3a40618d35bd3efa68b1c1392583f714d3789f96e3ac49ad397185ededc4",
+      "url": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/releases/download/untagged-728754c44e2a0f989e89/SHA256SUMS.txt",
+      "id": 615272535,
+      "state": "uploaded"
+    }
+  ],
+  "status": "PUBLICATION_COMPLETE",
+  "completed_utc": "2026-10-06T11:09:31Z",
+  "total_assets": 12,
+  "total_asset_bytes": 2461558396,
+  "server_manifest_checked": true,
+  "code_and_scientific_snapshot_commit": "9dbafdb8ff0241842b894d422233e82a836eba74",
+  "published_directory": "https://github.com/Mister-Ryder/AAMAS2027_JointRecovery/tree/main/stk/JointRecovery_STK_20261005",
+  "release_archives": 10,
+  "checksum_files": 2,
+  "scope": "new STK data construction, scientific code and frozen variants, models, complete results and reports",
+  "publication_did_not_rerun_experiments": true,
+  "credentials_excluded": true,
+  "sha256_server_verification_count": 12
+}
