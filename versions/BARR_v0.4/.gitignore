@@ -1,0 +1,8 @@
+build*/
+runs/
+inputs/
+.venv/
+__pycache__/
+*.pyc
+*.zip
+.env*

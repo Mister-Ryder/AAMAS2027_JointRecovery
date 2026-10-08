@@ -1,0 +1,5 @@
+graph,graph_id,source_group,split
+contacts_00.npz,contacts_00,synthetic_source_00,TRAIN
+contacts_01.npz,contacts_01,synthetic_source_01,TRAIN
+contacts_02.npz,contacts_02,synthetic_source_02,VAL
+contacts_03.npz,contacts_03,synthetic_source_03,TEST

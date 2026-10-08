@@ -1,0 +1,7 @@
+build*/
+external/
+runs/
+models/
+.venv/
+__pycache__/
+*.pyc
