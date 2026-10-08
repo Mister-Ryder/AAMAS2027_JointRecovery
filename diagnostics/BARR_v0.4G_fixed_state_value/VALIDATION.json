@@ -1,0 +1,144 @@
+{
+  "schema": "barr_v04G_fixed_state_value_public_validation_v1",
+  "status": "actual_server_preparation_passed",
+  "diagnostic_only": true,
+  "algorithm": "Conditional known-pair fixed-state action versus continue experiment",
+  "not_a_new_final_algorithm": true,
+  "gnn_decision_used": false,
+  "capture_native_seconds": 360,
+  "fresh_future_seconds_per_arm": 360,
+  "population": 4,
+  "threads": 1,
+  "capture_thresholds_seconds": [
+    60,
+    120,
+    180
+  ],
+  "future_seeds": [
+    0,
+    1901,
+    1907,
+    1913,
+    1931
+  ],
+  "continuation_policy": "common pulse-only local/fusion; no future joint scout/Kernel/recovery",
+  "conditioning": "Captured known positive pairs with both singleton gains strictly negative; missing slots retained",
+  "future_budget_scope": "Decode/restore/rekey preparation excluded; known action/skip, archive, pending fused feedback and continuation included; final result transport separate",
+  "graph_scope": "Eight configurations of one physical mother source; not eight independent mother sources",
+  "quality_outcomes_in_this_package": false,
+  "native_quality_calls_at_preparation": 0,
+  "actual_preparation_created_utc": "2026-10-08T02:59:14.660476+00:00",
+  "actual_native_checks": [
+    {
+      "name": "configure",
+      "returncode": 0,
+      "log_sha256": "b5cdb34d6211f3223a591c7d7372ac97c0182a14c1a4324214ac7530f5c2d9e0",
+      "wall_seconds": 0.7162085697054863
+    },
+    {
+      "name": "build",
+      "returncode": 0,
+      "log_sha256": "18c44b6079ba82860c7c923783d672458c20bba8596615721bf785c41873a8f0",
+      "wall_seconds": 101.7895326167345
+    },
+    {
+      "name": "ctest",
+      "returncode": 0,
+      "log_sha256": "7f1c0c1c1cd6aa5ac6edbd515e4829fdf77ed9ab225a1ef59eb989b5bd51141f",
+      "wall_seconds": 1.4475785419344902
+    },
+    {
+      "name": "pair_oracle_self_test",
+      "returncode": 0,
+      "log_sha256": "61b6f337c01c066c61fc665998d37bbe7e09210cd9651ca9fcf0fb7649e884b4",
+      "wall_seconds": 0.006443634629249573
+    },
+    {
+      "name": "python_source_tests",
+      "returncode": 0,
+      "log_sha256": "c1331b4bf7a042b0a50175b20558f410f2ea73fb22a6beb6fc1570284da5aff0",
+      "wall_seconds": 2.9796226248145103
+    },
+    {
+      "name": "external_protocol_tests",
+      "returncode": 0,
+      "log_sha256": "867571fca59e04c68370c2f8d9e08efed57e18faded182dce29c83394d584221",
+      "wall_seconds": 0.18519020080566406
+    },
+    {
+      "name": "cpp_schema_fixture",
+      "returncode": 0,
+      "log_sha256": "5a32114d50a2bcdf2daa8a31e777cb9ccc810039557ca01dd38c1b671c11bcd6",
+      "wall_seconds": 0.5266599059104919
+    },
+    {
+      "name": "cpp_python_schema_concordance",
+      "returncode": 0,
+      "log_sha256": "2e0b66e181e749f5c7680da97129b46d964f235041cc3966887b8c142e5fe49e",
+      "wall_seconds": 0.14937739819288254
+    }
+  ],
+  "ctest": {
+    "passed": 6,
+    "failed": 0,
+    "names": [
+      "core_properties",
+      "coupling_properties",
+      "selective_properties",
+      "pair_properties",
+      "pulse_ablation_properties",
+      "fixed_state_properties"
+    ]
+  },
+  "python_tests": {
+    "source_passed": 23,
+    "external_protocol_passed": 31
+  },
+  "actual_cpp_python_fixture": {
+    "schema": "barr_v04G_actual_cpp_python_fixture_audit_v1",
+    "pass_all": true,
+    "created_utc": "2026-10-08T03:01:03.483602+00:00",
+    "performance_results": false,
+    "native_quality_calls": 0,
+    "private_testclock_only": true
+  },
+  "synthetic_fixture_is_not_performance_evidence": true,
+  "preparation_evidence_sha256": {
+    "actual_server_setup": "46106e02979a1bcb436b7f26e945b8404521a428cddd9396705cc1e01db2d54c",
+    "actual_cpp_python_fixture_audit": "0f7a93bfb01c4ac6ea24b62545feaea60b0c765ebfd493aa0b4ac108bf72d4b0",
+    "independent_static_review": "8b1fe3d50bfe0faa73caf8998172f916bc15f1fb52d49adbf0cc60000ee3a53b",
+    "isolated_preparation_repair": "9bae69f05d2621de832d7d54c0eddda9c80b405dd37e88cb6b589c55f8f588b5"
+  },
+  "raw_preparation_receipts": "Retained outside publication payload; summarized here by actual test results and SHA256",
+  "core_byte_identity": {
+    "source_files": 58,
+    "external_python_scripts": 12,
+    "design_files": 1,
+    "total_core_files": 71,
+    "matches_independent_static_review": true,
+    "matches_actual_server_payload": true
+  },
+  "prepared_binary_sha256_for_identification_only": {
+    "source/BARR_v0.4G/build/barr_solver": "310e006950f5bb637c99c742fbcec899b63fa2e8cd583832dc1aad16064db9eb",
+    "source/BARR_v0.4G/build/barr_pair_oracle": "4817d17f31215ee16233a38f1347b27555db6919ecdd316dac13881e55e4a688",
+    "source/BARR_v0.4G/build/barr_state_capture": "737d0815cd27aa94e42e866225dcbfe8b88af3e39da124aa986b0ef2357d16dd",
+    "source/BARR_v0.4G/build/barr_state_replay": "c892019a5e03ccac75c7eb9cad2cb13b5dd91bf90c31fb10c8a90b526e596819"
+  },
+  "binaries_bundled": false,
+  "preparation_failure": {
+    "retained": true,
+    "cause": "unit-test variable name collision CaptureRecord a vs Writer a in threshold_properties; no native-quality calls",
+    "previous_build_log_sha256": "6d6e2f1851cf9f367a7fde67b2e8727043433f13168457b3a1a02cda8cdb585b",
+    "repair": "Only unit-local Writer variable names changed; production source and parameters unchanged"
+  },
+  "old_release": {
+    "existing_final_source_and_tag_not_modified_by_staging": true,
+    "git_operations_performed_by_staging": false
+  },
+  "limitations": [
+    "No claim of global optimality or positive net value before the paired diagnostic finishes",
+    "No unconditional opportunity prevalence or recall estimate from positive enriched states",
+    "Fixed-clock roundtrip/trajectory fixtures do not prove identical real-time search trajectories",
+    "Same paired starting RNG streams do not imply identical later RNG consumption after intervention"
+  ]
+}

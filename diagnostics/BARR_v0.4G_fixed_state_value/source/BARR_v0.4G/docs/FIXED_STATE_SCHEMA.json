@@ -1,0 +1,79 @@
+{
+  "schema": "barr_fixed_state_schema_contract_v1",
+  "targets": ["barr_state_capture", "barr_state_replay", "barr_fixed_state_tests"],
+  "ctest": "fixed_state_properties",
+  "capture_cli": "--input GRAPH --output capture.json --state-dir NEW_DIRECTORY --seconds 360 --seed 101",
+  "replay_cli": "--input GRAPH --output replay.json --snapshot STATE.bin --action recover|continue --seconds 360 --future-seed 0|1901|1907|1913|1931",
+  "scope": "Fixed-state computational-value diagnostic only; no claim about complete-method quality or unconditional opportunity prevalence",
+  "capture": {
+    "schema": "barr_fixed_capture_v1",
+    "graph_sha256": "SHA256 of exact BARR1 input file, not the canonical graph wire",
+    "config": "All algorithm parameters printed by config_json; explicit frozen E OPTIONS including gate_cooldown=0.5",
+    "native_seconds": "Actual search wall time including snapshot validation, serialization, disk I/O",
+    "cpu_seconds": "Process CPU time over native capture",
+    "snapshots": [
+      {
+        "id": "slot_0_epoch_27",
+        "threshold_seconds": 60,
+        "capture_elapsed_seconds": 71.5,
+        "epoch": 27,
+        "snapshot_path": "snapshots/slot_0_epoch_27.bin",
+        "metadata_path": "snapshots/slot_0_epoch_27.meta.json",
+        "snapshot_sha256": "64 lowercase hex characters",
+        "roundtrip_equal": true,
+        "pending_prefix_seconds": 0.1,
+        "scout_seconds": 0.08,
+        "capture_io_seconds": 0.5
+      }
+    ],
+    "missing_thresholds": [120, 180],
+    "selection": "Thresholds ascending; one earliest eligible unfilled slot per distinct positive epoch; no future-outcome selection; both singleton gains strictly negative",
+    "result": "Original E result_json object"
+  },
+  "metadata": {
+    "schema": "barr_fixed_state_meta_v1",
+    "solution_shape": {"selected": [0, 1], "ticks": 20},
+    "population": "All four member solution mirrors plus private_inventory/private_sha256/state_sha256/rng_state/rng_sha256 and counters",
+    "private_inventory": ["s", "blocks", "blocked_weight", "queue", "queued", "undo", "recording", "protected_vertex"],
+    "private_fields_in_binary": "Complete arrays, ordered queue, undo pairs, transaction flags, cost/counters, complete mt19937_64 text",
+    "graph_in_binary": "Exact canonical n, integer weights, raw binary64 weights, owners, initial mask, full sorted edge list; compared byte-for-byte to replay input",
+    "archive": "Raw-best solution and exact long double raw scalar; best_tick_max is separately retained",
+    "target": "Exact post-scout local state on which known pair was found; fused_state when used_fusion=true",
+    "feedback_target_index": "Destination population member; same both arms",
+    "action": {
+      "outside": [2, 3],
+      "blockers": [[0], [0, 1]],
+      "unary_gains_ticks": [-1, -8],
+      "pair_gain_ticks": 1
+    },
+    "controller": ["round", "epoch", "stale", "last_event_seconds", "capture_elapsed_seconds", "capture_remaining_seconds", "pending_prefix_seconds", "prefix_normalized", "escalation_seconds", "threshold_seconds", "scout_seconds", "allstate_sha256", "non_rng_sha256", "audit_rng_state", "audit_rng_sha256", "certified_masks", "fused_certificate"],
+    "pending_prefix": "Normalized in snapshot copy exactly once; live E capture state remains unchanged",
+    "config_io_paths": "Transport deliberately excludes events/checkpoint/trace/model/snapshot paths; replay cannot overwrite captured files"
+  },
+  "replay": {
+    "schema": "barr_fixed_replay_v1",
+    "ready_state_sha256": "Hash after exact restore and future stream rekey, before timed action; equal across paired arms",
+    "ready_non_rng_sha256": "Equal to captured structural state; rekey excludes only mutable RNG states and future fused stream seed",
+    "stages": ["before", "after_action", "terminal"],
+    "archive_STAGE": {"selected": [0, 1], "ticks": 20, "raw": 20},
+    "population_STAGE": "All four selected/ticks mirrors",
+    "diversity_STAGE": ["distinct_masks", "normalized_pairwise_hamming", "normalized_weighted_pairwise_hamming"],
+    "diversity_denominators": "Mean over all six unordered population pairs; n and full graph integer weight sum, respectively",
+    "target_after_action": "Known-pair target in recover arm; frozen target in continue arm",
+    "after_action_includes_pending_feedback": true,
+    "feedback_rule": "Both arms apply saved fused state to same destination if target ticks >= destination ticks; recover first applies only pair and refreshes raw archive",
+    "future_stats": ["rounds", "local_iterations", "fusions", "joint_scout_calls", "kernel_calls", "joint_recovery_calls", "escalation_seconds"],
+    "future_joint_counts": "All three joint call counters are zero; known initial action is not a solver call",
+    "time_fields": ["action_seconds", "pair_apply_seconds", "feedback_seconds", "continuation_seconds", "native_seconds", "cpu_seconds", "capture_elapsed_seconds", "capture_remaining_seconds", "capture_sunk_scout_seconds", "capture_sunk_prefix_seconds"],
+    "clock": "Fresh budget begins before action/skip, initial mirrors/diversity, archive and pending feedback; future cooldown/credit uses capture_elapsed + future elapsed",
+    "output_transport": "No trajectory disk logging; final receipt JSON encoding/writing occurs after native clock and is common result transport, not included in native360",
+    "seed0": "All captured member/fused/audit RNG states unchanged; future fused constructor uses captured Config.seed XOR epoch",
+    "nonzero_seed": "root=splitmix(captured_seed XOR splitmix(future_seed) XOR 0x7ba49f0273c51de1); member i=splitmix(root XOR (i+1)); fused=splitmix(root XOR 0xf053d); audit=splitmix(root XOR 0xa0d17); future fused seed=splitmix(root XOR 0xf07510) XOR epoch",
+    "divergence": "Only paired starting RNG streams are equal; causal action may change later RNG consumption and trajectories"
+  },
+  "unit_fixture": {
+    "command": "barr_fixed_state_tests --emit-fixture NEW_DIRECTORY",
+    "files": ["fixture.barr", "fixture.bin", "fixture.meta.json", "continue.json", "recover.json"],
+    "warning": "Private fixed clock and synthetic graph; never performance evidence"
+  }
+}

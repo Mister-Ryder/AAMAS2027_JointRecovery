@@ -1,0 +1,107 @@
+{
+  "schema": "barr_v04G_fixed_state_value_design_v1",
+  "created_utc": "2026-10-08T02:34:07.067291+00:00",
+  "stage": "instrumentation_and_fixed_state_experiment; no learned gate or model tuning",
+  "remote_root": "/root/autodl-tmp/barr_v04_fixed_state_20261008_002",
+  "baseline_version": "frozen E full; barr-v0.4 tag remains unchanged",
+  "physical_source": "CP-SCALE-AU-L002; eight configurations share one physical mother source",
+  "graphs": [
+    "g0340",
+    "g0680",
+    "g1200",
+    "g1800",
+    "gW0340_gE1200_s0150",
+    "gW0680_gE1200_s0150",
+    "gW1200_gE0340_s0150",
+    "gW1200_gE0680_s0150"
+  ],
+  "capture": {
+    "seed": 101,
+    "native_seconds": 360,
+    "first_strict_joint_after_thresholds_seconds": [
+      60,
+      120,
+      180
+    ],
+    "max_states_per_graph": 3,
+    "one_state_per_epoch": true,
+    "negative_singletons": "both strictly negative",
+    "sampling_scope": "positive-opportunity enriched and time-threshold conditioned; no population prevalence or recall inference",
+    "missing_slots": "retained; no replacement-seed quality search"
+  },
+  "fork": {
+    "future_wall_seconds_per_arm": 360,
+    "budget_scope": "a freshly assigned common future budget from frozen decision state; not the remainder of the original six-minute capture call",
+    "replicate_seeds": [
+      0,
+      1901,
+      1907,
+      1913,
+      1931
+    ],
+    "seed_zero": "restore exact captured RNG states",
+    "other_seeds": "rekey future streams identically per pair, retaining all other frozen state",
+    "arms": [
+      "execute_pair_then_continue",
+      "continue_only"
+    ],
+    "future_policy": "shared local/fusion continuation; no further joint recovery in either arm",
+    "action": "the verified pair only; no larger Kernel or refinement",
+    "shared_sunk_cost": "capturing state and finding the pair are measured separately; this first label conditions on an already-known action",
+    "budgeted_costs": [
+      "pair application",
+      "archive/state feedback",
+      "future local/fusion",
+      "in-budget event/diversity logging"
+    ],
+    "excluded_common_preparation": [
+      "graph load",
+      "snapshot decode and validation",
+      "paired stream preparation"
+    ],
+    "complete_frozen_state": [
+      "all population masks and local mutable internals",
+      "all RNGs",
+      "archive raw objective, tick bookkeeping and mask",
+      "controller round, epoch, stale, timing offsets and caches",
+      "temporary post-fusion state and feedback target",
+      "known pair and raw/integer witness proof"
+    ]
+  },
+  "allocation": {
+    "threads": 1,
+    "population": 4,
+    "native_cpus": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "coordinator_cpu": 11,
+    "real_cpu_quota": 12,
+    "same_pair_same_cpu": true,
+    "arm_order": "deterministically balanced before reading fork outcomes",
+    "maximum_fork_pairs": 120,
+    "maximum_fork_native_cells": 240,
+    "maximum_capture_native_cells": 8
+  },
+  "endpoints": [
+    "terminal archive objective difference recover-minus-continue",
+    "each arm archive gain over common frozen archive",
+    "direct action archive refresh and gain",
+    "native wall and CPU; action and continuation costs separated",
+    "population normalized pairwise Hamming, weighted Hamming and distinct masks before action, after action, terminal"
+  ],
+  "statistical_scope": "state-level five paired-future-stream estimates with variation/uncertainty; states and configurations not independent datasets; labels are estimates rather than proof of intrinsic action value",
+  "failure_policy": "retain all missing, failed and resource-flagged positions; no automatic solver reruns; never kill native programs or shut down server",
+  "isolation": "new source, scripts, outputs and remote directory; old E/A/B/C/F source/results/report/release/tag unchanged",
+  "release_policy": "this phase produces evidence and a separate staged report; no final-paper-algorithm declaration or GNN claim"
+}
